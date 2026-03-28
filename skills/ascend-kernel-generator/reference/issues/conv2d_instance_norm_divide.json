@@ -1,0 +1,8 @@
+[
+  {
+    "op": "conv2d_instance_norm_divide",
+    "error": "op_kernel/conv2d_instance_norm_divide_custom_ajjhrgrowymxtwul20260310144413.cpp:75:78: error: cast between floating and unsigned integer variable is not allowed in aicore function",
+    "code_diff": "",
+    "summary": ""
+  }
+]

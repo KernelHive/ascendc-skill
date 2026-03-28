@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "63_CrossformerAttention",
+  "outer_iter": 16,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 0.502,
+    "mean": 0.501,
+    "min": 0.499,
+    "num_trials": 5,
+    "std": 0.001
+  }
+}

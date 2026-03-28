@@ -1,0 +1,19 @@
+
+[
+  {
+    "op": "NetVladNoGhostClustersCustom",
+    "input_desc": [
+      { "name": "x",         "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "clusters",  "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "clusters2", "param_type": "required", "format": ["ND"], "type": ["float"] },
+
+      { "name": "bn_weight", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "bn_bias",   "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "bn_mean",   "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "bn_var",    "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "y", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ]
+  }
+]

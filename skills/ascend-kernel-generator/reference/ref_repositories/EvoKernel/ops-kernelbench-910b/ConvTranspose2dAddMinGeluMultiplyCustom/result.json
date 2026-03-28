@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvTranspose2dAddMinGeluMultiplyCustom",
+  "outer_iter": 18,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 2253.082,
+    "std": 5.982,
+    "min": 2244.622,
+    "max": 2257.343,
+    "num_trials": null
+  }
+}

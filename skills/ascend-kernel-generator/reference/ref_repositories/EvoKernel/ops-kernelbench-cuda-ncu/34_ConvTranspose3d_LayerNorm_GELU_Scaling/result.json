@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "34_ConvTranspose3d_LayerNorm_GELU_Scaling",
+  "outer_iter": 25,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 6.876,
+    "mean": 6.869,
+    "min": 6.86,
+    "num_trials": 5,
+    "std": 0.007
+  }
+}

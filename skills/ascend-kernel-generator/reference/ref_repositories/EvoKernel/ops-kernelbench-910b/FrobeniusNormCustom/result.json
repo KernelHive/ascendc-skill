@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "FrobeniusNormCustom",
+  "outer_iter": 26,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 327.668,
+    "std": 1.046,
+    "min": 326.659,
+    "max": 329.109,
+    "num_trials": null
+  }
+}

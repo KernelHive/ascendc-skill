@@ -1,0 +1,20 @@
+[
+  {
+    "op": "max_broadcast",
+    "error": "Build failed with empty stderr after using DTYPE_* macros and TPosition queue declarations in the first draft.",
+    "code_diff": "Replaced DTYPE_* macro-based tensor and queue types with explicit float types, switched queue declarations to QuePosition, and kept the rest of the operator structure aligned with working broadcast examples.",
+    "summary": "For a simple float broadcast binary op, if the first draft fails to build with opaque compile output, first remove DTYPE_* macro usage and non-matching queue style. Use explicit float tensors and the same QuePosition declarations as known-good broadcast kernels."
+  },
+  {
+    "op": "max_broadcast",
+    "error": "Correctness run failed with error 507035, vector core exception, and CCU instruction address check error when TILE_NUM was 8.",
+    "code_diff": "Increased TILE_NUM from 8 to 128 to reduce tileLength and per-tile local buffer pressure.",
+    "summary": "A max broadcast kernel can compile successfully but still hit 507035 vector core exception during correctness if tileLength is too large. When the log shows vector core exception and CCU instruction address check error, treat tile sizing and local buffer bounds as the first suspect and shrink each tile aggressively."
+  },
+  {
+    "op": "max_broadcast",
+    "error": "The same 507035 vector core exception still appeared after only increasing TILE_NUM from 8 to 16.",
+    "code_diff": "Changed TILE_NUM again from 16 to 128, which finally passed correctness on shape [16,1,1024] broadcast with [1,256,1] under BLOCK_DIM 8.",
+    "summary": "If a small TILE_NUM adjustment does not remove a runtime vector core exception, do not stop at minor tuning. For this broadcast-max case, TILE_NUM 16 was still unsafe and TILE_NUM 128 was required to pass correctness."
+  }
+]

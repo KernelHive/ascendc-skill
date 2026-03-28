@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "SequentialPolarizedSelfAttentionCustom",
+  "outer_iter": 27,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 9.454,
+    "std": 0.212,
+    "min": 9.173,
+    "max": 9.686,
+    "num_trials": null
+  }
+}

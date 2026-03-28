@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "82_conv_depthwise_2D_square_input_square_kernel",
+  "outer_iter": 12,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 1.96,
+    "mean": 1.944,
+    "min": 1.935,
+    "num_trials": 5,
+    "std": 0.01
+  }
+}

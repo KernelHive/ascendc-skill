@@ -1,0 +1,16 @@
+
+[
+  {
+    "op": "MultiHeadLatentAttentionCustom",
+    "input_desc": [
+      { "name": "q",             "param_type": "required", "format": ["ND"], "type": ["bfloat16"] },
+      { "name": "kv_cache",      "param_type": "required", "format": ["ND"], "type": ["bfloat16"] },
+      { "name": "block_table",   "param_type": "required", "format": ["ND"], "type": ["int32"] },
+      { "name": "cache_seqlens", "param_type": "required", "format": ["ND"], "type": ["int32"] },
+      { "name": "causal_flag",   "param_type": "required", "format": ["ND"], "type": ["int32"] }
+    ],
+    "output_desc": [
+      { "name": "out", "param_type": "required", "format": ["ND"], "type": ["bfloat16"] }
+    ]
+  }
+]

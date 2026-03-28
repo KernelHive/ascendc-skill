@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MobileViTv2AttentionCustom",
+  "outer_iter": 16,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 6.9,
+    "std": 0.217,
+    "min": 6.594,
+    "max": 7.055,
+    "num_trials": null
+  }
+}

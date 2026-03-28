@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "29_Softplus",
+  "outer_iter": 3,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 7.661,
+    "mean": 7.654,
+    "min": 7.648,
+    "num_trials": 5,
+    "std": 0.005
+  }
+}

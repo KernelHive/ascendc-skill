@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "83_Conv3d_GroupNorm_Min_Clamp_Dropout",
+  "outer_iter": 19,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 5.937,
+    "mean": 5.929,
+    "min": 5.922,
+    "num_trials": 5,
+    "std": 0.006
+  }
+}

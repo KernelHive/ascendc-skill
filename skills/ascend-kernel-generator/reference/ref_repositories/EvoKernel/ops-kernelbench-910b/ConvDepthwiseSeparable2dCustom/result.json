@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvDepthwiseSeparable2dCustom",
+  "outer_iter": 22,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 6329.192,
+    "std": 5.76,
+    "min": 6323.645,
+    "max": 6337.132,
+    "num_trials": null
+  }
+}

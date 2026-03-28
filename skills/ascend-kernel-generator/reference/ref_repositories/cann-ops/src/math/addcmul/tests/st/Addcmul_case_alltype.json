@@ -1,0 +1,112 @@
+[
+    {
+        "case_name": "Test_Addcmul_001",
+        "op": "Addcmul",
+        "calc_expect_func_file": "./test_addcmul.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int32",
+                    "float16",
+                    "float",
+                    "bfloat16"
+                ],
+                "shape": [100],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "input_data"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int32",
+                    "float16",
+                    "float",
+                    "bfloat16"
+                ],
+                "shape": [100],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "x1"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int32",
+                    "float16",
+                    "float",
+                    "bfloat16"
+                ],
+                "shape": [100],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "x2"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int32",
+                    "float16",
+                    "float",
+                    "bfloat16"
+                ],
+                "shape": [1],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "value"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int32",
+                    "float16",
+                    "float",
+                    "bfloat16"
+                ],
+                "shape": [100],
+                "name": "y"
+            }
+        ]
+    }
+]

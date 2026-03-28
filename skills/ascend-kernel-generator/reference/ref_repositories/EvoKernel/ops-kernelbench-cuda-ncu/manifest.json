@@ -1,0 +1,3511 @@
+{
+  "exported_operator_count": 250,
+  "summary": {
+    "compiled_true": 250,
+    "correctness_true": 250,
+    "compiled_rate": 1.0,
+    "correctness_rate": 1.0
+  },
+  "kernels": [
+    {
+      "kernel_project_name": "1_Conv2D_ReLU_BiasAdd",
+      "outer_iter": 9,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 6.024,
+        "mean": 6.015,
+        "min": 6.006,
+        "num_trials": 5,
+        "std": 0.007
+      }
+    },
+    {
+      "kernel_project_name": "1_MLP",
+      "outer_iter": 2,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 12.818,
+        "mean": 12.813,
+        "min": 12.81,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "1_Square_matrix_multiplication_",
+      "outer_iter": 19,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 10.957,
+        "mean": 10.953,
+        "min": 10.948,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "2_ConvTranspose2d_BiasAdd_Clamp_Scaling_Clamp_Divide",
+      "outer_iter": 11,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 13.139,
+        "mean": 13.13,
+        "min": 13.117,
+        "num_trials": 5,
+        "std": 0.008
+      }
+    },
+    {
+      "kernel_project_name": "2_ShallowWideMLP",
+      "outer_iter": 12,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 77.332,
+        "mean": 76.776,
+        "min": 76.365,
+        "num_trials": 5,
+        "std": 0.381
+      }
+    },
+    {
+      "kernel_project_name": "2_Standard_matrix_multiplication_",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 11.276,
+        "mean": 11.265,
+        "min": 11.257,
+        "num_trials": 5,
+        "std": 0.007
+      }
+    },
+    {
+      "kernel_project_name": "3_Batched_matrix_multiplication",
+      "outer_iter": 23,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 23.253,
+        "mean": 23.223,
+        "min": 23.165,
+        "num_trials": 5,
+        "std": 0.035
+      }
+    },
+    {
+      "kernel_project_name": "3_ConvTranspose3d_Sum_LayerNorm_AvgPool_GELU",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 6.628,
+        "mean": 6.62,
+        "min": 6.616,
+        "num_trials": 5,
+        "std": 0.004
+      }
+    },
+    {
+      "kernel_project_name": "3_DeepNarrowMLP",
+      "outer_iter": 16,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 18.047,
+        "mean": 18.043,
+        "min": 18.039,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "4_Conv2d_Mish_Mish",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 190.126,
+        "mean": 190.028,
+        "min": 189.972,
+        "num_trials": 5,
+        "std": 0.06
+      }
+    },
+    {
+      "kernel_project_name": "4_LeNet5",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.499,
+        "mean": 0.495,
+        "min": 0.493,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "4_Matrix_vector_multiplication_",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 3.593,
+        "mean": 3.539,
+        "min": 3.513,
+        "num_trials": 5,
+        "std": 0.028
+      }
+    },
+    {
+      "kernel_project_name": "5_AlexNet",
+      "outer_iter": 7,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 60.231,
+        "mean": 60.091,
+        "min": 59.588,
+        "num_trials": 5,
+        "std": 0.252
+      }
+    },
+    {
+      "kernel_project_name": "5_ConvTranspose2d_Subtract_Tanh",
+      "outer_iter": 2,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 14.837,
+        "mean": 14.825,
+        "min": 14.813,
+        "num_trials": 5,
+        "std": 0.009
+      }
+    },
+    {
+      "kernel_project_name": "5_Matrix_scalar_multiplication",
+      "outer_iter": 8,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 4.97,
+        "mean": 4.962,
+        "min": 4.956,
+        "num_trials": 5,
+        "std": 0.005
+      }
+    },
+    {
+      "kernel_project_name": "6_Conv3d_Softmax_MaxPool_MaxPool",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 5.062,
+        "mean": 5.056,
+        "min": 5.053,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "6_GoogleNetInceptionModule",
+      "outer_iter": 14,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 18.011,
+        "mean": 18.002,
+        "min": 17.996,
+        "num_trials": 5,
+        "std": 0.006
+      }
+    },
+    {
+      "kernel_project_name": "6_Matmul_with_large_K_dimension_",
+      "outer_iter": 2,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 31.877,
+        "mean": 31.867,
+        "min": 31.859,
+        "num_trials": 5,
+        "std": 0.006
+      }
+    },
+    {
+      "kernel_project_name": "7_Conv3d_ReLU_LeakyReLU_GELU_Sigmoid_BiasAdd",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 6.362,
+        "mean": 6.347,
+        "min": 6.334,
+        "num_trials": 5,
+        "std": 0.011
+      }
+    },
+    {
+      "kernel_project_name": "7_GoogleNetInceptionV1",
+      "outer_iter": 1,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 3.16,
+        "mean": 3.157,
+        "min": 3.152,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "7_Matmul_with_small_K_dimension_",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 11.245,
+        "mean": 11.241,
+        "min": 11.238,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "8_Conv3d_Divide_Max_GlobalAvgPool_BiasAdd_Sum",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 3.764,
+        "mean": 3.763,
+        "min": 3.761,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "8_Matmul_with_irregular_shapes_",
+      "outer_iter": 17,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 5.115,
+        "mean": 5.112,
+        "min": 5.11,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "8_ResNetBasicBlock",
+      "outer_iter": 14,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 3.436,
+        "mean": 3.433,
+        "min": 3.428,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "9_Matmul_Subtract_Multiply_ReLU",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 10.258,
+        "mean": 10.252,
+        "min": 10.248,
+        "num_trials": 5,
+        "std": 0.004
+      }
+    },
+    {
+      "kernel_project_name": "9_ResNet18",
+      "outer_iter": 14,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 1.755,
+        "mean": 1.735,
+        "min": 1.719,
+        "num_trials": 5,
+        "std": 0.014
+      }
+    },
+    {
+      "kernel_project_name": "9_Tall_skinny_matrix_multiplication_",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 12.682,
+        "mean": 12.642,
+        "min": 12.63,
+        "num_trials": 5,
+        "std": 0.02
+      }
+    },
+    {
+      "kernel_project_name": "10_3D_tensor_matrix_multiplication",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.27,
+        "mean": 9.254,
+        "min": 9.242,
+        "num_trials": 5,
+        "std": 0.011
+      }
+    },
+    {
+      "kernel_project_name": "10_ConvTranspose2d_MaxPool_Hardtanh_Mean_Tanh",
+      "outer_iter": 10,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 18.019,
+        "mean": 17.375,
+        "min": 16.478,
+        "num_trials": 5,
+        "std": 0.721
+      }
+    },
+    {
+      "kernel_project_name": "10_ResNet101",
+      "outer_iter": 5,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.466,
+        "mean": 9.455,
+        "min": 9.445,
+        "num_trials": 5,
+        "std": 0.006
+      }
+    },
+    {
+      "kernel_project_name": "11_4D_tensor_matrix_multiplication",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 73.456,
+        "mean": 73.455,
+        "min": 73.453,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "11_ConvTranspose2d_BatchNorm_Tanh_MaxPool_GroupNorm",
+      "outer_iter": 1,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 7.976,
+        "mean": 7.909,
+        "min": 7.854,
+        "num_trials": 5,
+        "std": 0.051
+      }
+    },
+    {
+      "kernel_project_name": "11_VGG16",
+      "outer_iter": 4,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 6.025,
+        "mean": 6.005,
+        "min": 5.985,
+        "num_trials": 5,
+        "std": 0.016
+      }
+    },
+    {
+      "kernel_project_name": "12_Gemm_Multiply_LeakyReLU",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 8.897,
+        "mean": 8.871,
+        "min": 8.779,
+        "num_trials": 5,
+        "std": 0.046
+      }
+    },
+    {
+      "kernel_project_name": "12_Matmul_with_diagonal_matrices_",
+      "outer_iter": 23,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.086,
+        "mean": 0.085,
+        "min": 0.084,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "12_VGG19",
+      "outer_iter": 17,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 7.53,
+        "mean": 7.515,
+        "min": 7.496,
+        "num_trials": 5,
+        "std": 0.011
+      }
+    },
+    {
+      "kernel_project_name": "13_ConvTranspose3d_Mean_Add_Softmax_Tanh_Scaling",
+      "outer_iter": 15,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 20.862,
+        "mean": 20.838,
+        "min": 20.803,
+        "num_trials": 5,
+        "std": 0.021
+      }
+    },
+    {
+      "kernel_project_name": "13_DenseNet121TransitionLayer",
+      "outer_iter": 15,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 17.504,
+        "mean": 17.493,
+        "min": 17.487,
+        "num_trials": 5,
+        "std": 0.006
+      }
+    },
+    {
+      "kernel_project_name": "13_Matmul_for_symmetric_matrices",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 11.143,
+        "mean": 11.138,
+        "min": 11.134,
+        "num_trials": 5,
+        "std": 0.004
+      }
+    },
+    {
+      "kernel_project_name": "14_DenseNet121DenseBlock",
+      "outer_iter": 15,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 13.102,
+        "mean": 13.1,
+        "min": 13.098,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "14_Gemm_Divide_Sum_Scaling",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.033,
+        "mean": 0.032,
+        "min": 0.032,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "14_Matmul_for_upper_triangular_matrices",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 2.476,
+        "mean": 2.448,
+        "min": 2.429,
+        "num_trials": 5,
+        "std": 0.017
+      }
+    },
+    {
+      "kernel_project_name": "15_ConvTranspose3d_BatchNorm_Subtract",
+      "outer_iter": 15,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 11.185,
+        "mean": 11.117,
+        "min": 10.963,
+        "num_trials": 5,
+        "std": 0.079
+      }
+    },
+    {
+      "kernel_project_name": "15_DenseNet121",
+      "outer_iter": 5,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 8.071,
+        "mean": 8.064,
+        "min": 8.058,
+        "num_trials": 5,
+        "std": 0.004
+      }
+    },
+    {
+      "kernel_project_name": "15_Matmul_for_lower_triangular_matrices",
+      "outer_iter": 21,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 3.17,
+        "mean": 3.128,
+        "min": 3.068,
+        "num_trials": 5,
+        "std": 0.034
+      }
+    },
+    {
+      "kernel_project_name": "16_ConvTranspose2d_Mish_Add_Hardtanh_Scaling",
+      "outer_iter": 7,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 12.458,
+        "mean": 12.425,
+        "min": 12.382,
+        "num_trials": 5,
+        "std": 0.026
+      }
+    },
+    {
+      "kernel_project_name": "16_DenseNet201",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 13.372,
+        "mean": 13.364,
+        "min": 13.359,
+        "num_trials": 5,
+        "std": 0.005
+      }
+    },
+    {
+      "kernel_project_name": "16_Matmul_with_transposed_A",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 1.394,
+        "mean": 1.392,
+        "min": 1.39,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "17_Conv2d_InstanceNorm_Divide",
+      "outer_iter": 8,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 6.88,
+        "mean": 6.877,
+        "min": 6.874,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "17_Matmul_with_transposed_B",
+      "outer_iter": 16,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 1.303,
+        "mean": 1.298,
+        "min": 1.296,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "17_SqueezeNetFireModule",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 11.804,
+        "mean": 11.803,
+        "min": 11.803,
+        "num_trials": 5,
+        "std": 0.0
+      }
+    },
+    {
+      "kernel_project_name": "18_Matmul_Sum_Max_AvgPool_LogSumExp_LogSumExp",
+      "outer_iter": 5,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.034,
+        "mean": 0.034,
+        "min": 0.033,
+        "num_trials": 5,
+        "std": 0.0
+      }
+    },
+    {
+      "kernel_project_name": "18_Matmul_with_transposed_both",
+      "outer_iter": 15,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 11.166,
+        "mean": 11.151,
+        "min": 11.132,
+        "num_trials": 5,
+        "std": 0.012
+      }
+    },
+    {
+      "kernel_project_name": "18_SqueezeNet",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 213.846,
+        "mean": 213.731,
+        "min": 213.631,
+        "num_trials": 5,
+        "std": 0.075
+      }
+    },
+    {
+      "kernel_project_name": "19_ConvTranspose2d_GELU_GroupNorm",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 24.884,
+        "mean": 23.489,
+        "min": 23.041,
+        "num_trials": 5,
+        "std": 0.7
+      }
+    },
+    {
+      "kernel_project_name": "19_MobileNetV1",
+      "outer_iter": 5,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 2.075,
+        "mean": 2.074,
+        "min": 2.073,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "19_ReLU",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 7.602,
+        "mean": 7.598,
+        "min": 7.595,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "20_ConvTranspose3d_Sum_ResidualAdd_Multiply_ResidualAdd",
+      "outer_iter": 11,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 2.991,
+        "mean": 2.985,
+        "min": 2.977,
+        "num_trials": 5,
+        "std": 0.005
+      }
+    },
+    {
+      "kernel_project_name": "20_LeakyReLU",
+      "outer_iter": 16,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 7.675,
+        "mean": 7.669,
+        "min": 7.665,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "20_MobileNetV2",
+      "outer_iter": 4,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 4.012,
+        "mean": 4.002,
+        "min": 3.992,
+        "num_trials": 5,
+        "std": 0.008
+      }
+    },
+    {
+      "kernel_project_name": "21_Conv2d_Add_Scale_Sigmoid_GroupNorm",
+      "outer_iter": 14,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.019,
+        "mean": 9.012,
+        "min": 9.007,
+        "num_trials": 5,
+        "std": 0.004
+      }
+    },
+    {
+      "kernel_project_name": "21_EfficientNetMBConv",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.689,
+        "mean": 9.68,
+        "min": 9.671,
+        "num_trials": 5,
+        "std": 0.006
+      }
+    },
+    {
+      "kernel_project_name": "21_Sigmoid",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 7.704,
+        "mean": 7.695,
+        "min": 7.684,
+        "num_trials": 5,
+        "std": 0.007
+      }
+    },
+    {
+      "kernel_project_name": "22_EfficientNetB0",
+      "outer_iter": 23,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 3.184,
+        "mean": 3.168,
+        "min": 3.146,
+        "num_trials": 5,
+        "std": 0.014
+      }
+    },
+    {
+      "kernel_project_name": "22_Matmul_Scale_ResidualAdd_Clamp_LogSumExp_Mish",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.496,
+        "mean": 9.492,
+        "min": 9.485,
+        "num_trials": 5,
+        "std": 0.004
+      }
+    },
+    {
+      "kernel_project_name": "22_Tanh",
+      "outer_iter": 17,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 7.501,
+        "mean": 7.486,
+        "min": 7.475,
+        "num_trials": 5,
+        "std": 0.009
+      }
+    },
+    {
+      "kernel_project_name": "23_Conv3d_GroupNorm_Mean",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 1.902,
+        "mean": 1.897,
+        "min": 1.889,
+        "num_trials": 5,
+        "std": 0.004
+      }
+    },
+    {
+      "kernel_project_name": "23_EfficientNetB1",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 2.012,
+        "mean": 2.011,
+        "min": 2.009,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "23_Softmax",
+      "outer_iter": 17,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 11.63,
+        "mean": 11.608,
+        "min": 11.575,
+        "num_trials": 5,
+        "std": 0.02
+      }
+    },
+    {
+      "kernel_project_name": "24_Conv3d_Min_Softmax",
+      "outer_iter": 17,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 2.185,
+        "mean": 2.176,
+        "min": 2.162,
+        "num_trials": 5,
+        "std": 0.01
+      }
+    },
+    {
+      "kernel_project_name": "24_EfficientNetB2",
+      "outer_iter": 19,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 1.734,
+        "mean": 1.685,
+        "min": 1.668,
+        "num_trials": 5,
+        "std": 0.024
+      }
+    },
+    {
+      "kernel_project_name": "24_LogSoftmax",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 13.905,
+        "mean": 13.871,
+        "min": 13.835,
+        "num_trials": 5,
+        "std": 0.024
+      }
+    },
+    {
+      "kernel_project_name": "25_Conv2d_Min_Tanh_Tanh",
+      "outer_iter": 13,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 12.8,
+        "mean": 12.727,
+        "min": 12.662,
+        "num_trials": 5,
+        "std": 0.059
+      }
+    },
+    {
+      "kernel_project_name": "25_ShuffleNetUnit",
+      "outer_iter": 10,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 14.592,
+        "mean": 14.583,
+        "min": 14.573,
+        "num_trials": 5,
+        "std": 0.006
+      }
+    },
+    {
+      "kernel_project_name": "25_Swish",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 7.745,
+        "mean": 7.725,
+        "min": 7.708,
+        "num_trials": 5,
+        "std": 0.014
+      }
+    },
+    {
+      "kernel_project_name": "26_ConvTranspose3d_Add_HardSwish",
+      "outer_iter": 6,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 6.741,
+        "mean": 6.737,
+        "min": 6.733,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "26_GELU_",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 7.687,
+        "mean": 7.68,
+        "min": 7.671,
+        "num_trials": 5,
+        "std": 0.006
+      }
+    },
+    {
+      "kernel_project_name": "26_ShuffleNet",
+      "outer_iter": 1,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 31.397,
+        "mean": 31.371,
+        "min": 31.327,
+        "num_trials": 5,
+        "std": 0.026
+      }
+    },
+    {
+      "kernel_project_name": "27_Conv3d_HardSwish_GroupNorm_Mean",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 18.612,
+        "mean": 18.568,
+        "min": 18.52,
+        "num_trials": 5,
+        "std": 0.033
+      }
+    },
+    {
+      "kernel_project_name": "27_RegNet",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 4.514,
+        "mean": 4.49,
+        "min": 4.482,
+        "num_trials": 5,
+        "std": 0.012
+      }
+    },
+    {
+      "kernel_project_name": "27_SELU_",
+      "outer_iter": 19,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 7.663,
+        "mean": 7.657,
+        "min": 7.648,
+        "num_trials": 5,
+        "std": 0.005
+      }
+    },
+    {
+      "kernel_project_name": "28_BMM_InstanceNorm_Sum_ResidualAdd_Multiply",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.535,
+        "mean": 9.53,
+        "min": 9.524,
+        "num_trials": 5,
+        "std": 0.005
+      }
+    },
+    {
+      "kernel_project_name": "28_HardSigmoid",
+      "outer_iter": 8,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 7.631,
+        "mean": 7.621,
+        "min": 7.613,
+        "num_trials": 5,
+        "std": 0.008
+      }
+    },
+    {
+      "kernel_project_name": "28_VisionTransformer",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 2.695,
+        "mean": 2.681,
+        "min": 2.674,
+        "num_trials": 5,
+        "std": 0.008
+      }
+    },
+    {
+      "kernel_project_name": "29_Matmul_Mish_Mish",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 20.908,
+        "mean": 18.245,
+        "min": 17.542,
+        "num_trials": 5,
+        "std": 1.332
+      }
+    },
+    {
+      "kernel_project_name": "29_Softplus",
+      "outer_iter": 3,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 7.661,
+        "mean": 7.654,
+        "min": 7.648,
+        "num_trials": 5,
+        "std": 0.005
+      }
+    },
+    {
+      "kernel_project_name": "29_SwinMLP",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 8.445,
+        "mean": 8.418,
+        "min": 8.383,
+        "num_trials": 5,
+        "std": 0.027
+      }
+    },
+    {
+      "kernel_project_name": "30_Gemm_GroupNorm_Hardtanh",
+      "outer_iter": 23,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.523,
+        "mean": 9.516,
+        "min": 9.511,
+        "num_trials": 5,
+        "std": 0.005
+      }
+    },
+    {
+      "kernel_project_name": "30_Softsign",
+      "outer_iter": 3,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 7.653,
+        "mean": 7.637,
+        "min": 7.626,
+        "num_trials": 5,
+        "std": 0.009
+      }
+    },
+    {
+      "kernel_project_name": "30_SwinTransformerV2",
+      "outer_iter": 9,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 16.112,
+        "mean": 16.069,
+        "min": 16.007,
+        "num_trials": 5,
+        "std": 0.038
+      }
+    },
+    {
+      "kernel_project_name": "31_Conv2d_Min_Add_Multiply",
+      "outer_iter": 13,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 5.968,
+        "mean": 5.962,
+        "min": 5.955,
+        "num_trials": 5,
+        "std": 0.005
+      }
+    },
+    {
+      "kernel_project_name": "31_ELU",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 7.665,
+        "mean": 7.661,
+        "min": 7.656,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "31_VisionAttention",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 60.475,
+        "mean": 60.459,
+        "min": 60.429,
+        "num_trials": 5,
+        "std": 0.016
+      }
+    },
+    {
+      "kernel_project_name": "32_Conv2d_Scaling_Min",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 12.036,
+        "mean": 12.024,
+        "min": 12.014,
+        "num_trials": 5,
+        "std": 0.007
+      }
+    },
+    {
+      "kernel_project_name": "32_ConvolutionalVisionTransformer",
+      "outer_iter": 17,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 1.921,
+        "mean": 1.908,
+        "min": 1.896,
+        "num_trials": 5,
+        "std": 0.008
+      }
+    },
+    {
+      "kernel_project_name": "32_HardTanh",
+      "outer_iter": 6,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 7.617,
+        "mean": 7.609,
+        "min": 7.603,
+        "num_trials": 5,
+        "std": 0.005
+      }
+    },
+    {
+      "kernel_project_name": "33_BatchNorm",
+      "outer_iter": 11,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 17.795,
+        "mean": 17.779,
+        "min": 17.752,
+        "num_trials": 5,
+        "std": 0.016
+      }
+    },
+    {
+      "kernel_project_name": "33_Gemm_Scale_BatchNorm",
+      "outer_iter": 16,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 8.631,
+        "mean": 8.627,
+        "min": 8.621,
+        "num_trials": 5,
+        "std": 0.004
+      }
+    },
+    {
+      "kernel_project_name": "33_VanillaRNN",
+      "outer_iter": 13,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 167.246,
+        "mean": 167.16,
+        "min": 166.975,
+        "num_trials": 5,
+        "std": 0.098
+      }
+    },
+    {
+      "kernel_project_name": "34_ConvTranspose3d_LayerNorm_GELU_Scaling",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 6.876,
+        "mean": 6.869,
+        "min": 6.86,
+        "num_trials": 5,
+        "std": 0.007
+      }
+    },
+    {
+      "kernel_project_name": "34_InstanceNorm",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 13.043,
+        "mean": 13.025,
+        "min": 13.002,
+        "num_trials": 5,
+        "std": 0.016
+      }
+    },
+    {
+      "kernel_project_name": "34_VanillaRNNHidden",
+      "outer_iter": 11,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 3.208,
+        "mean": 3.207,
+        "min": 3.205,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "35_Conv2d_Subtract_HardSwish_MaxPool_Mish",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 73.355,
+        "mean": 73.344,
+        "min": 73.333,
+        "num_trials": 5,
+        "std": 0.007
+      }
+    },
+    {
+      "kernel_project_name": "35_GroupNorm_",
+      "outer_iter": 3,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 13.59,
+        "mean": 13.569,
+        "min": 13.556,
+        "num_trials": 5,
+        "std": 0.012
+      }
+    },
+    {
+      "kernel_project_name": "35_LSTM",
+      "outer_iter": 16,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 21.427,
+        "mean": 21.36,
+        "min": 21.328,
+        "num_trials": 5,
+        "std": 0.038
+      }
+    },
+    {
+      "kernel_project_name": "36_ConvTranspose2d_Min_Sum_GELU_Add",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 3.165,
+        "mean": 3.163,
+        "min": 3.161,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "36_LSTMHn",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 21.458,
+        "mean": 21.416,
+        "min": 21.358,
+        "num_trials": 5,
+        "std": 0.039
+      }
+    },
+    {
+      "kernel_project_name": "36_RMSNorm_",
+      "outer_iter": 9,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.429,
+        "mean": 9.42,
+        "min": 9.404,
+        "num_trials": 5,
+        "std": 0.008
+      }
+    },
+    {
+      "kernel_project_name": "37_FrobeniusNorm_",
+      "outer_iter": 5,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 13.482,
+        "mean": 13.473,
+        "min": 13.463,
+        "num_trials": 5,
+        "std": 0.007
+      }
+    },
+    {
+      "kernel_project_name": "37_LSTMCn",
+      "outer_iter": 9,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 21.328,
+        "mean": 21.301,
+        "min": 21.251,
+        "num_trials": 5,
+        "std": 0.03
+      }
+    },
+    {
+      "kernel_project_name": "37_Matmul_Swish_Sum_GroupNorm",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 15.247,
+        "mean": 15.247,
+        "min": 15.246,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "38_ConvTranspose3d_AvgPool_Clamp_Softmax_Multiply",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 25.459,
+        "mean": 25.436,
+        "min": 25.401,
+        "num_trials": 5,
+        "std": 0.021
+      }
+    },
+    {
+      "kernel_project_name": "38_L1Norm_",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 16.295,
+        "mean": 16.285,
+        "min": 16.276,
+        "num_trials": 5,
+        "std": 0.007
+      }
+    },
+    {
+      "kernel_project_name": "38_LSTMBidirectional",
+      "outer_iter": 1,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 40.269,
+        "mean": 40.214,
+        "min": 40.12,
+        "num_trials": 5,
+        "std": 0.052
+      }
+    },
+    {
+      "kernel_project_name": "39_GRU",
+      "outer_iter": 5,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 20.77,
+        "mean": 20.733,
+        "min": 20.676,
+        "num_trials": 5,
+        "std": 0.039
+      }
+    },
+    {
+      "kernel_project_name": "39_Gemm_Scale_BatchNorm",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 29.594,
+        "mean": 29.518,
+        "min": 29.361,
+        "num_trials": 5,
+        "std": 0.083
+      }
+    },
+    {
+      "kernel_project_name": "39_L2Norm_",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 16.515,
+        "mean": 16.488,
+        "min": 16.44,
+        "num_trials": 5,
+        "std": 0.026
+      }
+    },
+    {
+      "kernel_project_name": "40_GRUHidden",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 20.723,
+        "mean": 20.673,
+        "min": 20.598,
+        "num_trials": 5,
+        "std": 0.047
+      }
+    },
+    {
+      "kernel_project_name": "40_LayerNorm",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.527,
+        "mean": 0.522,
+        "min": 0.519,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "40_Matmul_Scaling_ResidualAdd",
+      "outer_iter": 2,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 29.202,
+        "mean": 29.138,
+        "min": 29.065,
+        "num_trials": 5,
+        "std": 0.055
+      }
+    },
+    {
+      "kernel_project_name": "41_GRUBidirectional",
+      "outer_iter": 12,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 42.541,
+        "mean": 42.221,
+        "min": 41.865,
+        "num_trials": 5,
+        "std": 0.237
+      }
+    },
+    {
+      "kernel_project_name": "41_Gemm_BatchNorm_GELU_ReLU",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 29.578,
+        "mean": 29.536,
+        "min": 29.466,
+        "num_trials": 5,
+        "std": 0.045
+      }
+    },
+    {
+      "kernel_project_name": "41_Max_Pooling_1D",
+      "outer_iter": 13,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 3.977,
+        "mean": 3.972,
+        "min": 3.965,
+        "num_trials": 5,
+        "std": 0.004
+      }
+    },
+    {
+      "kernel_project_name": "42_ConvTranspose2d_GlobalAvgPool_BiasAdd_LogSumExp_Sum_Multiply",
+      "outer_iter": 21,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 14.669,
+        "mean": 13.975,
+        "min": 13.502,
+        "num_trials": 5,
+        "std": 0.566
+      }
+    },
+    {
+      "kernel_project_name": "42_GRUBidirectionalHidden",
+      "outer_iter": 14,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 42.305,
+        "mean": 42.063,
+        "min": 41.718,
+        "num_trials": 5,
+        "std": 0.218
+      }
+    },
+    {
+      "kernel_project_name": "42_Max_Pooling_2D",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 5.121,
+        "mean": 5.12,
+        "min": 5.119,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "43_Conv3d_Max_LogSumExp_ReLU",
+      "outer_iter": 1,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 632.386,
+        "mean": 629.324,
+        "min": 627.453,
+        "num_trials": 5,
+        "std": 1.703
+      }
+    },
+    {
+      "kernel_project_name": "43_Max_Pooling_3D",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 7.888,
+        "mean": 7.885,
+        "min": 7.882,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "43_MinGPTCausalAttention",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 29.33,
+        "mean": 29.207,
+        "min": 29.056,
+        "num_trials": 5,
+        "std": 0.102
+      }
+    },
+    {
+      "kernel_project_name": "44_Average_Pooling_1D",
+      "outer_iter": 19,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 4.822,
+        "mean": 4.817,
+        "min": 4.809,
+        "num_trials": 5,
+        "std": 0.006
+      }
+    },
+    {
+      "kernel_project_name": "44_ConvTranspose2d_Multiply_GlobalAvgPool_GlobalAvgPool_Mean",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 2.954,
+        "mean": 2.951,
+        "min": 2.948,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "44_MiniGPTBlock",
+      "outer_iter": 2,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 71.434,
+        "mean": 71.401,
+        "min": 71.375,
+        "num_trials": 5,
+        "std": 0.019
+      }
+    },
+    {
+      "kernel_project_name": "45_Average_Pooling_2D",
+      "outer_iter": 1,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 11.239,
+        "mean": 10.866,
+        "min": 10.685,
+        "num_trials": 5,
+        "std": 0.228
+      }
+    },
+    {
+      "kernel_project_name": "45_Gemm_Sigmoid_LogSumExp",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 4.059,
+        "mean": 4.052,
+        "min": 4.046,
+        "num_trials": 5,
+        "std": 0.006
+      }
+    },
+    {
+      "kernel_project_name": "45_UNetSoftmax",
+      "outer_iter": 23,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 10.57,
+        "mean": 10.512,
+        "min": 10.489,
+        "num_trials": 5,
+        "std": 0.03
+      }
+    },
+    {
+      "kernel_project_name": "46_Average_Pooling_3D",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 11.99,
+        "mean": 11.986,
+        "min": 11.982,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "46_Conv2d_Subtract_Tanh_Subtract_AvgPool",
+      "outer_iter": 5,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 5.577,
+        "mean": 5.57,
+        "min": 5.558,
+        "num_trials": 5,
+        "std": 0.006
+      }
+    },
+    {
+      "kernel_project_name": "46_NetVladWithGhostClusters",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 4.608,
+        "mean": 4.605,
+        "min": 4.604,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "47_Conv3d_Mish_Tanh",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 3.571,
+        "mean": 3.563,
+        "min": 3.559,
+        "num_trials": 5,
+        "std": 0.004
+      }
+    },
+    {
+      "kernel_project_name": "47_NetVladNoGhostClusters",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 4.214,
+        "mean": 4.21,
+        "min": 4.207,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "47_Sum_reduction_over_a_dimension",
+      "outer_iter": 9,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 5.708,
+        "mean": 5.693,
+        "min": 5.681,
+        "num_trials": 5,
+        "std": 0.009
+      }
+    },
+    {
+      "kernel_project_name": "48_Conv3d_Scaling_Tanh_Multiply_Sigmoid",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 5.681,
+        "mean": 5.671,
+        "min": 5.66,
+        "num_trials": 5,
+        "std": 0.007
+      }
+    },
+    {
+      "kernel_project_name": "48_Mamba2ReturnY",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 15.178,
+        "mean": 15.163,
+        "min": 15.151,
+        "num_trials": 5,
+        "std": 0.009
+      }
+    },
+    {
+      "kernel_project_name": "48_Mean_reduction_over_a_dimension",
+      "outer_iter": 4,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 4.975,
+        "mean": 4.969,
+        "min": 4.962,
+        "num_trials": 5,
+        "std": 0.004
+      }
+    },
+    {
+      "kernel_project_name": "49_ConvTranspose3d_Softmax_Sigmoid",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 24.573,
+        "mean": 24.553,
+        "min": 24.529,
+        "num_trials": 5,
+        "std": 0.017
+      }
+    },
+    {
+      "kernel_project_name": "49_Mamba2ReturnFinalState",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.383,
+        "mean": 9.347,
+        "min": 9.225,
+        "num_trials": 5,
+        "std": 0.061
+      }
+    },
+    {
+      "kernel_project_name": "49_Max_reduction_over_a_dimension",
+      "outer_iter": 23,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 5.803,
+        "mean": 5.798,
+        "min": 5.793,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "50_ConvTranspose3d_Scaling_AvgPool_BiasAdd_Scaling",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 19.997,
+        "mean": 19.816,
+        "min": 19.729,
+        "num_trials": 5,
+        "std": 0.101
+      }
+    },
+    {
+      "kernel_project_name": "50_ReLUSelfAttention",
+      "outer_iter": 5,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 13.646,
+        "mean": 13.615,
+        "min": 13.573,
+        "num_trials": 5,
+        "std": 0.034
+      }
+    },
+    {
+      "kernel_project_name": "50_conv_standard_2D__square_input__square_kernel",
+      "outer_iter": 1,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 33.857,
+        "mean": 32.431,
+        "min": 30.971,
+        "num_trials": 5,
+        "std": 1.285
+      }
+    },
+    {
+      "kernel_project_name": "51_Argmax_over_a_dimension",
+      "outer_iter": 14,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 8.425,
+        "mean": 8.416,
+        "min": 8.409,
+        "num_trials": 5,
+        "std": 0.006
+      }
+    },
+    {
+      "kernel_project_name": "51_Gemm_Subtract_GlobalAvgPool_LogSumExp_GELU_ResidualAdd",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 18.927,
+        "mean": 18.917,
+        "min": 18.911,
+        "num_trials": 5,
+        "std": 0.006
+      }
+    },
+    {
+      "kernel_project_name": "52_Argmin_over_a_dimension",
+      "outer_iter": 21,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 5.055,
+        "mean": 5.04,
+        "min": 5.032,
+        "num_trials": 5,
+        "std": 0.009
+      }
+    },
+    {
+      "kernel_project_name": "52_Conv2d_Activation_BatchNorm",
+      "outer_iter": 12,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 67.679,
+        "mean": 66.02,
+        "min": 65.389,
+        "num_trials": 5,
+        "std": 0.837
+      }
+    },
+    {
+      "kernel_project_name": "53_Gemm_Scaling_Hardtanh_GELU",
+      "outer_iter": 19,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 15.624,
+        "mean": 15.579,
+        "min": 15.445,
+        "num_trials": 5,
+        "std": 0.068
+      }
+    },
+    {
+      "kernel_project_name": "53_Min_reduction_over_a_dimension",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 5.124,
+        "mean": 5.107,
+        "min": 5.082,
+        "num_trials": 5,
+        "std": 0.014
+      }
+    },
+    {
+      "kernel_project_name": "54_Conv2d_Multiply_LeakyReLU_GELU",
+      "outer_iter": 15,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.205,
+        "mean": 9.202,
+        "min": 9.198,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "54_conv_standard_3D__square_input__square_kernel",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 6.133,
+        "mean": 6.099,
+        "min": 6.051,
+        "num_trials": 5,
+        "std": 0.031
+      }
+    },
+    {
+      "kernel_project_name": "55_Matmul_MaxPool_Sum_Scale",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 16.263,
+        "mean": 16.256,
+        "min": 16.245,
+        "num_trials": 5,
+        "std": 0.006
+      }
+    },
+    {
+      "kernel_project_name": "55_conv_standard_2D__asymmetric_input__square_kernel",
+      "outer_iter": 14,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 99.246,
+        "mean": 98.798,
+        "min": 97.028,
+        "num_trials": 5,
+        "std": 0.885
+      }
+    },
+    {
+      "kernel_project_name": "56_Matmul_Sigmoid_Sum",
+      "outer_iter": 15,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 1.53,
+        "mean": 1.521,
+        "min": 1.508,
+        "num_trials": 5,
+        "std": 0.009
+      }
+    },
+    {
+      "kernel_project_name": "56_conv_standard_2D__asymmetric_input__asymmetric_kernel",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 72.582,
+        "mean": 72.321,
+        "min": 72.253,
+        "num_trials": 5,
+        "std": 0.131
+      }
+    },
+    {
+      "kernel_project_name": "57_Conv2d_ReLU_HardSwish",
+      "outer_iter": 17,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 12.715,
+        "mean": 12.714,
+        "min": 12.713,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "57_conv_transposed_2D__square_input__square_kernel",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 181.072,
+        "mean": 178.618,
+        "min": 176.957,
+        "num_trials": 5,
+        "std": 1.994
+      }
+    },
+    {
+      "kernel_project_name": "58_ConvTranspose3d_LogSumExp_HardSwish_Subtract_Clamp",
+      "outer_iter": 8,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 19.865,
+        "mean": 19.718,
+        "min": 19.635,
+        "num_trials": 5,
+        "std": 0.089
+      }
+    },
+    {
+      "kernel_project_name": "58_conv_transposed_3D__asymmetric_input__asymmetric_kernel",
+      "outer_iter": 16,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 18.025,
+        "mean": 16.691,
+        "min": 16.131,
+        "num_trials": 5,
+        "std": 0.752
+      }
+    },
+    {
+      "kernel_project_name": "59_Matmul_Swish_Scaling",
+      "outer_iter": 1,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 19.436,
+        "mean": 17.454,
+        "min": 15.918,
+        "num_trials": 5,
+        "std": 1.605
+      }
+    },
+    {
+      "kernel_project_name": "59_conv_standard_3D__asymmetric_input__square_kernel",
+      "outer_iter": 15,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.444,
+        "mean": 9.443,
+        "min": 9.442,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "60_ConvTranspose3d_Swish_GroupNorm_HardSwish",
+      "outer_iter": 4,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 23.18,
+        "mean": 23.174,
+        "min": 23.167,
+        "num_trials": 5,
+        "std": 0.005
+      }
+    },
+    {
+      "kernel_project_name": "60_conv_standard_3D__square_input__asymmetric_kernel",
+      "outer_iter": 19,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 16.426,
+        "mean": 16.424,
+        "min": 16.423,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "61_ConvTranspose3d_ReLU_GroupNorm",
+      "outer_iter": 19,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 84.388,
+        "mean": 84.371,
+        "min": 84.359,
+        "num_trials": 5,
+        "std": 0.011
+      }
+    },
+    {
+      "kernel_project_name": "61_conv_transposed_3D__square_input__square_kernel",
+      "outer_iter": 1,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 110.319,
+        "mean": 109.942,
+        "min": 109.731,
+        "num_trials": 5,
+        "std": 0.214
+      }
+    },
+    {
+      "kernel_project_name": "62_Matmul_GroupNorm_LeakyReLU_Sum",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.668,
+        "mean": 9.661,
+        "min": 9.653,
+        "num_trials": 5,
+        "std": 0.005
+      }
+    },
+    {
+      "kernel_project_name": "62_conv_standard_2D__square_input__asymmetric_kernel",
+      "outer_iter": 19,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 41.576,
+        "mean": 41.503,
+        "min": 41.424,
+        "num_trials": 5,
+        "std": 0.053
+      }
+    },
+    {
+      "kernel_project_name": "63_Gemm_ReLU_Divide",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 1.271,
+        "mean": 1.27,
+        "min": 1.27,
+        "num_trials": 5,
+        "std": 0.0
+      }
+    },
+    {
+      "kernel_project_name": "63_conv_standard_2D__square_input__square_kernel",
+      "outer_iter": 15,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 338.396,
+        "mean": 338.308,
+        "min": 338.034,
+        "num_trials": 5,
+        "std": 0.138
+      }
+    },
+    {
+      "kernel_project_name": "64_Gemm_LogSumExp_LeakyReLU_LeakyReLU_GELU_GELU",
+      "outer_iter": 23,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.5,
+        "mean": 9.495,
+        "min": 9.49,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "64_conv_transposed_1D",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 96.094,
+        "mean": 95.914,
+        "min": 95.244,
+        "num_trials": 5,
+        "std": 0.335
+      }
+    },
+    {
+      "kernel_project_name": "65_Conv2d_AvgPool_Sigmoid_Sum",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 21.009,
+        "mean": 20.933,
+        "min": 20.823,
+        "num_trials": 5,
+        "std": 0.075
+      }
+    },
+    {
+      "kernel_project_name": "65_conv_transposed_2D__square_input__asymmetric_kernel",
+      "outer_iter": 10,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 61.612,
+        "mean": 60.689,
+        "min": 60.336,
+        "num_trials": 5,
+        "std": 0.466
+      }
+    },
+    {
+      "kernel_project_name": "66_Matmul_Dropout_Softmax",
+      "outer_iter": 15,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 5.323,
+        "mean": 5.309,
+        "min": 5.299,
+        "num_trials": 5,
+        "std": 0.008
+      }
+    },
+    {
+      "kernel_project_name": "66_conv_standard_3D__asymmetric_input__asymmetric_kernel",
+      "outer_iter": 12,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 15.225,
+        "mean": 15.217,
+        "min": 15.195,
+        "num_trials": 5,
+        "std": 0.011
+      }
+    },
+    {
+      "kernel_project_name": "67_Conv2d_GELU_GlobalAvgPool",
+      "outer_iter": 12,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.184,
+        "mean": 9.175,
+        "min": 9.168,
+        "num_trials": 5,
+        "std": 0.005
+      }
+    },
+    {
+      "kernel_project_name": "67_conv_standard_1D",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 35.297,
+        "mean": 35.292,
+        "min": 35.288,
+        "num_trials": 5,
+        "std": 0.004
+      }
+    },
+    {
+      "kernel_project_name": "68_Matmul_Min_Subtract",
+      "outer_iter": 17,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.737,
+        "mean": 0.734,
+        "min": 0.729,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "68_conv_transposed_3D__square_input__asymmetric_kernel",
+      "outer_iter": 13,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 442.186,
+        "mean": 441.344,
+        "min": 439.408,
+        "num_trials": 5,
+        "std": 1.052
+      }
+    },
+    {
+      "kernel_project_name": "69_Conv2d_HardSwish_ReLU",
+      "outer_iter": 17,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 4.92,
+        "mean": 4.92,
+        "min": 4.919,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "69_conv_transposed_2D__asymmetric_input__asymmetric_kernel",
+      "outer_iter": 15,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 92.692,
+        "mean": 92.63,
+        "min": 92.595,
+        "num_trials": 5,
+        "std": 0.034
+      }
+    },
+    {
+      "kernel_project_name": "70_Gemm_Sigmoid_Scaling_ResidualAdd",
+      "outer_iter": 5,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.523,
+        "mean": 9.343,
+        "min": 8.634,
+        "num_trials": 5,
+        "std": 0.354
+      }
+    },
+    {
+      "kernel_project_name": "70_conv_transposed_3D__asymmetric_input__square_kernel",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 171.773,
+        "mean": 171.265,
+        "min": 170.741,
+        "num_trials": 5,
+        "std": 0.329
+      }
+    },
+    {
+      "kernel_project_name": "71_Conv2d_Divide_LeakyReLU",
+      "outer_iter": 8,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 2.578,
+        "mean": 2.575,
+        "min": 2.571,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "71_conv_transposed_2D__asymmetric_input__square_kernel",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 13.006,
+        "mean": 12.959,
+        "min": 12.918,
+        "num_trials": 5,
+        "std": 0.033
+      }
+    },
+    {
+      "kernel_project_name": "72_ConvTranspose3d_BatchNorm_AvgPool_AvgPool",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 25.572,
+        "mean": 25.509,
+        "min": 25.356,
+        "num_trials": 5,
+        "std": 0.079
+      }
+    },
+    {
+      "kernel_project_name": "72_conv_transposed_3D_asymmetric_input_asymmetric_kernel___strided_padded_grouped_",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 3.828,
+        "mean": 3.827,
+        "min": 3.826,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "73_Conv2d_BatchNorm_Scaling",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 3.144,
+        "mean": 3.122,
+        "min": 3.106,
+        "num_trials": 5,
+        "std": 0.013
+      }
+    },
+    {
+      "kernel_project_name": "73_conv_transposed_3D_asymmetric_input_square_kernel__strided_padded__grouped",
+      "outer_iter": 17,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 55.254,
+        "mean": 55.156,
+        "min": 55.036,
+        "num_trials": 5,
+        "std": 0.093
+      }
+    },
+    {
+      "kernel_project_name": "74_ConvTranspose3d_LeakyReLU_Multiply_LeakyReLU_Max",
+      "outer_iter": 10,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 1.998,
+        "mean": 1.994,
+        "min": 1.991,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "74_conv_transposed_1D_dilated",
+      "outer_iter": 21,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 20.68,
+        "mean": 20.664,
+        "min": 20.655,
+        "num_trials": 5,
+        "std": 0.008
+      }
+    },
+    {
+      "kernel_project_name": "75_Gemm_GroupNorm_Min_BiasAdd",
+      "outer_iter": 16,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.706,
+        "mean": 9.702,
+        "min": 9.699,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "75_conv_transposed_2D_asymmetric_input_asymmetric_kernel_strided__grouped____padded____dilated__",
+      "outer_iter": 23,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 2.865,
+        "mean": 2.865,
+        "min": 2.865,
+        "num_trials": 5,
+        "std": 0.0
+      }
+    },
+    {
+      "kernel_project_name": "76_Gemm_Add_ReLU",
+      "outer_iter": 9,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 8.884,
+        "mean": 8.881,
+        "min": 8.879,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "76_conv_standard_1D_dilated_strided__",
+      "outer_iter": 11,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 218.933,
+        "mean": 218.889,
+        "min": 218.858,
+        "num_trials": 5,
+        "std": 0.028
+      }
+    },
+    {
+      "kernel_project_name": "77_ConvTranspose3d_Scale_BatchNorm_GlobalAvgPool",
+      "outer_iter": 17,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 344.038,
+        "mean": 343.824,
+        "min": 343.706,
+        "num_trials": 5,
+        "std": 0.116
+      }
+    },
+    {
+      "kernel_project_name": "77_conv_transposed_3D_square_input_square_kernel___padded____dilated____strided__",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 4.079,
+        "mean": 4.073,
+        "min": 4.066,
+        "num_trials": 5,
+        "std": 0.004
+      }
+    },
+    {
+      "kernel_project_name": "78_ConvTranspose3d_Max_Max_Sum",
+      "outer_iter": 17,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 8.246,
+        "mean": 8.236,
+        "min": 8.23,
+        "num_trials": 5,
+        "std": 0.006
+      }
+    },
+    {
+      "kernel_project_name": "78_conv_transposed_2D_asymmetric_input_asymmetric_kernel___padded__",
+      "outer_iter": 14,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 34.307,
+        "mean": 34.074,
+        "min": 33.797,
+        "num_trials": 5,
+        "std": 0.227
+      }
+    },
+    {
+      "kernel_project_name": "79_Conv3d_Multiply_InstanceNorm_Clamp_Multiply_Max",
+      "outer_iter": 21,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 1.743,
+        "mean": 1.736,
+        "min": 1.729,
+        "num_trials": 5,
+        "std": 0.005
+      }
+    },
+    {
+      "kernel_project_name": "79_conv_transposed_1D_asymmetric_input_square_kernel___padded____strided____dilated__",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 8.524,
+        "mean": 8.517,
+        "min": 8.509,
+        "num_trials": 5,
+        "std": 0.005
+      }
+    },
+    {
+      "kernel_project_name": "80_Gemm_Max_Subtract_GELU",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.49,
+        "mean": 9.488,
+        "min": 9.485,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "80_conv_standard_2D_square_input_asymmetric_kernel___dilated____padded__",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 46.833,
+        "mean": 46.476,
+        "min": 46.262,
+        "num_trials": 5,
+        "std": 0.23
+      }
+    },
+    {
+      "kernel_project_name": "81_Gemm_Swish_Divide_Clamp_Tanh_Clamp",
+      "outer_iter": 7,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.069,
+        "mean": 9.062,
+        "min": 9.056,
+        "num_trials": 5,
+        "std": 0.005
+      }
+    },
+    {
+      "kernel_project_name": "81_conv_transposed_2D_asymmetric_input_square_kernel___dilated____padded____strided__",
+      "outer_iter": 12,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 6.932,
+        "mean": 6.932,
+        "min": 6.931,
+        "num_trials": 5,
+        "std": 0.0
+      }
+    },
+    {
+      "kernel_project_name": "82_Conv2d_Tanh_Scaling_BiasAdd_Max",
+      "outer_iter": 11,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 10.638,
+        "mean": 10.621,
+        "min": 10.601,
+        "num_trials": 5,
+        "std": 0.013
+      }
+    },
+    {
+      "kernel_project_name": "82_conv_depthwise_2D_square_input_square_kernel",
+      "outer_iter": 12,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 1.96,
+        "mean": 1.944,
+        "min": 1.935,
+        "num_trials": 5,
+        "std": 0.01
+      }
+    },
+    {
+      "kernel_project_name": "83_Conv3d_GroupNorm_Min_Clamp_Dropout",
+      "outer_iter": 19,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 5.937,
+        "mean": 5.929,
+        "min": 5.922,
+        "num_trials": 5,
+        "std": 0.006
+      }
+    },
+    {
+      "kernel_project_name": "83_conv_depthwise_2D_square_input_asymmetric_kernel",
+      "outer_iter": 21,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.669,
+        "mean": 0.667,
+        "min": 0.664,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "84_Gemm_BatchNorm_Scaling_Softmax",
+      "outer_iter": 14,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.678,
+        "mean": 9.44,
+        "min": 8.903,
+        "num_trials": 5,
+        "std": 0.311
+      }
+    },
+    {
+      "kernel_project_name": "84_conv_depthwise_2D_asymmetric_input_square_kernel",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 6.113,
+        "mean": 6.111,
+        "min": 6.106,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "85_Conv2d_GroupNorm_Scale_MaxPool_Clamp",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 2.969,
+        "mean": 2.963,
+        "min": 2.96,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "85_conv_depthwise_2D_asymmetric_input_asymmetric_kernel",
+      "outer_iter": 23,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 1.419,
+        "mean": 1.419,
+        "min": 1.418,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "86_Matmul_Divide_GELU",
+      "outer_iter": 14,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 1.274,
+        "mean": 1.274,
+        "min": 1.273,
+        "num_trials": 5,
+        "std": 0.0
+      }
+    },
+    {
+      "kernel_project_name": "86_conv_depthwise_separable_2D",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 50.117,
+        "mean": 49.748,
+        "min": 49.135,
+        "num_trials": 5,
+        "std": 0.356
+      }
+    },
+    {
+      "kernel_project_name": "87_Conv2d_Subtract_Subtract_Mish",
+      "outer_iter": 12,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 11.212,
+        "mean": 11.069,
+        "min": 10.977,
+        "num_trials": 5,
+        "std": 0.088
+      }
+    },
+    {
+      "kernel_project_name": "87_conv_pointwise_2D",
+      "outer_iter": 17,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 48.075,
+        "mean": 48.07,
+        "min": 48.067,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "88_Gemm_GroupNorm_Swish_Multiply_Swish",
+      "outer_iter": 10,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.813,
+        "mean": 9.809,
+        "min": 9.806,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "88_MinGPTNewGelu",
+      "outer_iter": 8,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.33,
+        "mean": 0.328,
+        "min": 0.328,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "89_ConvTranspose3d_MaxPool_Softmax_Subtract_Swish_Max",
+      "outer_iter": 15,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 5.558,
+        "mean": 5.556,
+        "min": 5.554,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "89_cumsum",
+      "outer_iter": 19,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 5.145,
+        "mean": 5.139,
+        "min": 5.131,
+        "num_trials": 5,
+        "std": 0.005
+      }
+    },
+    {
+      "kernel_project_name": "90_Conv3d_LeakyReLU_Sum_Clamp_GELU",
+      "outer_iter": 14,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 11.505,
+        "mean": 11.444,
+        "min": 11.418,
+        "num_trials": 5,
+        "std": 0.032
+      }
+    },
+    {
+      "kernel_project_name": "90_cumprod",
+      "outer_iter": 14,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 5.154,
+        "mean": 5.143,
+        "min": 5.132,
+        "num_trials": 5,
+        "std": 0.007
+      }
+    },
+    {
+      "kernel_project_name": "91_ConvTranspose2d_Softmax_BiasAdd_Scaling_Sigmoid",
+      "outer_iter": 7,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 14.758,
+        "mean": 14.742,
+        "min": 14.726,
+        "num_trials": 5,
+        "std": 0.013
+      }
+    },
+    {
+      "kernel_project_name": "91_cumsum_reverse",
+      "outer_iter": 7,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 5.253,
+        "mean": 5.242,
+        "min": 5.223,
+        "num_trials": 5,
+        "std": 0.01
+      }
+    },
+    {
+      "kernel_project_name": "92_Conv2d_GroupNorm_Tanh_HardSwish_ResidualAdd_LogSumExp",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 7.765,
+        "mean": 7.757,
+        "min": 7.748,
+        "num_trials": 5,
+        "std": 0.006
+      }
+    },
+    {
+      "kernel_project_name": "92_cumsum_exclusive",
+      "outer_iter": 23,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 5.18,
+        "mean": 5.176,
+        "min": 5.171,
+        "num_trials": 5,
+        "std": 0.004
+      }
+    },
+    {
+      "kernel_project_name": "93_ConvTranspose2d_Add_Min_GELU_Multiply",
+      "outer_iter": 3,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 6.079,
+        "mean": 6.069,
+        "min": 6.056,
+        "num_trials": 5,
+        "std": 0.008
+      }
+    },
+    {
+      "kernel_project_name": "93_masked_cumsum",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 5.811,
+        "mean": 5.804,
+        "min": 5.794,
+        "num_trials": 5,
+        "std": 0.006
+      }
+    },
+    {
+      "kernel_project_name": "94_Gemm_BiasAdd_Hardtanh_Mish_GroupNorm",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.59,
+        "mean": 9.586,
+        "min": 9.584,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "94_MSELoss",
+      "outer_iter": 2,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 4.837,
+        "mean": 4.829,
+        "min": 4.823,
+        "num_trials": 5,
+        "std": 0.005
+      }
+    },
+    {
+      "kernel_project_name": "95_CrossEntropyLoss",
+      "outer_iter": 2,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.353,
+        "mean": 0.352,
+        "min": 0.351,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "95_Matmul_Add_Swish_Tanh_GELU_Hardtanh",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.549,
+        "mean": 9.399,
+        "min": 8.822,
+        "num_trials": 5,
+        "std": 0.289
+      }
+    },
+    {
+      "kernel_project_name": "96_ConvTranspose3d_Multiply_Max_GlobalAvgPool_Clamp",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 19.876,
+        "mean": 19.673,
+        "min": 19.598,
+        "num_trials": 5,
+        "std": 0.106
+      }
+    },
+    {
+      "kernel_project_name": "96_HuberLoss",
+      "outer_iter": 14,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 4.917,
+        "mean": 4.908,
+        "min": 4.905,
+        "num_trials": 5,
+        "std": 0.005
+      }
+    },
+    {
+      "kernel_project_name": "97_Matmul_BatchNorm_BiasAdd_Divide_Swish",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.588,
+        "mean": 9.583,
+        "min": 9.58,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "97_ScaledDotProductAttention",
+      "outer_iter": 2,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 395.791,
+        "mean": 394.945,
+        "min": 393.734,
+        "num_trials": 5,
+        "std": 0.716
+      }
+    },
+    {
+      "kernel_project_name": "98_KLDivLoss",
+      "outer_iter": 21,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 1.285,
+        "mean": 1.282,
+        "min": 1.278,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "98_Matmul_AvgPool_GELU_Scale_Max",
+      "outer_iter": 5,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.497,
+        "mean": 9.494,
+        "min": 9.49,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "99_Matmul_GELU_Softmax",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 8.878,
+        "mean": 8.873,
+        "min": 8.87,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "99_TripletMarginLoss",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 1.819,
+        "mean": 1.813,
+        "min": 1.809,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "100_ConvTranspose3d_Clamp_Min_Divide",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 20.968,
+        "mean": 20.949,
+        "min": 20.933,
+        "num_trials": 5,
+        "std": 0.014
+      }
+    },
+    {
+      "kernel_project_name": "100_HingeLoss",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 18.228,
+        "mean": 18.217,
+        "min": 18.207,
+        "num_trials": 5,
+        "std": 0.008
+      }
+    }
+  ]
+}

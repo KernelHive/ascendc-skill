@@ -1,0 +1,28 @@
+###### PlatformAscendC 简介
+
+在实现 Host 侧的 Tiling 函数时，可能需要获取一些硬件平台的信息来支撑 Tiling 的计算，例如获取硬件平台的核数等信息。`PlatformAscendC` 类提供获取这些平台信息的功能。
+
+## 需要包含的头文件
+
+使用该功能需要包含 `"tiling/platform/platform_ascendc.h"` 头文件。样例如下：
+
+```cpp
+#include "tiling/platform/platform_ascendc.h"
+```
+
+## Public 成员函数
+
+- `PlatformAscendC() = delete`
+- `~PlatformAscendC() = default`
+- `explicit PlatformAscendC(fe::PlatFormInfos *platformInfo): platformInfo_(platformInfo) {}`
+- `uint32_t GetCoreNum(void) const`
+- `SocVersion GetSocVersion(void) const`
+- `uint32_t GetCoreNumAic(void) const`
+- `uint32_t GetCoreNumAiv(void) const`
+- `uint32_t GetCoreNumVector(void) const`
+- `uint32_t CalcTschBlockDim(uint32_t sliceNum, uint32_t aicCoreNum, uint32_t aivCoreNum) const`
+- `void GetCoreMemSize(const CoreMemType &memType, uint64_t &size) const`
+- `void GetCoreMemBw(const CoreMemType &memType, uint64_t &bwSize) const`
+- `uint32_t GetLibApiWorkSpaceSize(void) const`
+- `uint32_t GetResGroupBarrierWorkSpaceSize(void) const`
+- `uint32_t GetResCubeGroupWorkSpaceSize(void) const`

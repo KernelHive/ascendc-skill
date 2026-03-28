@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "38_ConvTranspose3d_AvgPool_Clamp_Softmax_Multiply",
+  "outer_iter": 24,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 25.459,
+    "mean": 25.436,
+    "min": 25.401,
+    "num_trials": 5,
+    "std": 0.021
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvTranspose3dMultiplyMaxGlobalAvgPoolClampCustom",
+  "outer_iter": 24,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 399.488,
+    "std": 0.538,
+    "min": 399.058,
+    "max": 400.246,
+    "num_trials": null
+  }
+}

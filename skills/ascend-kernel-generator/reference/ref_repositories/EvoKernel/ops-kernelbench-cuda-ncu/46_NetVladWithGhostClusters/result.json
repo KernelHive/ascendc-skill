@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "46_NetVladWithGhostClusters",
+  "outer_iter": 27,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 4.608,
+    "mean": 4.605,
+    "min": 4.604,
+    "num_trials": 5,
+    "std": 0.002
+  }
+}

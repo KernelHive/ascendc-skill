@@ -1,0 +1,51 @@
+[
+    {
+        "case_name": "Test_Less_001",      
+        "op": "Less", 
+        "calc_expect_func_file": "./test_less.py:calc_expect_func",                      
+        "input_desc": [                    
+            {   "name": "x1",                  
+                "format": ["ND"],            
+                "type": [
+                    "float16"
+                ],
+                "shape": [8, 2048],
+                "data_distribute": [ 
+                    "uniform"
+                ],
+                "value_range": [ 
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ]
+            },
+            {   "name": "x2",                   
+                "format": ["ND"],
+                "type": [
+                    "float16"
+                ],
+                "shape": [8, 2048],
+                "data_distribute": [ 
+                    "uniform"
+                ],
+                "value_range": [ 
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ]
+            }
+        ],
+        "output_desc": [                    
+            {
+                "name": "y", 
+                "format": ["ND"],
+                "type": [
+                    "bool"
+                ],
+                "shape": [8, 2048]
+            }
+        ]
+    }
+]

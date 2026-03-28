@@ -1,0 +1,8 @@
+{
+  "kernel_project_name": "48_S2Attention",
+  "outer_iter": 30,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": false,
+  "performance": null
+}

@@ -1,0 +1,17 @@
+
+[
+  {
+    "op": "ShuffleAttentionCustom",
+    "input_desc": [
+      { "name": "x0",      "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "x1",      "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "gate_c",  "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "s_norm",  "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "sweight", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "sbias",   "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "y", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ]
+  }
+]

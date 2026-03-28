@@ -1,0 +1,12 @@
+{
+  "kernel_project_name": "MhcProjectorCustom",
+  "outer_iter": 33,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "mean_ms": 4.115,
+  "baseline_mean_ms": 2.523,
+  "speedup_vs_baseline": 0.6131227217496963,
+  "log2_speedup_vs_baseline": -0.7057522243326875,
+  "relative_change_pct": -38.68772782503037
+}

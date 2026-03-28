@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "LongformerAttentionCustom",
+  "outer_iter": 13,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 194.152,
+    "std": 0.147,
+    "min": 193.944,
+    "max": 194.258,
+    "num_trials": null
+  }
+}

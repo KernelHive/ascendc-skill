@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "UnPermuteCustom",
+  "outer_iter": 12,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 9.83,
+    "std": 0.15,
+    "min": 9.618,
+    "max": 9.936,
+    "num_trials": null
+  }
+}

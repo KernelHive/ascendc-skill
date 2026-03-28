@@ -1,0 +1,52 @@
+[
+    {
+        "case_name": "Test_AngleV2_dtype_case_normal",
+        "op": "AngleV2",
+        "calc_expect_func_file": "./test_angle_v2.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16",
+                    "uint8",
+                    "int8",
+                    "int16",
+                    "int32",
+                    "int64"
+                ],
+                "shape": [100],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        -1.0,
+                        1.0
+                    ]
+                ],
+                "name": "x"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16",
+                    "float",
+                    "float",
+                    "float",
+                    "float",
+                    "float"
+                ],
+                "shape": [100],
+                "name": "y"
+            }
+        ]
+    }
+]

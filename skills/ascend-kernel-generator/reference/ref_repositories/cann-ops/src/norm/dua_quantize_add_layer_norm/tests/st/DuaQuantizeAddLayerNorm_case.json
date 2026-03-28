@@ -1,0 +1,241 @@
+[
+    {
+        "case_name": "Test_DuaQuantizeAddLayerNorm_001",
+        "op": "DuaQuantizeAddLayerNorm",
+        "calc_expect_func_file":"test_st.py:dua_quantize_add_layer_norm",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "bfloat16"
+                ],
+                "shape": [4,1,8],
+                "value": [[[1, 2, 3, 4, 5, 6, 7, 8]],[[1, 2, 3, 4, 5, 6, 7, 8]],[[1, 2, 3, 4, 5, 6, 7, 8]],[[1, 2, 3, 4, 5, 6, 7, 8]]],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "x1"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "bfloat16"
+                ],
+                "shape": [4,1,8],
+                "value": [[[1, 2, 3, 4, 5, 6, 7, 8]],[[1, 2, 3, 4, 5, 6, 7, 8]],[[1, 2, 3, 4, 5, 6, 7, 8]],[[1, 2, 3, 4, 5, 6, 7, 8]]],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "x2"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "bfloat16"
+                ],
+                "shape": [8],
+                "value": [1,1,1,1,1,1,1,1],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "gamma"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "bfloat16"
+                ],
+                "shape": [8],
+                "value": [1,1,1,1,1,1,1,1],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "beta"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "bfloat16"
+                ],
+                "shape": [8],
+                "value": [1,1,1,1,1,1,1,1],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "bias"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "bfloat16"
+                ],
+                "shape": [8],
+                "value": [1,1,1,1,1,1,1,1],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "scales1"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "bfloat16"
+                ],
+                "shape": [8],
+                "value": [1,1,1,1,1,1,1,1],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "scales2"
+            },
+            {
+                "format": [
+                    "UNDEFINED"
+                ],
+                "type": [
+                    "UNDEFINED"
+                ],
+                "shape": [8],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "zero_points1"
+            },
+            {
+                "format": [
+                    "UNDEFINED"
+                ],
+                "type": [
+                    "UNDEFINED"
+                ],
+                "shape": [8],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "zero_points2"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int8"
+                ],
+                "shape": [4,1,8],
+                "name": "y1"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int8"
+                ],
+                "shape": [4,1,8],
+                "name": "y2"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "bfloat16"
+                ],
+                "shape": [4,1,8],
+                "name": "x"
+            }
+        ],
+        "attr": [
+            {
+                "name": "dtype",
+                "type": "int",
+                "value": 2
+            },
+            {
+                "name": "axis",
+                "type": "int",
+                "value": -1
+            },
+            {
+                "name": "epsilon",
+                "type": "float",
+                "value": 1e-05
+            },
+            {
+                "name": "additional_output",
+                "type": "bool",
+                "value": false
+            }
+        ]
+    }
+]

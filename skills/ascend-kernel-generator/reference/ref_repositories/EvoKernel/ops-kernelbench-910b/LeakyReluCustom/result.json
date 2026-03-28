@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "LeakyReluCustom",
+  "outer_iter": 27,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 10.143,
+    "std": 0.054,
+    "min": 10.067,
+    "max": 10.184,
+    "num_trials": null
+  }
+}

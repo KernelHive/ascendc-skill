@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "6_GoogleNetInceptionModule",
+  "outer_iter": 14,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 18.011,
+    "mean": 18.002,
+    "min": 17.996,
+    "num_trials": 5,
+    "std": 0.006
+  }
+}

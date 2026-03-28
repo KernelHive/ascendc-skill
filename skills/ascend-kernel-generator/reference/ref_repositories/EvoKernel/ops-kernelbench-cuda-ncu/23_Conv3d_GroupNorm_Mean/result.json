@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "23_Conv3d_GroupNorm_Mean",
+  "outer_iter": 20,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 1.902,
+    "mean": 1.897,
+    "min": 1.889,
+    "num_trials": 5,
+    "std": 0.004
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "SRMCustom",
+  "outer_iter": 30,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 0.598,
+    "std": 0.084,
+    "min": 0.479,
+    "max": 0.658,
+    "num_trials": null
+  }
+}

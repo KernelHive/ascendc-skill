@@ -1,0 +1,21 @@
+
+[
+  {
+    "op": "SqueezeNetFireModuleCustom",
+    "input_desc": [
+      { "name": "x",         "param_type": "required", "format": ["ND"], "type": ["float"] },
+
+      { "name": "w_squeeze", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "b_squeeze", "param_type": "required", "format": ["ND"], "type": ["float"] },
+
+      { "name": "w_expand1", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "b_expand1", "param_type": "required", "format": ["ND"], "type": ["float"] },
+
+      { "name": "w_expand3", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "b_expand3", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "y", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ]
+  }
+]

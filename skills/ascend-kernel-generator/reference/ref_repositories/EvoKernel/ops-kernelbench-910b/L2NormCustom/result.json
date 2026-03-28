@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "L2NormCustom",
+  "outer_iter": 21,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 36.023,
+    "std": 0.406,
+    "min": 35.495,
+    "max": 36.482,
+    "num_trials": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvTransposed1dDilatedCustom",
+  "outer_iter": 24,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 34976.005,
+    "std": 42.708,
+    "min": 34916.879,
+    "max": 35016.249,
+    "num_trials": null
+  }
+}

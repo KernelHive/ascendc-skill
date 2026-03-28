@@ -1,0 +1,62 @@
+#!/usr/bin/python3
+# -*- coding:utf-8 -*-
+# Copyright (c) Huawei Technologies Co., Ltd. 2025. All rights reserved.
+# This file is a part of the CANN Open Software.
+# Licensed under CANN Open Software License Agreement Version 1.0 (the "License").
+# Please refer to the License for details. You may not use this file except in compliance with the License.
+# THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED,
+# INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE.
+# See LICENSE in the root of the software repository for the full text of the License.
+# ======================================================================================================================
+
+# op_fill.yaml
+api: pytorch
+api_type: aclnn_cpu_fill
+# api_type: function
+version: v2.1
+aclnn_name: Fill
+name: torch.fill_
+dtype_numbers: 200
+extra_numbers: 0
+# generate: Default
+generate: generate_fill
+backward: false
+standard:
+    acc: default
+    perf: not_key
+inputs:
+  - name: dims
+    type: attr_tuple
+    # type: tensor
+    required: true
+    dtypes:
+      values: [int]
+    ranges:
+      valid:
+        values: [[1, 9]] 
+      invalid:
+        values: [[1, 9]]
+    tuple_numbers: 
+      values: [1, 2, 3, 4, 5, 6]
+  - name: value
+    type: scalar
+    required: true
+    dtypes:
+      values: [fp32, fp16, int32, int8, bool, int64, bf16]
+    ranges:
+      valid:
+        values: [ [-5, 5] ]
+      invalid:
+        values: [ [-5, 5] ]
+  - name: value_dtype
+    type: attr
+    required: true
+    dtypes: 
+      values: [non_param]
+    ranges:
+      valid:
+        values: [fp32, fp16, int32, int8, bool, int64, bf16]
+      invalid:
+        values: [fp32, fp16, int32, int8, bool, int64, bf16]
+  
+    

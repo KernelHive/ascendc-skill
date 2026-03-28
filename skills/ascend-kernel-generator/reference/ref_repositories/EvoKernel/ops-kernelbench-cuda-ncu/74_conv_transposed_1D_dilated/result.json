@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "74_conv_transposed_1D_dilated",
+  "outer_iter": 21,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 20.68,
+    "mean": 20.664,
+    "min": 20.655,
+    "num_trials": 5,
+    "std": 0.008
+  }
+}

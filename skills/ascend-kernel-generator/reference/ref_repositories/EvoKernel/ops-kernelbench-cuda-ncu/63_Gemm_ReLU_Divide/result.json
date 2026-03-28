@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "63_Gemm_ReLU_Divide",
+  "outer_iter": 25,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 1.271,
+    "mean": 1.27,
+    "min": 1.27,
+    "num_trials": 5,
+    "std": 0.0
+  }
+}

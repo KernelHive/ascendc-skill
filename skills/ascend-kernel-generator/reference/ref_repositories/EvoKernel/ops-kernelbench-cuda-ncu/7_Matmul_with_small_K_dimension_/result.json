@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "7_Matmul_with_small_K_dimension_",
+  "outer_iter": 26,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 11.245,
+    "mean": 11.241,
+    "min": 11.238,
+    "num_trials": 5,
+    "std": 0.002
+  }
+}

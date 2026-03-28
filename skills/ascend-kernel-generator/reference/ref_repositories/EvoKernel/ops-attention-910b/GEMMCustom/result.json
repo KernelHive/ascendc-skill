@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "GEMMCustom",
+  "outer_iter": 6,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 7.459,
+    "std": 0.121,
+    "min": 7.331,
+    "max": 7.622,
+    "num_trials": null
+  }
+}

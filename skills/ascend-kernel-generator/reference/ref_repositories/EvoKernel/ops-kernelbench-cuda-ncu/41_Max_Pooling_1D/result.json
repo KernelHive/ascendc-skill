@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "41_Max_Pooling_1D",
+  "outer_iter": 13,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 3.977,
+    "mean": 3.972,
+    "min": 3.965,
+    "num_trials": 5,
+    "std": 0.004
+  }
+}

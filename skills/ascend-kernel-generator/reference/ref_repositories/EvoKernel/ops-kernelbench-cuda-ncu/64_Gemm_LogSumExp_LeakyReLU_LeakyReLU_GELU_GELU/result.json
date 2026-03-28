@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "64_Gemm_LogSumExp_LeakyReLU_LeakyReLU_GELU_GELU",
+  "outer_iter": 23,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 9.5,
+    "mean": 9.495,
+    "min": 9.49,
+    "num_trials": 5,
+    "std": 0.003
+  }
+}

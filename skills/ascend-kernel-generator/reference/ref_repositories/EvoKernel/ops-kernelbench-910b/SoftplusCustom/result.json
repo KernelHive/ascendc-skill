@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "SoftplusCustom",
+  "outer_iter": 30,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 9.701,
+    "std": 0.063,
+    "min": 9.613,
+    "max": 9.759,
+    "num_trials": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "GeluCustom",
+  "outer_iter": 24,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 14.649,
+    "std": 0.212,
+    "min": 14.35,
+    "max": 14.801,
+    "num_trials": null
+  }
+}

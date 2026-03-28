@@ -1,0 +1,8 @@
+[
+  {
+    "op": "instance_norm",
+    "error": "[FAIL] ModelNew.__init__() takes 1 positional argument but 2 were given",
+    "code_diff": "--- error_idx_0\n+++ correct_idx_1\n@@ -430,8 +430,9 @@\n \n \n class ModelNew(torch.nn.Module):\n-    def __init__(self):\n+    def __init__(self, num_features: int):\n         super().__init__()\n+        self.num_features = num_features\n \n     def forward(self, x: torch.Tensor) -> torch.Tensor:\n         return custom_ops_lib.instance_norm_custom(x)\n",
+    "summary": "Verification passes get_init_inputs() values into ModelNew(...). Fix the constructor signature to accept num_features and keep the custom-op forward unchanged so the reference harness can instantiate the model correctly."
+  }
+]

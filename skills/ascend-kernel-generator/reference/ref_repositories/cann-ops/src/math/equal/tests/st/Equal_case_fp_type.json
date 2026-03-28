@@ -1,0 +1,63 @@
+[
+    {
+        "case_name": "Test_Equal_001",
+        "op": "Equal",
+        "calc_expect_func_file": "./test_equal.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16",
+                    "bfloat16"
+                ],
+                "shape": [99],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1, 1
+                    ]
+                ],
+                "name": "x1"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16",
+                    "bfloat16"
+                ],
+                "shape": [99],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1, 1
+                    ]
+                ],
+                "name": "x2"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "bool",
+                    "bool",
+                    "bool"
+                ],
+                "shape": [99],
+                "name": "y"
+            }
+        ]
+    }
+]

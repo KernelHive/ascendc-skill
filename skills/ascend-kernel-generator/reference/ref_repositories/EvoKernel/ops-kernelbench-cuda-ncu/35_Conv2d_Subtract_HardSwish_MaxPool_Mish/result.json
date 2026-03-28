@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "35_Conv2d_Subtract_HardSwish_MaxPool_Mish",
+  "outer_iter": 27,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 73.355,
+    "mean": 73.344,
+    "min": 73.333,
+    "num_trials": 5,
+    "std": 0.007
+  }
+}

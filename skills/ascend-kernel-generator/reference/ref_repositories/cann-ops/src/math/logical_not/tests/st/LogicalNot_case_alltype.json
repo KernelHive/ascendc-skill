@@ -1,0 +1,40 @@
+[
+    {
+        "case_name": "Test_LogicalNot_001",
+        "op": "LogicalNot",
+        "calc_expect_func_file": "./test_logical_not.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "bool"
+                ],
+                "shape": [100],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        -0.1,
+                        1.1
+                    ]
+                ],
+                "name": "x"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "bool"
+                ],
+                "shape": [100],
+                "name": "y"
+            }
+        ]
+    }
+]

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "28_BMM_InstanceNorm_Sum_ResidualAdd_Multiply",
+  "outer_iter": 27,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 9.535,
+    "mean": 9.53,
+    "min": 9.524,
+    "num_trials": 5,
+    "std": 0.005
+  }
+}

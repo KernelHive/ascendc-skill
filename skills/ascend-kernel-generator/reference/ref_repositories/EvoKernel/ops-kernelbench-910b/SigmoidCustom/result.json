@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "SigmoidCustom",
+  "outer_iter": 26,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 9.991,
+    "std": 0.093,
+    "min": 9.86,
+    "max": 10.063,
+    "num_trials": null
+  }
+}

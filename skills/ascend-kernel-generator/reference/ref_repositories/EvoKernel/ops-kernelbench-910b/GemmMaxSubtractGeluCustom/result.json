@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "GemmMaxSubtractGeluCustom",
+  "outer_iter": 20,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 0.003,
+    "std": 0.0,
+    "min": 0.003,
+    "max": 0.003,
+    "num_trials": null
+  }
+}

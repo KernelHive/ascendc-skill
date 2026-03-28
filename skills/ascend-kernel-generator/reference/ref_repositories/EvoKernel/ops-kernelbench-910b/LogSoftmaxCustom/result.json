@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "LogSoftmaxCustom",
+  "outer_iter": 15,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 14.046,
+    "std": 0.152,
+    "min": 13.831,
+    "max": 14.166,
+    "num_trials": null
+  }
+}

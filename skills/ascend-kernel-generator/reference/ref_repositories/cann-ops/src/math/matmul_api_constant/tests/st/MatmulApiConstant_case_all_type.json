@@ -1,0 +1,78 @@
+[
+    {
+        "case_name": "Test_MatmulApiConstant_001",
+        "op": "MatmulApiConstant",
+        "calc_expect_func_file": "test_matmul_api_constant.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float16"
+                ],
+                "shape":[1024, 256],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        1,
+                        10
+                    ]
+                ],
+                "name": "a"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float16"
+                ],
+                "shape": [256, 640],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        1,
+                        10
+                    ]
+                ],
+                "name": "b"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [640],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        1,
+                        10
+                    ]
+                ],
+                "name": "bias"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [1024, 640],
+                "name": "c"
+            }
+        ]
+    }
+]

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "43_Conv3d_Max_LogSumExp_ReLU",
+  "outer_iter": 1,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 632.386,
+    "mean": 629.324,
+    "min": 627.453,
+    "num_trials": 5,
+    "std": 1.703
+  }
+}

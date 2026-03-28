@@ -1,0 +1,97 @@
+[
+    {
+        "case_name": "Test_ScatterSub_001",
+        "op": "ScatterSub",
+        "calc_expect_func_file": "./test_scatter_sub.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16",
+                    "int32",
+                    "int8"
+                ],
+                "shape": [3, 4, 24, 24],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        -5,
+                        5
+                    ]
+                ],
+                "name": "var"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int32",
+                    "int32",
+                    "int32",
+                    "int32"
+                ],
+                "shape": [3],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "name": "indices"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16",
+                    "int32",
+                    "int8"
+                ],
+                "shape": [3, 4, 24, 24],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        -5,
+                        5
+                    ]
+                ],
+                "name": "updates"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16",
+                    "int32",
+                    "int8"
+                ],
+                "shape": [3, 4, 24, 24],
+                "name": "var"
+            }
+        ],
+        "attr": [
+            {
+                "name": "use_locking",
+                "type": "bool",
+                "value": false
+            }
+        ]
+    }
+]

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvStandard2dAsymmetricInputAsymmetricKernelCustom",
+  "outer_iter": 24,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 17849.024,
+    "std": 0.08,
+    "min": 17848.967,
+    "max": 17849.137,
+    "num_trials": null
+  }
+}

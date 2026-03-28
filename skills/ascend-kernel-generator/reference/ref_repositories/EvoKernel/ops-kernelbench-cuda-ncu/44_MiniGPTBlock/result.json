@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "44_MiniGPTBlock",
+  "outer_iter": 2,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 71.434,
+    "mean": 71.401,
+    "min": 71.375,
+    "num_trials": 5,
+    "std": 0.019
+  }
+}

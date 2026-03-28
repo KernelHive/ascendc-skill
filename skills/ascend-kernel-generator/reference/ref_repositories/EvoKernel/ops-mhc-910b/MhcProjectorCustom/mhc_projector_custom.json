@@ -1,0 +1,27 @@
+
+[
+  {
+    "op": "MhcProjectorCustom",
+    "language": "cpp",
+    "input_desc": [
+      { "name": "x_stream",    "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "phi_pre",     "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "phi_post",    "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "phi_res",     "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "b_pre",       "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "b_post",      "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "b_res",       "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "alpha_pre",   "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "alpha_post",  "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "alpha_res",   "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "tmax",        "param_type": "required", "format": ["ND"], "type": ["int32"] },
+      { "name": "rmsnorm_eps", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "invF",        "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "h_pre",  "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "h_post", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "h_res",  "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ]
+  }
+]

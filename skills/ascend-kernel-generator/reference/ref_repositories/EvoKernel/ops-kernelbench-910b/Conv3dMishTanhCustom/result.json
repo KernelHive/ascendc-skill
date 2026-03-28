@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "Conv3dMishTanhCustom",
+  "outer_iter": 28,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 268.395,
+    "std": 0.586,
+    "min": 267.583,
+    "max": 268.947,
+    "num_trials": null
+  }
+}

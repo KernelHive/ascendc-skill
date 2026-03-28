@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "27_LCT",
+  "outer_iter": 2,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 0.06,
+    "mean": 0.06,
+    "min": 0.059,
+    "num_trials": 5,
+    "std": 0.001
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "13_LinformerAttention",
+  "outer_iter": 10,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 3.611,
+    "mean": 3.604,
+    "min": 3.597,
+    "num_trials": 5,
+    "std": 0.005
+  }
+}

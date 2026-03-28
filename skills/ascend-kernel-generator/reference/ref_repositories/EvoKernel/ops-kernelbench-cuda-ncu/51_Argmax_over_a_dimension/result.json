@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "51_Argmax_over_a_dimension",
+  "outer_iter": 14,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 8.425,
+    "mean": 8.416,
+    "min": 8.409,
+    "num_trials": 5,
+    "std": 0.006
+  }
+}

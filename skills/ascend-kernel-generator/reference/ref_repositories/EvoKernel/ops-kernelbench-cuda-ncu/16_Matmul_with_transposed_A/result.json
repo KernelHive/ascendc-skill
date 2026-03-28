@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "16_Matmul_with_transposed_A",
+  "outer_iter": 27,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 1.394,
+    "mean": 1.392,
+    "min": 1.39,
+    "num_trials": 5,
+    "std": 0.001
+  }
+}

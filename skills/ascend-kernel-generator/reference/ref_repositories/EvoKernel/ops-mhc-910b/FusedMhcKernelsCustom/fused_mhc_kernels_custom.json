@@ -1,0 +1,24 @@
+
+[
+  {
+    "op": "FusedMhcKernelsCustom",
+    "language": "cpp",
+    "input_desc": [
+      { "name": "x",          "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "phi",        "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "bias",       "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "scale",      "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "alpha_pre",  "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "alpha_post", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "alpha_res",  "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "iters",      "param_type": "required", "format": ["ND"], "type": ["int32"] },
+      { "name": "eps_rms",    "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "invD",       "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "h_pre",  "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "h_post", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "h_res",  "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ]
+  }
+]

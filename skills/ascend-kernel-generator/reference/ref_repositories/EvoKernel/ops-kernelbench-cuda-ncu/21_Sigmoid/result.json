@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "21_Sigmoid",
+  "outer_iter": 27,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 7.704,
+    "mean": 7.695,
+    "min": 7.684,
+    "num_trials": 5,
+    "std": 0.007
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "CumsumCustom",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 453.772,
+    "std": 0.126,
+    "min": 453.595,
+    "max": 453.878,
+    "num_trials": null
+  }
+}

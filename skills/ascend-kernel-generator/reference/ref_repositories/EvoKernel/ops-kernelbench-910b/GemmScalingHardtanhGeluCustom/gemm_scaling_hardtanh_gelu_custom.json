@@ -1,0 +1,17 @@
+
+[
+  {
+    "op": "GemmScalingHardtanhGeluCustom",
+    "input_desc": [
+      { "name": "x",            "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "w",            "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "b",            "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "scaling",      "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "hardtanh_min", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "hardtanh_max", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "y", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ]
+  }
+]

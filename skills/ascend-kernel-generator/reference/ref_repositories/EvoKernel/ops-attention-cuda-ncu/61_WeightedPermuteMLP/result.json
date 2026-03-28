@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "61_WeightedPermuteMLP",
+  "outer_iter": 15,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 1.527,
+    "mean": 1.525,
+    "min": 1.523,
+    "num_trials": 5,
+    "std": 0.002
+  }
+}

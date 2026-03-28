@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "GemmBiasAddHardtanhMishGroupNormCustom",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 13331.646,
+    "std": 11.776,
+    "min": 13323.275,
+    "max": 13348.3,
+    "num_trials": null
+  }
+}

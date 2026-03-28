@@ -1,0 +1,30 @@
+
+[
+  {
+    "op": "StreamWeightedSumCustom",
+    "language": "cpp",
+    "input_desc": [
+      {
+        "name": "x_stream",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["float"]
+      },
+      {
+        "name": "weights",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["float"]
+      }
+    ],
+    "output_desc": [
+      {
+        "name": "out",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["float"]
+      }
+    ],
+    "attr": []
+  }
+]

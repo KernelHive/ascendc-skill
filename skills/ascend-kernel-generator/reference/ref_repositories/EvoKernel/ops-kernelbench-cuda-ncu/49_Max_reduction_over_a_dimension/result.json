@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "49_Max_reduction_over_a_dimension",
+  "outer_iter": 23,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 5.803,
+    "mean": 5.798,
+    "min": 5.793,
+    "num_trials": 5,
+    "std": 0.003
+  }
+}

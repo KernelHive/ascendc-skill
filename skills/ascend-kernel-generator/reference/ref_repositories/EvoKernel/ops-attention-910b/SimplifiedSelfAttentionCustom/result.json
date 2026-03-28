@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "SimplifiedSelfAttentionCustom",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 20.674,
+    "std": 0.176,
+    "min": 20.425,
+    "max": 20.802,
+    "num_trials": null
+  }
+}

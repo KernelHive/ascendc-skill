@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MultiQueryAttentionCustom",
+  "outer_iter": 20,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 2.018,
+    "std": 0.142,
+    "min": 1.822,
+    "max": 2.154,
+    "num_trials": null
+  }
+}

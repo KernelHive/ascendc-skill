@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "80_conv_standard_2D_square_input_asymmetric_kernel___dilated____padded__",
+  "outer_iter": 22,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 46.833,
+    "mean": 46.476,
+    "min": 46.262,
+    "num_trials": 5,
+    "std": 0.23
+  }
+}

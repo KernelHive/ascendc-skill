@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MatmulWithTransposedBothCustom",
+  "outer_iter": 21,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 36.701,
+    "std": 0.165,
+    "min": 36.47,
+    "max": 36.839,
+    "num_trials": null
+  }
+}

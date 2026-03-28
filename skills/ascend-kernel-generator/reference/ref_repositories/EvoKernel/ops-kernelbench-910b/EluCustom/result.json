@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "EluCustom",
+  "outer_iter": 26,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 9.973,
+    "std": 0.08,
+    "min": 9.861,
+    "max": 10.043,
+    "num_trials": null
+  }
+}

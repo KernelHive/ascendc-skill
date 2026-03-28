@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ScaledDotProductAttentionModularCustom",
+  "outer_iter": 26,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 18.911,
+    "std": 0.225,
+    "min": 18.593,
+    "max": 19.071,
+    "num_trials": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "94_MSELoss",
+  "outer_iter": 2,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 4.837,
+    "mean": 4.829,
+    "min": 4.823,
+    "num_trials": 5,
+    "std": 0.005
+  }
+}

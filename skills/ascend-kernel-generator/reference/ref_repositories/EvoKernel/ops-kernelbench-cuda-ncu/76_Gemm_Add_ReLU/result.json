@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "76_Gemm_Add_ReLU",
+  "outer_iter": 9,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 8.884,
+    "mean": 8.881,
+    "min": 8.879,
+    "num_trials": 5,
+    "std": 0.002
+  }
+}

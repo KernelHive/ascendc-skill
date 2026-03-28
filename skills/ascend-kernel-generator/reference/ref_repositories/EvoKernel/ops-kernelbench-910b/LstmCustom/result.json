@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "LstmCustom",
+  "outer_iter": 26,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 17982.127,
+    "std": 193.205,
+    "min": 17722.714,
+    "max": 18186.135,
+    "num_trials": null
+  }
+}

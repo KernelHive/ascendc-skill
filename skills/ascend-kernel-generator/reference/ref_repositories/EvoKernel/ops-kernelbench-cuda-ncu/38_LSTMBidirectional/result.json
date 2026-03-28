@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "38_LSTMBidirectional",
+  "outer_iter": 1,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 40.269,
+    "mean": 40.214,
+    "min": 40.12,
+    "num_trials": 5,
+    "std": 0.052
+  }
+}

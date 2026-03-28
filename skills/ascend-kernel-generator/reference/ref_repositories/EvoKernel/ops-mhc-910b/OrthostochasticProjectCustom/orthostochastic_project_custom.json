@@ -1,0 +1,18 @@
+
+[
+  {
+    "op": "OrthostochasticProjectCustom",
+    "language": "cpp",
+    "input_desc": [
+      { "name": "logits", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "steps",  "param_type": "required", "format": ["ND"], "type": ["int32"] },
+      { "name": "eps",    "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "a",      "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "b",      "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "c",      "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "out", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ]
+  }
+]

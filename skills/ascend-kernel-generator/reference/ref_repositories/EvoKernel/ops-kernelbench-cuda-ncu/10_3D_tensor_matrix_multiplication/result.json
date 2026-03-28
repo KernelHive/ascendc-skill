@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "10_3D_tensor_matrix_multiplication",
+  "outer_iter": 25,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 9.27,
+    "mean": 9.254,
+    "min": 9.242,
+    "num_trials": 5,
+    "std": 0.011
+  }
+}

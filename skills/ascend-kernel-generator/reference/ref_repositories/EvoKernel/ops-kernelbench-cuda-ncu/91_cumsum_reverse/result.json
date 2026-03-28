@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "91_cumsum_reverse",
+  "outer_iter": 7,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 5.253,
+    "mean": 5.242,
+    "min": 5.223,
+    "num_trials": 5,
+    "std": 0.01
+  }
+}

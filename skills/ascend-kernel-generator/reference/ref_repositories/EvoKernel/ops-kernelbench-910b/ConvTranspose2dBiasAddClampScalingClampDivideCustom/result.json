@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvTranspose2dBiasAddClampScalingClampDivideCustom",
+  "outer_iter": 24,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 50804.686,
+    "std": 1.389,
+    "min": 50803.396,
+    "max": 50806.614,
+    "num_trials": null
+  }
+}

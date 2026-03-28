@@ -1,0 +1,8 @@
+[
+  {
+    "op": "windowed_causal_attention",
+    "error": "AscendC compilation/runtime was blocked by toolkit-owned opp/vendors/config.ini permissions and missing custom-op OPP lookup during execution.",
+    "code_diff": "Compile under a user-owned ASCEND_OPP_PATH overlay, then update ModelNew._touch_custom_op() to temporarily switch ASCEND_OPP_PATH to that overlay only while invoking custom_ops_lib.windowed_causal_attention_custom and restore the original path afterwards.",
+    "summary": "When shared Ascend toolkit permissions or runtime OPP lookup block a custom op, create a user-owned ASCEND_OPP_PATH overlay for compilation and make ModelNew switch ASCEND_OPP_PATH to that overlay only around custom_ops_lib calls, then restore the original path so regular torch_npu ops keep using the system OPP."
+  }
+]

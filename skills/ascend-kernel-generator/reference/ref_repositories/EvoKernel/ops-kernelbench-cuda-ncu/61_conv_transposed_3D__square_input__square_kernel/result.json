@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "61_conv_transposed_3D__square_input__square_kernel",
+  "outer_iter": 1,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 110.319,
+    "mean": 109.942,
+    "min": 109.731,
+    "num_trials": 5,
+    "std": 0.214
+  }
+}

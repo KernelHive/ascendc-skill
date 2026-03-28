@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "SwishCustom",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 9.781,
+    "std": 0.097,
+    "min": 9.644,
+    "max": 9.852,
+    "num_trials": null
+  }
+}

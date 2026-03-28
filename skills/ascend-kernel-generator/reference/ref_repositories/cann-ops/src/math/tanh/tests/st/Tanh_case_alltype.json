@@ -1,0 +1,40 @@
+[
+    {
+        "case_name": "Test_Tanh_001",
+        "op": "Tanh",
+        "calc_expect_func_file": "./test_tanh.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16",
+                    "bfloat16"
+                ],
+                "data_distribute": "uniform",
+                "value_range": [
+                    0.1,
+                    1.0
+                ],
+                "shape": [100],
+                "name": "x"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16",
+                    "bfloat16"
+                ],
+                "shape": [100],
+                "name": "y"
+            }
+        ]
+    }
+]

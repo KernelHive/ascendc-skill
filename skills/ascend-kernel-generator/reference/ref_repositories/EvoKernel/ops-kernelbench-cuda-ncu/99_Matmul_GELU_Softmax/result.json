@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "99_Matmul_GELU_Softmax",
+  "outer_iter": 26,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 8.878,
+    "mean": 8.873,
+    "min": 8.87,
+    "num_trials": 5,
+    "std": 0.003
+  }
+}

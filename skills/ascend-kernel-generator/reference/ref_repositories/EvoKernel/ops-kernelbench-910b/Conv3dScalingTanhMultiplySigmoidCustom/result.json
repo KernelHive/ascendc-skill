@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "Conv3dScalingTanhMultiplySigmoidCustom",
+  "outer_iter": 20,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 6529.412,
+    "std": 2.625,
+    "min": 6525.703,
+    "max": 6531.397,
+    "num_trials": null
+  }
+}

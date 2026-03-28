@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "52_PAM",
+  "outer_iter": 28,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 0.777,
+    "mean": 0.773,
+    "min": 0.766,
+    "num_trials": 5,
+    "std": 0.004
+  }
+}

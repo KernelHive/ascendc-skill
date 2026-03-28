@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "Conv2dGeluGlobalAvgPoolCustom",
+  "outer_iter": 28,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 28930.594,
+    "std": 309.538,
+    "min": 28492.846,
+    "max": 29151.301,
+    "num_trials": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "79_conv_transposed_1D_asymmetric_input_square_kernel___padded____strided____dilated__",
+  "outer_iter": 25,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 8.524,
+    "mean": 8.517,
+    "min": 8.509,
+    "num_trials": 5,
+    "std": 0.005
+  }
+}

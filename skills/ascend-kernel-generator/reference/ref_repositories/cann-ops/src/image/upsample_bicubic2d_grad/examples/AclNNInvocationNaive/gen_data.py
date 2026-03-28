@@ -1,0 +1,42 @@
+#!/usr/bin/python3
+# -*- coding:utf-8 -*-
+# Copyright (c) Huawei Technologies Co., Ltd. 2025. All rights reserved.
+# This file is a part of the CANN Open Software.
+# Licensed under CANN Open Software License Agreement Version 1.0 (the "License").
+# Please refer to the License for details. You may not use this file except in compliance with the License.
+# THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED,
+# INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE.
+# See LICENSE in the root of the software repository for the full text of the License.
+# ======================================================================================================================
+
+import os
+import numpy as np
+import torch
+
+from torch.nn.functional import interpolate
+
+
+def gen_golden_data_simple():
+    # 输入张量
+    input_shape = (1, 1, 8, 4)
+    input_tensor = torch.randn(input_shape, dtype=torch.float32) * 255    # value range: (-255, 255), shape: (1, 1, 2, 5) dtype: float32
+    input_tensor.requires_grad = True
+
+    # 插值参数
+    output_size = [4, 2]    # 输出shape
+    mode = 'bicubic'    # 插值模式
+    align_corners = False    # 角对齐
+
+    # 调用函数
+    output_tensor = interpolate(input_tensor, size=output_size, mode=mode, align_corners=align_corners)
+    output_grad = torch.rand_like(output_tensor)
+    output_tensor.backward(output_grad)
+    input_grad = input_tensor.grad
+
+    os.system("mkdir -p input")
+    os.system("mkdir -p output")
+    output_grad.numpy().tofile("./input/output_grad.bin")
+    input_grad.numpy().tofile("./output/golden_out.bin")
+
+if __name__ == "__main__":
+    gen_golden_data_simple()

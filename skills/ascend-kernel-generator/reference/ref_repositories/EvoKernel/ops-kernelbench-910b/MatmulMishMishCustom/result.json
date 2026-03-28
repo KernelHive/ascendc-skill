@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MatmulMishMishCustom",
+  "outer_iter": 25,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 17071.348,
+    "std": 90.391,
+    "min": 17005.496,
+    "max": 17199.161,
+    "num_trials": null
+  }
+}

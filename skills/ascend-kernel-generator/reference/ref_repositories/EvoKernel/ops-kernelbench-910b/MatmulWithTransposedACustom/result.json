@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MatmulWithTransposedACustom",
+  "outer_iter": 24,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 36.625,
+    "std": 0.209,
+    "min": 36.33,
+    "max": 36.784,
+    "num_trials": null
+  }
+}

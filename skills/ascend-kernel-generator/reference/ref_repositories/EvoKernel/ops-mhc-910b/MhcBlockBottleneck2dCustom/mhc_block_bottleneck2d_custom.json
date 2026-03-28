@@ -1,0 +1,18 @@
+
+[
+  {
+    "op": "MhcBlockBottleneck2dCustom",
+    "language": "cpp",
+    "input_desc": [
+      { "name": "out_bn3",              "param_type": "required", "format": ["ND"], "type": ["float16"] },
+      { "name": "identity",             "param_type": "required", "format": ["ND"], "type": ["float16"] },
+      { "name": "mapping_logits",       "param_type": "required", "format": ["ND"], "type": ["float16"] },
+      { "name": "sinkhorn_iter",        "param_type": "required", "format": ["ND"], "type": ["int32"] },
+      { "name": "sinkhorn_eps",         "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "sinkhorn_temperature", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "y",                    "param_type": "required", "format": ["ND"], "type": ["float16"] }
+    ]
+  }
+]

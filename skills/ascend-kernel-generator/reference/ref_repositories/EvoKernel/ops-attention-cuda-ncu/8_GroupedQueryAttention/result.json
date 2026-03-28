@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "8_GroupedQueryAttention",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 8.716,
+    "mean": 8.192,
+    "min": 7.472,
+    "num_trials": 5,
+    "std": 0.588
+  }
+}

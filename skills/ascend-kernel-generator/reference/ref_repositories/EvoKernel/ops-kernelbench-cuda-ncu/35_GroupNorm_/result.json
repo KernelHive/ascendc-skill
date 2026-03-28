@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "35_GroupNorm_",
+  "outer_iter": 3,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 13.59,
+    "mean": 13.569,
+    "min": 13.556,
+    "num_trials": 5,
+    "std": 0.012
+  }
+}

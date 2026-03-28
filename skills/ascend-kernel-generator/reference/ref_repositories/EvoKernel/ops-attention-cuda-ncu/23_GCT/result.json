@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "23_GCT",
+  "outer_iter": 22,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 0.059,
+    "mean": 0.056,
+    "min": 0.055,
+    "num_trials": 5,
+    "std": 0.002
+  }
+}

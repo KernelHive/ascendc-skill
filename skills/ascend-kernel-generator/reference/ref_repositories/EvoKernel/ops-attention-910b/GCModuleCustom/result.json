@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "GCModuleCustom",
+  "outer_iter": 6,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 2.578,
+    "std": 0.239,
+    "min": 2.243,
+    "max": 2.782,
+    "num_trials": null
+  }
+}

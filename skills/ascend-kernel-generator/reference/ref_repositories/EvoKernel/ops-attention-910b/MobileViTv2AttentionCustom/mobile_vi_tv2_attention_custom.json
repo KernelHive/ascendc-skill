@@ -1,0 +1,17 @@
+
+[
+  {
+    "op": "MobileViTv2AttentionCustom",
+    "input_desc": [
+      { "name": "i",   "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "k",   "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "v",   "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "w_o", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "b_o", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "y", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "attr": []
+  }
+]

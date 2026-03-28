@@ -1,0 +1,37 @@
+
+[
+  {
+    "op": "MaskedCumsumCustom",
+    "language": "cpp",
+    "input_desc": [
+      {
+        "name": "x",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["float"]
+      },
+      {
+        "name": "mask",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["uint8"]
+      }
+    ],
+    "attr": [
+      {
+        "name": "dim",
+        "type": "int",
+        "param_type": "required",
+        "default_value": "0"
+      }
+    ],
+    "output_desc": [
+      {
+        "name": "y",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["float"]
+      }
+    ]
+  }
+]

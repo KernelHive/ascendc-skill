@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MobileViTAttentionCustom",
+  "outer_iter": 28,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 31.635,
+    "std": 0.134,
+    "min": 31.447,
+    "max": 31.751,
+    "num_trials": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "65_conv_transposed_2D__square_input__asymmetric_kernel",
+  "outer_iter": 10,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 61.612,
+    "mean": 60.689,
+    "min": 60.336,
+    "num_trials": 5,
+    "std": 0.466
+  }
+}

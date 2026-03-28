@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "24_Conv3d_Min_Softmax",
+  "outer_iter": 17,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 2.185,
+    "mean": 2.176,
+    "min": 2.162,
+    "num_trials": 5,
+    "std": 0.01
+  }
+}

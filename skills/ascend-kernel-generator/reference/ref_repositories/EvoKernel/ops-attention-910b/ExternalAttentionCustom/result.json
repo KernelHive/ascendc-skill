@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ExternalAttentionCustom",
+  "outer_iter": 23,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 0.04,
+    "std": 0.006,
+    "min": 0.031,
+    "max": 0.045,
+    "num_trials": null
+  }
+}

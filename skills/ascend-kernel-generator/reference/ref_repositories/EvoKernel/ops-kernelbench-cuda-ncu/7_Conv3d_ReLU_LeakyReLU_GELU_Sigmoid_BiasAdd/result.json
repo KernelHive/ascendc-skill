@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "7_Conv3d_ReLU_LeakyReLU_GELU_Sigmoid_BiasAdd",
+  "outer_iter": 20,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 6.362,
+    "mean": 6.347,
+    "min": 6.334,
+    "num_trials": 5,
+    "std": 0.011
+  }
+}

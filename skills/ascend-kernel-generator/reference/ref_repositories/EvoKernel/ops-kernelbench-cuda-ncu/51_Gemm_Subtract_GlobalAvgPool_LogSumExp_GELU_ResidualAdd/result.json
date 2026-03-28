@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "51_Gemm_Subtract_GlobalAvgPool_LogSumExp_GELU_ResidualAdd",
+  "outer_iter": 26,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 18.927,
+    "mean": 18.917,
+    "min": 18.911,
+    "num_trials": 5,
+    "std": 0.006
+  }
+}

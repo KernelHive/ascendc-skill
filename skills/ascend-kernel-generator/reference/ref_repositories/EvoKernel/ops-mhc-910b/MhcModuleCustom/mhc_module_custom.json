@@ -1,0 +1,42 @@
+
+[
+  {
+    "op": "MhcModuleCustom",
+    "language": "cpp",
+    "input_desc": [
+      { "name": "x_streams",    "param_type": "required", "format": ["ND"], "type": ["float"] },
+
+      { "name": "rms_scale",    "param_type": "required", "format": ["ND"], "type": ["float"] },
+
+      { "name": "w_pre",        "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "w_post",       "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "w_res",        "param_type": "required", "format": ["ND"], "type": ["float"] },
+
+      { "name": "b_pre",        "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "b_post",       "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "b_res",        "param_type": "required", "format": ["ND"], "type": ["float"] },
+
+      { "name": "alpha_pre",    "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "alpha_post",   "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "alpha_res",    "param_type": "required", "format": ["ND"], "type": ["float"] },
+
+      { "name": "tmax",         "param_type": "required", "format": ["ND"], "type": ["int32"] },
+      { "name": "rms_eps",      "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "invF",         "param_type": "required", "format": ["ND"], "type": ["float"] },
+
+      { "name": "use_mlp",      "param_type": "required", "format": ["ND"], "type": ["int32"] },
+
+      { "name": "mlp_w1",       "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "mlp_b1",       "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "mlp_w2",       "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "mlp_b2",       "param_type": "required", "format": ["ND"], "type": ["float"] },
+
+      { "name": "ln_weight",    "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "ln_bias",      "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "ln_eps",       "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "out",          "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ]
+  }
+]

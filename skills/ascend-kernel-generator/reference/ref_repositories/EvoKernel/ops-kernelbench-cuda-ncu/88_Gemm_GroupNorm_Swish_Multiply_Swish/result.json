@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "88_Gemm_GroupNorm_Swish_Multiply_Swish",
+  "outer_iter": 10,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 9.813,
+    "mean": 9.809,
+    "min": 9.806,
+    "num_trials": 5,
+    "std": 0.003
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "DoubleAttentionCustom",
+  "outer_iter": 11,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 112.013,
+    "std": 0.157,
+    "min": 111.796,
+    "max": 112.163,
+    "num_trials": null
+  }
+}

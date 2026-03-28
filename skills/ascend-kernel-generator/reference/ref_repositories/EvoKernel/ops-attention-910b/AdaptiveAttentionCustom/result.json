@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "AdaptiveAttentionCustom",
+  "outer_iter": 25,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 3.84,
+    "std": 0.229,
+    "min": 3.516,
+    "max": 4.018,
+    "num_trials": null
+  }
+}

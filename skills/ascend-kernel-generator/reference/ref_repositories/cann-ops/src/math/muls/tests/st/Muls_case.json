@@ -1,0 +1,524 @@
+[
+  {
+    "op": "Muls",
+    "input_desc": [
+      {
+        "shape": [
+          125,
+          125
+        ],
+        "format": "ND",
+        "ori_shape": [
+          125,
+          125
+        ],
+        "ori_format": "ND",
+        "param_type": "input",
+        "name": "x",
+        "type": "float16"
+      }
+    ],
+    "output_desc": [
+      {
+        "shape": [
+          125,
+          125
+        ],
+        "format": "ND",
+        "ori_shape": [
+          125,
+          125
+        ],
+        "ori_format": "ND",
+        "param_type": "output",
+        "name": "y",
+        "type": "float16"
+      }
+    ],
+    "attr": [
+      {
+        "name": "value",
+        "type": "float",
+        "value": 3.0
+      }
+    ],
+    "case_name": "test_Muls_000"
+  },
+  {
+    "op": "Muls",
+    "input_desc": [
+      {
+        "shape": [
+          3,
+          30,
+          100
+        ],
+        "format": "ND",
+        "ori_shape": [
+          3,
+          30,
+          100
+        ],
+        "ori_format": "ND",
+        "param_type": "input",
+        "name": "x",
+        "type": "float16"
+      }
+    ],
+    "output_desc": [
+      {
+        "shape": [
+          3,
+          30,
+          100
+        ],
+        "format": "ND",
+        "ori_shape": [
+          3,
+          30,
+          100
+        ],
+        "ori_format": "ND",
+        "param_type": "output",
+        "name": "y",
+        "type": "float16"
+      }
+    ],
+    "attr": [
+      {
+        "name": "value",
+        "type": "float",
+        "value": 3.0
+      }
+    ],
+    "case_name": "test_Muls_001"
+  },
+  {
+    "op": "Muls",
+    "input_desc": [
+      {
+        "shape": [
+          3,
+          30,
+          100,
+          16
+        ],
+        "format": "ND",
+        "ori_shape": [
+          3,
+          30,
+          100,
+          16
+        ],
+        "ori_format": "ND",
+        "param_type": "input",
+        "name": "x",
+        "type": "float16"
+      }
+    ],
+    "output_desc": [
+      {
+        "shape": [
+          3,
+          30,
+          100,
+          16
+        ],
+        "format": "ND",
+        "ori_shape": [
+          3,
+          30,
+          100,
+          16
+        ],
+        "ori_format": "ND",
+        "param_type": "output",
+        "name": "y",
+        "type": "float16"
+      }
+    ],
+    "attr": [
+      {
+        "name": "value",
+        "type": "float",
+        "value": 3.0
+      }
+    ],
+    "case_name": "test_Muls_002"
+  },
+  {
+    "op": "Muls",
+    "input_desc": [
+      {
+        "shape": [
+          3,
+          30,
+          100,
+          16,
+          17
+        ],
+        "format": "ND",
+        "ori_shape": [
+          3,
+          30,
+          100,
+          16,
+          17
+        ],
+        "ori_format": "ND",
+        "param_type": "input",
+        "name": "x",
+        "type": "float16"
+      }
+    ],
+    "output_desc": [
+      {
+        "shape": [
+          3,
+          30,
+          100,
+          16,
+          17
+        ],
+        "format": "ND",
+        "ori_shape": [
+          3,
+          30,
+          100,
+          16,
+          17
+        ],
+        "ori_format": "ND",
+        "param_type": "output",
+        "name": "y",
+        "type": "float16"
+      }
+    ],
+    "attr": [
+      {
+        "name": "value",
+        "type": "float",
+        "value": 3.0
+      }
+    ],
+    "case_name": "test_Muls_003"
+  },
+  {
+    "op": "Muls",
+    "input_desc": [
+      {
+        "shape": [
+          3,
+          30,
+          1,
+          16,
+          17
+        ],
+        "format": "ND",
+        "ori_shape": [
+          3,
+          30,
+          1,
+          16,
+          17
+        ],
+        "ori_format": "ND",
+        "param_type": "input",
+        "name": "x",
+        "type": "float16"
+      }
+    ],
+    "output_desc": [
+      {
+        "shape": [
+          3,
+          30,
+          1,
+          16,
+          17
+        ],
+        "format": "ND",
+        "ori_shape": [
+          3,
+          30,
+          1,
+          16,
+          17
+        ],
+        "ori_format": "ND",
+        "param_type": "output",
+        "name": "y",
+        "type": "float16"
+      }
+    ],
+    "attr": [
+      {
+        "name": "value",
+        "type": "float",
+        "value": 3.0
+      }
+    ],
+    "case_name": "test_Muls_004"
+  },
+  {
+    "op": "Muls",
+    "input_desc": [
+      {
+        "shape": [
+          125,
+          125
+        ],
+        "format": "ND",
+        "ori_shape": [
+          125,
+          125
+        ],
+        "ori_format": "ND",
+        "param_type": "input",
+        "name": "x",
+        "type": "float16"
+      }
+    ],
+    "output_desc": [
+      {
+        "shape": [
+          125,
+          125
+        ],
+        "format": "ND",
+        "ori_shape": [
+          125,
+          125
+        ],
+        "ori_format": "ND",
+        "param_type": "output",
+        "name": "y",
+        "type": "float16"
+      }
+    ],
+    "attr": [
+      {
+        "name": "value",
+        "type": "float",
+        "value": 3.0
+      }
+    ],
+    "case_name": "test_Muls_005"
+  },
+  {
+    "op": "Muls",
+    "input_desc": [
+      {
+        "shape": [
+          3,
+          30,
+          100
+        ],
+        "format": "ND",
+        "ori_shape": [
+          3,
+          30,
+          100
+        ],
+        "ori_format": "ND",
+        "param_type": "input",
+        "name": "x",
+        "type": "float16"
+      }
+    ],
+    "output_desc": [
+      {
+        "shape": [
+          3,
+          30,
+          100
+        ],
+        "format": "ND",
+        "ori_shape": [
+          3,
+          30,
+          100
+        ],
+        "ori_format": "ND",
+        "param_type": "output",
+        "name": "y",
+        "type": "float16"
+      }
+    ],
+    "attr": [
+      {
+        "name": "value",
+        "type": "float",
+        "value": 3.0
+      }
+    ],
+    "case_name": "test_Muls_006"
+  },
+  {
+    "op": "Muls",
+    "input_desc": [
+      {
+        "shape": [
+          3,
+          30,
+          100,
+          16
+        ],
+        "format": "ND",
+        "ori_shape": [
+          3,
+          30,
+          100,
+          16
+        ],
+        "ori_format": "ND",
+        "param_type": "input",
+        "name": "x",
+        "type": "float16"
+      }
+    ],
+    "output_desc": [
+      {
+        "shape": [
+          3,
+          30,
+          100,
+          16
+        ],
+        "format": "ND",
+        "ori_shape": [
+          3,
+          30,
+          100,
+          16
+        ],
+        "ori_format": "ND",
+        "param_type": "output",
+        "name": "y",
+        "type": "float16"
+      }
+    ],
+    "attr": [
+      {
+        "name": "value",
+        "type": "float",
+        "value": 3.0
+      }
+    ],
+    "case_name": "test_Muls_007"
+  },
+  {
+    "op": "Muls",
+    "input_desc": [
+      {
+        "shape": [
+          3,
+          30,
+          100,
+          16,
+          17
+        ],
+        "format": "ND",
+        "ori_shape": [
+          3,
+          30,
+          100,
+          16,
+          17
+        ],
+        "ori_format": "ND",
+        "param_type": "input",
+        "name": "x",
+        "type": "float16"
+      }
+    ],
+    "output_desc": [
+      {
+        "shape": [
+          3,
+          30,
+          100,
+          16,
+          17
+        ],
+        "format": "ND",
+        "ori_shape": [
+          3,
+          30,
+          100,
+          16,
+          17
+        ],
+        "ori_format": "ND",
+        "param_type": "output",
+        "name": "y",
+        "type": "float16"
+      }
+    ],
+    "attr": [
+      {
+        "name": "value",
+        "type": "float",
+        "value": 3.0
+      }
+    ],
+    "case_name": "test_Muls_008"
+  },
+  {
+    "op": "Muls",
+    "input_desc": [
+      {
+        "shape": [
+          3,
+          30,
+          1,
+          16,
+          17
+        ],
+        "format": "ND",
+        "ori_shape": [
+          3,
+          30,
+          1,
+          16,
+          17
+        ],
+        "ori_format": "ND",
+        "param_type": "input",
+        "name": "x",
+        "type": "float16"
+      }
+    ],
+    "output_desc": [
+      {
+        "shape": [
+          3,
+          30,
+          1,
+          16,
+          17
+        ],
+        "format": "ND",
+        "ori_shape": [
+          3,
+          30,
+          1,
+          16,
+          17
+        ],
+        "ori_format": "ND",
+        "param_type": "output",
+        "name": "y",
+        "type": "float16"
+      }
+    ],
+    "attr": [
+      {
+        "name": "value",
+        "type": "float",
+        "value": 3.0
+      }
+    ],
+    "case_name": "test_Muls_009"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "GroupedGEMMCustom",
+  "outer_iter": 24,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 5787.181,
+    "std": 0.154,
+    "min": 5786.963,
+    "max": 5787.297,
+    "num_trials": null
+  }
+}

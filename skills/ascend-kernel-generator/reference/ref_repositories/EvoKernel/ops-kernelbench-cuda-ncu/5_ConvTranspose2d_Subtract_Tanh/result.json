@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "5_ConvTranspose2d_Subtract_Tanh",
+  "outer_iter": 2,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 14.837,
+    "mean": 14.825,
+    "min": 14.813,
+    "num_trials": 5,
+    "std": 0.009
+  }
+}

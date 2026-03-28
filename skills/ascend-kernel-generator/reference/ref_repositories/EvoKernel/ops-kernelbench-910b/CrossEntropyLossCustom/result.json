@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "CrossEntropyLossCustom",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 45.72,
+    "std": 0.279,
+    "min": 45.346,
+    "max": 46.015,
+    "num_trials": null
+  }
+}

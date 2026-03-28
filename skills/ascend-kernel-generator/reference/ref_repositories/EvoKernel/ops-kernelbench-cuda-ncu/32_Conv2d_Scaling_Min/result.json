@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "32_Conv2d_Scaling_Min",
+  "outer_iter": 24,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 12.036,
+    "mean": 12.024,
+    "min": 12.014,
+    "num_trials": 5,
+    "std": 0.007
+  }
+}

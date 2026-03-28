@@ -1,0 +1,75 @@
+[
+    {
+        "case_name": "Test_Cross_001",
+        "op": "Cross",
+        "calc_expect_func_file": "./test_cross.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16",
+                    "int32",
+                    "int8"
+                ],
+                "shape": [4, 3],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "x1"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16",
+                    "int32",
+                    "int8"
+                ],
+                "shape": [4, 3],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "x2"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16",
+                    "int32",
+                    "int8"
+                ],
+                "shape": [4, 3],
+                "name": "y"
+            }
+        ],
+        "attr": [
+            {
+                "name": "dim",
+                "type": "int",
+                "value": 1
+            }
+        ]
+    }
+]

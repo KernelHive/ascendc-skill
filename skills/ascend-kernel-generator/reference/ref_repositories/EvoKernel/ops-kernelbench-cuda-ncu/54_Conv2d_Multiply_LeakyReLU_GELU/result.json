@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "54_Conv2d_Multiply_LeakyReLU_GELU",
+  "outer_iter": 15,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 9.205,
+    "mean": 9.202,
+    "min": 9.198,
+    "num_trials": 5,
+    "std": 0.003
+  }
+}

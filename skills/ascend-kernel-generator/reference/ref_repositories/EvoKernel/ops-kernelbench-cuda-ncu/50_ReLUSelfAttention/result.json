@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "50_ReLUSelfAttention",
+  "outer_iter": 5,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 13.646,
+    "mean": 13.615,
+    "min": 13.573,
+    "num_trials": 5,
+    "std": 0.034
+  }
+}

@@ -1,0 +1,65 @@
+[
+    {
+        "case_name": "Test_GreaterEqual_001",
+        "op": "GreaterEqual",
+        "calc_expect_func_file": "test_greater_equal.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float16",
+                    "float32",
+                    "int32"
+                ],
+                "shape":[1024],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        100.0
+                    ]
+                ],
+                "name": "x1"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float16",
+                    "float32",
+                    "int32"
+                ],
+                "shape": [1024],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        100.0
+                    ]
+                ],
+                "name": "x2"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "bool",
+                    "bool",
+                    "bool"
+                ],
+                "shape": [1024],
+                "name": "y"
+            }
+        ]
+    }
+]

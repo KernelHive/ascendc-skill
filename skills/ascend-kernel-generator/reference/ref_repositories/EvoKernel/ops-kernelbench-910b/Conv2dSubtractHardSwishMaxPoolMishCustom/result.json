@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "Conv2dSubtractHardSwishMaxPoolMishCustom",
+  "outer_iter": 18,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 118817.302,
+    "std": 7.613,
+    "min": 118807.384,
+    "max": 118825.89,
+    "num_trials": null
+  }
+}

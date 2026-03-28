@@ -1,0 +1,192 @@
+{
+  "exported_operator_count": 15,
+  "summary": {
+    "compiled_true": 10,
+    "correctness_true": 10,
+    "compiled_rate": 0.6666666666666666,
+    "correctness_rate": 0.6666666666666666,
+    "faster_than_baseline": 6
+  },
+  "kernels": [
+    {
+      "kernel_project_name": "FusedMhcKernelsCustom",
+      "outer_iter": 39,
+      "inner_iter": 1,
+      "compiled": false,
+      "correctness": null,
+      "mean_ms": null,
+      "baseline_mean_ms": 1.097,
+      "speedup_vs_baseline": null,
+      "log2_speedup_vs_baseline": null,
+      "relative_change_pct": null
+    },
+    {
+      "kernel_project_name": "MhcBlock2dCustom",
+      "outer_iter": 39,
+      "inner_iter": 1,
+      "compiled": false,
+      "correctness": null,
+      "mean_ms": null,
+      "baseline_mean_ms": 0.595,
+      "speedup_vs_baseline": null,
+      "log2_speedup_vs_baseline": null,
+      "relative_change_pct": null
+    },
+    {
+      "kernel_project_name": "MhcBlockBottleneck2dCustom",
+      "outer_iter": 39,
+      "inner_iter": 1,
+      "compiled": false,
+      "correctness": null,
+      "mean_ms": null,
+      "baseline_mean_ms": 0.726,
+      "speedup_vs_baseline": null,
+      "log2_speedup_vs_baseline": null,
+      "relative_change_pct": null
+    },
+    {
+      "kernel_project_name": "MhcModuleCustom",
+      "outer_iter": 39,
+      "inner_iter": 1,
+      "compiled": false,
+      "correctness": null,
+      "mean_ms": null,
+      "baseline_mean_ms": 1.244,
+      "speedup_vs_baseline": null,
+      "log2_speedup_vs_baseline": null,
+      "relative_change_pct": null
+    },
+    {
+      "kernel_project_name": "MhcPostBlockCustom",
+      "outer_iter": 32,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "mean_ms": 0.713,
+      "baseline_mean_ms": 2.053,
+      "speedup_vs_baseline": 2.879382889200561,
+      "log2_speedup_vs_baseline": 1.5257596456647138,
+      "relative_change_pct": 187.9382889200561
+    },
+    {
+      "kernel_project_name": "MhcPreBlockCustom",
+      "outer_iter": 21,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "mean_ms": 112.474,
+      "baseline_mean_ms": 1.31,
+      "speedup_vs_baseline": 0.011647136227039138,
+      "log2_speedup_vs_baseline": -6.423880918065617,
+      "relative_change_pct": -98.83528637729609
+    },
+    {
+      "kernel_project_name": "MhcProjectorCustom",
+      "outer_iter": 33,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "mean_ms": 4.115,
+      "baseline_mean_ms": 2.523,
+      "speedup_vs_baseline": 0.6131227217496963,
+      "log2_speedup_vs_baseline": -0.7057522243326875,
+      "relative_change_pct": -38.68772782503037
+    },
+    {
+      "kernel_project_name": "MhcUpdateCustom",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "mean_ms": 0.04,
+      "baseline_mean_ms": 0.059,
+      "speedup_vs_baseline": 1.4749999999999999,
+      "log2_speedup_vs_baseline": 0.5607149544744788,
+      "relative_change_pct": 47.499999999999986
+    },
+    {
+      "kernel_project_name": "OptimizedMHCLayerWithFusionCustom",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "mean_ms": 22.34,
+      "baseline_mean_ms": 1.244,
+      "speedup_vs_baseline": 0.05568487018800358,
+      "log2_speedup_vs_baseline": -4.166570795240075,
+      "relative_change_pct": -94.43151298119965
+    },
+    {
+      "kernel_project_name": "OrthostochasticProjectCustom",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "mean_ms": 0.033,
+      "baseline_mean_ms": 0.097,
+      "speedup_vs_baseline": 2.9393939393939394,
+      "log2_speedup_vs_baseline": 1.5555187228286742,
+      "relative_change_pct": 193.93939393939394
+    },
+    {
+      "kernel_project_name": "SinkhornKnoppCustom",
+      "outer_iter": 23,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "mean_ms": 0.027,
+      "baseline_mean_ms": 1.133,
+      "speedup_vs_baseline": 41.96296296296296,
+      "log2_speedup_vs_baseline": 5.391044643657047,
+      "relative_change_pct": 4096.2962962962965
+    },
+    {
+      "kernel_project_name": "StaticMhcHyperConnectionsCustom",
+      "outer_iter": 39,
+      "inner_iter": 1,
+      "compiled": false,
+      "correctness": null,
+      "mean_ms": null,
+      "baseline_mean_ms": 0.563,
+      "speedup_vs_baseline": null,
+      "log2_speedup_vs_baseline": null,
+      "relative_change_pct": null
+    },
+    {
+      "kernel_project_name": "StreamMixCustom",
+      "outer_iter": 28,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "mean_ms": 0.027,
+      "baseline_mean_ms": 0.04,
+      "speedup_vs_baseline": 1.4814814814814816,
+      "log2_speedup_vs_baseline": 0.567040592723894,
+      "relative_change_pct": 48.14814814814816
+    },
+    {
+      "kernel_project_name": "StreamWeightedSumCustom",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "mean_ms": 0.015,
+      "baseline_mean_ms": 0.04,
+      "speedup_vs_baseline": 2.666666666666667,
+      "log2_speedup_vs_baseline": 1.415037499278844,
+      "relative_change_pct": 166.66666666666669
+    },
+    {
+      "kernel_project_name": "StreamWriteCustom",
+      "outer_iter": 17,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "mean_ms": 0.037,
+      "baseline_mean_ms": 0.013,
+      "speedup_vs_baseline": 0.35135135135135137,
+      "log2_speedup_vs_baseline": -1.5090136474878575,
+      "relative_change_pct": -64.86486486486487
+    }
+  ]
+}

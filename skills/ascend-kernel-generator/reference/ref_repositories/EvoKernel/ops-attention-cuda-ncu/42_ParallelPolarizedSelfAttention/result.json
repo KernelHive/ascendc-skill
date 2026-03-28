@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "42_ParallelPolarizedSelfAttention",
+  "outer_iter": 30,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 0.326,
+    "mean": 0.326,
+    "min": 0.326,
+    "num_trials": 5,
+    "std": 0.0
+  }
+}

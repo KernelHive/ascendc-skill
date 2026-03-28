@@ -1,0 +1,20 @@
+
+[
+  {
+    "op": "OptimizedMHCLayerWithFusionCustom",
+    "language": "cpp",
+    "input_desc": [
+      { "name": "x",          "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "phi_params", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "bias_params","param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "rms_scale",  "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "alpha_pre",  "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "alpha_post", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "alpha_res",  "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "linear_w",   "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "y", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ]
+  }
+]

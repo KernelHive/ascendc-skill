@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "21_Conv2d_Add_Scale_Sigmoid_GroupNorm",
+  "outer_iter": 14,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 9.019,
+    "mean": 9.012,
+    "min": 9.007,
+    "num_trials": 5,
+    "std": 0.004
+  }
+}

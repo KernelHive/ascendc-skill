@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "16_DenseNet201",
+  "outer_iter": 26,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 13.372,
+    "mean": 13.364,
+    "min": 13.359,
+    "num_trials": 5,
+    "std": 0.005
+  }
+}

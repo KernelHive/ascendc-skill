@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MultiHeadAttentionCustom",
+  "outer_iter": 30,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 1799.114,
+    "std": 0.201,
+    "min": 1798.83,
+    "max": 1799.262,
+    "num_trials": null
+  }
+}

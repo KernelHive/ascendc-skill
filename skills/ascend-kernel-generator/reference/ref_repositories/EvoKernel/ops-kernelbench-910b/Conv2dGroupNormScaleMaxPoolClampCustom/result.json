@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "Conv2dGroupNormScaleMaxPoolClampCustom",
+  "outer_iter": 30,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 13347.869,
+    "std": 69.789,
+    "min": 13258.034,
+    "max": 13428.185,
+    "num_trials": null
+  }
+}

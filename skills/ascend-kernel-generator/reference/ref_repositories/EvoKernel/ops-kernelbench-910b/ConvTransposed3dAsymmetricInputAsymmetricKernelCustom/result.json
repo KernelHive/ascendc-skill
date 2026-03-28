@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvTransposed3dAsymmetricInputAsymmetricKernelCustom",
+  "outer_iter": 24,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 3265.416,
+    "std": 15.421,
+    "min": 3251.174,
+    "max": 3286.841,
+    "num_trials": null
+  }
+}

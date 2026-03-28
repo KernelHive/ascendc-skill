@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "RmsNormCustom",
+  "outer_iter": 10,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 1559.893,
+    "std": 0.177,
+    "min": 1559.661,
+    "max": 1560.092,
+    "num_trials": null
+  }
+}

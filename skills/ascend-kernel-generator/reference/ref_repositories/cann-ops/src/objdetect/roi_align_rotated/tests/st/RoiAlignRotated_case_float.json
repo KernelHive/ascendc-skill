@@ -1,0 +1,91 @@
+[
+    {
+        "case_name": "Test_RoiAlignRotated_001",
+        "op": "RoiAlignRotated",
+        "calc_expect_func_file": "test_st.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [3, 48, 32, 32],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "x"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [12, 6],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "rois"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [12, 48, 2, 2],
+                "name": "y"
+            }
+        ],
+        "attr": [
+            {
+                "name": "pooled_h",
+                "type": "int",
+                "value": 2
+            },
+            {
+                "name": "pooled_w",
+                "type": "int",
+                "value": 2
+            },
+            {
+                "name": "spatial_scale",
+                "type": "float",
+                "value": 1.0
+            },
+            {
+                "name": "sampling_ratio",
+                "type": "int",
+                "value": 0
+            },
+            {
+                "name": "aligned",
+                "type": "bool",
+                "value": true
+            },
+            {
+                "name": "clockwise",
+                "type": "bool",
+                "value": false
+            }
+        ]
+    }
+]

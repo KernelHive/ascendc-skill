@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvTranspose2dMultiplyGlobalAvgPoolGlobalAvgPoolMeanCustom",
+  "outer_iter": 19,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 124.521,
+    "std": 5.811,
+    "min": 118.883,
+    "max": 132.519,
+    "num_trials": null
+  }
+}

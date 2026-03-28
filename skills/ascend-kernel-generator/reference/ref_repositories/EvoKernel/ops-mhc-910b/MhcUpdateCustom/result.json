@@ -1,0 +1,12 @@
+{
+  "kernel_project_name": "MhcUpdateCustom",
+  "outer_iter": 30,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "mean_ms": 0.04,
+  "baseline_mean_ms": 0.059,
+  "speedup_vs_baseline": 1.4749999999999999,
+  "log2_speedup_vs_baseline": 0.5607149544744788,
+  "relative_change_pct": 47.499999999999986
+}

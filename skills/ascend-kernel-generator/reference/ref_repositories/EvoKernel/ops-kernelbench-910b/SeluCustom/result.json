@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "SeluCustom",
+  "outer_iter": 20,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 9.967,
+    "std": 0.089,
+    "min": 9.844,
+    "max": 10.045,
+    "num_trials": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "76_AddRmsNorm",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 0.042,
+    "mean": 0.042,
+    "min": 0.041,
+    "num_trials": 5,
+    "std": 0.0
+  }
+}

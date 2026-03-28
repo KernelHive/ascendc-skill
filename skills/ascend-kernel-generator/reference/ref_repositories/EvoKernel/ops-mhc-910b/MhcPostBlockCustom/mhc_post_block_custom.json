@@ -1,0 +1,19 @@
+
+[
+  {
+    "op": "MhcPostBlockCustom",
+    "language": "cpp",
+    "input_desc": [
+      { "name": "x_fp16",         "param_type": "required", "format": ["ND"], "type": ["float16"] },
+      { "name": "residual_fp16",  "param_type": "required", "format": ["ND"], "type": ["float16"] },
+      { "name": "post_layer_mix", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "comb_res_mix",   "param_type": "required", "format": ["ND"], "type": ["float"] },
+
+      { "name": "hidden_size",    "param_type": "required", "format": ["ND"], "type": ["int32"] },
+      { "name": "hc_mult",        "param_type": "required", "format": ["ND"], "type": ["int32"] }
+    ],
+    "output_desc": [
+      { "name": "out_fp16",       "param_type": "required", "format": ["ND"], "type": ["float16"] }
+    ]
+  }
+]

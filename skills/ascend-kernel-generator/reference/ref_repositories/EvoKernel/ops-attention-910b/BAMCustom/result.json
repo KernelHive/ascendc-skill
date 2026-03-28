@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "BAMCustom",
+  "outer_iter": 18,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 0.673,
+    "std": 0.073,
+    "min": 0.571,
+    "max": 0.729,
+    "num_trials": null
+  }
+}

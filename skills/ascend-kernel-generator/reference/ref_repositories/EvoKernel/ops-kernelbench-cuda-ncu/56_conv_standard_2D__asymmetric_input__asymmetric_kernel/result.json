@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "56_conv_standard_2D__asymmetric_input__asymmetric_kernel",
+  "outer_iter": 20,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 72.582,
+    "mean": 72.321,
+    "min": 72.253,
+    "num_trials": 5,
+    "std": 0.131
+  }
+}

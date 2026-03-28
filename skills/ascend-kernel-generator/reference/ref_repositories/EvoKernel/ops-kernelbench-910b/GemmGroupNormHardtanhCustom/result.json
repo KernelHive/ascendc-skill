@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "GemmGroupNormHardtanhCustom",
+  "outer_iter": 30,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 14754.792,
+    "std": 14.418,
+    "min": 14734.406,
+    "max": 14765.347,
+    "num_trials": null
+  }
+}

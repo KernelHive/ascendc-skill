@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvStandard1dCustom",
+  "outer_iter": 23,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 33108.409,
+    "std": 306.987,
+    "min": 32674.264,
+    "max": 33325.556,
+    "num_trials": null
+  }
+}

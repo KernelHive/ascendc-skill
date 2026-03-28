@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "47_Sum_reduction_over_a_dimension",
+  "outer_iter": 9,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 5.708,
+    "mean": 5.693,
+    "min": 5.681,
+    "num_trials": 5,
+    "std": 0.009
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "13_ConvTranspose3d_Mean_Add_Softmax_Tanh_Scaling",
+  "outer_iter": 15,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 20.862,
+    "mean": 20.838,
+    "min": 20.803,
+    "num_trials": 5,
+    "std": 0.021
+  }
+}

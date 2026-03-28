@@ -1,0 +1,12 @@
+{
+  "kernel_project_name": "StreamMixCustom",
+  "outer_iter": 28,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "mean_ms": 0.027,
+  "baseline_mean_ms": 0.04,
+  "speedup_vs_baseline": 1.4814814814814816,
+  "log2_speedup_vs_baseline": 0.567040592723894,
+  "relative_change_pct": 48.14814814814816
+}

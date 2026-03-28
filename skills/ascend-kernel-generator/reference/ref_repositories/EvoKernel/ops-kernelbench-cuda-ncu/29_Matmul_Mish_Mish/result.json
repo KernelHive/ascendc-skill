@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "29_Matmul_Mish_Mish",
+  "outer_iter": 22,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 20.908,
+    "mean": 18.245,
+    "min": 17.542,
+    "num_trials": 5,
+    "std": 1.332
+  }
+}

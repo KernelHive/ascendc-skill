@@ -1,0 +1,40 @@
+
+[
+  {
+    "op": "HaloAttentionCustom",
+    "input_desc": [
+      {
+        "name": "q",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["float"]
+      },
+      {
+        "name": "k",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["float"]
+      },
+      {
+        "name": "v",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["float"]
+      },
+      {
+        "name": "mask",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["bool"]
+      }
+    ],
+    "output_desc": [
+      {
+        "name": "out",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["float"]
+      }
+    ]
+  }
+]

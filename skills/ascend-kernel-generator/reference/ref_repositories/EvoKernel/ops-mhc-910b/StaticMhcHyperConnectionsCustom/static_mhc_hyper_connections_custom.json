@@ -1,0 +1,20 @@
+
+[
+  {
+    "op": "StaticMhcHyperConnectionsCustom",
+    "language": "cpp",
+    "input_desc": [
+      { "name": "residuals",      "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "h_res_logits",   "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "h_pre_logits",   "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "h_post_logits",  "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "branch_weight",  "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "sinkhorn_iters", "param_type": "required", "format": ["ND"], "type": ["int32"] },
+      { "name": "tau",            "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "log_s",          "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "out", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MatmulGeluSoftmaxCustom",
+  "outer_iter": 23,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 2423.974,
+    "std": 7.298,
+    "min": 2414.823,
+    "max": 2432.684,
+    "num_trials": null
+  }
+}

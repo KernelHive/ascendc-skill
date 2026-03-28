@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "GroupNormCustom",
+  "outer_iter": 14,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 6054.831,
+    "std": 83.21,
+    "min": 5966.789,
+    "max": 6166.471,
+    "num_trials": null
+  }
+}

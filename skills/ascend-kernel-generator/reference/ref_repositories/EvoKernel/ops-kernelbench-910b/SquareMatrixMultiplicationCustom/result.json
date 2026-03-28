@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "SquareMatrixMultiplicationCustom",
+  "outer_iter": 22,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 36.665,
+    "std": 0.157,
+    "min": 36.445,
+    "max": 36.806,
+    "num_trials": null
+  }
+}

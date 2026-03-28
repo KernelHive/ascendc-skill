@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "46_Average_Pooling_3D",
+  "outer_iter": 18,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 11.99,
+    "mean": 11.986,
+    "min": 11.982,
+    "num_trials": 5,
+    "std": 0.003
+  }
+}

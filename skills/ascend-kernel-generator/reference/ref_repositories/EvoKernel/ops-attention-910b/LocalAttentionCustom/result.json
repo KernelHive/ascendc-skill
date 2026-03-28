@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "LocalAttentionCustom",
+  "outer_iter": 19,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 152.642,
+    "std": 0.17,
+    "min": 152.402,
+    "max": 152.763,
+    "num_trials": null
+  }
+}

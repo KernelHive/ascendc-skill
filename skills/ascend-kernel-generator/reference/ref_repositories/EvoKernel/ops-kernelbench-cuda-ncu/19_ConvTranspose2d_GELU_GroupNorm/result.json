@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "19_ConvTranspose2d_GELU_GroupNorm",
+  "outer_iter": 26,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 24.884,
+    "mean": 23.489,
+    "min": 23.041,
+    "num_trials": 5,
+    "std": 0.7
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvTranspose3dMaxPoolSoftmaxSubtractSwishMaxCustom",
+  "outer_iter": 8,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 1041.345,
+    "std": 0.283,
+    "min": 1040.945,
+    "max": 1041.546,
+    "num_trials": null
+  }
+}

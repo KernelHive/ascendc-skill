@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "Conv2dSubtractSubtractMishCustom",
+  "outer_iter": 25,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 4616.483,
+    "std": 0.619,
+    "min": 4615.723,
+    "max": 4617.239,
+    "num_trials": null
+  }
+}

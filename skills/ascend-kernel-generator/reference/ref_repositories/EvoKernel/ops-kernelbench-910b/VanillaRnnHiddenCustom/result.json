@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "VanillaRnnHiddenCustom",
+  "outer_iter": 26,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 1118.432,
+    "std": 9.029,
+    "min": 1109.275,
+    "max": 1130.717,
+    "num_trials": null
+  }
+}

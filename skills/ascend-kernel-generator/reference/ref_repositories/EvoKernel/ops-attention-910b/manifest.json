@@ -1,0 +1,824 @@
+{
+  "exported_operator_count": 58,
+  "summary": {
+    "compiled_true": 58,
+    "correctness_true": 58,
+    "compiled_rate": 1.0,
+    "correctness_rate": 1.0,
+    "faster_than_baseline": 0
+  },
+  "kernels": [
+    {
+      "kernel_project_name": "AdaptiveAttentionCustom",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 3.84,
+        "std": 0.229,
+        "min": 3.516,
+        "max": 4.018,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "AxialAttentionCustom",
+      "outer_iter": 7,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 30.383,
+        "std": 0.119,
+        "min": 30.222,
+        "max": 30.504,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "BAMCustom",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 0.673,
+        "std": 0.073,
+        "min": 0.571,
+        "max": 0.729,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "BlockSparseAttentionCustom",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 20.42,
+        "std": 0.205,
+        "min": 20.143,
+        "max": 20.63,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "CBAMBlockCustom",
+      "outer_iter": 6,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 3.407,
+        "std": 0.042,
+        "min": 3.348,
+        "max": 3.446,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "CoTAttentionCustom",
+      "outer_iter": 5,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 2.074,
+        "std": 0.103,
+        "min": 1.932,
+        "max": 2.176,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "CoordAttCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 0.726,
+        "std": 0.079,
+        "min": 0.615,
+        "max": 0.786,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "CosformerAttentionCustom",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 1.104,
+        "std": 0.189,
+        "min": 0.837,
+        "max": 1.238,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "CrissCrossAttentionCustom",
+      "outer_iter": 11,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 1.98,
+        "std": 0.13,
+        "min": 1.796,
+        "max": 2.074,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "CrossAttentionCustom",
+      "outer_iter": 7,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 1532.514,
+        "std": 0.159,
+        "min": 1532.289,
+        "max": 1532.627,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "CrossformerAttentionCustom",
+      "outer_iter": 5,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 9751.473,
+        "std": 65.324,
+        "min": 9694.02,
+        "max": 9842.851,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "DAModuleCustom",
+      "outer_iter": 13,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 19.514,
+        "std": 0.398,
+        "min": 18.951,
+        "max": 19.799,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "DenseSparseAttentionCustom",
+      "outer_iter": 28,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 0.692,
+        "std": 0.187,
+        "min": 0.427,
+        "max": 0.825,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "DoubleAttentionCustom",
+      "outer_iter": 11,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 112.013,
+        "std": 0.157,
+        "min": 111.796,
+        "max": 112.163,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ECAAttentionCustom",
+      "outer_iter": 16,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 3.033,
+        "std": 0.071,
+        "min": 2.935,
+        "max": 3.102,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "EMSACustom",
+      "outer_iter": 16,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 0.602,
+        "std": 0.068,
+        "min": 0.505,
+        "max": 0.652,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ExternalAttentionCustom",
+      "outer_iter": 23,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 0.04,
+        "std": 0.006,
+        "min": 0.031,
+        "max": 0.045,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "FlashAttentionV2Custom",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 2.287,
+        "std": 0.172,
+        "min": 2.043,
+        "max": 2.412,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "GCModuleCustom",
+      "outer_iter": 6,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 2.578,
+        "std": 0.239,
+        "min": 2.243,
+        "max": 2.782,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "GCTCustom",
+      "outer_iter": 8,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 2.891,
+        "std": 0.075,
+        "min": 2.785,
+        "max": 2.946,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "GEMMCustom",
+      "outer_iter": 6,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 7.459,
+        "std": 0.121,
+        "min": 7.331,
+        "max": 7.622,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "GatedChannelTransformCustom",
+      "outer_iter": 17,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 2.961,
+        "std": 0.112,
+        "min": 2.807,
+        "max": 3.073,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "GlobalFilterCustom",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 8.845,
+        "std": 0.197,
+        "min": 8.566,
+        "max": 8.988,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "GroupedGEMMCustom",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 5787.181,
+        "std": 0.154,
+        "min": 5786.963,
+        "max": 5787.297,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "GroupedQueryAttentionCustom",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 2.12,
+        "std": 0.152,
+        "min": 1.906,
+        "max": 2.234,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "HaloAttentionCustom",
+      "outer_iter": 14,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 120.648,
+        "std": 0.264,
+        "min": 120.276,
+        "max": 120.868,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "LCTCustom",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 2.966,
+        "std": 0.074,
+        "min": 2.866,
+        "max": 3.041,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "LinearAttentionCustom",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 1.054,
+        "std": 0.186,
+        "min": 0.791,
+        "max": 1.187,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "LocalAttentionCustom",
+      "outer_iter": 19,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 152.642,
+        "std": 0.17,
+        "min": 152.402,
+        "max": 152.763,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "LongformerAttentionCustom",
+      "outer_iter": 13,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 194.152,
+        "std": 0.147,
+        "min": 193.944,
+        "max": 194.258,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MobileViTAttentionCustom",
+      "outer_iter": 28,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 31.635,
+        "std": 0.134,
+        "min": 31.447,
+        "max": 31.751,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MobileViTv2AttentionCustom",
+      "outer_iter": 16,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 6.9,
+        "std": 0.217,
+        "min": 6.594,
+        "max": 7.055,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MultiHeadAttentionCustom",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 1799.114,
+        "std": 0.201,
+        "min": 1798.83,
+        "max": 1799.262,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MultiHeadLatentAttentionCustom",
+      "outer_iter": 15,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 36.251,
+        "std": 0.238,
+        "min": 35.915,
+        "max": 36.438,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MultiQueryAttentionCustom",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 2.018,
+        "std": 0.142,
+        "min": 1.822,
+        "max": 2.154,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "OptimizedFlashAttentionCustom",
+      "outer_iter": 11,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 3.233,
+        "std": 0.172,
+        "min": 2.99,
+        "max": 3.356,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "OutlookAttentionCustom",
+      "outer_iter": 28,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 88.621,
+        "std": 0.492,
+        "min": 88.154,
+        "max": 89.301,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "PAMCustom",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 173.078,
+        "std": 0.217,
+        "min": 172.782,
+        "max": 173.298,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "PagedAttentionKVCacheCustom",
+      "outer_iter": 7,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 11.543,
+        "std": 0.099,
+        "min": 11.405,
+        "max": 11.635,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ParNetAttentionCustom",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 1.551,
+        "std": 0.247,
+        "min": 1.201,
+        "max": 1.729,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ParallelPolarizedSelfAttentionCustom",
+      "outer_iter": 13,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 11.739,
+        "std": 0.029,
+        "min": 11.713,
+        "max": 11.779,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "PerformerAttentionCustom",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 19.931,
+        "std": 0.169,
+        "min": 19.692,
+        "max": 20.06,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ResidualAttentionCustom",
+      "outer_iter": 23,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 1.603,
+        "std": 0.089,
+        "min": 1.476,
+        "max": 1.667,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "S2AttentionCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 0.832,
+        "std": 0.113,
+        "min": 0.672,
+        "max": 0.915,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "SEAttentionCustom",
+      "outer_iter": 3,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 5.381,
+        "std": 0.117,
+        "min": 5.218,
+        "max": 5.485,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "SKAttentionCustom",
+      "outer_iter": 3,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 478.826,
+        "std": 0.273,
+        "min": 478.449,
+        "max": 479.089,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "SRMCustom",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 0.598,
+        "std": 0.084,
+        "min": 0.479,
+        "max": 0.658,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ScaledDotProductAttentionCustom",
+      "outer_iter": 13,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 16.264,
+        "std": 0.172,
+        "min": 16.021,
+        "max": 16.386,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ScaledDotProductAttentionModularCustom",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 18.911,
+        "std": 0.225,
+        "min": 18.593,
+        "max": 19.071,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "SelfAttentionCustom",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 2559.284,
+        "std": 0.097,
+        "min": 2559.156,
+        "max": 2559.389,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "SequentialPolarizedSelfAttentionCustom",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 9.454,
+        "std": 0.212,
+        "min": 9.173,
+        "max": 9.686,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ShuffleAttentionCustom",
+      "outer_iter": 16,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 34.691,
+        "std": 0.207,
+        "min": 34.426,
+        "max": 34.93,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "SimplifiedSelfAttentionCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 20.674,
+        "std": 0.176,
+        "min": 20.425,
+        "max": 20.802,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "SpatialGroupEnhanceCustom",
+      "outer_iter": 5,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 3.588,
+        "std": 0.157,
+        "min": 3.367,
+        "max": 3.7,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "StridedAttentionCustom",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 915.203,
+        "std": 0.181,
+        "min": 914.947,
+        "max": 915.333,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "TripletAttentionCustom",
+      "outer_iter": 17,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 1.818,
+        "std": 0.158,
+        "min": 1.596,
+        "max": 1.954,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "UnPermuteCustom",
+      "outer_iter": 12,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 9.83,
+        "std": 0.15,
+        "min": 9.618,
+        "max": 9.936,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ViTAttentionCustom",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 110.773,
+        "std": 0.265,
+        "min": 110.398,
+        "max": 110.976,
+        "num_trials": null
+      }
+    }
+  ]
+}

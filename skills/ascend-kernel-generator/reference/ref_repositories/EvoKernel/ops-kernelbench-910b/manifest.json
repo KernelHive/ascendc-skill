@@ -1,0 +1,2322 @@
+{
+  "exported_operator_count": 165,
+  "summary": {
+    "compiled_true": 165,
+    "correctness_true": 165,
+    "compiled_rate": 1.0,
+    "correctness_rate": 1.0,
+    "faster_than_baseline": 0
+  },
+  "kernels": [
+    {
+      "kernel_project_name": "ArgmaxOverADimensionCustom",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 2181.207,
+        "std": 0.294,
+        "min": 2180.792,
+        "max": 2181.43,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ArgminOverADimensionCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 2366.352,
+        "std": 0.426,
+        "min": 2366.024,
+        "max": 2366.954,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "AveragePooling1dCustom",
+      "outer_iter": 11,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 332.207,
+        "std": 0.172,
+        "min": 331.964,
+        "max": 332.337,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "AveragePooling2dCustom",
+      "outer_iter": 23,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 808.272,
+        "std": 0.103,
+        "min": 808.129,
+        "max": 808.363,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "AveragePooling3dCustom",
+      "outer_iter": 21,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 700.045,
+        "std": 0.149,
+        "min": 699.835,
+        "max": 700.152,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "BatchedMatrixMultiplicationCustom",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 5.427,
+        "std": 0.177,
+        "min": 5.177,
+        "max": 5.555,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv2dAvgPoolSigmoidSumCustom",
+      "outer_iter": 21,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 28819.688,
+        "std": 10.437,
+        "min": 28804.938,
+        "max": 28827.552,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv2dDivideLeakyReluCustom",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 977.626,
+        "std": 0.128,
+        "min": 977.447,
+        "max": 977.74,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv2dGeluGlobalAvgPoolCustom",
+      "outer_iter": 28,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 28930.594,
+        "std": 309.538,
+        "min": 28492.846,
+        "max": 29151.301,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv2dGroupNormScaleMaxPoolClampCustom",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 13347.869,
+        "std": 69.789,
+        "min": 13258.034,
+        "max": 13428.185,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv2dHardSwishReluCustom",
+      "outer_iter": 21,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 6097.988,
+        "std": 0.97,
+        "min": 6096.679,
+        "max": 6098.996,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv2dMinAddMultiplyCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 35297.418,
+        "std": 21.617,
+        "min": 35274.001,
+        "max": 35326.146,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv2dMinTanhTanhCustom",
+      "outer_iter": 21,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 24458.938,
+        "std": 3.073,
+        "min": 24455.173,
+        "max": 24462.7,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv2dMishMishCustom",
+      "outer_iter": 28,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 37778.157,
+        "std": 29.386,
+        "min": 37739.872,
+        "max": 37811.299,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv2dMultiplyLeakyReluGeluCustom",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 30270.584,
+        "std": 0.556,
+        "min": 30269.851,
+        "max": 30271.196,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv2dReluBiasAddCustom",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 27981.488,
+        "std": 0.949,
+        "min": 27980.211,
+        "max": 27982.486,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv2dReluHardSwishCustom",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 6095.713,
+        "std": 0.212,
+        "min": 6095.47,
+        "max": 6095.986,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv2dScalingMinCustom",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 43025.986,
+        "std": 369.645,
+        "min": 42617.472,
+        "max": 43512.721,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv2dSubtractHardSwishMaxPoolMishCustom",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 118817.302,
+        "std": 7.613,
+        "min": 118807.384,
+        "max": 118825.89,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv2dSubtractSubtractMishCustom",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 4616.483,
+        "std": 0.619,
+        "min": 4615.723,
+        "max": 4617.239,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv2dSubtractTanhSubtractAvgPoolCustom",
+      "outer_iter": 19,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 118827.394,
+        "std": 34.588,
+        "min": 118788.427,
+        "max": 118872.482,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv2dTanhScalingBiasAddMaxCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 10312.967,
+        "std": 2.737,
+        "min": 10310.639,
+        "max": 10316.81,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv3dDivideMaxGlobalAvgPoolBiasAddSumCustom",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 3553.831,
+        "std": 0.098,
+        "min": 3553.694,
+        "max": 3553.919,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv3dGroupNormMeanCustom",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 10854.409,
+        "std": 98.565,
+        "min": 10784.337,
+        "max": 10993.8,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv3dGroupNormMinClampDropoutCustom",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 13006.169,
+        "std": 1.681,
+        "min": 13003.809,
+        "max": 13007.598,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv3dLeakyReluSumClampGeluCustom",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 66167.792,
+        "std": 2.806,
+        "min": 66163.9,
+        "max": 66170.412,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv3dMinSoftmaxCustom",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 1349.076,
+        "std": 10.052,
+        "min": 1334.862,
+        "max": 1356.341,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv3dMishTanhCustom",
+      "outer_iter": 28,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 268.395,
+        "std": 0.586,
+        "min": 267.583,
+        "max": 268.947,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv3dReluLeakyReluGeluSigmoidBiasAddCustom",
+      "outer_iter": 21,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 37028.261,
+        "std": 5.312,
+        "min": 37021.692,
+        "max": 37034.703,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv3dScalingTanhMultiplySigmoidCustom",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 6529.412,
+        "std": 2.625,
+        "min": 6525.703,
+        "max": 6531.397,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "Conv3dSoftmaxMaxPoolMaxPoolCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 151.238,
+        "std": 0.223,
+        "min": 151.021,
+        "max": 151.544,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvDepthwise2dAsymmetricInputAsymmetricKernelCustom",
+      "outer_iter": 3,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 9410.041,
+        "std": 24.8,
+        "min": 9392.29,
+        "max": 9445.114,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvDepthwise2dAsymmetricInputSquareKernelCustom",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 523.917,
+        "std": 0.154,
+        "min": 523.699,
+        "max": 524.034,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvDepthwise2dSquareInputAsymmetricKernelCustom",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 68.635,
+        "std": 0.135,
+        "min": 68.445,
+        "max": 68.732,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvDepthwise2dSquareInputSquareKernelCustom",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 150.709,
+        "std": 0.167,
+        "min": 150.472,
+        "max": 150.831,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvDepthwiseSeparable2dCustom",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 6329.192,
+        "std": 5.76,
+        "min": 6323.645,
+        "max": 6337.132,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvPointwise2dCustom",
+      "outer_iter": 28,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 14295.198,
+        "std": 28.277,
+        "min": 14268.722,
+        "max": 14334.391,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvStandard1dCustom",
+      "outer_iter": 23,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 33108.409,
+        "std": 306.987,
+        "min": 32674.264,
+        "max": 33325.556,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvStandard1dDilatedStridedCustom",
+      "outer_iter": 21,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 51114.68,
+        "std": 21.304,
+        "min": 51089.702,
+        "max": 51141.758,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvStandard2dAsymmetricInputAsymmetricKernelCustom",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 17849.024,
+        "std": 0.08,
+        "min": 17848.967,
+        "max": 17849.137,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvStandard2dAsymmetricInputSquareKernelCustom",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 29538.128,
+        "std": 117.236,
+        "min": 29372.339,
+        "max": 29622.41,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvStandard2dSquareInputAsymmetricKernelCustom",
+      "outer_iter": 21,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 12490.448,
+        "std": 2.924,
+        "min": 12486.989,
+        "max": 12494.139,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvStandard2dSquareInputAsymmetricKernelDilatedPaddedCustom",
+      "outer_iter": 21,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 18971.496,
+        "std": 158.442,
+        "min": 18858.717,
+        "max": 19195.566,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvStandard2dSquareInputSquareKernelCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 54127.359,
+        "std": 104.686,
+        "min": 53979.605,
+        "max": 54209.319,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvStandard3dAsymmetricInputAsymmetricKernelCustom",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 4479.043,
+        "std": 0.992,
+        "min": 4477.75,
+        "max": 4480.162,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvStandard3dAsymmetricInputSquareKernelCustom",
+      "outer_iter": 8,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 2943.957,
+        "std": 3.549,
+        "min": 2940.653,
+        "max": 2948.881,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvStandard3dSquareInputAsymmetricKernelCustom",
+      "outer_iter": 19,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 13008.625,
+        "std": 10.457,
+        "min": 12998.001,
+        "max": 13022.846,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvStandard3dSquareInputSquareKernelCustom",
+      "outer_iter": 14,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 4588.459,
+        "std": 50.732,
+        "min": 4516.714,
+        "max": 4624.718,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTranspose2dAddMinGeluMultiplyCustom",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 2253.082,
+        "std": 5.982,
+        "min": 2244.622,
+        "max": 2257.343,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTranspose2dBiasAddClampScalingClampDivideCustom",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 50804.686,
+        "std": 1.389,
+        "min": 50803.396,
+        "max": 50806.614,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTranspose2dGeluGroupNormCustom",
+      "outer_iter": 23,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 2878.833,
+        "std": 4.79,
+        "min": 2872.059,
+        "max": 2882.248,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTranspose2dGlobalAvgPoolBiasAddLogSumExpSumMultiplyCustom",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 2287.251,
+        "std": 8.98,
+        "min": 2280.654,
+        "max": 2299.947,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTranspose2dMishAddHardtanhScalingCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 70082.418,
+        "std": 3.148,
+        "min": 70078.519,
+        "max": 70086.229,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTranspose2dMultiplyGlobalAvgPoolGlobalAvgPoolMeanCustom",
+      "outer_iter": 19,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 124.521,
+        "std": 5.811,
+        "min": 118.883,
+        "max": 132.519,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTranspose2dSoftmaxBiasAddScalingSigmoidCustom",
+      "outer_iter": 23,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 45937.088,
+        "std": 5.465,
+        "min": 45931.533,
+        "max": 45944.518,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTranspose3dBatchNormSubtractCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 56037.945,
+        "std": 317.157,
+        "min": 55704.025,
+        "max": 56464.242,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTranspose3dLeakyReluMultiplyLeakyReluMaxCustom",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 8351.868,
+        "std": 92.294,
+        "min": 8264.563,
+        "max": 8479.547,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTranspose3dLogSumExpHardSwishSubtractClampCustom",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 9802.757,
+        "std": 6.561,
+        "min": 9794.126,
+        "max": 9810.021,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTranspose3dMaxPoolSoftmaxSubtractSwishMaxCustom",
+      "outer_iter": 8,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 1041.345,
+        "std": 0.283,
+        "min": 1040.945,
+        "max": 1041.546,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTranspose3dMultiplyMaxGlobalAvgPoolClampCustom",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 399.488,
+        "std": 0.538,
+        "min": 399.058,
+        "max": 400.246,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTranspose3dScalingAvgPoolBiasAddScalingCustom",
+      "outer_iter": 11,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 1400.923,
+        "std": 0.234,
+        "min": 1400.611,
+        "max": 1401.176,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTranspose3dSoftmaxSigmoidCustom",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 15531.111,
+        "std": 1.846,
+        "min": 15528.841,
+        "max": 15533.363,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTranspose3dSumResidualAddMultiplyResidualAddCustom",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 5782.961,
+        "std": 0.764,
+        "min": 5782.394,
+        "max": 5784.042,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTransposed1dAsymmetricInputSquareKernelPaddedStridedDilatedCustom",
+      "outer_iter": 19,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 6197.095,
+        "std": 7.115,
+        "min": 6191.769,
+        "max": 6207.152,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTransposed1dDilatedCustom",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 34976.005,
+        "std": 42.708,
+        "min": 34916.879,
+        "max": 35016.249,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTransposed2dAsymmetricInputAsymmetricKernelCustom",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 27293.924,
+        "std": 1.153,
+        "min": 27292.917,
+        "max": 27295.539,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTransposed2dAsymmetricInputAsymmetricKernelPaddedCustom",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 4969.387,
+        "std": 3.226,
+        "min": 4965.618,
+        "max": 4973.498,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTransposed2dAsymmetricInputAsymmetricKernelStridedGroupedPaddedDilatedCustom",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 14463.709,
+        "std": 200.516,
+        "min": 14321.485,
+        "max": 14747.282,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTransposed2dAsymmetricInputSquareKernelCustom",
+      "outer_iter": 28,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 5614.283,
+        "std": 11.272,
+        "min": 5598.504,
+        "max": 5624.137,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTransposed2dAsymmetricInputSquareKernelDilatedPaddedStridedCustom",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 2418.812,
+        "std": 6.665,
+        "min": 2412.351,
+        "max": 2427.985,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTransposed2dSquareInputAsymmetricKernelCustom",
+      "outer_iter": 21,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 22312.587,
+        "std": 0.534,
+        "min": 22312.021,
+        "max": 22313.302,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTransposed2dSquareInputSquareKernelCustom",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 41510.391,
+        "std": 49.758,
+        "min": 41441.289,
+        "max": 41556.454,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTransposed3dAsymmetricInputAsymmetricKernelCustom",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 3265.416,
+        "std": 15.421,
+        "min": 3251.174,
+        "max": 3286.841,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTransposed3dAsymmetricInputAsymmetricKernelStridedPaddedGroupedCustom",
+      "outer_iter": 28,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 258.324,
+        "std": 0.159,
+        "min": 258.139,
+        "max": 258.526,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTransposed3dAsymmetricInputSquareKernelCustom",
+      "outer_iter": 28,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 33692.442,
+        "std": 174.432,
+        "min": 33539.047,
+        "max": 33936.448,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTransposed3dSquareInputAsymmetricKernelCustom",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 64995.105,
+        "std": 2.739,
+        "min": 64992.535,
+        "max": 64998.9,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTransposed3dSquareInputSquareKernelCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 20620.933,
+        "std": 132.7,
+        "min": 20471.161,
+        "max": 20793.749,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ConvTransposed3dSquareInputSquareKernelPaddedDilatedStridedCustom",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 11784.271,
+        "std": 5.382,
+        "min": 11777.976,
+        "max": 11791.123,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "CrossEntropyLossCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 45.72,
+        "std": 0.279,
+        "min": 45.346,
+        "max": 46.015,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "CumprodCustom",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 683.541,
+        "std": 0.209,
+        "min": 683.245,
+        "max": 683.694,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "CumsumCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 453.772,
+        "std": 0.126,
+        "min": 453.595,
+        "max": 453.878,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "CumsumExclusiveCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 433.388,
+        "std": 0.262,
+        "min": 433.027,
+        "max": 433.643,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "CumsumReverseCustom",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 176.34,
+        "std": 0.161,
+        "min": 176.114,
+        "max": 176.474,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "DeepNarrowMlpCustom",
+      "outer_iter": 19,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 25672.942,
+        "std": 202.324,
+        "min": 25447.466,
+        "max": 25938.235,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "EluCustom",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 9.973,
+        "std": 0.08,
+        "min": 9.861,
+        "max": 10.043,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "FrobeniusNormCustom",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 327.668,
+        "std": 1.046,
+        "min": 326.659,
+        "max": 329.109,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "GeluCustom",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 14.649,
+        "std": 0.212,
+        "min": 14.35,
+        "max": 14.801,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "GemmAddReluCustom",
+      "outer_iter": 21,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 12757.595,
+        "std": 83.997,
+        "min": 12678.711,
+        "max": 12873.955,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "GemmBiasAddHardtanhMishGroupNormCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 13331.646,
+        "std": 11.776,
+        "min": 13323.275,
+        "max": 13348.3,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "GemmGroupNormHardtanhCustom",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 14754.792,
+        "std": 14.418,
+        "min": 14734.406,
+        "max": 14765.347,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "GemmGroupNormSwishMultiplySwishCustom",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 22145.855,
+        "std": 68.917,
+        "min": 22048.399,
+        "max": 22195.564,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "GemmLogSumExpLeakyReluLeakyReluGeluGeluCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 51962.558,
+        "std": 249.741,
+        "min": 51733.294,
+        "max": 52309.857,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "GemmMaxSubtractGeluCustom",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 0.003,
+        "std": 0.0,
+        "min": 0.003,
+        "max": 0.003,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "GemmMultiplyLeakyReluCustom",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 21291.534,
+        "std": 40.59,
+        "min": 21261.415,
+        "max": 21348.912,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "GemmReluDivideCustom",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 12833.073,
+        "std": 98.857,
+        "min": 12758.397,
+        "max": 12972.766,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "GemmScalingHardtanhGeluCustom",
+      "outer_iter": 14,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 52030.747,
+        "std": 251.795,
+        "min": 51824.046,
+        "max": 52385.209,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "GemmSigmoidScalingResidualAddCustom",
+      "outer_iter": 13,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 26106.166,
+        "std": 118.242,
+        "min": 25939.509,
+        "max": 26201.359,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "GemmSwishDivideClampTanhClampCustom",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 26018.396,
+        "std": 120.648,
+        "min": 25899.372,
+        "max": 26183.78,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "GroupNormCustom",
+      "outer_iter": 14,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 6054.831,
+        "std": 83.21,
+        "min": 5966.789,
+        "max": 6166.471,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "GruBidirectionalCustom",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 19216.049,
+        "std": 48.846,
+        "min": 19178.439,
+        "max": 19285.033,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "GruBidirectionalHiddenCustom",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 19101.418,
+        "std": 14.768,
+        "min": 19090.52,
+        "max": 19122.297,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "GruCustom",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 6487.716,
+        "std": 1.971,
+        "min": 6484.992,
+        "max": 6489.59,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "GruHiddenCustom",
+      "outer_iter": 23,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 6457.477,
+        "std": 4.61,
+        "min": 6453.286,
+        "max": 6463.897,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "HardSigmoidCustom",
+      "outer_iter": 12,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 9.733,
+        "std": 0.074,
+        "min": 9.629,
+        "max": 9.795,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "HardTanhCustom",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 9.527,
+        "std": 0.036,
+        "min": 9.476,
+        "max": 9.555,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "InstanceNormCustom",
+      "outer_iter": 28,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 18.29,
+        "std": 0.146,
+        "min": 18.096,
+        "max": 18.448,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "L2NormCustom",
+      "outer_iter": 21,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 36.023,
+        "std": 0.406,
+        "min": 35.495,
+        "max": 36.482,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "LayerNormCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 1.162,
+        "std": 0.195,
+        "min": 0.886,
+        "max": 1.302,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "LeNet5Custom",
+      "outer_iter": 28,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 94.562,
+        "std": 0.177,
+        "min": 94.405,
+        "max": 94.81,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "LeakyReluCustom",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 10.143,
+        "std": 0.054,
+        "min": 10.067,
+        "max": 10.184,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "LogSoftmaxCustom",
+      "outer_iter": 15,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 14.046,
+        "std": 0.152,
+        "min": 13.831,
+        "max": 14.166,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "LstmCnCustom",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 20005.381,
+        "std": 132.142,
+        "min": 19882.398,
+        "max": 20188.727,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "LstmCustom",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 17982.127,
+        "std": 193.205,
+        "min": 17722.714,
+        "max": 18186.135,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "LstmHnCustom",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 19303.026,
+        "std": 185.884,
+        "min": 19089.27,
+        "max": 19542.419,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MaskedCumsumCustom",
+      "outer_iter": 19,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 175.315,
+        "std": 0.012,
+        "min": 175.299,
+        "max": 175.329,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MatmulAddSwishTanhGeluHardtanhCustom",
+      "outer_iter": 19,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 26035.254,
+        "std": 124.908,
+        "min": 25919.114,
+        "max": 26208.592,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MatmulDivideGeluCustom",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 36485.85,
+        "std": 8.483,
+        "min": 36473.93,
+        "max": 36492.98,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MatmulDropoutSoftmaxCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 0.009,
+        "std": 0.002,
+        "min": 0.006,
+        "max": 0.011,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MatmulForLowerTriangularMatricesCustom",
+      "outer_iter": 7,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 36.731,
+        "std": 0.162,
+        "min": 36.503,
+        "max": 36.858,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MatmulForSymmetricMatricesCustom",
+      "outer_iter": 2,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 36.698,
+        "std": 0.139,
+        "min": 36.502,
+        "max": 36.8,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MatmulForUpperTriangularMatricesCustom",
+      "outer_iter": 21,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 36.802,
+        "std": 0.145,
+        "min": 36.598,
+        "max": 36.913,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MatmulGeluSoftmaxCustom",
+      "outer_iter": 23,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 2423.974,
+        "std": 7.298,
+        "min": 2414.823,
+        "max": 2432.684,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MatmulGroupNormLeakyReluSumCustom",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 69903.109,
+        "std": 376.613,
+        "min": 69593.129,
+        "max": 70433.186,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MatmulMinSubtractCustom",
+      "outer_iter": 10,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 10949.059,
+        "std": 39.532,
+        "min": 10893.165,
+        "max": 10978.079,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MatmulMishMishCustom",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 17071.348,
+        "std": 90.391,
+        "min": 17005.496,
+        "max": 17199.161,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MatmulScaleResidualAddClampLogSumExpMishCustom",
+      "outer_iter": 18,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 30147.035,
+        "std": 22.676,
+        "min": 30114.969,
+        "max": 30163.35,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MatmulScalingResidualAddCustom",
+      "outer_iter": 14,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 71661.185,
+        "std": 820.247,
+        "min": 70729.306,
+        "max": 72725.379,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MatmulSubtractMultiplyReluCustom",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 12814.244,
+        "std": 100.106,
+        "min": 12741.564,
+        "max": 12955.798,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MatmulSumMaxAvgPoolLogSumExpLogSumExpCustom",
+      "outer_iter": 23,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 1853.493,
+        "std": 2.575,
+        "min": 1849.87,
+        "max": 1855.626,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MatmulSwishScalingCustom",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 44085.192,
+        "std": 96.182,
+        "min": 43951.299,
+        "max": 44172.897,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MatmulSwishSumGroupNormCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 36191.951,
+        "std": 337.403,
+        "min": 35888.185,
+        "max": 36662.512,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MatmulWithIrregularShapesCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 174.036,
+        "std": 2.293,
+        "min": 170.928,
+        "max": 176.393,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MatmulWithLargeKDimensionCustom",
+      "outer_iter": 11,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 201.525,
+        "std": 0.252,
+        "min": 201.252,
+        "max": 201.86,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MatmulWithSmallKDimensionCustom",
+      "outer_iter": 3,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 37.204,
+        "std": 0.047,
+        "min": 37.158,
+        "max": 37.268,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MatmulWithTransposedACustom",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 36.625,
+        "std": 0.209,
+        "min": 36.33,
+        "max": 36.784,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MatmulWithTransposedBCustom",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 36.97,
+        "std": 0.025,
+        "min": 36.937,
+        "max": 36.995,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MatmulWithTransposedBothCustom",
+      "outer_iter": 21,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 36.701,
+        "std": 0.165,
+        "min": 36.47,
+        "max": 36.839,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MatrixScalarMultiplicationCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 6.653,
+        "std": 0.046,
+        "min": 6.591,
+        "max": 6.701,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MatrixVectorMultiplicationCustom",
+      "outer_iter": 2,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 1374.35,
+        "std": 12.37,
+        "min": 1365.552,
+        "max": 1391.844,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MaxPooling1dCustom",
+      "outer_iter": 23,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 353.591,
+        "std": 0.111,
+        "min": 353.438,
+        "max": 353.7,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MaxPooling2dCustom",
+      "outer_iter": 28,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 725.254,
+        "std": 0.154,
+        "min": 725.036,
+        "max": 725.363,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MaxPooling3dCustom",
+      "outer_iter": 11,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 333.106,
+        "std": 0.157,
+        "min": 332.884,
+        "max": 333.224,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MaxReductionOverADimensionCustom",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 756.45,
+        "std": 0.028,
+        "min": 756.425,
+        "max": 756.489,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MeanReductionOverADimensionCustom",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 2118.827,
+        "std": 29.71,
+        "min": 2097.624,
+        "max": 2160.842,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MinGptNewGeluCustom",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 0.939,
+        "std": 0.217,
+        "min": 0.632,
+        "max": 1.101,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MinReductionOverADimensionCustom",
+      "outer_iter": 7,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 6.094,
+        "std": 0.178,
+        "min": 5.842,
+        "max": 6.227,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "MlpCustom",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 71653.515,
+        "std": 539.577,
+        "min": 71130.752,
+        "max": 72396.304,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "NetVladNoGhostClustersCustom",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 3884.274,
+        "std": 1.835,
+        "min": 3881.729,
+        "max": 3885.984,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "NetVladWithGhostClustersCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 3470.078,
+        "std": 7.198,
+        "min": 3464.103,
+        "max": 3480.202,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "ReluCustom",
+      "outer_iter": 28,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 9.854,
+        "std": 0.046,
+        "min": 9.791,
+        "max": 9.898,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "RmsNormCustom",
+      "outer_iter": 10,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 1559.893,
+        "std": 0.177,
+        "min": 1559.661,
+        "max": 1560.092,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "SeluCustom",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 9.967,
+        "std": 0.089,
+        "min": 9.844,
+        "max": 10.045,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "SigmoidCustom",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 9.991,
+        "std": 0.093,
+        "min": 9.86,
+        "max": 10.063,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "SoftmaxCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 14.823,
+        "std": 0.163,
+        "min": 14.597,
+        "max": 14.971,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "SoftplusCustom",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 9.701,
+        "std": 0.063,
+        "min": 9.613,
+        "max": 9.759,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "SoftsignCustom",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 9.718,
+        "std": 0.091,
+        "min": 9.591,
+        "max": 9.804,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "SquareMatrixMultiplicationCustom",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 36.665,
+        "std": 0.157,
+        "min": 36.445,
+        "max": 36.806,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "SqueezeNetFireModuleCustom",
+      "outer_iter": 13,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 2744.271,
+        "std": 6.119,
+        "min": 2737.526,
+        "max": 2752.338,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "StandardMatrixMultiplicationCustom",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 36.704,
+        "std": 0.175,
+        "min": 36.457,
+        "max": 36.828,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "SumReductionOverADimensionCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 2138.898,
+        "std": 30.673,
+        "min": 2095.532,
+        "max": 2161.478,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "SwishCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 9.781,
+        "std": 0.097,
+        "min": 9.644,
+        "max": 9.852,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "TallSkinnyMatrixMultiplicationCustom",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 28.507,
+        "std": 0.311,
+        "min": 28.115,
+        "max": 28.876,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "TanhCustom",
+      "outer_iter": 13,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 9.559,
+        "std": 0.035,
+        "min": 9.511,
+        "max": 9.591,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "TripletMarginLossCustom",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 64.01,
+        "std": 0.085,
+        "min": 63.891,
+        "max": 64.085,
+        "num_trials": null
+      }
+    },
+    {
+      "kernel_project_name": "VanillaRnnHiddenCustom",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "mean": 1118.432,
+        "std": 9.029,
+        "min": 1109.275,
+        "max": 1130.717,
+        "num_trials": null
+      }
+    }
+  ]
+}

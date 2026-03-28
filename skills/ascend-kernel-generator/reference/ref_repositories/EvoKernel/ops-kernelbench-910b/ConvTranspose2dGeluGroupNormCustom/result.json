@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvTranspose2dGeluGroupNormCustom",
+  "outer_iter": 23,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 2878.833,
+    "std": 4.79,
+    "min": 2872.059,
+    "max": 2882.248,
+    "num_trials": null
+  }
+}

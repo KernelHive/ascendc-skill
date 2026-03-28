@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "96_ConvTranspose3d_Multiply_Max_GlobalAvgPool_Clamp",
+  "outer_iter": 26,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 19.876,
+    "mean": 19.673,
+    "min": 19.598,
+    "num_trials": 5,
+    "std": 0.106
+  }
+}

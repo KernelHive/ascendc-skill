@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "72_ConvTranspose3d_BatchNorm_AvgPool_AvgPool",
+  "outer_iter": 18,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 25.572,
+    "mean": 25.509,
+    "min": 25.356,
+    "num_trials": 5,
+    "std": 0.079
+  }
+}

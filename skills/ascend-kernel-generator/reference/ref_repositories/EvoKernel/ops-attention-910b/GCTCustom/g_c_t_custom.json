@@ -1,0 +1,15 @@
+
+[
+  {
+    "op": "GCTCustom",
+    "input_desc": [
+      { "name": "x",   "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "c",   "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "eps", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "y", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "attr": []
+  }
+]

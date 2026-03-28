@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "CrossformerAttentionCustom",
+  "outer_iter": 5,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 9751.473,
+    "std": 65.324,
+    "min": 9694.02,
+    "max": 9842.851,
+    "num_trials": null
+  }
+}

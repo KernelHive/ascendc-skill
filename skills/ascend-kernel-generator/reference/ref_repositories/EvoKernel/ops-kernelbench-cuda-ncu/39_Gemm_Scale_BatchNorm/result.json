@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "39_Gemm_Scale_BatchNorm",
+  "outer_iter": 22,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 29.594,
+    "mean": 29.518,
+    "min": 29.361,
+    "num_trials": 5,
+    "std": 0.083
+  }
+}

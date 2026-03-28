@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "39_GRU",
+  "outer_iter": 5,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 20.77,
+    "mean": 20.733,
+    "min": 20.676,
+    "num_trials": 5,
+    "std": 0.039
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ArgmaxOverADimensionCustom",
+  "outer_iter": 24,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 2181.207,
+    "std": 0.294,
+    "min": 2180.792,
+    "max": 2181.43,
+    "num_trials": null
+  }
+}

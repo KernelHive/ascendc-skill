@@ -1,0 +1,12 @@
+{
+  "kernel_project_name": "MhcBlockBottleneck2dCustom",
+  "outer_iter": 39,
+  "inner_iter": 1,
+  "compiled": false,
+  "correctness": null,
+  "mean_ms": null,
+  "baseline_mean_ms": 0.726,
+  "speedup_vs_baseline": null,
+  "log2_speedup_vs_baseline": null,
+  "relative_change_pct": null
+}

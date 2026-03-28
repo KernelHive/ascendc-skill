@@ -1,0 +1,8 @@
+[
+  {
+    "op": "cross_attention",
+    "error": "op_kernel/cross_attention_custom_djlrvlczhlafibot20260310112954.cpp:17:9: error: no matching function for call to 'DataCopy'",
+    "code_diff": "--- error_idx_0\n+++ correct_idx_1\n@@ -105,6 +105,8 @@\n kernel_src=\"\"\"\n #include \"kernel_operator.h\"\n \n+constexpr int32_t BUFFER_NUM = 1;\n+\n class KernelCrossAttention {\n public:\n     __aicore__ inline KernelCrossAttention() {}\n@@ -114,14 +116,20 @@\n         xGm.SetGlobalBuffer((__gm__ DTYPE_X*)x, totalLength);\n         yGm.SetGlobalBuffer((__gm__ DTYPE_Y*)y, totalLength);\n         length = totalLength;\n+        pipe.InitBuffer(inQueueX, BUFFER_NUM, totalLength * sizeof(DTYPE_X));\n     }\n \n     __aicore__ inline void Process()\n     {\n-        AscendC::DataCopy(yGm, xGm, length);\n+        AscendC::LocalTensor<DTYPE_X> xLocal = inQueueX.AllocTensor<DTYPE_X>();\n+        AscendC::DataCopy(xLocal, xGm, length);\n+        AscendC::DataCopy(yGm, xLocal, length);\n+        inQueueX.FreeTensor(xLocal);\n     }\n \n private:\n+    AscendC::TPipe pipe;\n+    AscendC::TQue<AscendC::TPosition::VECIN, BUFFER_NUM> inQueueX;\n     AscendC::GlobalTensor<DTYPE_X> xGm;\n     AscendC::GlobalTensor<DTYPE_Y> yGm;\n     uint32_t length;\n",
+    "summary": "AscendC kernel不能直接对GlobalTensor到GlobalTensor调用DataCopy。占位拷贝kernel需要先用TPipe/TQue申请LocalTensor，执行GM->Local和Local->GM两段DataCopy，再释放本地tensor。"
+  }
+]

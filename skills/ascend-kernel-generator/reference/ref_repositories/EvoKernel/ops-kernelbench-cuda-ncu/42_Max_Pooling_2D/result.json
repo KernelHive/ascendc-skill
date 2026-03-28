@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "42_Max_Pooling_2D",
+  "outer_iter": 22,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 5.121,
+    "mean": 5.12,
+    "min": 5.119,
+    "num_trials": 5,
+    "std": 0.001
+  }
+}

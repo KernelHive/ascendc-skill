@@ -1,0 +1,542 @@
+[
+    {
+        "case_name": "Test_DynamicQuantUpdateScatter_001",
+        "op": "DynamicQuantUpdateScatter",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int8"
+                ],
+                "shape": [4, 1, 16, 32],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0,
+                        10
+                    ]
+                ],
+                "name": "var"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [4, 1, 16, 1],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "var_scale"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int32"
+                ],
+                "shape": [4],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        1,
+                        3
+                    ]
+                ],
+                "name": "indices"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float16"
+                ],
+                "shape": [4, 1, 16, 32],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "updates"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float16"
+                ],
+                "shape": [32],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "smooth_scales"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int8"
+                ],
+                "shape": [4, 1, 16, 32],
+                "name": "var"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [4, 1, 16, 1],
+                "name": "var_scale"
+            }
+        ],
+        "attr": [
+            {
+                "name": "reduce",
+                "type": "string",
+                "value": "update"
+            },
+            {
+                "name": "axis",
+                "type": "int",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "case_name": "Test_DynamicQuantUpdateScatter_002",
+        "op": "DynamicQuantUpdateScatter",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int8"
+                ],
+                "shape": [4, 1, 16, 32],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0,
+                        10
+                    ]
+                ],
+                "name": "var"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [4, 1, 16, 1],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "var_scale"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int32"
+                ],
+                "shape": [4],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        1,
+                        3
+                    ]
+                ],
+                "name": "indices"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "bfloat16"
+                ],
+                "shape": [4, 1, 16, 32],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "updates"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "bfloat16"
+                ],
+                "shape": [32],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "smooth_scales"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int8"
+                ],
+                "shape": [4, 1, 16, 32],
+                "name": "var"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [4, 1, 16, 1],
+                "name": "var_scale"
+            }
+        ],
+        "attr": [
+            {
+                "name": "reduce",
+                "type": "string",
+                "value": "none"
+            },
+            {
+                "name": "axis",
+                "type": "int",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "case_name": "Test_DynamicQuantUpdateScatter_003",
+        "op": "DynamicQuantUpdateScatter",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int8"
+                ],
+                "shape": [4, 1, 8, 32],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0,
+                        10
+                    ]
+                ],
+                "name": "var"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [4, 1, 8, 1],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "var_scale"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int64"
+                ],
+                "shape": [4],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        1,
+                        3
+                    ]
+                ],
+                "name": "indices"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float16"
+                ],
+                "shape": [4, 1, 8, 32],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "updates"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float16"
+                ],
+                "shape": [32],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "smooth_scales"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int8"
+                ],
+                "shape": [4, 1, 8, 32],
+                "name": "var"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [4, 1, 8, 1],
+                "name": "var_scale"
+            }
+        ],
+        "attr": [
+            {
+                "name": "reduce",
+                "type": "string",
+                "value": "none"
+            },
+            {
+                "name": "axis",
+                "type": "int",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "case_name": "Test_DynamicQuantUpdateScatter_004",
+        "op": "DynamicQuantUpdateScatter",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int8"
+                ],
+                "shape": [4, 1, 8, 32],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0,
+                        10
+                    ]
+                ],
+                "name": "var"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [4, 1, 8, 1],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "var_scale"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int64"
+                ],
+                "shape": [4],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        1,
+                        3
+                    ]
+                ],
+                "name": "indices"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "bfloat16"
+                ],
+                "shape": [4, 1, 8, 32],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "updates"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "bfloat16"
+                ],
+                "shape": [32],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "smooth_scales"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int8"
+                ],
+                "shape": [4, 1, 8, 32],
+                "name": "var"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [4, 1, 8, 1],
+                "name": "var_scale"
+            }
+        ],
+        "attr": [
+            {
+                "name": "reduce",
+                "type": "string",
+                "value": "none"
+            },
+            {
+                "name": "axis",
+                "type": "int",
+                "value": 1
+            }
+        ]
+    }
+]

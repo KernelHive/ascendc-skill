@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "SoftmaxCustom",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 14.823,
+    "std": 0.163,
+    "min": 14.597,
+    "max": 14.971,
+    "num_trials": null
+  }
+}

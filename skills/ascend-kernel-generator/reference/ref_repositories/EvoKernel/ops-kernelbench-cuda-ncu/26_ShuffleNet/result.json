@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "26_ShuffleNet",
+  "outer_iter": 1,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 31.397,
+    "mean": 31.371,
+    "min": 31.327,
+    "num_trials": 5,
+    "std": 0.026
+  }
+}

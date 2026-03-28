@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ECAAttentionCustom",
+  "outer_iter": 16,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 3.033,
+    "std": 0.071,
+    "min": 2.935,
+    "max": 3.102,
+    "num_trials": null
+  }
+}

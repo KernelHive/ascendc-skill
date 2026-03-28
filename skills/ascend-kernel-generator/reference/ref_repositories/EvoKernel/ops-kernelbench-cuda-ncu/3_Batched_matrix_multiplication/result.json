@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "3_Batched_matrix_multiplication",
+  "outer_iter": 23,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 23.253,
+    "mean": 23.223,
+    "min": 23.165,
+    "num_trials": 5,
+    "std": 0.035
+  }
+}

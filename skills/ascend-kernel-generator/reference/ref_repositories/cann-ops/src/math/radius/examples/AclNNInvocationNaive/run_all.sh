@@ -1,0 +1,78 @@
+#!/bin/bash
+# Copyright (c) Huawei Technologies Co., Ltd. 2025. All rights reserved.
+# This file is a part of the CANN Open Software.
+# Licensed under CANN Open Software License Agreement Version 1.0 (the "License").
+# Please refer to the License for details. You may not use this file except in compliance with the License.
+# THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED,
+# INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE.
+# See LICENSE in the root of the software repository for the full text of the License.
+# ======================================================================================================================
+
+if [ -n "$ASCEND_INSTALL_PATH" ]; then
+    _ASCEND_INSTALL_PATH=$ASCEND_INSTALL_PATH
+elif [ -n "$ASCEND_HOME_PATH" ]; then
+    _ASCEND_INSTALL_PATH=$ASCEND_HOME_PATH
+else
+    if [ -d "$HOME/Ascend/ascend-toolkit/latest" ]; then
+        _ASCEND_INSTALL_PATH=$HOME/Ascend/ascend-toolkit/latest
+    else
+        _ASCEND_INSTALL_PATH=/usr/local/Ascend/ascend-toolkit/latest
+    fi
+fi
+source $_ASCEND_INSTALL_PATH/bin/setenv.bash
+export DDK_PATH=$_ASCEND_INSTALL_PATH
+export NPU_HOST_LIB=$_ASCEND_INSTALL_PATH/lib64
+
+export COMPUTE_TYPE=int32
+
+# Loop through all test cases from 1 to 50
+for case_id in {1..50}; do
+    rm -rf $HOME/ascend/log/*
+    rm ./input/*.bin
+    rm ./output/*.bin
+    export CASE_ID=$case_id
+
+    echo "INFO: Generating input data for Case $case_id..."
+    ret=`python3 gen_data.py`
+    # echo $ret
+
+    if [ $? -ne 0 ]; then
+        echo "ERROR: generate input data failed for Case $case_id!"
+        exit 1
+    fi
+    echo "INFO: generate input data success for Case $case_id!"
+
+    echo "INFO: Building and running the test for Case $case_id..."
+    set -e
+    rm -rf build
+    mkdir -p build
+    cmake -B build
+    cmake --build build -j
+
+    (
+        cd build
+        ./execute_radius_op $ret
+    )
+
+    echo "INFO: Verifying result for Case $case_id..."
+    ret=`python3 verify_result.py output/output_y.bin output/golden.bin`
+    echo "$ret"
+
+    if [ "x$ret" == "xtest pass" ]; then
+        echo ""
+        echo "################################################"
+        echo "INFO: You have passed the Precision for Case $case_id!"
+        echo "################################################"
+        echo ""
+    else
+        echo "ERROR: Precision test failed for Case $case_id!"
+        exit 1
+    fi
+done
+
+echo ""
+echo "####################################################"
+echo "INFO: All test cases in $COMPUTE_TYPE passed successfully!"
+echo "####################################################"
+echo ""
+echo ""

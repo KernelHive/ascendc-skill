@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "GemmSwishDivideClampTanhClampCustom",
+  "outer_iter": 18,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 26018.396,
+    "std": 120.648,
+    "min": 25899.372,
+    "max": 26183.78,
+    "num_trials": null
+  }
+}

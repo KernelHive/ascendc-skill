@@ -1,0 +1,38 @@
+##### GetInputIndexByName
+
+## 产品支持情况
+
+| 产品 | 是否支持 |
+|------|----------|
+| Atlas A3 训练系列产品/Atlas A3 推理系列产品 | √ |
+| Atlas A2 训练系列产品/Atlas A2 推理系列产品 | √ |
+| Atlas 200I/500 A2 推理产品 | √ |
+| Atlas 推理系列产品 | √ |
+| Atlas 训练系列产品 | √ |
+
+## 功能说明
+
+通过算子的端口名获取输入端口index。
+
+## 函数原型
+
+```cpp
+graphStatus GetInputIndexByName(const AscendString &name, int32_t &index)
+```
+
+## 参数说明
+
+| 参数名 | 输入/输出 | 说明 |
+|--------|-----------|------|
+| name | 输入 | 算子的端口名。对于动态输入，需要传入端口名和编号。 |
+| index | 输出 | 算子的输入端口号。 |
+
+## 返回值说明
+
+| 参数名 | 类型 | 说明 |
+|--------|------|------|
+| - | graphStatus | GRAPH_SUCCESS(0)：成功。<br>其他值：失败。 |
+
+## 约束说明
+
+无

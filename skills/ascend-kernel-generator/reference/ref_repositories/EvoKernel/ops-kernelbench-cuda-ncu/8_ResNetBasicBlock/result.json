@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "8_ResNetBasicBlock",
+  "outer_iter": 14,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 3.436,
+    "mean": 3.433,
+    "min": 3.428,
+    "num_trials": 5,
+    "std": 0.003
+  }
+}

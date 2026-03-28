@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "26_ConvTranspose3d_Add_HardSwish",
+  "outer_iter": 6,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 6.741,
+    "mean": 6.737,
+    "min": 6.733,
+    "num_trials": 5,
+    "std": 0.003
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "CrossAttentionCustom",
+  "outer_iter": 7,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 1532.514,
+    "std": 0.159,
+    "min": 1532.289,
+    "max": 1532.627,
+    "num_trials": null
+  }
+}

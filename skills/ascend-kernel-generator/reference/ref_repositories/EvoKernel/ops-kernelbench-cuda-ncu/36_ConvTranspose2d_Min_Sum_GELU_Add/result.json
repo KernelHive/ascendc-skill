@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "36_ConvTranspose2d_Min_Sum_GELU_Add",
+  "outer_iter": 26,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 3.165,
+    "mean": 3.163,
+    "min": 3.161,
+    "num_trials": 5,
+    "std": 0.002
+  }
+}

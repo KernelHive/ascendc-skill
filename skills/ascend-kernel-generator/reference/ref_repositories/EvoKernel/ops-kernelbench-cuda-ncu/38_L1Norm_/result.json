@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "38_L1Norm_",
+  "outer_iter": 24,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 16.295,
+    "mean": 16.285,
+    "min": 16.276,
+    "num_trials": 5,
+    "std": 0.007
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "AveragePooling3dCustom",
+  "outer_iter": 21,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 700.045,
+    "std": 0.149,
+    "min": 699.835,
+    "max": 700.152,
+    "num_trials": null
+  }
+}

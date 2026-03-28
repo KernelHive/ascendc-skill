@@ -1,0 +1,15 @@
+
+[
+  {
+    "op": "TripletMarginLossCustom",
+    "input_desc": [
+      { "name": "anchor",   "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "positive", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "negative", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "margin",   "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "y", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ]
+  }
+]

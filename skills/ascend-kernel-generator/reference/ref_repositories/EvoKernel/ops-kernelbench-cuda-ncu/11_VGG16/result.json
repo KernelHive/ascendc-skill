@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "11_VGG16",
+  "outer_iter": 4,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 6.025,
+    "mean": 6.005,
+    "min": 5.985,
+    "num_trials": 5,
+    "std": 0.016
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvPointwise2dCustom",
+  "outer_iter": 28,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 14295.198,
+    "std": 28.277,
+    "min": 14268.722,
+    "max": 14334.391,
+    "num_trials": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "62_ViTAttention",
+  "outer_iter": 10,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 0.376,
+    "mean": 0.375,
+    "min": 0.375,
+    "num_trials": 5,
+    "std": 0.001
+  }
+}

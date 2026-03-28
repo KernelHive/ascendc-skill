@@ -1,0 +1,208 @@
+[
+    {
+        "case_name": "Test_DynamicRNNV2_001",
+        "op": "DynamicRNNV2",
+        "calc_expect_func_file":"test_dynamic_rnnv2.py:calc_expect_func", 
+        "input_desc": [
+          {
+            "shape": [
+              -1,
+              16,
+              16
+            ],
+            "ori_shape": [
+              -1,
+              16,
+              16
+            ],
+            "ori_format": "ND",
+            "format": "ND",
+            "typical_shape": [1, 16, 16],
+            "shape_range": [[1, 1]],
+            "value_range": [[1, 1]],
+            "name": "x",
+            "type": "float16"
+          },
+          {
+            "shape": [
+              16,
+              64
+            ],
+            "ori_shape": [
+              16,
+              64
+            ],
+            "ori_format": "ND",
+            "format": "ND",
+            "name": "weight_input",
+            "type": "float16"
+          },
+          {
+            "shape": [
+              16,
+              64
+            ],
+            "ori_shape": [
+              16,
+              64
+            ],
+            "ori_format": "ND",
+            "format": "ND",
+            "name": "weight_hidden",
+            "type": "float16"
+          }
+        ],
+        "output_desc": [
+          {
+            "shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_format": "ND",
+            "format": "ND",
+            "name": "y",
+            "type": "float16"
+          },
+          {
+              "shape": [
+                  1,
+                  16,
+                  16
+              ],
+              "ori_shape": [
+                  1,
+                  16,
+                  16
+              ],
+              "ori_format": "ND",
+              "format": "ND",
+              "name": "output_h",
+              "type": "float16"
+          },
+          {
+            "shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_format": "ND",
+            "format": "ND",
+            "name": "output_c",
+            "type": "float16"
+          },
+          {
+            "shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_format": "ND",
+            "format": "ND",
+            "name": "i",
+            "type": "float16"
+          },
+          {
+            "shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_format": "ND",
+            "format": "ND",
+            "name": "j",
+            "type": "float16"
+          },
+          {
+            "shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_format": "ND",
+            "format": "ND",
+            "name": "f",
+            "type": "float16"
+          },
+          {
+              "shape": [
+                1,
+                16,
+                16
+              ],
+              "ori_shape": [
+                1,
+                16,
+                16
+              ],
+              "ori_format": "ND",
+              "format": "ND",
+              "name": "o",
+              "type": "float16"
+            },
+            {
+              "shape": [
+                1,
+                16,
+                16
+              ],
+              "ori_shape": [
+                1,
+                16,
+                16
+              ],
+              "ori_format": "ND",
+              "format": "ND",
+              "name": "tanhc",
+              "type": "float16"
+            }
+        ],
+        "attr": [
+          {
+            "name": "time_major",
+            "type": "bool",
+            "value": true
+          },
+          {
+            "name": "activation",
+            "type": "string",
+            "value": "tanh"
+          },
+          {
+            "name": "recurrent_activation",
+            "type": "string",
+            "value": "sigmoid"
+          },
+          {
+            "name": "gate_order",
+            "type": "string",
+            "value": "ijfo"
+          }
+        ]
+    }
+]   

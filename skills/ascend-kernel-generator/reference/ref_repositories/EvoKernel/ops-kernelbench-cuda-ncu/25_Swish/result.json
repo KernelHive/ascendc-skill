@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "25_Swish",
+  "outer_iter": 27,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 7.745,
+    "mean": 7.725,
+    "min": 7.708,
+    "num_trials": 5,
+    "std": 0.014
+  }
+}

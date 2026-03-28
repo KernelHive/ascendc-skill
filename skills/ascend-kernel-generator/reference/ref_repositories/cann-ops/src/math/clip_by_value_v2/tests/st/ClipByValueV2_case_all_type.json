@@ -1,0 +1,90 @@
+[
+    {
+        "case_name": "Test_ClipByValueV2_001",
+        "op": "ClipByValueV2",
+        "calc_expect_func_file": "test_clip_by_value_v2.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float16",
+                    "float",
+                    "int32",
+                    "bfloat16"
+                ],
+                "shape":[7, 2045],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        10.0
+                    ]
+                ],
+                "name": "x"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float16",
+                    "float",
+                    "int32",
+                    "bfloat16"
+                ],
+                "shape": [1],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        5.0
+                    ]
+                ],
+                "name": "clip_value_min"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float16",
+                    "float",
+                    "int32",
+                    "bfloat16"
+                ],
+                "shape": [1],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        5.1,
+                        10.0
+                    ]
+                ],
+                "name": "clip_value_max"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float16",
+                    "float",
+                    "int32",
+                    "bfloat16"
+                ],
+                "shape": [7, 2045],
+                "name": "y"
+            }
+        ]
+    }
+]

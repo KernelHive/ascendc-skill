@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "78_conv_transposed_2D_asymmetric_input_asymmetric_kernel___padded__",
+  "outer_iter": 14,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 34.307,
+    "mean": 34.074,
+    "min": 33.797,
+    "num_trials": 5,
+    "std": 0.227
+  }
+}

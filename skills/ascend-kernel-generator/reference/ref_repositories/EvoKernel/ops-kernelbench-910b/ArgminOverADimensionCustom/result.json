@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ArgminOverADimensionCustom",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 2366.352,
+    "std": 0.426,
+    "min": 2366.024,
+    "max": 2366.954,
+    "num_trials": null
+  }
+}

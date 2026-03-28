@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "40_LayerNorm",
+  "outer_iter": 26,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 0.527,
+    "mean": 0.522,
+    "min": 0.519,
+    "num_trials": 5,
+    "std": 0.003
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "35_LSTM",
+  "outer_iter": 16,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 21.427,
+    "mean": 21.36,
+    "min": 21.328,
+    "num_trials": 5,
+    "std": 0.038
+  }
+}

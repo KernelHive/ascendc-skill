@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "Conv2dMultiplyLeakyReluGeluCustom",
+  "outer_iter": 22,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 30270.584,
+    "std": 0.556,
+    "min": 30269.851,
+    "max": 30271.196,
+    "num_trials": null
+  }
+}

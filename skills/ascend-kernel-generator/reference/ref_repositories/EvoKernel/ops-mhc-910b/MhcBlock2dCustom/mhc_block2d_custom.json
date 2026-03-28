@@ -1,0 +1,26 @@
+
+[
+  {
+    "op": "MhcBlock2dCustom",
+    "language": "cpp",
+    "input_desc": [
+      { "name": "x_fp16",      "param_type": "required", "format": ["ND"], "type": ["float16"] },
+      { "name": "out_fp16",    "param_type": "required", "format": ["ND"], "type": ["float16"] },
+      { "name": "map_w",       "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "map_bias",    "param_type": "required", "format": ["ND"], "type": ["float"] },
+
+      { "name": "num_streams",       "param_type": "required", "format": ["ND"], "type": ["int32"] },
+      { "name": "sinkhorn_iter",     "param_type": "required", "format": ["ND"], "type": ["int32"] },
+      { "name": "sinkhorn_eps",      "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "sinkhorn_temp",     "param_type": "required", "format": ["ND"], "type": ["float"] },
+
+      { "name": "in_channels",       "param_type": "required", "format": ["ND"], "type": ["int32"] },
+      { "name": "out_channels",      "param_type": "required", "format": ["ND"], "type": ["int32"] },
+      { "name": "height",            "param_type": "required", "format": ["ND"], "type": ["int32"] },
+      { "name": "width",             "param_type": "required", "format": ["ND"], "type": ["int32"] }
+    ],
+    "output_desc": [
+      { "name": "y_fp16",      "param_type": "required", "format": ["ND"], "type": ["float16"] }
+    ]
+  }
+]

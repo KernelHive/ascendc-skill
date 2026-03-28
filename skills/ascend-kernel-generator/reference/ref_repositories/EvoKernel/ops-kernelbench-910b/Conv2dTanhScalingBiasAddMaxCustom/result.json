@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "Conv2dTanhScalingBiasAddMaxCustom",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 10312.967,
+    "std": 2.737,
+    "min": 10310.639,
+    "max": 10316.81,
+    "num_trials": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "HardTanhCustom",
+  "outer_iter": 24,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 9.527,
+    "std": 0.036,
+    "min": 9.476,
+    "max": 9.555,
+    "num_trials": null
+  }
+}

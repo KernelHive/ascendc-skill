@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "9_Matmul_Subtract_Multiply_ReLU",
+  "outer_iter": 24,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 10.258,
+    "mean": 10.252,
+    "min": 10.248,
+    "num_trials": 5,
+    "std": 0.004
+  }
+}

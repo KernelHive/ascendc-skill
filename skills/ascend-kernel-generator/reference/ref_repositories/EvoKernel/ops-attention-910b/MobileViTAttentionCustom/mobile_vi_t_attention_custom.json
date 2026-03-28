@@ -1,0 +1,15 @@
+
+[
+  {
+    "op": "MobileViTAttentionCustom",
+    "input_desc": [
+      { "name": "x",         "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "att_delta", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "ffn_delta", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "y", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "attr": []
+  }
+]

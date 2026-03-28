@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "64_conv_transposed_1D",
+  "outer_iter": 27,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 96.094,
+    "mean": 95.914,
+    "min": 95.244,
+    "num_trials": 5,
+    "std": 0.335
+  }
+}

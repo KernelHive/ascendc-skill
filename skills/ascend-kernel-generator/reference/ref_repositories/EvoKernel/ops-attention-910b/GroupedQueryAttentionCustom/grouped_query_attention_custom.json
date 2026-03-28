@@ -1,0 +1,14 @@
+
+[
+  {
+    "op": "GroupedQueryAttentionCustom",
+    "input_desc": [
+      { "name": "q", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "k", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "v", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "y", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ]
+  }
+]

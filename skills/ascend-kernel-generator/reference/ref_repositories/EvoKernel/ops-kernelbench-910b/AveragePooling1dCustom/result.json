@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "AveragePooling1dCustom",
+  "outer_iter": 11,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 332.207,
+    "std": 0.172,
+    "min": 331.964,
+    "max": 332.337,
+    "num_trials": null
+  }
+}

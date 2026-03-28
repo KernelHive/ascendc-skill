@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "20_ConvTranspose3d_Sum_ResidualAdd_Multiply_ResidualAdd",
+  "outer_iter": 11,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 2.991,
+    "mean": 2.985,
+    "min": 2.977,
+    "num_trials": 5,
+    "std": 0.005
+  }
+}

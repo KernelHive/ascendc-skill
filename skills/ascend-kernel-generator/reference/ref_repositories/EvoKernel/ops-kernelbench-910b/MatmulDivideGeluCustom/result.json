@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MatmulDivideGeluCustom",
+  "outer_iter": 25,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 36485.85,
+    "std": 8.483,
+    "min": 36473.93,
+    "max": 36492.98,
+    "num_trials": null
+  }
+}

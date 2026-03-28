@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvTranspose2dMishAddHardtanhScalingCustom",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 70082.418,
+    "std": 3.148,
+    "min": 70078.519,
+    "max": 70086.229,
+    "num_trials": null
+  }
+}

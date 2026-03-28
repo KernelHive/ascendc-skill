@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "26_GCModule",
+  "outer_iter": 10,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 0.1,
+    "mean": 0.099,
+    "min": 0.098,
+    "num_trials": 5,
+    "std": 0.001
+  }
+}

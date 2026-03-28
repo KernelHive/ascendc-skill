@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "GemmMultiplyLeakyReluCustom",
+  "outer_iter": 18,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 21291.534,
+    "std": 40.59,
+    "min": 21261.415,
+    "max": 21348.912,
+    "num_trials": null
+  }
+}

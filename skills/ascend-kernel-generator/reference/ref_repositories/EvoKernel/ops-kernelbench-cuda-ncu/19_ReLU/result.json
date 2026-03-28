@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "19_ReLU",
+  "outer_iter": 18,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 7.602,
+    "mean": 7.598,
+    "min": 7.595,
+    "num_trials": 5,
+    "std": 0.002
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MatmulWithSmallKDimensionCustom",
+  "outer_iter": 3,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 37.204,
+    "std": 0.047,
+    "min": 37.158,
+    "max": 37.268,
+    "num_trials": null
+  }
+}

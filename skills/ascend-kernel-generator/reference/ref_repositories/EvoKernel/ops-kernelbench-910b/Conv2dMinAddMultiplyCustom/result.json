@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "Conv2dMinAddMultiplyCustom",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 35297.418,
+    "std": 21.617,
+    "min": 35274.001,
+    "max": 35326.146,
+    "num_trials": null
+  }
+}

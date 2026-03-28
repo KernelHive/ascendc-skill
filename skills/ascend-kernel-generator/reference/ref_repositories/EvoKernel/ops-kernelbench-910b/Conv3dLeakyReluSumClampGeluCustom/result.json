@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "Conv3dLeakyReluSumClampGeluCustom",
+  "outer_iter": 27,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 66167.792,
+    "std": 2.806,
+    "min": 66163.9,
+    "max": 66170.412,
+    "num_trials": null
+  }
+}

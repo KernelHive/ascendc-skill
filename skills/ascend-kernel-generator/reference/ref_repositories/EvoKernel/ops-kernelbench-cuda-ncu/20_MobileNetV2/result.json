@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "20_MobileNetV2",
+  "outer_iter": 4,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 4.012,
+    "mean": 4.002,
+    "min": 3.992,
+    "num_trials": 5,
+    "std": 0.008
+  }
+}

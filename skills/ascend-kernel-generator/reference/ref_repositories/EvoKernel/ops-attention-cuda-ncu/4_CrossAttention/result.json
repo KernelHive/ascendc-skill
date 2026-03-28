@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "4_CrossAttention",
+  "outer_iter": 25,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 6.032,
+    "mean": 6.025,
+    "min": 6.016,
+    "num_trials": 5,
+    "std": 0.006
+  }
+}

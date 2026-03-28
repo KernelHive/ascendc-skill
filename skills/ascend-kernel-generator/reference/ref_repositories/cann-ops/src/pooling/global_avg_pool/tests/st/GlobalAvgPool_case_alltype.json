@@ -1,0 +1,42 @@
+[
+    {
+        "case_name": "Test_GlobalAvgPool_001",
+        "op": "GlobalAvgPool",
+        "calc_expect_func_file": "./test_global_avg_pool.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float32",
+                    "float16"
+                ],
+                "shape": [3, 4, 64, 32],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        -1000,
+                        1000
+                    ]
+                ],
+                "name": "x"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float32",
+                    "float16"
+                ],
+                "shape": [3, 4, 1, 1],
+                "name": "y"
+            }   
+        ]
+    }
+]

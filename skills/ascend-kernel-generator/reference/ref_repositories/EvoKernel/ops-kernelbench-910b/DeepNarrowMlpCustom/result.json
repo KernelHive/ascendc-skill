@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "DeepNarrowMlpCustom",
+  "outer_iter": 19,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 25672.942,
+    "std": 202.324,
+    "min": 25447.466,
+    "max": 25938.235,
+    "num_trials": null
+  }
+}

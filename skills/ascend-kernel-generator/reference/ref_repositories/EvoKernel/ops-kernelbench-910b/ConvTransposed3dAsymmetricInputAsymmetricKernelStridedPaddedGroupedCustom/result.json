@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvTransposed3dAsymmetricInputAsymmetricKernelStridedPaddedGroupedCustom",
+  "outer_iter": 28,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 258.324,
+    "std": 0.159,
+    "min": 258.139,
+    "max": 258.526,
+    "num_trials": null
+  }
+}

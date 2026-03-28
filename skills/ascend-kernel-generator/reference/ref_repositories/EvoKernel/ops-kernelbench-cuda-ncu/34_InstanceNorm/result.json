@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "34_InstanceNorm",
+  "outer_iter": 20,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 13.043,
+    "mean": 13.025,
+    "min": 13.002,
+    "num_trials": 5,
+    "std": 0.016
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "kernel_project_name": "StreamWeightedSumCustom",
+  "outer_iter": 18,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "mean_ms": 0.015,
+  "baseline_mean_ms": 0.04,
+  "speedup_vs_baseline": 2.666666666666667,
+  "log2_speedup_vs_baseline": 1.415037499278844,
+  "relative_change_pct": 166.66666666666669
+}

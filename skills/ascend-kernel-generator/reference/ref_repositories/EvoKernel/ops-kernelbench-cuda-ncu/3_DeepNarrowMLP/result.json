@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "3_DeepNarrowMLP",
+  "outer_iter": 16,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 18.047,
+    "mean": 18.043,
+    "min": 18.039,
+    "num_trials": 5,
+    "std": 0.003
+  }
+}

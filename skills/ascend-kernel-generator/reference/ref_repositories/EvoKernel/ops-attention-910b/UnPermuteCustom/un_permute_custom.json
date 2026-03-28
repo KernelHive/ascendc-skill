@@ -1,0 +1,35 @@
+
+[
+  {
+    "op": "UnPermuteCustom",
+    "input_desc": [
+      {
+        "name": "expert_output",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["bfloat16"]
+      },
+      {
+        "name": "topk_vals",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["bfloat16"]
+      },
+      {
+        "name": "inv_perm",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["int64"]
+      }
+    ],
+    "output_desc": [
+      {
+        "name": "out",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["bfloat16"]
+      }
+    ],
+    "attr": []
+  }
+]

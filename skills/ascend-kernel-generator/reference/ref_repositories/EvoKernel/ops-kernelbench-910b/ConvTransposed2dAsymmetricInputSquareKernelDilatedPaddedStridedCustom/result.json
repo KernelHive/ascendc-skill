@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvTransposed2dAsymmetricInputSquareKernelDilatedPaddedStridedCustom",
+  "outer_iter": 30,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 2418.812,
+    "std": 6.665,
+    "min": 2412.351,
+    "max": 2427.985,
+    "num_trials": null
+  }
+}

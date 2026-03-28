@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ParNetAttentionCustom",
+  "outer_iter": 18,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 1.551,
+    "std": 0.247,
+    "min": 1.201,
+    "max": 1.729,
+    "num_trials": null
+  }
+}

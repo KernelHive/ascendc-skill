@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "SpatialGroupEnhanceCustom",
+  "outer_iter": 5,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 3.588,
+    "std": 0.157,
+    "min": 3.367,
+    "max": 3.7,
+    "num_trials": null
+  }
+}

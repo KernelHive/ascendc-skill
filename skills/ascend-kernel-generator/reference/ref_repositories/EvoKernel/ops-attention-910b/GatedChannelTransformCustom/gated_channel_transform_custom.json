@@ -1,0 +1,17 @@
+
+[
+  {
+    "op": "GatedChannelTransformCustom",
+    "input_desc": [
+      { "name": "x",       "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "alpha",   "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "gamma",   "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "beta",    "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "epsilon", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "y", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "attr": []
+  }
+]

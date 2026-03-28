@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "Conv3dGroupNormMeanCustom",
+  "outer_iter": 30,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 10854.409,
+    "std": 98.565,
+    "min": 10784.337,
+    "max": 10993.8,
+    "num_trials": null
+  }
+}

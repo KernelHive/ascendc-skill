@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MatmulForSymmetricMatricesCustom",
+  "outer_iter": 2,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 36.698,
+    "std": 0.139,
+    "min": 36.502,
+    "max": 36.8,
+    "num_trials": null
+  }
+}

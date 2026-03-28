@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "44_MUSEAttention",
+  "outer_iter": 10,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 0.71,
+    "mean": 0.707,
+    "min": 0.702,
+    "num_trials": 5,
+    "std": 0.002
+  }
+}

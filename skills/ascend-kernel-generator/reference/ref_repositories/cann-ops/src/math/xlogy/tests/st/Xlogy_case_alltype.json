@@ -1,0 +1,62 @@
+[
+    {
+        "case_name": "Test_Xlogy_001",
+        "op": "Xlogy",
+        "calc_expect_func_file": "./test_xlogy.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16"
+                ],
+                "shape": [128, 32],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        -10,
+                        10
+                    ]
+                ],
+                "name": "x1"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16"
+                ],
+                "shape": [128, 32],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0,
+                        10
+                    ]
+                ],
+                "name": "x2"
+            }            
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16"
+                ],
+                "shape": [128, 32],
+                "name": "y"
+            }
+        ]
+    }
+]

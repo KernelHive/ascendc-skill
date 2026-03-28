@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "92_cumsum_exclusive",
+  "outer_iter": 23,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 5.18,
+    "mean": 5.176,
+    "min": 5.171,
+    "num_trials": 5,
+    "std": 0.004
+  }
+}

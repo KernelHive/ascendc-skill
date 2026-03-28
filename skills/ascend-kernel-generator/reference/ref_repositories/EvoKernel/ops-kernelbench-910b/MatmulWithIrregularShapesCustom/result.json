@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MatmulWithIrregularShapesCustom",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 174.036,
+    "std": 2.293,
+    "min": 170.928,
+    "max": 176.393,
+    "num_trials": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "1_Conv2D_ReLU_BiasAdd",
+  "outer_iter": 9,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 6.024,
+    "mean": 6.015,
+    "min": 6.006,
+    "num_trials": 5,
+    "std": 0.007
+  }
+}

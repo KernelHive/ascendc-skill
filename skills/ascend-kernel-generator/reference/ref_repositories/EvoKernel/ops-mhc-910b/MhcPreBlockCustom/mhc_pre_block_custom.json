@@ -1,0 +1,18 @@
+
+[
+  {
+    "op": "MhcPreBlockCustom",
+    "language": "cpp",
+    "input_desc": [
+      { "name": "residual", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "fn",       "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "hc_scale", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "hc_base",  "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "post_mix",    "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "comb_mix",    "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "layer_input", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ]
+  }
+]

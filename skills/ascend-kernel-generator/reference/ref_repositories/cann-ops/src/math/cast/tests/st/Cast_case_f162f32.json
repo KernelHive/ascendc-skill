@@ -1,0 +1,47 @@
+[
+    {
+        "case_name": "Test_Cast_001",
+        "op": "Cast",
+        "calc_expect_func_file": "./test_cast.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+					"float16"
+                ],
+                "shape": [100],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        -5,
+                        5
+                    ]
+                ],
+                "name": "x"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [100],
+                "name": "y"
+            }
+        ],
+        "attr":[
+            {
+                "name": "dstType",
+                "type": "int",
+                "value": 0
+            }
+	    ]
+    }
+]

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "CumsumReverseCustom",
+  "outer_iter": 30,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 176.34,
+    "std": 0.161,
+    "min": 176.114,
+    "max": 176.474,
+    "num_trials": null
+  }
+}

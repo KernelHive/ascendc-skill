@@ -1,0 +1,8 @@
+[
+  {
+    "op": "ltsm_bidirectional",
+    "error": "[FAIL] Output mismatch caused by not mirroring the reference model's forward-time state handling for c0.",
+    "code_diff": "Changed ModelNew.forward from `self.c0 = self.c0.to(\"cpu\")` to `self.c0 = self.h0.to(\"cpu\")`, matching the reference implementation's actual recurrent state update behavior.",
+    "summary": "When the reference mutates recurrent state inside forward, ModelNew must reproduce that exact mutation order. For this bidirectional LSTM case, c0 must be reassigned from h0 before the CPU fallback LSTM call; otherwise correctness drifts even when weights and inputs are aligned."
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "55_Matmul_MaxPool_Sum_Scale",
+  "outer_iter": 25,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 16.263,
+    "mean": 16.256,
+    "min": 16.245,
+    "num_trials": 5,
+    "std": 0.006
+  }
+}

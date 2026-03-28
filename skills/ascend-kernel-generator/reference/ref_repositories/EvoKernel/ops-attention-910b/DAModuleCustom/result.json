@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "DAModuleCustom",
+  "outer_iter": 13,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 19.514,
+    "std": 0.398,
+    "min": 18.951,
+    "max": 19.799,
+    "num_trials": null
+  }
+}

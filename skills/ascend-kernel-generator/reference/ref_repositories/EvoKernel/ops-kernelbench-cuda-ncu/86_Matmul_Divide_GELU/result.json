@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "86_Matmul_Divide_GELU",
+  "outer_iter": 14,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 1.274,
+    "mean": 1.274,
+    "min": 1.273,
+    "num_trials": 5,
+    "std": 0.0
+  }
+}

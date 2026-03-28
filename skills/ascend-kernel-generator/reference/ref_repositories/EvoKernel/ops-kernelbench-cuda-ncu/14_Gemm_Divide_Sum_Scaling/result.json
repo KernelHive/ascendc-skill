@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "14_Gemm_Divide_Sum_Scaling",
+  "outer_iter": 18,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 0.033,
+    "mean": 0.032,
+    "min": 0.032,
+    "num_trials": 5,
+    "std": 0.001
+  }
+}

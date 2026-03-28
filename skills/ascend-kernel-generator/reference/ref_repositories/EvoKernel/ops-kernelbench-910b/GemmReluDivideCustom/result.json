@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "GemmReluDivideCustom",
+  "outer_iter": 20,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 12833.073,
+    "std": 98.857,
+    "min": 12758.397,
+    "max": 12972.766,
+    "num_trials": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "12_PerformerAttention",
+  "outer_iter": 27,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 5.023,
+    "mean": 4.96,
+    "min": 4.888,
+    "num_trials": 5,
+    "std": 0.058
+  }
+}

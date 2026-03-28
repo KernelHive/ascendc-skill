@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "LinearAttentionCustom",
+  "outer_iter": 27,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 1.054,
+    "std": 0.186,
+    "min": 0.791,
+    "max": 1.187,
+    "num_trials": null
+  }
+}

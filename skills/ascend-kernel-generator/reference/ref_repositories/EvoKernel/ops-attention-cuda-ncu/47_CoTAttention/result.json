@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "47_CoTAttention",
+  "outer_iter": 20,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 1.128,
+    "mean": 1.123,
+    "min": 1.119,
+    "num_trials": 5,
+    "std": 0.003
+  }
+}

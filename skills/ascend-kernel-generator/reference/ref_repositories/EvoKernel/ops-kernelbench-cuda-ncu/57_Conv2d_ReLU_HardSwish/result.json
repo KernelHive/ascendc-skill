@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "57_Conv2d_ReLU_HardSwish",
+  "outer_iter": 17,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 12.715,
+    "mean": 12.714,
+    "min": 12.713,
+    "num_trials": 5,
+    "std": 0.001
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "56_Matmul_Sigmoid_Sum",
+  "outer_iter": 15,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 1.53,
+    "mean": 1.521,
+    "min": 1.508,
+    "num_trials": 5,
+    "std": 0.009
+  }
+}

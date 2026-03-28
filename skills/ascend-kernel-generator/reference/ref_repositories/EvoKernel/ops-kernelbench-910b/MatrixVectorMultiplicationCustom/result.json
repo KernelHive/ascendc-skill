@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MatrixVectorMultiplicationCustom",
+  "outer_iter": 2,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 1374.35,
+    "std": 12.37,
+    "min": 1365.552,
+    "max": 1391.844,
+    "num_trials": null
+  }
+}

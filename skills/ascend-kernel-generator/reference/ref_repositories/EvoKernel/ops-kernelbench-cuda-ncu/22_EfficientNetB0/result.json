@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "22_EfficientNetB0",
+  "outer_iter": 23,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 3.184,
+    "mean": 3.168,
+    "min": 3.146,
+    "num_trials": 5,
+    "std": 0.014
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "72_GroupedGEMM",
+  "outer_iter": 25,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 24.266,
+    "mean": 21.526,
+    "min": 19.835,
+    "num_trials": 5,
+    "std": 1.893
+  }
+}

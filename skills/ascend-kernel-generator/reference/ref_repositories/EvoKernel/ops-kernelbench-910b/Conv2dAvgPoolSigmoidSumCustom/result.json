@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "Conv2dAvgPoolSigmoidSumCustom",
+  "outer_iter": 21,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 28819.688,
+    "std": 10.437,
+    "min": 28804.938,
+    "max": 28827.552,
+    "num_trials": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "54_conv_standard_3D__square_input__square_kernel",
+  "outer_iter": 25,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 6.133,
+    "mean": 6.099,
+    "min": 6.051,
+    "num_trials": 5,
+    "std": 0.031
+  }
+}

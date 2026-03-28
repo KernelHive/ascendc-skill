@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "7_GoogleNetInceptionV1",
+  "outer_iter": 1,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 3.16,
+    "mean": 3.157,
+    "min": 3.152,
+    "num_trials": 5,
+    "std": 0.003
+  }
+}

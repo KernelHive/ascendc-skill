@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "36_LSTMHn",
+  "outer_iter": 26,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 21.458,
+    "mean": 21.416,
+    "min": 21.358,
+    "num_trials": 5,
+    "std": 0.039
+  }
+}

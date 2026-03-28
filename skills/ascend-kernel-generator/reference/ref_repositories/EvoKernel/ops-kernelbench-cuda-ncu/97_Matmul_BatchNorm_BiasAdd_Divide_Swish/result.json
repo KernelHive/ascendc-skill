@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "97_Matmul_BatchNorm_BiasAdd_Divide_Swish",
+  "outer_iter": 18,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 9.588,
+    "mean": 9.583,
+    "min": 9.58,
+    "num_trials": 5,
+    "std": 0.003
+  }
+}

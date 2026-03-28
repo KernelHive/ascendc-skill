@@ -1,0 +1,12 @@
+{
+  "kernel_project_name": "MhcPreBlockCustom",
+  "outer_iter": 21,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "mean_ms": 112.474,
+  "baseline_mean_ms": 1.31,
+  "speedup_vs_baseline": 0.011647136227039138,
+  "log2_speedup_vs_baseline": -6.423880918065617,
+  "relative_change_pct": -98.83528637729609
+}

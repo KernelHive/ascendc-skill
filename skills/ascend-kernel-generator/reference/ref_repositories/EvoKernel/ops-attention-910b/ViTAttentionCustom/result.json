@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ViTAttentionCustom",
+  "outer_iter": 20,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 110.773,
+    "std": 0.265,
+    "min": 110.398,
+    "max": 110.976,
+    "num_trials": null
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "kernel_project_name": "OptimizedMHCLayerWithFusionCustom",
+  "outer_iter": 30,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "mean_ms": 22.34,
+  "baseline_mean_ms": 1.244,
+  "speedup_vs_baseline": 0.05568487018800358,
+  "log2_speedup_vs_baseline": -4.166570795240075,
+  "relative_change_pct": -94.43151298119965
+}

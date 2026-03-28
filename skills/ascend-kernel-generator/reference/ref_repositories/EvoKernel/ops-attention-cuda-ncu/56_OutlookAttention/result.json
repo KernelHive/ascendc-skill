@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "56_OutlookAttention",
+  "outer_iter": 22,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 3.649,
+    "mean": 3.633,
+    "min": 3.616,
+    "num_trials": 5,
+    "std": 0.011
+  }
+}

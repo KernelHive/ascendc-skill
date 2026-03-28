@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MaskedCumsumCustom",
+  "outer_iter": 19,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 175.315,
+    "std": 0.012,
+    "min": 175.299,
+    "max": 175.329,
+    "num_trials": null
+  }
+}

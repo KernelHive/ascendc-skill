@@ -1,0 +1,8 @@
+[
+  {
+    "op": "conv_transposed2d_asymmetric_input_asymmetric_kernel_strided_grouped_padded_dilated",
+    "error": "[FAIL] 'int' object is not subscriptable",
+    "code_diff": "--- error_idx_0\n+++ correct_idx_1\n@@ -619,9 +619,9 @@\n         stride: tuple = (1, 1),\n         padding: tuple = (0, 0),\n         dilation: tuple = (1, 1),\n-        output_padding: tuple = (0, 0),\n         groups: int = 1,\n         bias: bool = False,\n+        output_padding: tuple = (0, 0),\n     ) -> None:\n         super().__init__()\n         if bias:\n",
+    "summary": ""
+  }
+]

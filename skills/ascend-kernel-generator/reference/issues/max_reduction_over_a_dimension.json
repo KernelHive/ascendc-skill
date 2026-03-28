@@ -1,0 +1,8 @@
+[
+  {
+    "op": "max_reduction_over_a_dimension",
+    "error": "op_host/max_reduction_over_a_dimension_custom_qbjmwkkwjrbfhjbe20260310031153.cpp:59:56: error: ‘const struct gert::Shape’ has no member named ‘GetOriginShape’",
+    "code_diff": "",
+    "summary": "InferShapeContext returns gert::Shape directly in this environment, so calling GetOriginShape() on context->GetInputShape(0) causes a host compile error. In InferShape, read the input as const gert::Shape* and use GetDimNum()/GetDim() directly instead of the TilingContext shape access pattern."
+  }
+]

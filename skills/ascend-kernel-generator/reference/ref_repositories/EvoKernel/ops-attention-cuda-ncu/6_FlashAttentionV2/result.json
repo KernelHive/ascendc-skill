@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "6_FlashAttentionV2",
+  "outer_iter": 10,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 9.178,
+    "mean": 8.502,
+    "min": 8.243,
+    "num_trials": 5,
+    "std": 0.365
+  }
+}

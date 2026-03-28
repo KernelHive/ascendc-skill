@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "S2AttentionCustom",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 0.832,
+    "std": 0.113,
+    "min": 0.672,
+    "max": 0.915,
+    "num_trials": null
+  }
+}

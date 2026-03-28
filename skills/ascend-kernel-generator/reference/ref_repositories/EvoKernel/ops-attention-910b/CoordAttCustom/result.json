@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "CoordAttCustom",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 0.726,
+    "std": 0.079,
+    "min": 0.615,
+    "max": 0.786,
+    "num_trials": null
+  }
+}

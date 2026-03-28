@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvStandard3dAsymmetricInputSquareKernelCustom",
+  "outer_iter": 8,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 2943.957,
+    "std": 3.549,
+    "min": 2940.653,
+    "max": 2948.881,
+    "num_trials": null
+  }
+}

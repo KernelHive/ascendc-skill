@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "26_GELU_",
+  "outer_iter": 26,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 7.687,
+    "mean": 7.68,
+    "min": 7.671,
+    "num_trials": 5,
+    "std": 0.006
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "43_Max_Pooling_3D",
+  "outer_iter": 20,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 7.888,
+    "mean": 7.885,
+    "min": 7.882,
+    "num_trials": 5,
+    "std": 0.002
+  }
+}

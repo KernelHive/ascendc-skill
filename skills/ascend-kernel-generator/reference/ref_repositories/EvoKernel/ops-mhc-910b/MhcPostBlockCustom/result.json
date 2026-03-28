@@ -1,0 +1,12 @@
+{
+  "kernel_project_name": "MhcPostBlockCustom",
+  "outer_iter": 32,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "mean_ms": 0.713,
+  "baseline_mean_ms": 2.053,
+  "speedup_vs_baseline": 2.879382889200561,
+  "log2_speedup_vs_baseline": 1.5257596456647138,
+  "relative_change_pct": 187.9382889200561
+}

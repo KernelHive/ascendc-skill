@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "65_GlobalFilter",
+  "outer_iter": 30,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 0.109,
+    "mean": 0.105,
+    "min": 0.104,
+    "num_trials": 5,
+    "std": 0.002
+  }
+}

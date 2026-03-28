@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "OutlookAttentionCustom",
+  "outer_iter": 28,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 88.621,
+    "std": 0.492,
+    "min": 88.154,
+    "max": 89.301,
+    "num_trials": null
+  }
+}

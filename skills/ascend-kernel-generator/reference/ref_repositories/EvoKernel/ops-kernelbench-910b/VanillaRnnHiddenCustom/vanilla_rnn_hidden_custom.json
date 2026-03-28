@@ -1,0 +1,17 @@
+
+[
+  {
+    "op": "VanillaRnnHiddenCustom",
+    "input_desc": [
+      { "name": "x",     "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "h0",    "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "w_i2h", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "b_i2h", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "w_h2o", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "b_h2o", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "y", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ]
+  }
+]

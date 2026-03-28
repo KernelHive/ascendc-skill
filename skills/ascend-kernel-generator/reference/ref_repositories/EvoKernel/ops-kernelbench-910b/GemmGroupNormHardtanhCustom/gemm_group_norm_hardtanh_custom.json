@@ -1,0 +1,16 @@
+
+[
+  {
+    "op": "GemmGroupNormHardtanhCustom",
+    "input_desc": [
+      { "name": "x",        "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "weight",   "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "lin_bias", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "gn_gamma", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "gn_beta",  "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "y", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ]
+  }
+]

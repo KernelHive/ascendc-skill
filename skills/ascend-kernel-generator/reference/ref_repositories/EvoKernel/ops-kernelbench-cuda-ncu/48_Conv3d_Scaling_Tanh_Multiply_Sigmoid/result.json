@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "48_Conv3d_Scaling_Tanh_Multiply_Sigmoid",
+  "outer_iter": 26,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 5.681,
+    "mean": 5.671,
+    "min": 5.66,
+    "num_trials": 5,
+    "std": 0.007
+  }
+}

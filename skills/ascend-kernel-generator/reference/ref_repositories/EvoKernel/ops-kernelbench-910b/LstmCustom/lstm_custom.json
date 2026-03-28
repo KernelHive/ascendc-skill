@@ -1,0 +1,22 @@
+
+[
+  {
+    "op": "LstmCustom",
+    "input_desc": [
+      { "name": "x",    "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "h0",   "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "c0",   "param_type": "required", "format": ["ND"], "type": ["float"] },
+
+      { "name": "w_ih", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "w_hh", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "b_ih", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "b_hh", "param_type": "required", "format": ["ND"], "type": ["float"] },
+
+      { "name": "fc_w", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "fc_b", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "y", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ]
+  }
+]

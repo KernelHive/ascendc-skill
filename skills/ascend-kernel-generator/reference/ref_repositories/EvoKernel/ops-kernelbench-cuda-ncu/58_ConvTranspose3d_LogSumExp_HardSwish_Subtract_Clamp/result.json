@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "58_ConvTranspose3d_LogSumExp_HardSwish_Subtract_Clamp",
+  "outer_iter": 8,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 19.865,
+    "mean": 19.718,
+    "min": 19.635,
+    "num_trials": 5,
+    "std": 0.089
+  }
+}

@@ -1,0 +1,8 @@
+[
+  {
+    "op": "masked_fill",
+    "error": "[FAIL] Output mismatch, max diff: nan, location: (0, 0, 0)\nDiff count: 3357724\nDiff indices: [(27, 103, 130), (27, 103, 131), (27, 103, 132), (27, 103, 135), (27, 103, 136)]...[(52, 411, 119), (52, 411, 120), (52, 411, 122), (52, 411, 124), (52, 411, 126)]\nref_output: [[[          -inf           -inf  1.5072644e-01 ...  2.9358700e-01\n             -inf           -inf]\n  [ 7.3542401e-02           -inf  8.8671982e-01 ...  1.4207920e-01\n    9.8381752e-01  8.4704317e-02\n...\n-1.9934574e-01           -inf  3.0796969e-01 ... -6.6847277e-01\n             -inf -2.7667546e-01]\n  [ 1.4669431e+00           -inf  1.5682696e+00 ...           -inf\n             -inf  2.1117789e-01]]]\nnew_output: [[[          -inf           -inf  1.5072644e-01 ...  2.9358700e-01\n             -inf           -inf]\n  [ 7.3542401e-02           -inf  8.8671982e-01 ...  1.4207920e-01\n    9.8381752e-01  8.4704317e-02\n...\n-1.9934574e-01           -inf  3.0796969e-01 ... -6.6847277e-01\n             -inf -2.7667546e-01]\n  [ 1.4669431e+00           -inf  1.5682696e+00 ...           -inf\n             -inf  2.1117789e-01]]]",
+    "code_diff": "--- error_idx_0\n+++ correct_idx_1\n@@ -59,7 +59,7 @@\n #include \"register/op_def_registry.h\"\n \n namespace optiling {\n-const uint32_t BLOCK_DIM = 8;\n+const uint32_t BLOCK_DIM = 1;\n const uint32_t TILE_NUM = 256;\n \n static ge::graphStatus TilingFunc(gert::TilingContext* context)\n",
+    "summary": ""
+  }
+]

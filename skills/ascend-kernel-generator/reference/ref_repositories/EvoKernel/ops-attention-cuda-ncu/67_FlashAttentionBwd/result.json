@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "67_FlashAttentionBwd",
+  "outer_iter": 24,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 17.069,
+    "mean": 15.344,
+    "min": 13.849,
+    "num_trials": 5,
+    "std": 1.428
+  }
+}

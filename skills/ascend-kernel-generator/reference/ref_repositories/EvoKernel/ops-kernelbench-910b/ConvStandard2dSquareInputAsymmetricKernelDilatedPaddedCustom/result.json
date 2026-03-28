@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvStandard2dSquareInputAsymmetricKernelDilatedPaddedCustom",
+  "outer_iter": 21,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 18971.496,
+    "std": 158.442,
+    "min": 18858.717,
+    "max": 19195.566,
+    "num_trials": null
+  }
+}

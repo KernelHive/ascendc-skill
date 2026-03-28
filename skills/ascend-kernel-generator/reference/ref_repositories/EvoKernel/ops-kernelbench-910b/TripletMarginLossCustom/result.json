@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "TripletMarginLossCustom",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 64.01,
+    "std": 0.085,
+    "min": 63.891,
+    "max": 64.085,
+    "num_trials": null
+  }
+}

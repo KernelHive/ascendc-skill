@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvTranspose3dSoftmaxSigmoidCustom",
+  "outer_iter": 20,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 15531.111,
+    "std": 1.846,
+    "min": 15528.841,
+    "max": 15533.363,
+    "num_trials": null
+  }
+}

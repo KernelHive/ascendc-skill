@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "33_VanillaRNN",
+  "outer_iter": 13,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 167.246,
+    "mean": 167.16,
+    "min": 166.975,
+    "num_trials": 5,
+    "std": 0.098
+  }
+}

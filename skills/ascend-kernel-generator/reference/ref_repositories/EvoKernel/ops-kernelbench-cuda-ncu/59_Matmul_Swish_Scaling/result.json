@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "59_Matmul_Swish_Scaling",
+  "outer_iter": 1,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 19.436,
+    "mean": 17.454,
+    "min": 15.918,
+    "num_trials": 5,
+    "std": 1.605
+  }
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "case_name": "Test_Sqrt_001",
+        "op": "Sqrt",
+        "calc_expect_func_file": "./test_sqrt.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16",
+                    "bfloat16"
+                ],
+                "shape": [100],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "x"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16",
+                    "bfloat16"
+                ],
+                "shape": [100],
+                "name": "y"
+            }
+        ]
+    }
+]

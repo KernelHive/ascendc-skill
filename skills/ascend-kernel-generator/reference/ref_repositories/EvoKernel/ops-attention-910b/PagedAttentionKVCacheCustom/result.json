@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "PagedAttentionKVCacheCustom",
+  "outer_iter": 7,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 11.543,
+    "std": 0.099,
+    "min": 11.405,
+    "max": 11.635,
+    "num_trials": null
+  }
+}

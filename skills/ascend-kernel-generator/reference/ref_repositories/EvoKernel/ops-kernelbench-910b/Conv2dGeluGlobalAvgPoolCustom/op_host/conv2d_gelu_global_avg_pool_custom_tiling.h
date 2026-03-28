@@ -1,0 +1,45 @@
+
+#include "register/tilingdata_base.h"
+
+namespace optiling {
+
+BEGIN_TILING_DATA_DEF(Conv2dGeluGlobalAvgPoolCustomTilingData)
+    // x: [N,Cin,H,W]
+    TILING_DATA_FIELD_DEF(uint32_t, n);
+    TILING_DATA_FIELD_DEF(uint32_t, cin);
+    TILING_DATA_FIELD_DEF(uint32_t, hin);
+    TILING_DATA_FIELD_DEF(uint32_t, win);
+
+    // w: [Cout,Cin/groups,Kh,Kw]
+    TILING_DATA_FIELD_DEF(uint32_t, cout);
+    TILING_DATA_FIELD_DEF(uint32_t, kh);
+    TILING_DATA_FIELD_DEF(uint32_t, kw);
+
+    // conv params (specialized)
+    TILING_DATA_FIELD_DEF(uint32_t, stride);
+    TILING_DATA_FIELD_DEF(uint32_t, pad);
+    TILING_DATA_FIELD_DEF(uint32_t, dilation);
+    TILING_DATA_FIELD_DEF(uint32_t, groups);
+
+    // conv output: [N,Cout,Hout,Wout]
+    TILING_DATA_FIELD_DEF(uint32_t, hout);
+    TILING_DATA_FIELD_DEF(uint32_t, wout);
+
+    // avg pool factor
+    TILING_DATA_FIELD_DEF(float, inv_hwout);
+
+    // parallelization
+    TILING_DATA_FIELD_DEF(uint32_t, total_tasks);      // N*Cout
+    TILING_DATA_FIELD_DEF(uint32_t, tasks_per_block);  // ceil(total_tasks / blockDim)
+
+    // sizes (debug/guard)
+    TILING_DATA_FIELD_DEF(uint32_t, total_x);
+    TILING_DATA_FIELD_DEF(uint32_t, total_w);
+    TILING_DATA_FIELD_DEF(uint32_t, total_b);
+    TILING_DATA_FIELD_DEF(uint32_t, total_y);
+END_TILING_DATA_DEF;
+
+REGISTER_TILING_DATA_CLASS(Conv2dGeluGlobalAvgPoolCustom,
+                           Conv2dGeluGlobalAvgPoolCustomTilingData)
+
+} // namespace optiling

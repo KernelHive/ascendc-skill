@@ -1,0 +1,258 @@
+project_json_src='''
+[
+    {
+        "op": "MatmulWithTransposedBothCustom",
+        "language": "cpp",
+        "input_desc": [
+            {
+                "name": "a",
+                "param_type": "required",
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ]
+            },
+            {
+                "name": "b",
+                "param_type": "required",
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ]
+            }
+        ],
+        "output_desc": [
+            {
+                "name": "c",
+                "param_type": "required",
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ]
+            }
+        ]
+    }
+]
+'''
+
+host_tiling_src="""
+#include "register/tilingdata_base.h"
+#include "tiling/tiling_api.h"
+
+namespace optiling {
+BEGIN_TILING_DATA_DEF(MatmulWithTransposedBothCustomTilingData)
+TILING_DATA_FIELD_DEF_STRUCT(TCubeTiling, cubeTilingData);
+END_TILING_DATA_DEF;
+
+REGISTER_TILING_DATA_CLASS(MatmulWithTransposedBothCustom, MatmulWithTransposedBothCustomTilingData)
+} // namespace optiling
+"""
+
+host_operator_src="""
+#include "matmul_with_transposed_both_custom_tiling.h"
+#include "register/op_def_registry.h"
+#include "tiling/platform/platform_ascendc.h"
+#include "tiling/tiling_api.h"
+
+using namespace matmul_tiling;
+
+namespace optiling {
+static ge::graphStatus TilingFunc(gert::TilingContext *context)
+{
+    auto ascendcPlatform = platform_ascendc::PlatformAscendC(context->GetPlatformInfo());
+    auto shapeA = context->GetInputTensor(0)->GetOriginShape();
+    auto shapeB = context->GetInputTensor(1)->GetOriginShape();
+    if (shapeA.GetDimNum() != 2 || shapeB.GetDimNum() != 2) {
+        return ge::GRAPH_FAILED;
+    }
+
+    const int32_t k = static_cast<int32_t>(shapeA.GetDim(0));
+    const int32_t m = static_cast<int32_t>(shapeA.GetDim(1));
+    const int32_t n = static_cast<int32_t>(shapeB.GetDim(0));
+    const int32_t bk = static_cast<int32_t>(shapeB.GetDim(1));
+    if (m <= 0 || n <= 0 || k <= 0 || bk != k) {
+        return ge::GRAPH_FAILED;
+    }
+
+    MultiCoreMatmulTiling cubeTiling(ascendcPlatform);
+    cubeTiling.SetDim(1);
+    cubeTiling.SetAType(TPosition::GM, CubeFormat::ND, matmul_tiling::DataType::DT_FLOAT, true);
+    cubeTiling.SetBType(TPosition::GM, CubeFormat::ND, matmul_tiling::DataType::DT_FLOAT, true);
+    cubeTiling.SetCType(TPosition::GM, CubeFormat::ND, matmul_tiling::DataType::DT_FLOAT);
+    cubeTiling.SetShape(m, n, k);
+    cubeTiling.SetOrgShape(m, n, k);
+    cubeTiling.SetFixSplit(16, 16, -1);
+    cubeTiling.SetBias(false);
+    cubeTiling.SetBufferSpace(-1, -1, -1);
+
+    MatmulWithTransposedBothCustomTilingData tiling;
+    if (cubeTiling.GetTiling(tiling.cubeTilingData) == -1) {
+        return ge::GRAPH_FAILED;
+    }
+
+    context->SetBlockDim(1);
+    context->SetTilingKey(1);
+    tiling.SaveToBuffer(context->GetRawTilingData()->GetData(), context->GetRawTilingData()->GetCapacity());
+    context->GetRawTilingData()->SetDataSize(tiling.GetDataSize());
+
+    size_t systemWorkspaceSize = static_cast<size_t>(ascendcPlatform.GetLibApiWorkSpaceSize());
+    size_t *currentWorkspace = context->GetWorkspaceSizes(1);
+    currentWorkspace[0] = systemWorkspaceSize;
+    return ge::GRAPH_SUCCESS;
+}
+} // namespace optiling
+
+namespace ge {
+static ge::graphStatus InferShape(gert::InferShapeContext *context)
+{
+    const gert::Shape *aShape = context->GetInputShape(0);
+    const gert::Shape *bShape = context->GetInputShape(1);
+    if (aShape == nullptr || bShape == nullptr || aShape->GetDimNum() != 2 || bShape->GetDimNum() != 2) {
+        return GRAPH_FAILED;
+    }
+
+    gert::Shape *cShape = context->GetOutputShape(0);
+    cShape->SetDimNum(2);
+    cShape->SetDim(0, aShape->GetDim(1));
+    cShape->SetDim(1, bShape->GetDim(0));
+    return GRAPH_SUCCESS;
+}
+
+static ge::graphStatus InferDataType(gert::InferDataTypeContext *context)
+{
+    context->SetOutputDataType(0, context->GetInputDataType(0));
+    return GRAPH_SUCCESS;
+}
+} // namespace ge
+
+namespace ops {
+class MatmulWithTransposedBothCustom : public OpDef {
+public:
+    explicit MatmulWithTransposedBothCustom(const char *name) : OpDef(name)
+    {
+        this->Input("a").ParamType(REQUIRED).DataType({ge::DT_FLOAT}).Format({ge::FORMAT_ND});
+        this->Input("b").ParamType(REQUIRED).DataType({ge::DT_FLOAT}).Format({ge::FORMAT_ND});
+        this->Output("c").ParamType(REQUIRED).DataType({ge::DT_FLOAT}).Format({ge::FORMAT_ND});
+
+        this->SetInferShape(ge::InferShape).SetInferDataType(ge::InferDataType);
+        this->AICore().SetTiling(optiling::TilingFunc).AddConfig("ascend910b");
+    }
+};
+
+OP_ADD(MatmulWithTransposedBothCustom);
+} // namespace ops
+"""
+
+kernel_src="""
+#include "kernel_operator.h"
+#include "lib/matmul_intf.h"
+
+using namespace matmul;
+
+template <typename aType, typename bType, typename cType> class MatmulWithTransposedBothKernel {
+public:
+    __aicore__ inline MatmulWithTransposedBothKernel() {}
+    __aicore__ inline void Init(GM_ADDR a, GM_ADDR b, GM_ADDR c, GM_ADDR workspace, const TCubeTiling &tiling);
+    template <bool setTmpSpace = false> __aicore__ inline void Process(AscendC::TPipe *pipe);
+
+    using AType = MatmulType<AscendC::TPosition::GM, CubeFormat::ND, aType, true>;
+    using BType = MatmulType<AscendC::TPosition::GM, CubeFormat::ND, bType, true>;
+    using CType = MatmulType<AscendC::TPosition::GM, CubeFormat::ND, cType>;
+
+    Matmul<AType, BType, CType> matmulObj;
+    AscendC::GlobalTensor<aType> aGlobal;
+    AscendC::GlobalTensor<bType> bGlobal;
+    AscendC::GlobalTensor<cType> cGlobal;
+    TCubeTiling tiling;
+};
+
+template <typename aType, typename bType, typename cType>
+__aicore__ inline void MatmulWithTransposedBothKernel<aType, bType, cType>::Init(
+    GM_ADDR a, GM_ADDR b, GM_ADDR c, GM_ADDR workspace, const TCubeTiling &tiling)
+{
+    this->tiling = tiling;
+    aGlobal.SetGlobalBuffer(reinterpret_cast<__gm__ aType *>(a), tiling.Ka * tiling.M);
+    bGlobal.SetGlobalBuffer(reinterpret_cast<__gm__ bType *>(b), tiling.N * tiling.Kb);
+    cGlobal.SetGlobalBuffer(reinterpret_cast<__gm__ cType *>(c), tiling.M * tiling.N);
+    if (GetSysWorkSpacePtr() == nullptr) {
+        return;
+    }
+}
+
+template <typename aType, typename bType, typename cType>
+template <bool setTmpSpace>
+__aicore__ inline void MatmulWithTransposedBothKernel<aType, bType, cType>::Process(AscendC::TPipe *pipe)
+{
+    if constexpr (setTmpSpace) {
+        AscendC::TBuf<> tmpMMFormatUb;
+        AscendC::LocalTensor<uint8_t> mmformatUb;
+        pipe->InitBuffer(tmpMMFormatUb, AscendC::TOTAL_VEC_LOCAL_SIZE);
+        mmformatUb = tmpMMFormatUb.Get<uint8_t>(AscendC::TOTAL_VEC_LOCAL_SIZE);
+        matmulObj.SetLocalWorkspace(mmformatUb);
+    }
+
+    matmulObj.SetTensorA(aGlobal, true);
+    matmulObj.SetTensorB(bGlobal, true);
+    matmulObj.IterateAll(cGlobal);
+    matmulObj.End();
+}
+
+extern "C" __global__ __aicore__ void matmul_with_transposed_both_custom(
+    GM_ADDR a, GM_ADDR b, GM_ADDR c, GM_ADDR workspace, GM_ADDR tiling)
+{
+    GET_TILING_DATA(tilingData, tiling);
+    MatmulWithTransposedBothKernel<float, float, float> matmulKernel;
+    AscendC::TPipe pipe;
+    REGIST_MATMUL_OBJ(&pipe, GetSysWorkSpacePtr(), matmulKernel.matmulObj, &tilingData.cubeTilingData);
+    matmulKernel.Init(a, b, c, workspace, tilingData.cubeTilingData);
+    if (TILING_KEY_IS(1)) {
+        matmulKernel.Process(&pipe);
+    } else if (TILING_KEY_IS(2)) {
+        matmulKernel.Process<true>(&pipe);
+    }
+}
+"""
+
+python_bind_src="""
+#include <torch/library.h>
+#include <torch/csrc/autograd/custom_function.h>
+#include "pytorch_npu_helper.hpp"
+#include <torch/extension.h>
+
+at::Tensor matmul_with_transposed_both_impl_npu(const at::Tensor& A, const at::Tensor& B) {
+    auto output_shape = std::vector<int64_t>{A.size(1), B.size(0)};
+    at::Tensor result = at::empty(output_shape, A.options());
+    EXEC_NPU_CMD(aclnnMatmulWithTransposedBothCustom, A, B, result);
+    return result;
+}
+
+TORCH_LIBRARY_IMPL(myops, PrivateUse1, m) {
+    m.impl("matmul_with_transposed_both_custom", &matmul_with_transposed_both_impl_npu);
+}
+
+PYBIND11_MODULE(TORCH_EXTENSION_NAME, m) {
+    m.def("matmul_with_transposed_both_custom",
+          &matmul_with_transposed_both_impl_npu,
+          "matmul with both inputs transposed");
+}
+"""
+
+model_src='''
+import torch
+import torch_npu
+import custom_ops_lib
+
+
+class ModelNew(torch.nn.Module):
+    def __init__(self) -> None:
+        super().__init__()
+
+    def forward(self, a, b):
+        return custom_ops_lib.matmul_with_transposed_both_custom(a, b)
+'''

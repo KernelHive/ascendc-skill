@@ -1,0 +1,96 @@
+{
+  "root": "MHC",
+  "layout": "flat",
+  "ops": {
+    "01_SinkhornKnopp": {
+      "level": "level1",
+      "category": "mhc_core",
+      "normalized_name": "sinkhorn_knopp",
+      "pascal_name": "SinkhornKnopp"
+    },
+    "02_MhcProjector": {
+      "level": "level2",
+      "category": "mhc_core",
+      "normalized_name": "mhc_projector",
+      "pascal_name": "MhcProjector"
+    },
+    "03_StreamWeightedSum": {
+      "level": "level1",
+      "category": "mhc_core",
+      "normalized_name": "stream_weighted_sum",
+      "pascal_name": "StreamWeightedSum"
+    },
+    "04_StreamMix": {
+      "level": "level1",
+      "category": "mhc_core",
+      "normalized_name": "stream_mix",
+      "pascal_name": "StreamMix"
+    },
+    "05_StreamWrite": {
+      "level": "level1",
+      "category": "mhc_core",
+      "normalized_name": "stream_write",
+      "pascal_name": "StreamWrite"
+    },
+    "06_MhcUpdate": {
+      "level": "level2",
+      "category": "mhc_core",
+      "normalized_name": "mhc_update",
+      "pascal_name": "MhcUpdate"
+    },
+    "07_MHCModule": {
+      "level": "level3",
+      "category": "mhc_module",
+      "normalized_name": "mhc_module",
+      "pascal_name": "MHCModule"
+    },
+    "08_MHCBlock2d": {
+      "level": "level3",
+      "category": "mhc_block",
+      "normalized_name": "mhc_block2d",
+      "pascal_name": "MHCBlock2d"
+    },
+    "09_MHCBlockBottleneck2d": {
+      "level": "level3",
+      "category": "mhc_block",
+      "normalized_name": "mhc_block_bottleneck2d",
+      "pascal_name": "MHCBlockBottleneck2d"
+    },
+    "10_OrthostochasticProject": {
+      "level": "level2",
+      "category": "mhc_projection",
+      "normalized_name": "orthostochastic_project",
+      "pascal_name": "OrthostochasticProject"
+    },
+    "11_FusedMHCKernels": {
+      "level": "level2",
+      "category": "mhc_projection",
+      "normalized_name": "fused_mhc_kernels",
+      "pascal_name": "FusedMHCKernels"
+    },
+    "12_OptimizedMHCLayerWithFusion": {
+      "level": "level3",
+      "category": "mhc_module",
+      "normalized_name": "optimized_mhc_layer_with_fusion",
+      "pascal_name": "OptimizedMHCLayerWithFusion"
+    },
+    "13_StaticMHCHyperConnections": {
+      "level": "level3",
+      "category": "mhc_module",
+      "normalized_name": "static_mhc_hyper_connections",
+      "pascal_name": "StaticMHCHyperConnections"
+    },
+    "14_MhcPreBlock": {
+      "level": "level3",
+      "category": "mhc_core",
+      "normalized_name": "mhc_pre_block",
+      "pascal_name": "MhcPreBlock"
+    },
+    "15_MhcPostBlock": {
+      "level": "level3",
+      "category": "mhc_core",
+      "normalized_name": "mhc_post_block",
+      "pascal_name": "MhcPostBlock"
+    }
+  }
+}

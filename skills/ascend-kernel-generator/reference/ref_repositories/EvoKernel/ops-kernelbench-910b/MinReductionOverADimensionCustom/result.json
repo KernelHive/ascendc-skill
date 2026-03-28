@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MinReductionOverADimensionCustom",
+  "outer_iter": 7,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 6.094,
+    "std": 0.178,
+    "min": 5.842,
+    "max": 6.227,
+    "num_trials": null
+  }
+}

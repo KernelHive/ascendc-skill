@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "GruBidirectionalHiddenCustom",
+  "outer_iter": 24,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 19101.418,
+    "std": 14.768,
+    "min": 19090.52,
+    "max": 19122.297,
+    "num_trials": null
+  }
+}

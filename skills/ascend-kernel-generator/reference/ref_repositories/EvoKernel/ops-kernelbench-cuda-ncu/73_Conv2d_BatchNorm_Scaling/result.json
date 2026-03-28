@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "73_Conv2d_BatchNorm_Scaling",
+  "outer_iter": 24,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 3.144,
+    "mean": 3.122,
+    "min": 3.106,
+    "num_trials": 5,
+    "std": 0.013
+  }
+}

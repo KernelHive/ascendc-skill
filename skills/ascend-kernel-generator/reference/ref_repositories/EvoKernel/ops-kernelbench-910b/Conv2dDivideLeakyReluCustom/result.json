@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "Conv2dDivideLeakyReluCustom",
+  "outer_iter": 30,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 977.626,
+    "std": 0.128,
+    "min": 977.447,
+    "max": 977.74,
+    "num_trials": null
+  }
+}

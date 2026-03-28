@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "67_Conv2d_GELU_GlobalAvgPool",
+  "outer_iter": 12,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 9.184,
+    "mean": 9.175,
+    "min": 9.168,
+    "num_trials": 5,
+    "std": 0.005
+  }
+}

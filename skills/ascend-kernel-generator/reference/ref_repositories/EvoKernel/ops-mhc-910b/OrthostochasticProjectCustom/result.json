@@ -1,0 +1,12 @@
+{
+  "kernel_project_name": "OrthostochasticProjectCustom",
+  "outer_iter": 27,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "mean_ms": 0.033,
+  "baseline_mean_ms": 0.097,
+  "speedup_vs_baseline": 2.9393939393939394,
+  "log2_speedup_vs_baseline": 1.5555187228286742,
+  "relative_change_pct": 193.93939393939394
+}

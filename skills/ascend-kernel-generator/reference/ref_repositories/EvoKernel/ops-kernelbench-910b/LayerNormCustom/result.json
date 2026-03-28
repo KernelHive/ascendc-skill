@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "LayerNormCustom",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 1.162,
+    "std": 0.195,
+    "min": 0.886,
+    "max": 1.302,
+    "num_trials": null
+  }
+}

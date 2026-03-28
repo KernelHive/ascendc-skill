@@ -1,0 +1,81 @@
+[
+    {
+        "case_name": "Test_BevPool_001",
+        "error_threshold":[1e-3, 1e-3],
+        "op": "BevPool",
+        "calc_expect_func_file": "test_bev_pool_half.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": ["ND"],
+                "type": ["float16"],
+                "shape":[2,4,6,8,10],
+                "data_distribute": ["uniform"],
+                "value_range": [[0.1,1.0]],
+                "name": "depth"
+            },
+            {
+                "format": ["ND"],
+                "type": ["float16"],
+                "shape":[2,4,8,10,12],
+                "data_distribute": ["uniform"],
+                "value_range": [[0.1,1.0]],
+                "name": "feat"
+            },
+            {
+                "format": ["ND"],
+                "type": ["int32"],
+                "shape":[20],
+                "data_distribute": ["uniform"],
+                "value_range": [[0, 3839]],
+                "name": "ranks_depth"
+            },
+            {
+                "format": ["ND"],
+                "type": ["int32"],
+                "shape":[20],
+                "data_distribute": ["uniform"],
+                "value_range": [[0,7679]],
+                "name": "ranks_feat"
+            },
+            {
+                "format": ["ND"],
+                "type": ["int32"],
+                "shape":[20],
+                "data_distribute": ["uniform"],
+                "value_range": [[0,4607]],
+                "name": "ranks_bev"
+            },
+            {
+                "format": ["ND"],
+                "type": ["int32"],
+                "shape":[10],
+                "data_distribute": ["uniform"],
+                "value_range": [[0,10]],
+                "name": "interval_starts"
+            },
+            {
+                "format": ["ND"],
+                "type": ["int32"],
+                "shape":[10],
+                "data_distribute": ["uniform"],
+                "value_range": [[1,9]],
+                "name": "interval_lengths"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": ["ND"],
+                "type": ["float16"],
+                "shape": [2,12,4,6,8],
+                "name": "out"
+            }
+        ],
+        "attr": [
+            {
+                "name": "bev_feat_shape",
+                "type": "list_int",
+                "value": [2,4,6,8,12]
+            }
+        ]
+    }
+]

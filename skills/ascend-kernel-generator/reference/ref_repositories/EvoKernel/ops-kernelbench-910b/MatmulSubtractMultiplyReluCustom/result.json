@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MatmulSubtractMultiplyReluCustom",
+  "outer_iter": 25,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 12814.244,
+    "std": 100.106,
+    "min": 12741.564,
+    "max": 12955.798,
+    "num_trials": null
+  }
+}

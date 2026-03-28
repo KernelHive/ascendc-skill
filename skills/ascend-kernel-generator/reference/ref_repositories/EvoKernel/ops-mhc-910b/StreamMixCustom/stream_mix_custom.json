@@ -1,0 +1,30 @@
+
+[
+  {
+    "op": "StreamMixCustom",
+    "language": "cpp",
+    "input_desc": [
+      {
+        "name": "x_stream",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["float32"]
+      },
+      {
+        "name": "h_res",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["float32"]
+      }
+    ],
+    "output_desc": [
+      {
+        "name": "out",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["float32"]
+      }
+    ],
+    "attr": []
+  }
+]

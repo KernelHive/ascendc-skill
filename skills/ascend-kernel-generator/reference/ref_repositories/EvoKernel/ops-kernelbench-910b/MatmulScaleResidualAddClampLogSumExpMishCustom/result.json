@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MatmulScaleResidualAddClampLogSumExpMishCustom",
+  "outer_iter": 18,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 30147.035,
+    "std": 22.676,
+    "min": 30114.969,
+    "max": 30163.35,
+    "num_trials": null
+  }
+}

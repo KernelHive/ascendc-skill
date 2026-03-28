@@ -1,0 +1,2 @@
+  - func: npu_add_custom(Tensor x, Tensor y) -> Tensor
+    op_api: all_version

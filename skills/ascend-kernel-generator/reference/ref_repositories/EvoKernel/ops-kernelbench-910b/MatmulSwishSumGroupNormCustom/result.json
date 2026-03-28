@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MatmulSwishSumGroupNormCustom",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 36191.951,
+    "std": 337.403,
+    "min": 35888.185,
+    "max": 36662.512,
+    "num_trials": null
+  }
+}

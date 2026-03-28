@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "6_Matmul_with_large_K_dimension_",
+  "outer_iter": 2,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 31.877,
+    "mean": 31.867,
+    "min": 31.859,
+    "num_trials": 5,
+    "std": 0.006
+  }
+}

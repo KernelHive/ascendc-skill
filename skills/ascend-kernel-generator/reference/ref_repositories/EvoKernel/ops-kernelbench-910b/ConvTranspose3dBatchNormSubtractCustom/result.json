@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvTranspose3dBatchNormSubtractCustom",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 56037.945,
+    "std": 317.157,
+    "min": 55704.025,
+    "max": 56464.242,
+    "num_trials": null
+  }
+}

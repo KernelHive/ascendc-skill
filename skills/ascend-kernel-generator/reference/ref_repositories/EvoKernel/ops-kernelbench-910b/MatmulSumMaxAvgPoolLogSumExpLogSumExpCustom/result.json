@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MatmulSumMaxAvgPoolLogSumExpLogSumExpCustom",
+  "outer_iter": 23,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 1853.493,
+    "std": 2.575,
+    "min": 1849.87,
+    "max": 1855.626,
+    "num_trials": null
+  }
+}

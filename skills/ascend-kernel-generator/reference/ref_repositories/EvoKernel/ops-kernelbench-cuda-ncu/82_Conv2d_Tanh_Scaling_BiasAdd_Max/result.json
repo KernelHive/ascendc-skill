@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "82_Conv2d_Tanh_Scaling_BiasAdd_Max",
+  "outer_iter": 11,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 10.638,
+    "mean": 10.621,
+    "min": 10.601,
+    "num_trials": 5,
+    "std": 0.013
+  }
+}

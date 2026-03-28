@@ -1,0 +1,8 @@
+[
+  {
+    "op": "multi_head_attention",
+    "error": "Kernel compilation aborted with PermissionError: [Errno 13] Permission denied: '/usr/local/Ascend/ascend-toolkit/latest/opp/vendors/config.ini'.",
+    "code_diff": "--- env_before\n+++ env_after\n@@\n-- Use default ASCEND_OPP_PATH from /usr/local/Ascend/ascend-toolkit/latest/opp\n++ Create a user-readable ASCEND_OPP_PATH override directory in the workspace\n++ Add vendors/config.ini with load_priority=customize\n++ Symlink built-in, op_impl, scene.info, and vendors/customize from the system opp tree\n++ Run verification/build commands with ASCEND_OPP_PATH pointing to the override directory\n",
+    "summary": "When AscendC kernel build fails because opc_tool cannot read the toolkit-owned vendors/config.ini, create a user-owned ASCEND_OPP_PATH overlay with a minimal vendors/config.ini and symlinks to the system opp tree, then rerun compilation with ASCEND_OPP_PATH pointing to that overlay."
+  }
+]

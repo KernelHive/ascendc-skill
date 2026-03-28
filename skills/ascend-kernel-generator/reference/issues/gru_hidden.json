@@ -1,0 +1,14 @@
+[
+  {
+    "op": "gru_hidden",
+    "error": "aclnnStack failed with EZ9903 / OP tiling_funcs NULL because torch.stack in model_src executed as a Pack op on NPU during correctness evaluation.",
+    "code_diff": "Moved GRU parameter packing out of forward-time NPU execution. The attempted fix was to pre-pack weights during CPU-side initialization or otherwise avoid torch.stack on NPU tensors in model_src.",
+    "summary": "For gru_hidden, do not build per-layer weight packs with torch.stack inside forward on NPU tensors. Pack on CPU during initialization, or avoid Pack entirely by passing layer parameters individually into custom ops."
+  },
+  {
+    "op": "gru_hidden",
+    "error": "aclnnCast failed with EZ9903 / OP tiling_funcs NULL because forward-time dtype conversion triggered an unsupported Cast op on NPU.",
+    "code_diff": "The observed lesson is to avoid runtime dtype conversion in model_src on this environment. If a float16 kernel path is required, tensors should be prepared in the target dtype before device execution, rather than relying on forward-time aclnnCast.",
+    "summary": "On this Ascend verification path, model_src runtime casts can fail before the custom kernel runs. Avoid .to(dtype=...) / cast-style conversions in forward; keep dtype contract stable at op boundaries or prepare dtype-specific parameters before NPU execution."
+  }
+]

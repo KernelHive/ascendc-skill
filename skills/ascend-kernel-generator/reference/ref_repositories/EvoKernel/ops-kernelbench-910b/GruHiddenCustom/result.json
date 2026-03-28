@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "GruHiddenCustom",
+  "outer_iter": 23,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 6457.477,
+    "std": 4.61,
+    "min": 6453.286,
+    "max": 6463.897,
+    "num_trials": null
+  }
+}

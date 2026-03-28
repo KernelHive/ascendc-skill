@@ -1,0 +1,480 @@
+{
+  "root": "Attention",
+  "layout": "flat",
+  "ops": {
+    "1_ScaledDotProductAttention": {
+      "level": "level1",
+      "category": "standard_attention",
+      "normalized_name": "scaled_dot_product_attention",
+      "pascal_name": "ScaledDotProductAttention"
+    },
+    "2_MultiHeadAttention": {
+      "level": "level2",
+      "category": "standard_attention",
+      "normalized_name": "multi_head_attention",
+      "pascal_name": "MultiHeadAttention"
+    },
+    "3_SelfAttention": {
+      "level": "level2",
+      "category": "standard_attention",
+      "normalized_name": "self_attention",
+      "pascal_name": "SelfAttention"
+    },
+    "4_CrossAttention": {
+      "level": "level2",
+      "category": "standard_attention",
+      "normalized_name": "cross_attention",
+      "pascal_name": "CrossAttention"
+    },
+    "5_FlashAttention": {
+      "level": "level3",
+      "category": "flash_attention",
+      "normalized_name": "flash_attention",
+      "pascal_name": "FlashAttention"
+    },
+    "6_FlashAttentionV2": {
+      "level": "level3",
+      "category": "flash_attention",
+      "normalized_name": "flash_attention_v2",
+      "pascal_name": "FlashAttentionV2"
+    },
+    "7_OptimizedFlashAttention": {
+      "level": "level3",
+      "category": "flash_attention",
+      "normalized_name": "optimized_flash_attention",
+      "pascal_name": "OptimizedFlashAttention"
+    },
+    "8_GroupedQueryAttention": {
+      "level": "level3",
+      "category": "gqa_mqa",
+      "normalized_name": "grouped_query_attention",
+      "pascal_name": "GroupedQueryAttention"
+    },
+    "9_MultiQueryAttention": {
+      "level": "level3",
+      "category": "gqa_mqa",
+      "normalized_name": "multi_query_attention",
+      "pascal_name": "MultiQueryAttention"
+    },
+    "10_AdaptiveAttention": {
+      "level": "level3",
+      "category": "gqa_mqa",
+      "normalized_name": "adaptive_attention",
+      "pascal_name": "AdaptiveAttention"
+    },
+    "11_LinearAttention": {
+      "level": "level2",
+      "category": "linear_attention",
+      "normalized_name": "linear_attention",
+      "pascal_name": "LinearAttention"
+    },
+    "12_PerformerAttention": {
+      "level": "level2",
+      "category": "linear_attention",
+      "normalized_name": "performer_attention",
+      "pascal_name": "PerformerAttention"
+    },
+    "13_LinformerAttention": {
+      "level": "level2",
+      "category": "linear_attention",
+      "normalized_name": "linformer_attention",
+      "pascal_name": "LinformerAttention"
+    },
+    "14_NystromAttention": {
+      "level": "level2",
+      "category": "linear_attention",
+      "normalized_name": "nystrom_attention",
+      "pascal_name": "NystromAttention"
+    },
+    "15_CosformerAttention": {
+      "level": "level2",
+      "category": "linear_attention",
+      "normalized_name": "cosformer_attention",
+      "pascal_name": "CosformerAttention"
+    },
+    "16_LocalAttention": {
+      "level": "level3",
+      "category": "sparse_attention",
+      "normalized_name": "local_attention",
+      "pascal_name": "LocalAttention"
+    },
+    "17_BlockSparseAttention": {
+      "level": "level3",
+      "category": "sparse_attention",
+      "normalized_name": "block_sparse_attention",
+      "pascal_name": "BlockSparseAttention"
+    },
+    "18_StridedAttention": {
+      "level": "level3",
+      "category": "sparse_attention",
+      "normalized_name": "strided_attention",
+      "pascal_name": "StridedAttention"
+    },
+    "19_LongformerAttention": {
+      "level": "level3",
+      "category": "sparse_attention",
+      "normalized_name": "longformer_attention",
+      "pascal_name": "LongformerAttention"
+    },
+    "20_BigBirdAttention": {
+      "level": "level3",
+      "category": "sparse_attention",
+      "normalized_name": "big_bird_attention",
+      "pascal_name": "BigBirdAttention"
+    },
+    "21_SEAttention": {
+      "level": "level1",
+      "category": "channel_attention",
+      "normalized_name": "se_attention",
+      "pascal_name": "SEAttention"
+    },
+    "22_ECAAttention": {
+      "level": "level1",
+      "category": "channel_attention",
+      "normalized_name": "eca_attention",
+      "pascal_name": "ECAAttention"
+    },
+    "23_GCT": {
+      "level": "level1",
+      "category": "channel_attention",
+      "normalized_name": "gct",
+      "pascal_name": "GCT"
+    },
+    "24_SRM": {
+      "level": "level1",
+      "category": "channel_attention",
+      "normalized_name": "srm",
+      "pascal_name": "SRM"
+    },
+    "25_GatedChannelTransform": {
+      "level": "level1",
+      "category": "channel_attention",
+      "normalized_name": "gated_channel_transform",
+      "pascal_name": "GatedChannelTransform"
+    },
+    "26_GCModule": {
+      "level": "level1",
+      "category": "channel_attention",
+      "normalized_name": "gc_module",
+      "pascal_name": "GCModule"
+    },
+    "27_LCT": {
+      "level": "level1",
+      "category": "channel_attention",
+      "normalized_name": "lct",
+      "pascal_name": "LCT"
+    },
+    "28_SimAM": {
+      "level": "level1",
+      "category": "spatial_attention",
+      "normalized_name": "sim_am",
+      "pascal_name": "SimAM"
+    },
+    "29_CoordAtt": {
+      "level": "level2",
+      "category": "spatial_attention",
+      "normalized_name": "coord_att",
+      "pascal_name": "CoordAtt"
+    },
+    "30_SpatialGroupEnhance": {
+      "level": "level1",
+      "category": "spatial_attention",
+      "normalized_name": "spatial_group_enhance",
+      "pascal_name": "SpatialGroupEnhance"
+    },
+    "31_CBAMBlock": {
+      "level": "level2",
+      "category": "hybrid_attention",
+      "normalized_name": "cbam_block",
+      "pascal_name": "CBAMBlock"
+    },
+    "32_BAM": {
+      "level": "level2",
+      "category": "hybrid_attention",
+      "normalized_name": "bam",
+      "pascal_name": "BAM"
+    },
+    "33_TripletAttention": {
+      "level": "level2",
+      "category": "hybrid_attention",
+      "normalized_name": "triplet_attention",
+      "pascal_name": "TripletAttention"
+    },
+    "34_SKAttention": {
+      "level": "level2",
+      "category": "hybrid_attention",
+      "normalized_name": "sk_attention",
+      "pascal_name": "SKAttention"
+    },
+    "35_ShuffleAttention": {
+      "level": "level2",
+      "category": "hybrid_attention",
+      "normalized_name": "shuffle_attention",
+      "pascal_name": "ShuffleAttention"
+    },
+    "36_PSA": {
+      "level": "level2",
+      "category": "hybrid_attention",
+      "normalized_name": "psa",
+      "pascal_name": "PSA"
+    },
+    "37_ParNetAttention": {
+      "level": "level1",
+      "category": "hybrid_attention",
+      "normalized_name": "par_net_attention",
+      "pascal_name": "ParNetAttention"
+    },
+    "38_ResidualAttention": {
+      "level": "level2",
+      "category": "hybrid_attention",
+      "normalized_name": "residual_attention",
+      "pascal_name": "ResidualAttention"
+    },
+    "39_ScaledDotProductAttentionModular": {
+      "level": "level2",
+      "category": "advanced_attention",
+      "normalized_name": "scaled_dot_product_attention_modular",
+      "pascal_name": "ScaledDotProductAttentionModular"
+    },
+    "40_SimplifiedSelfAttention": {
+      "level": "level2",
+      "category": "advanced_attention",
+      "normalized_name": "simplified_self_attention",
+      "pascal_name": "SimplifiedSelfAttention"
+    },
+    "41_ExternalAttention": {
+      "level": "level1",
+      "category": "advanced_attention",
+      "normalized_name": "external_attention",
+      "pascal_name": "ExternalAttention"
+    },
+    "42_ParallelPolarizedSelfAttention": {
+      "level": "level2",
+      "category": "advanced_attention",
+      "normalized_name": "parallel_polarized_self_attention",
+      "pascal_name": "ParallelPolarizedSelfAttention"
+    },
+    "43_SequentialPolarizedSelfAttention": {
+      "level": "level2",
+      "category": "advanced_attention",
+      "normalized_name": "sequential_polarized_self_attention",
+      "pascal_name": "SequentialPolarizedSelfAttention"
+    },
+    "44_MUSEAttention": {
+      "level": "level3",
+      "category": "advanced_attention",
+      "normalized_name": "muse_attention",
+      "pascal_name": "MUSEAttention"
+    },
+    "45_AFT_FULL": {
+      "level": "level2",
+      "category": "advanced_attention",
+      "normalized_name": "aft_full",
+      "pascal_name": "AFT_FULL"
+    },
+    "46_UFOAttention": {
+      "level": "level2",
+      "category": "advanced_attention",
+      "normalized_name": "ufo_attention",
+      "pascal_name": "UFOAttention"
+    },
+    "47_CoTAttention": {
+      "level": "level2",
+      "category": "context_conv_attention",
+      "normalized_name": "co_t_attention",
+      "pascal_name": "CoTAttention"
+    },
+    "48_S2Attention": {
+      "level": "level2",
+      "category": "context_conv_attention",
+      "normalized_name": "s2_attention",
+      "pascal_name": "S2Attention"
+    },
+    "49_ACmix": {
+      "level": "level3",
+      "category": "context_conv_attention",
+      "normalized_name": "a_cmix",
+      "pascal_name": "ACmix"
+    },
+    "50_DoubleAttention": {
+      "level": "level2",
+      "category": "dual_attention",
+      "normalized_name": "double_attention",
+      "pascal_name": "DoubleAttention"
+    },
+    "51_DAModule": {
+      "level": "level3",
+      "category": "dual_attention",
+      "normalized_name": "da_module",
+      "pascal_name": "DAModule"
+    },
+    "52_PAM": {
+      "level": "level2",
+      "category": "dual_attention",
+      "normalized_name": "pam",
+      "pascal_name": "PAM"
+    },
+    "53_AxialAttention": {
+      "level": "level3",
+      "category": "vision_attention",
+      "normalized_name": "axial_attention",
+      "pascal_name": "AxialAttention"
+    },
+    "54_CrissCrossAttention": {
+      "level": "level2",
+      "category": "vision_attention",
+      "normalized_name": "criss_cross_attention",
+      "pascal_name": "CrissCrossAttention"
+    },
+    "55_HaloAttention": {
+      "level": "level3",
+      "category": "vision_attention",
+      "normalized_name": "halo_attention",
+      "pascal_name": "HaloAttention"
+    },
+    "56_OutlookAttention": {
+      "level": "level2",
+      "category": "vision_attention",
+      "normalized_name": "outlook_attention",
+      "pascal_name": "OutlookAttention"
+    },
+    "57_MobileViTAttention": {
+      "level": "level3",
+      "category": "vision_attention",
+      "normalized_name": "mobile_vi_t_attention",
+      "pascal_name": "MobileViTAttention"
+    },
+    "58_MobileViTv2Attention": {
+      "level": "level1",
+      "category": "vision_attention",
+      "normalized_name": "mobile_vi_tv2_attention",
+      "pascal_name": "MobileViTv2Attention"
+    },
+    "59_EMSA": {
+      "level": "level3",
+      "category": "vision_attention",
+      "normalized_name": "emsa",
+      "pascal_name": "EMSA"
+    },
+    "60_DAttentionBaseline": {
+      "level": "level3",
+      "category": "vision_attention",
+      "normalized_name": "d_attention_baseline",
+      "pascal_name": "DAttentionBaseline"
+    },
+    "61_WeightedPermuteMLP": {
+      "level": "level2",
+      "category": "vision_attention",
+      "normalized_name": "weighted_permute_mlp",
+      "pascal_name": "WeightedPermuteMLP"
+    },
+    "62_ViTAttention": {
+      "level": "level2",
+      "category": "vision_attention",
+      "normalized_name": "vi_t_attention",
+      "pascal_name": "ViTAttention"
+    },
+    "63_CrossformerAttention": {
+      "level": "level2",
+      "category": "vision_attention",
+      "normalized_name": "crossformer_attention",
+      "pascal_name": "CrossformerAttention"
+    },
+    "64_WindowAttention": {
+      "level": "level2",
+      "category": "vision_attention",
+      "normalized_name": "window_attention",
+      "pascal_name": "WindowAttention"
+    },
+    "65_GlobalFilter": {
+      "level": "level2",
+      "category": "vision_attention",
+      "normalized_name": "global_filter",
+      "pascal_name": "GlobalFilter"
+    },
+    "66_FlashAttentionFwd": {
+      "level": "level3",
+      "category": "llm_inference_attention",
+      "normalized_name": "flash_attention_fwd",
+      "pascal_name": "FlashAttentionFwd"
+    },
+    "67_FlashAttentionBwd": {
+      "level": "level3",
+      "category": "llm_inference_attention",
+      "normalized_name": "flash_attention_bwd",
+      "pascal_name": "FlashAttentionBwd"
+    },
+    "68_PagedAttentionKVCache": {
+      "level": "level3",
+      "category": "llm_inference_attention",
+      "normalized_name": "paged_attention_kv_cache",
+      "pascal_name": "PagedAttentionKVCache"
+    },
+    "69_MultiHeadLatentAttention": {
+      "level": "level3",
+      "category": "llm_inference_attention",
+      "normalized_name": "multi_head_latent_attention",
+      "pascal_name": "MultiHeadLatentAttention"
+    },
+    "70_DenseSparseAttention": {
+      "level": "level3",
+      "category": "llm_inference_attention",
+      "normalized_name": "dense_sparse_attention",
+      "pascal_name": "DenseSparseAttention"
+    },
+    "71_GEMM": {
+      "level": "level1",
+      "category": "llm_inference_compute",
+      "normalized_name": "gemm",
+      "pascal_name": "GEMM"
+    },
+    "72_GroupedGEMM": {
+      "level": "level3",
+      "category": "llm_inference_compute",
+      "normalized_name": "grouped_gemm",
+      "pascal_name": "GroupedGEMM"
+    },
+    "73_RoPE": {
+      "level": "level2",
+      "category": "llm_inference_compute",
+      "normalized_name": "rope",
+      "pascal_name": "RoPE"
+    },
+    "74_Router": {
+      "level": "level1",
+      "category": "llm_inference_moe",
+      "normalized_name": "router",
+      "pascal_name": "Router"
+    },
+    "75_RmsNorm": {
+      "level": "level1",
+      "category": "llm_inference_norm",
+      "normalized_name": "rms_norm",
+      "pascal_name": "RmsNorm"
+    },
+    "76_AddRmsNorm": {
+      "level": "level2",
+      "category": "llm_inference_norm",
+      "normalized_name": "add_rms_norm",
+      "pascal_name": "AddRmsNorm"
+    },
+    "77_Permute": {
+      "level": "level2",
+      "category": "llm_inference_moe",
+      "normalized_name": "permute",
+      "pascal_name": "Permute"
+    },
+    "78_UnPermute": {
+      "level": "level2",
+      "category": "llm_inference_moe",
+      "normalized_name": "un_permute",
+      "pascal_name": "UnPermute"
+    },
+    "79_DyQuantize": {
+      "level": "level2",
+      "category": "llm_inference_quantization",
+      "normalized_name": "dy_quantize",
+      "pascal_name": "DyQuantize"
+    }
+  }
+}

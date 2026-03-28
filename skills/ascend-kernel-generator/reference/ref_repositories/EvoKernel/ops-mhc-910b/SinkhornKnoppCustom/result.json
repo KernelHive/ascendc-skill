@@ -1,0 +1,12 @@
+{
+  "kernel_project_name": "SinkhornKnoppCustom",
+  "outer_iter": 23,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "mean_ms": 0.027,
+  "baseline_mean_ms": 1.133,
+  "speedup_vs_baseline": 41.96296296296296,
+  "log2_speedup_vs_baseline": 5.391044643657047,
+  "relative_change_pct": 4096.2962962962965
+}

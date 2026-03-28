@@ -1,0 +1,16 @@
+
+[
+  {
+    "op": "MatmulSubtractMultiplyReluCustom",
+    "input_desc": [
+      { "name": "x",   "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "w",   "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "b",   "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "sub", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "mul", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "y", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ]
+  }
+]

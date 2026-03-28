@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "1_Square_matrix_multiplication_",
+  "outer_iter": 19,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 10.957,
+    "mean": 10.953,
+    "min": 10.948,
+    "num_trials": 5,
+    "std": 0.003
+  }
+}

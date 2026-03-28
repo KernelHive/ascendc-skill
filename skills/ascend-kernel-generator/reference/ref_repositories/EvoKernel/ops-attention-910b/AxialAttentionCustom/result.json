@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "AxialAttentionCustom",
+  "outer_iter": 7,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 30.383,
+    "std": 0.119,
+    "min": 30.222,
+    "max": 30.504,
+    "num_trials": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "53_Gemm_Scaling_Hardtanh_GELU",
+  "outer_iter": 19,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 15.624,
+    "mean": 15.579,
+    "min": 15.445,
+    "num_trials": 5,
+    "std": 0.068
+  }
+}

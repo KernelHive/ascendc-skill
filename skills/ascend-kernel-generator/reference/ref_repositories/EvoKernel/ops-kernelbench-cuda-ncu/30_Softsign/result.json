@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "30_Softsign",
+  "outer_iter": 3,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 7.653,
+    "mean": 7.637,
+    "min": 7.626,
+    "num_trials": 5,
+    "std": 0.009
+  }
+}

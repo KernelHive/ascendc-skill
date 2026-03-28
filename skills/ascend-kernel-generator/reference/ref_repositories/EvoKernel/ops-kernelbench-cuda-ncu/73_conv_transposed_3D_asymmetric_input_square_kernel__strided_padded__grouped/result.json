@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "73_conv_transposed_3D_asymmetric_input_square_kernel__strided_padded__grouped",
+  "outer_iter": 17,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 55.254,
+    "mean": 55.156,
+    "min": 55.036,
+    "num_trials": 5,
+    "std": 0.093
+  }
+}

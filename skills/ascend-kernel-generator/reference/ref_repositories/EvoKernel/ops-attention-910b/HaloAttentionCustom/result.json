@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "HaloAttentionCustom",
+  "outer_iter": 14,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 120.648,
+    "std": 0.264,
+    "min": 120.276,
+    "max": 120.868,
+    "num_trials": null
+  }
+}

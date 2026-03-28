@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "77_conv_transposed_3D_square_input_square_kernel___padded____dilated____strided__",
+  "outer_iter": 20,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 4.079,
+    "mean": 4.073,
+    "min": 4.066,
+    "num_trials": 5,
+    "std": 0.004
+  }
+}

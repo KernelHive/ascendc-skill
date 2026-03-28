@@ -1,0 +1,1105 @@
+{
+  "exported_operator_count": 79,
+  "summary": {
+    "compiled_true": 79,
+    "correctness_true": 77,
+    "compiled_rate": 1.0,
+    "correctness_rate": 0.9746835443037974
+  },
+  "kernels": [
+    {
+      "kernel_project_name": "1_ScaledDotProductAttention",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.043,
+        "mean": 0.042,
+        "min": 0.042,
+        "num_trials": 5,
+        "std": 0.0
+      }
+    },
+    {
+      "kernel_project_name": "2_MultiHeadAttention",
+      "outer_iter": 11,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 5.228,
+        "mean": 5.209,
+        "min": 5.199,
+        "num_trials": 5,
+        "std": 0.012
+      }
+    },
+    {
+      "kernel_project_name": "3_SelfAttention",
+      "outer_iter": 23,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 5.23,
+        "mean": 5.213,
+        "min": 5.199,
+        "num_trials": 5,
+        "std": 0.013
+      }
+    },
+    {
+      "kernel_project_name": "4_CrossAttention",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 6.032,
+        "mean": 6.025,
+        "min": 6.016,
+        "num_trials": 5,
+        "std": 0.006
+      }
+    },
+    {
+      "kernel_project_name": "5_FlashAttention",
+      "outer_iter": 5,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.949,
+        "mean": 9.939,
+        "min": 9.933,
+        "num_trials": 5,
+        "std": 0.006
+      }
+    },
+    {
+      "kernel_project_name": "6_FlashAttentionV2",
+      "outer_iter": 10,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.178,
+        "mean": 8.502,
+        "min": 8.243,
+        "num_trials": 5,
+        "std": 0.365
+      }
+    },
+    {
+      "kernel_project_name": "7_OptimizedFlashAttention",
+      "outer_iter": 17,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 5.91,
+        "mean": 5.763,
+        "min": 5.434,
+        "num_trials": 5,
+        "std": 0.182
+      }
+    },
+    {
+      "kernel_project_name": "8_GroupedQueryAttention",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 8.716,
+        "mean": 8.192,
+        "min": 7.472,
+        "num_trials": 5,
+        "std": 0.588
+      }
+    },
+    {
+      "kernel_project_name": "9_MultiQueryAttention",
+      "outer_iter": 17,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 7.382,
+        "mean": 7.377,
+        "min": 7.369,
+        "num_trials": 5,
+        "std": 0.005
+      }
+    },
+    {
+      "kernel_project_name": "10_AdaptiveAttention",
+      "outer_iter": 26,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 9.529,
+        "mean": 9.492,
+        "min": 9.474,
+        "num_trials": 5,
+        "std": 0.019
+      }
+    },
+    {
+      "kernel_project_name": "11_LinearAttention",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 3.594,
+        "mean": 3.588,
+        "min": 3.585,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "12_PerformerAttention",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 5.023,
+        "mean": 4.96,
+        "min": 4.888,
+        "num_trials": 5,
+        "std": 0.058
+      }
+    },
+    {
+      "kernel_project_name": "13_LinformerAttention",
+      "outer_iter": 10,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 3.611,
+        "mean": 3.604,
+        "min": 3.597,
+        "num_trials": 5,
+        "std": 0.005
+      }
+    },
+    {
+      "kernel_project_name": "14_NystromAttention",
+      "outer_iter": 17,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 6.425,
+        "mean": 6.193,
+        "min": 5.773,
+        "num_trials": 5,
+        "std": 0.266
+      }
+    },
+    {
+      "kernel_project_name": "15_CosformerAttention",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 3.637,
+        "mean": 3.626,
+        "min": 3.619,
+        "num_trials": 5,
+        "std": 0.007
+      }
+    },
+    {
+      "kernel_project_name": "16_LocalAttention",
+      "outer_iter": 11,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 3.342,
+        "mean": 3.337,
+        "min": 3.327,
+        "num_trials": 5,
+        "std": 0.006
+      }
+    },
+    {
+      "kernel_project_name": "17_BlockSparseAttention",
+      "outer_iter": 21,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 3.129,
+        "mean": 3.124,
+        "min": 3.119,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "18_StridedAttention",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 4.598,
+        "mean": 4.588,
+        "min": 4.577,
+        "num_trials": 5,
+        "std": 0.008
+      }
+    },
+    {
+      "kernel_project_name": "19_LongformerAttention",
+      "outer_iter": 9,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 3.72,
+        "mean": 3.708,
+        "min": 3.695,
+        "num_trials": 5,
+        "std": 0.009
+      }
+    },
+    {
+      "kernel_project_name": "20_BigBirdAttention",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": false,
+      "performance": null
+    },
+    {
+      "kernel_project_name": "21_SEAttention",
+      "outer_iter": 28,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.106,
+        "mean": 0.105,
+        "min": 0.104,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "22_ECAAttention",
+      "outer_iter": 2,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.073,
+        "mean": 0.072,
+        "min": 0.072,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "23_GCT",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.059,
+        "mean": 0.056,
+        "min": 0.055,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "24_SRM",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.161,
+        "mean": 0.16,
+        "min": 0.16,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "25_GatedChannelTransform",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.051,
+        "mean": 0.051,
+        "min": 0.05,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "26_GCModule",
+      "outer_iter": 10,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.1,
+        "mean": 0.099,
+        "min": 0.098,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "27_LCT",
+      "outer_iter": 2,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.06,
+        "mean": 0.06,
+        "min": 0.059,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "28_SimAM",
+      "outer_iter": 28,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.032,
+        "mean": 0.03,
+        "min": 0.029,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "29_CoordAtt",
+      "outer_iter": 1,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.691,
+        "mean": 0.69,
+        "min": 0.689,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "30_SpatialGroupEnhance",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.049,
+        "mean": 0.048,
+        "min": 0.047,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "31_CBAMBlock",
+      "outer_iter": 17,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.763,
+        "mean": 0.762,
+        "min": 0.761,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "32_BAM",
+      "outer_iter": 28,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.335,
+        "mean": 0.315,
+        "min": 0.298,
+        "num_trials": 5,
+        "std": 0.012
+      }
+    },
+    {
+      "kernel_project_name": "33_TripletAttention",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 1.752,
+        "mean": 1.748,
+        "min": 1.747,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "34_SKAttention",
+      "outer_iter": 28,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 3.173,
+        "mean": 3.171,
+        "min": 3.168,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "35_ShuffleAttention",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.042,
+        "mean": 0.041,
+        "min": 0.04,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "36_PSA",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.748,
+        "mean": 0.746,
+        "min": 0.745,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "37_ParNetAttention",
+      "outer_iter": 11,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.607,
+        "mean": 0.606,
+        "min": 0.605,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "38_ResidualAttention",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.207,
+        "mean": 0.206,
+        "min": 0.206,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "39_ScaledDotProductAttentionModular",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.457,
+        "mean": 0.452,
+        "min": 0.446,
+        "num_trials": 5,
+        "std": 0.004
+      }
+    },
+    {
+      "kernel_project_name": "40_SimplifiedSelfAttention",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.172,
+        "mean": 0.171,
+        "min": 0.168,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "41_ExternalAttention",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.052,
+        "mean": 0.052,
+        "min": 0.052,
+        "num_trials": 5,
+        "std": 0.0
+      }
+    },
+    {
+      "kernel_project_name": "42_ParallelPolarizedSelfAttention",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.326,
+        "mean": 0.326,
+        "min": 0.326,
+        "num_trials": 5,
+        "std": 0.0
+      }
+    },
+    {
+      "kernel_project_name": "43_SequentialPolarizedSelfAttention",
+      "outer_iter": 8,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.377,
+        "mean": 0.376,
+        "min": 0.375,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "44_MUSEAttention",
+      "outer_iter": 10,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.71,
+        "mean": 0.707,
+        "min": 0.702,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "45_AFT_FULL",
+      "outer_iter": 16,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.328,
+        "mean": 0.325,
+        "min": 0.318,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "46_UFOAttention",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.477,
+        "mean": 0.475,
+        "min": 0.471,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "47_CoTAttention",
+      "outer_iter": 20,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 1.128,
+        "mean": 1.123,
+        "min": 1.119,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "48_S2Attention",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": false,
+      "performance": null
+    },
+    {
+      "kernel_project_name": "49_ACmix",
+      "outer_iter": 7,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 1.721,
+        "mean": 1.719,
+        "min": 1.717,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "50_DoubleAttention",
+      "outer_iter": 12,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.475,
+        "mean": 0.474,
+        "min": 0.473,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "51_DAModule",
+      "outer_iter": 19,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 3.72,
+        "mean": 3.7,
+        "min": 3.665,
+        "num_trials": 5,
+        "std": 0.019
+      }
+    },
+    {
+      "kernel_project_name": "52_PAM",
+      "outer_iter": 28,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.777,
+        "mean": 0.773,
+        "min": 0.766,
+        "num_trials": 5,
+        "std": 0.004
+      }
+    },
+    {
+      "kernel_project_name": "53_AxialAttention",
+      "outer_iter": 23,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 2.458,
+        "mean": 2.456,
+        "min": 2.455,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "54_CrissCrossAttention",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.502,
+        "mean": 0.495,
+        "min": 0.493,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "55_HaloAttention",
+      "outer_iter": 2,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 6.157,
+        "mean": 6.145,
+        "min": 6.14,
+        "num_trials": 5,
+        "std": 0.006
+      }
+    },
+    {
+      "kernel_project_name": "56_OutlookAttention",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 3.649,
+        "mean": 3.633,
+        "min": 3.616,
+        "num_trials": 5,
+        "std": 0.011
+      }
+    },
+    {
+      "kernel_project_name": "57_MobileViTAttention",
+      "outer_iter": 19,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 63.36,
+        "mean": 63.351,
+        "min": 63.348,
+        "num_trials": 5,
+        "std": 0.005
+      }
+    },
+    {
+      "kernel_project_name": "58_MobileViTv2Attention",
+      "outer_iter": 17,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 5.954,
+        "mean": 5.948,
+        "min": 5.943,
+        "num_trials": 5,
+        "std": 0.004
+      }
+    },
+    {
+      "kernel_project_name": "59_EMSA",
+      "outer_iter": 22,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.35,
+        "mean": 0.349,
+        "min": 0.346,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "60_DAttentionBaseline",
+      "outer_iter": 13,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 1.911,
+        "mean": 1.906,
+        "min": 1.903,
+        "num_trials": 5,
+        "std": 0.003
+      }
+    },
+    {
+      "kernel_project_name": "61_WeightedPermuteMLP",
+      "outer_iter": 15,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 1.527,
+        "mean": 1.525,
+        "min": 1.523,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "62_ViTAttention",
+      "outer_iter": 10,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.376,
+        "mean": 0.375,
+        "min": 0.375,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "63_CrossformerAttention",
+      "outer_iter": 16,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.502,
+        "mean": 0.501,
+        "min": 0.499,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "64_WindowAttention",
+      "outer_iter": 13,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.414,
+        "mean": 0.412,
+        "min": 0.411,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "65_GlobalFilter",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.109,
+        "mean": 0.105,
+        "min": 0.104,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "66_FlashAttentionFwd",
+      "outer_iter": 8,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.762,
+        "mean": 0.746,
+        "min": 0.737,
+        "num_trials": 5,
+        "std": 0.009
+      }
+    },
+    {
+      "kernel_project_name": "67_FlashAttentionBwd",
+      "outer_iter": 24,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 17.069,
+        "mean": 15.344,
+        "min": 13.849,
+        "num_trials": 5,
+        "std": 1.428
+      }
+    },
+    {
+      "kernel_project_name": "68_PagedAttentionKVCache",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.389,
+        "mean": 0.387,
+        "min": 0.385,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "69_MultiHeadLatentAttention",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.134,
+        "mean": 0.133,
+        "min": 0.132,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "70_DenseSparseAttention",
+      "outer_iter": 28,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.011,
+        "mean": 0.011,
+        "min": 0.01,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "71_GEMM",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 1.437,
+        "mean": 1.424,
+        "min": 1.415,
+        "num_trials": 5,
+        "std": 0.007
+      }
+    },
+    {
+      "kernel_project_name": "72_GroupedGEMM",
+      "outer_iter": 25,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 24.266,
+        "mean": 21.526,
+        "min": 19.835,
+        "num_trials": 5,
+        "std": 1.893
+      }
+    },
+    {
+      "kernel_project_name": "73_RoPE",
+      "outer_iter": 4,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.067,
+        "mean": 0.065,
+        "min": 0.065,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "74_Router",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.049,
+        "mean": 0.048,
+        "min": 0.047,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "75_RmsNorm",
+      "outer_iter": 28,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.032,
+        "mean": 0.031,
+        "min": 0.03,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "76_AddRmsNorm",
+      "outer_iter": 29,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.042,
+        "mean": 0.042,
+        "min": 0.041,
+        "num_trials": 5,
+        "std": 0.0
+      }
+    },
+    {
+      "kernel_project_name": "77_Permute",
+      "outer_iter": 13,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.276,
+        "mean": 0.273,
+        "min": 0.271,
+        "num_trials": 5,
+        "std": 0.002
+      }
+    },
+    {
+      "kernel_project_name": "78_UnPermute",
+      "outer_iter": 27,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.042,
+        "mean": 0.041,
+        "min": 0.04,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    },
+    {
+      "kernel_project_name": "79_DyQuantize",
+      "outer_iter": 30,
+      "inner_iter": 1,
+      "compiled": true,
+      "correctness": true,
+      "performance": {
+        "max": 0.041,
+        "mean": 0.04,
+        "min": 0.039,
+        "num_trials": 5,
+        "std": 0.001
+      }
+    }
+  ]
+}

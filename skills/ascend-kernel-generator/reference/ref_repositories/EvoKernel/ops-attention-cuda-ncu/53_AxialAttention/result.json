@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "53_AxialAttention",
+  "outer_iter": 23,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 2.458,
+    "mean": 2.456,
+    "min": 2.455,
+    "num_trials": 5,
+    "std": 0.001
+  }
+}

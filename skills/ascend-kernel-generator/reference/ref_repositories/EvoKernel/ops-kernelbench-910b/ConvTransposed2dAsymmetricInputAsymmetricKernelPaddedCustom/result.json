@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvTransposed2dAsymmetricInputAsymmetricKernelPaddedCustom",
+  "outer_iter": 30,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 4969.387,
+    "std": 3.226,
+    "min": 4965.618,
+    "max": 4973.498,
+    "num_trials": null
+  }
+}

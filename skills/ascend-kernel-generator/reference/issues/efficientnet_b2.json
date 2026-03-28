@@ -1,0 +1,8 @@
+[
+  {
+    "op": "efficientnet_b2",
+    "error": "Correctness runtime failed with Unsupported_Operator(EZ3002): Optype [Conv2D] of Ops kernel [AIcoreEngine] is unsupported; the environment does not accept this host-side Conv2D execution path inside the generated custom op package.",
+    "code_diff": "Replace host-side ATen Conv2D/activation/pooling execution with real AscendC custom kernels for the standard convolution, depthwise convolution, batch norm, activation, pooling, and linear stages used by EfficientNetB2. Keep ModelNew as a pure dispatcher to custom_ops_lib only.",
+    "summary": "Do not implement EfficientNetB2 by calling ATen Conv2D from python_bind_src. In this verify environment, Conv2D is rejected at runtime with EZ3002. The fix direction is to split EfficientNetB2 into real AscendC standard-conv and depthwise-conv custom kernels plus supporting pointwise kernels, and let ModelNew only dispatch those custom_ops_lib kernels."
+  }
+]

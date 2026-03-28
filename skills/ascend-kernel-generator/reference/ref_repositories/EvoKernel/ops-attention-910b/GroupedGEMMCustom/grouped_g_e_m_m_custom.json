@@ -1,0 +1,35 @@
+
+[
+  {
+    "op": "GroupedGEMMCustom",
+    "input_desc": [
+      {
+        "name": "lhs",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["bfloat16"]
+      },
+      {
+        "name": "rhs",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["bfloat16"]
+      },
+      {
+        "name": "m_indices",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["int32"]
+      }
+    ],
+    "output_desc": [
+      {
+        "name": "out",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["bfloat16"]
+      }
+    ],
+    "attr": []
+  }
+]

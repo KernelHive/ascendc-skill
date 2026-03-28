@@ -1,0 +1,220 @@
+[
+    {
+        "case_name": "Test_DynamicRNN_001",
+        "op": "DynamicRNN",
+        "calc_expect_func_file":"test_dynamic_rnn.py:calc_expect_func", 
+        "input_desc": [
+          {
+            "shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_format": "ND",
+            "format": "ND",
+            "name": "x",
+            "type": "float16"
+          },
+          {
+            "shape": [
+              32,
+              64
+            ],
+            "ori_shape": [
+              32,
+              64
+            ],
+            "ori_format": "ND",
+            "format": "ND",
+            "name": "w",
+            "type": "float16"
+          },
+          {
+            "shape": [
+              64
+            ],
+            "ori_shape": [
+              64
+            ],
+            "ori_format": "ND",
+            "format": "ND",
+            "name": "b",
+            "type": "float16"
+          },
+          {
+            "shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_format": "ND",
+            "format": "ND",
+            "name": "init_h",
+            "type": "float16"
+          },
+          {
+            "shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_format": "ND",
+            "format": "ND",
+            "name": "init_c",
+            "type": "float16"
+          }
+        ],
+        "output_desc": [
+          {
+            "shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_format": "ND",
+            "format": "ND",
+            "name": "y",
+            "type": "float16"
+          },
+          {
+              "shape": [
+                  1,
+                  16,
+                  16
+              ],
+              "ori_shape": [
+                  1,
+                  16,
+                  16
+              ],
+              "ori_format": "ND",
+              "format": "ND",
+              "name": "output_h",
+              "type": "float16"
+          },
+          {
+            "shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_format": "ND",
+            "format": "ND",
+            "name": "output_c",
+            "type": "float16"
+          },
+          {
+            "shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_format": "ND",
+            "format": "ND",
+            "name": "i",
+            "type": "float16"
+          },
+          {
+            "shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_format": "ND",
+            "format": "ND",
+            "name": "j",
+            "type": "float16"
+          },
+          {
+            "shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_shape": [
+              1,
+              16,
+              16
+            ],
+            "ori_format": "ND",
+            "format": "ND",
+            "name": "f",
+            "type": "float16"
+          },
+          {
+              "shape": [
+                1,
+                16,
+                16
+              ],
+              "ori_shape": [
+                1,
+                16,
+                16
+              ],
+              "ori_format": "ND",
+              "format": "ND",
+              "name": "o",
+              "type": "float16"
+            },
+            {
+              "shape": [
+                1,
+                16,
+                16
+              ],
+              "ori_shape": [
+                1,
+                16,
+                16
+              ],
+              "ori_format": "ND",
+              "format": "ND",
+              "name": "tanhc",
+              "type": "float16"
+            }
+        ],
+        "attr": [
+          {
+            "name": "time_major",
+            "type": "bool",
+            "value": true
+          }
+        ]
+    }
+]   

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "Conv2dReluBiasAddCustom",
+  "outer_iter": 20,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 27981.488,
+    "std": 0.949,
+    "min": 27980.211,
+    "max": 27982.486,
+    "num_trials": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvTransposed2dSquareInputAsymmetricKernelCustom",
+  "outer_iter": 21,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 22312.587,
+    "std": 0.534,
+    "min": 22312.021,
+    "max": 22313.302,
+    "num_trials": null
+  }
+}

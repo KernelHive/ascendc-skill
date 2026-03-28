@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "53_Min_reduction_over_a_dimension",
+  "outer_iter": 18,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 5.124,
+    "mean": 5.107,
+    "min": 5.082,
+    "num_trials": 5,
+    "std": 0.014
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "49_ACmix",
+  "outer_iter": 7,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 1.721,
+    "mean": 1.719,
+    "min": 1.717,
+    "num_trials": 5,
+    "std": 0.001
+  }
+}

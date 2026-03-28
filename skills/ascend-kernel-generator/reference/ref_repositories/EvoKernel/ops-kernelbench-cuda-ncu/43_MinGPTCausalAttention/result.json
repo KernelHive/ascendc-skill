@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "43_MinGPTCausalAttention",
+  "outer_iter": 20,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 29.33,
+    "mean": 29.207,
+    "min": 29.056,
+    "num_trials": 5,
+    "std": 0.102
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "68_Matmul_Min_Subtract",
+  "outer_iter": 17,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 0.737,
+    "mean": 0.734,
+    "min": 0.729,
+    "num_trials": 5,
+    "std": 0.003
+  }
+}

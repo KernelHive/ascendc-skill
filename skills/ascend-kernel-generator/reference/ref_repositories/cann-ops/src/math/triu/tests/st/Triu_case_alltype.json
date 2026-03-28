@@ -1,0 +1,49 @@
+[
+    {
+        "case_name": "Test_Triu_001",
+        "op": "Triu",
+        "calc_expect_func_file": "./test_triu.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16"
+                ],
+                "shape": [100, 100],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "x"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16"
+                ],
+                "shape": [100, 100],
+                "name": "y"
+            }
+        ],
+        "attr": [
+            {
+                "name": "diagonal",
+                "type": "int",
+                "value": 0
+            }
+        ]
+    }
+]

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "GemmAddReluCustom",
+  "outer_iter": 21,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 12757.595,
+    "std": 83.997,
+    "min": 12678.711,
+    "max": 12873.955,
+    "num_trials": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "Conv2dMinTanhTanhCustom",
+  "outer_iter": 21,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 24458.938,
+    "std": 3.073,
+    "min": 24455.173,
+    "max": 24462.7,
+    "num_trials": null
+  }
+}

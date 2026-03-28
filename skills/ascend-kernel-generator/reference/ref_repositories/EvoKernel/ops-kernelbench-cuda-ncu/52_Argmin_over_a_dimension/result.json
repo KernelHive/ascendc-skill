@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "52_Argmin_over_a_dimension",
+  "outer_iter": 21,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 5.055,
+    "mean": 5.04,
+    "min": 5.032,
+    "num_trials": 5,
+    "std": 0.009
+  }
+}

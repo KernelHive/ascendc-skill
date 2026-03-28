@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "68_conv_transposed_3D__square_input__asymmetric_kernel",
+  "outer_iter": 13,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 442.186,
+    "mean": 441.344,
+    "min": 439.408,
+    "num_trials": 5,
+    "std": 1.052
+  }
+}

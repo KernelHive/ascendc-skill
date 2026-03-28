@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ReluCustom",
+  "outer_iter": 28,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 9.854,
+    "std": 0.046,
+    "min": 9.791,
+    "max": 9.898,
+    "num_trials": null
+  }
+}

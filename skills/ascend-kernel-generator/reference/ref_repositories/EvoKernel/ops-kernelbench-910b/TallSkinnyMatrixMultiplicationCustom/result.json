@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "TallSkinnyMatrixMultiplicationCustom",
+  "outer_iter": 20,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 28.507,
+    "std": 0.311,
+    "min": 28.115,
+    "max": 28.876,
+    "num_trials": null
+  }
+}

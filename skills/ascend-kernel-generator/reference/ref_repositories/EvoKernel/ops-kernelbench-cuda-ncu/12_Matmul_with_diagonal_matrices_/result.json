@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "12_Matmul_with_diagonal_matrices_",
+  "outer_iter": 23,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 0.086,
+    "mean": 0.085,
+    "min": 0.084,
+    "num_trials": 5,
+    "std": 0.001
+  }
+}

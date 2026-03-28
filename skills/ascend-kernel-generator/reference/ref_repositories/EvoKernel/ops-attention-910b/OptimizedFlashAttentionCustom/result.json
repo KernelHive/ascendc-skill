@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "OptimizedFlashAttentionCustom",
+  "outer_iter": 11,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 3.233,
+    "std": 0.172,
+    "min": 2.99,
+    "max": 3.356,
+    "num_trials": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "67_conv_standard_1D",
+  "outer_iter": 20,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 35.297,
+    "mean": 35.292,
+    "min": 35.288,
+    "num_trials": 5,
+    "std": 0.004
+  }
+}

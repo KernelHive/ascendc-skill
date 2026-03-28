@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "7_OptimizedFlashAttention",
+  "outer_iter": 17,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 5.91,
+    "mean": 5.763,
+    "min": 5.434,
+    "num_trials": 5,
+    "std": 0.182
+  }
+}

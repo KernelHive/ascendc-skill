@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "30_Gemm_GroupNorm_Hardtanh",
+  "outer_iter": 23,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 9.523,
+    "mean": 9.516,
+    "min": 9.511,
+    "num_trials": 5,
+    "std": 0.005
+  }
+}

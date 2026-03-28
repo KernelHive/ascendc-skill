@@ -1,0 +1,44 @@
+[
+    {
+        "case_name": "Test_Sin_001",
+        "op": "Sin",
+        "calc_expect_func_file": "./test_sin.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16",
+                    "bfloat16"
+                ],
+                "shape": [100],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        -5.0,
+                        5.0
+                    ]
+                ],
+                "name": "x"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16",
+                    "bfloat16"
+                ],
+                "shape": [100],
+                "name": "y"
+            }
+        ]
+    }
+]

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "46_UFOAttention",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 0.477,
+    "mean": 0.475,
+    "min": 0.471,
+    "num_trials": 5,
+    "std": 0.002
+  }
+}

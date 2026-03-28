@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "TanhCustom",
+  "outer_iter": 13,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 9.559,
+    "std": 0.035,
+    "min": 9.511,
+    "max": 9.591,
+    "num_trials": null
+  }
+}

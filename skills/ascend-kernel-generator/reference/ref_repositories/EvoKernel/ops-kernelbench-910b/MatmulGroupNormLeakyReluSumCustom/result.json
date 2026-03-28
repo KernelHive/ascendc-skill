@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MatmulGroupNormLeakyReluSumCustom",
+  "outer_iter": 22,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 69903.109,
+    "std": 376.613,
+    "min": 69593.129,
+    "max": 70433.186,
+    "num_trials": null
+  }
+}

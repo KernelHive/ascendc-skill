@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "CumprodCustom",
+  "outer_iter": 30,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 683.541,
+    "std": 0.209,
+    "min": 683.245,
+    "max": 683.694,
+    "num_trials": null
+  }
+}

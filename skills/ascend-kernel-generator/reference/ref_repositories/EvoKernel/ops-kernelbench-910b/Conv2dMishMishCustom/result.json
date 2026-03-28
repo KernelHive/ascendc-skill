@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "Conv2dMishMishCustom",
+  "outer_iter": 28,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 37778.157,
+    "std": 29.386,
+    "min": 37739.872,
+    "max": 37811.299,
+    "num_trials": null
+  }
+}

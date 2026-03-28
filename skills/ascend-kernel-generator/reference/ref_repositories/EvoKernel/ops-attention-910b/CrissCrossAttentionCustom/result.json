@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "CrissCrossAttentionCustom",
+  "outer_iter": 11,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 1.98,
+    "std": 0.13,
+    "min": 1.796,
+    "max": 2.074,
+    "num_trials": null
+  }
+}

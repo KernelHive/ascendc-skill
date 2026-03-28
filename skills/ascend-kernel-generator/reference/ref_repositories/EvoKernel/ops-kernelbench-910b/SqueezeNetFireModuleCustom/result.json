@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "SqueezeNetFireModuleCustom",
+  "outer_iter": 13,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 2744.271,
+    "std": 6.119,
+    "min": 2737.526,
+    "max": 2752.338,
+    "num_trials": null
+  }
+}

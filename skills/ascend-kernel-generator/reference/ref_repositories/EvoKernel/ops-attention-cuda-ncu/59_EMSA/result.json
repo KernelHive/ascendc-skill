@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "59_EMSA",
+  "outer_iter": 22,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 0.35,
+    "mean": 0.349,
+    "min": 0.346,
+    "num_trials": 5,
+    "std": 0.002
+  }
+}

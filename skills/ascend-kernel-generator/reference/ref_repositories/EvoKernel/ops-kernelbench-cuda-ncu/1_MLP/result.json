@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "1_MLP",
+  "outer_iter": 2,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 12.818,
+    "mean": 12.813,
+    "min": 12.81,
+    "num_trials": 5,
+    "std": 0.003
+  }
+}

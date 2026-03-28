@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvStandard3dSquareInputSquareKernelCustom",
+  "outer_iter": 14,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 4588.459,
+    "std": 50.732,
+    "min": 4516.714,
+    "max": 4624.718,
+    "num_trials": null
+  }
+}

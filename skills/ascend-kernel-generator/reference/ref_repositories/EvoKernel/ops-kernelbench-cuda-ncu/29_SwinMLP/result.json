@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "29_SwinMLP",
+  "outer_iter": 26,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 8.445,
+    "mean": 8.418,
+    "min": 8.383,
+    "num_trials": 5,
+    "std": 0.027
+  }
+}

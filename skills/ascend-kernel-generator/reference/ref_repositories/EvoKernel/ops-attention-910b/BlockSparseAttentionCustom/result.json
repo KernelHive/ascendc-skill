@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "BlockSparseAttentionCustom",
+  "outer_iter": 24,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 20.42,
+    "std": 0.205,
+    "min": 20.143,
+    "max": 20.63,
+    "num_trials": null
+  }
+}

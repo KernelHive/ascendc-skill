@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "Conv3dSoftmaxMaxPoolMaxPoolCustom",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 151.238,
+    "std": 0.223,
+    "min": 151.021,
+    "max": 151.544,
+    "num_trials": null
+  }
+}

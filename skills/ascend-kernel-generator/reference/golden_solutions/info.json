@@ -1,0 +1,6436 @@
+{
+    "mse_loss": {
+        "index": 0,
+        "op": "mse_loss",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.177,
+            "median": 0.176,
+            "std": 0.00604,
+            "min": 0.139,
+            "max": 0.194,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.185,
+            "median": 0.186,
+            "std": 0.00873,
+            "min": 0.134,
+            "max": 0.211,
+            "num_trials": 100
+        },
+        "speedup": 1.06,
+        "saved_at": "2026-03-09T17:18:25Z"
+    },
+    "add": {
+        "index": 0,
+        "op": "add",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.128,
+            "median": 0.126,
+            "std": 0.00812,
+            "min": 0.0763,
+            "max": 0.158,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.121,
+            "median": 0.119,
+            "std": 0.00568,
+            "min": 0.111,
+            "max": 0.145,
+            "num_trials": 100
+        },
+        "speedup": 0.944,
+        "saved_at": "2026-03-09T17:49:32Z"
+    },
+    "reduce_sum": {
+        "index": 0,
+        "op": "reduce_sum",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.12,
+            "median": 0.119,
+            "std": 0.00656,
+            "min": 0.0793,
+            "max": 0.138,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.128,
+            "median": 0.121,
+            "std": 0.0409,
+            "min": 0.107,
+            "max": 0.478,
+            "num_trials": 100
+        },
+        "speedup": 1.02,
+        "saved_at": "2026-03-09T19:26:06Z"
+    },
+    "leaky_relu": {
+        "index": 0,
+        "op": "leaky_relu",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.125,
+            "median": 0.125,
+            "std": 0.00673,
+            "min": 0.0866,
+            "max": 0.152,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.123,
+            "median": 0.121,
+            "std": 0.00567,
+            "min": 0.114,
+            "max": 0.143,
+            "num_trials": 100
+        },
+        "speedup": 0.968,
+        "saved_at": "2026-03-09T14:52:16Z"
+    },
+    "matmul_add": {
+        "category": "matmul",
+        "performance": {
+            "mean": 0.28,
+            "median": 0.277,
+            "std": 0.0112,
+            "min": 0.248,
+            "max": 0.361,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4"
+    },
+    "elu": {
+        "index": 0,
+        "op": "elu",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.131,
+            "median": 0.129,
+            "std": 0.00764,
+            "min": 0.085,
+            "max": 0.157,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.123,
+            "median": 0.121,
+            "std": 0.00532,
+            "min": 0.116,
+            "max": 0.143,
+            "num_trials": 100
+        },
+        "speedup": 0.938,
+        "saved_at": "2026-03-09T15:07:54Z"
+    },
+    "hardsigmoid": {
+        "index": 0,
+        "op": "hardsigmoid",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.133,
+            "median": 0.132,
+            "std": 0.00961,
+            "min": 0.0594,
+            "max": 0.158,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.126,
+            "median": 0.124,
+            "std": 0.00718,
+            "min": 0.114,
+            "max": 0.16,
+            "num_trials": 100
+        },
+        "speedup": 0.939,
+        "saved_at": "2026-03-09T15:08:16Z"
+    },
+    "hardtanh": {
+        "index": 0,
+        "op": "hardtanh",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.131,
+            "median": 0.129,
+            "std": 0.00689,
+            "min": 0.0917,
+            "max": 0.163,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.125,
+            "median": 0.122,
+            "std": 0.00632,
+            "min": 0.118,
+            "max": 0.148,
+            "num_trials": 100
+        },
+        "speedup": 0.946,
+        "saved_at": "2026-03-09T15:14:05Z"
+    },
+    "relu": {
+        "index": 0,
+        "op": "relu",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.135,
+            "median": 0.133,
+            "std": 0.00642,
+            "min": 0.105,
+            "max": 0.156,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.12,
+            "median": 0.119,
+            "std": 0.00538,
+            "min": 0.113,
+            "max": 0.132,
+            "num_trials": 100
+        },
+        "speedup": 0.895,
+        "saved_at": "2026-03-09T15:20:26Z"
+    },
+    "log_softmax": {
+        "index": 0,
+        "op": "log_softmax",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.166,
+            "median": 0.163,
+            "std": 0.00856,
+            "min": 0.115,
+            "max": 0.19,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.126,
+            "median": 0.124,
+            "std": 0.00489,
+            "min": 0.118,
+            "max": 0.138,
+            "num_trials": 100
+        },
+        "speedup": 0.761,
+        "saved_at": "2026-03-09T15:20:47Z"
+    },
+    "selu": {
+        "index": 0,
+        "op": "selu",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.131,
+            "median": 0.13,
+            "std": 0.00726,
+            "min": 0.105,
+            "max": 0.18,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.119,
+            "median": 0.117,
+            "std": 0.00904,
+            "min": 0.107,
+            "max": 0.194,
+            "num_trials": 100
+        },
+        "speedup": 0.9,
+        "saved_at": "2026-03-09T15:26:00Z"
+    },
+    "sigmoid": {
+        "index": 0,
+        "op": "sigmoid",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.133,
+            "median": 0.129,
+            "std": 0.0146,
+            "min": 0.102,
+            "max": 0.257,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.117,
+            "median": 0.115,
+            "std": 0.0059,
+            "min": 0.109,
+            "max": 0.139,
+            "num_trials": 100
+        },
+        "speedup": 0.891,
+        "saved_at": "2026-03-09T15:31:39Z"
+    },
+    "softmax": {
+        "index": 0,
+        "op": "softmax",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.135,
+            "median": 0.133,
+            "std": 0.00696,
+            "min": 0.104,
+            "max": 0.157,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.125,
+            "median": 0.123,
+            "std": 0.0158,
+            "min": 0.103,
+            "max": 0.241,
+            "num_trials": 100
+        },
+        "speedup": 0.925,
+        "saved_at": "2026-03-09T15:37:55Z"
+    },
+    "gelu": {
+        "index": 0,
+        "op": "gelu",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.133,
+            "median": 0.131,
+            "std": 0.00777,
+            "min": 0.102,
+            "max": 0.171,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.122,
+            "median": 0.12,
+            "std": 0.00608,
+            "min": 0.112,
+            "max": 0.149,
+            "num_trials": 100
+        },
+        "speedup": 0.916,
+        "saved_at": "2026-03-09T15:43:32Z"
+    },
+    "swish": {
+        "index": 0,
+        "op": "swish",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.124,
+            "median": 0.124,
+            "std": 0.0072,
+            "min": 0.0662,
+            "max": 0.141,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.185,
+            "median": 0.144,
+            "std": 0.398,
+            "min": 0.137,
+            "max": 4.14,
+            "num_trials": 100
+        },
+        "speedup": 1.16,
+        "saved_at": "2026-03-09T15:49:21Z"
+    },
+    "tanh": {
+        "index": 0,
+        "op": "tanh",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.129,
+            "median": 0.127,
+            "std": 0.00781,
+            "min": 0.0797,
+            "max": 0.156,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.115,
+            "median": 0.113,
+            "std": 0.00473,
+            "min": 0.104,
+            "max": 0.128,
+            "num_trials": 100
+        },
+        "speedup": 0.89,
+        "saved_at": "2026-03-09T15:54:38Z"
+    },
+    "softplus_akg": {
+        "index": 0,
+        "op": "softplus_akg",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.129,
+            "median": 0.126,
+            "std": 0.0158,
+            "min": 0.0828,
+            "max": 0.267,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.118,
+            "median": 0.117,
+            "std": 0.00448,
+            "min": 0.111,
+            "max": 0.139,
+            "num_trials": 100
+        },
+        "speedup": 0.929,
+        "saved_at": "2026-03-09T16:01:08Z"
+    },
+    "softsign": {
+        "index": 0,
+        "op": "softsign",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.127,
+            "median": 0.125,
+            "std": 0.00676,
+            "min": 0.0847,
+            "max": 0.151,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.192,
+            "median": 0.191,
+            "std": 0.00887,
+            "min": 0.18,
+            "max": 0.25,
+            "num_trials": 100
+        },
+        "speedup": 1.53,
+        "saved_at": "2026-03-09T16:09:20Z"
+    },
+    "add_bias_broadcast": {
+        "index": 0,
+        "op": "add_bias_broadcast",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.128,
+            "median": 0.127,
+            "std": 0.00731,
+            "min": 0.0796,
+            "max": 0.161,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.121,
+            "median": 0.119,
+            "std": 0.00628,
+            "min": 0.108,
+            "max": 0.138,
+            "num_trials": 100
+        },
+        "speedup": 0.937,
+        "saved_at": "2026-03-09T16:15:02Z"
+    },
+    "clamp_broadcast": {
+        "index": 0,
+        "op": "clamp_broadcast",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.207,
+            "median": 0.206,
+            "std": 0.00986,
+            "min": 0.152,
+            "max": 0.237,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.126,
+            "median": 0.123,
+            "std": 0.00582,
+            "min": 0.114,
+            "max": 0.143,
+            "num_trials": 100
+        },
+        "speedup": 0.597,
+        "saved_at": "2026-03-09T16:15:33Z"
+    },
+    "division_broadcast": {
+        "index": 0,
+        "op": "division_broadcast",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.178,
+            "median": 0.177,
+            "std": 0.00679,
+            "min": 0.135,
+            "max": 0.192,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.121,
+            "median": 0.119,
+            "std": 0.00535,
+            "min": 0.11,
+            "max": 0.135,
+            "num_trials": 100
+        },
+        "speedup": 0.672,
+        "saved_at": "2026-03-09T16:21:01Z"
+    },
+    "elmentwise_mul_broadcast": {
+        "index": 0,
+        "op": "elmentwise_mul_broadcast",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.199,
+            "median": 0.197,
+            "std": 0.0094,
+            "min": 0.148,
+            "max": 0.224,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.117,
+            "median": 0.115,
+            "std": 0.00653,
+            "min": 0.107,
+            "max": 0.156,
+            "num_trials": 100
+        },
+        "speedup": 0.584,
+        "saved_at": "2026-03-09T16:24:18Z"
+    },
+    "add_bias_four_dim_broadcast": {
+        "index": 0,
+        "op": "add_bias_four_dim_broadcast",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.131,
+            "median": 0.123,
+            "std": 0.0753,
+            "min": 0.0658,
+            "max": 0.876,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.137,
+            "median": 0.135,
+            "std": 0.00571,
+            "min": 0.13,
+            "max": 0.157,
+            "num_trials": 100
+        },
+        "speedup": 1.1,
+        "saved_at": "2026-03-09T16:26:17Z"
+    },
+    "power_broadcast": {
+        "index": 0,
+        "op": "power_broadcast",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.195,
+            "median": 0.192,
+            "std": 0.00817,
+            "min": 0.148,
+            "max": 0.213,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.165,
+            "median": 0.13,
+            "std": 0.325,
+            "min": 0.12,
+            "max": 3.39,
+            "num_trials": 100
+        },
+        "speedup": 0.677,
+        "saved_at": "2026-03-09T16:35:21Z"
+    },
+    "subtract_with_bias_broadcast": {
+        "index": 0,
+        "op": "subtract_with_bias_broadcast",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.169,
+            "median": 0.167,
+            "std": 0.00783,
+            "min": 0.129,
+            "max": 0.2,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.115,
+            "median": 0.113,
+            "std": 0.0049,
+            "min": 0.105,
+            "max": 0.13,
+            "num_trials": 100
+        },
+        "speedup": 0.677,
+        "saved_at": "2026-03-09T16:40:37Z"
+    },
+    "land_bc": {
+        "index": 0,
+        "op": "land_bc",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 105.0,
+            "median": 105.0,
+            "std": 0.55,
+            "min": 105.0,
+            "max": 107.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.282,
+            "median": 0.279,
+            "std": 0.00733,
+            "min": 0.264,
+            "max": 0.307,
+            "num_trials": 100
+        },
+        "speedup": 0.00266,
+        "saved_at": "2026-03-09T16:41:21Z"
+    },
+    "max_broadcast": {
+        "index": 0,
+        "op": "max_broadcast",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.206,
+            "median": 0.205,
+            "std": 0.00879,
+            "min": 0.155,
+            "max": 0.229,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.116,
+            "median": 0.115,
+            "std": 0.00506,
+            "min": 0.107,
+            "max": 0.136,
+            "num_trials": 100
+        },
+        "speedup": 0.561,
+        "saved_at": "2026-03-09T16:43:07Z"
+    },
+    "where_broadcast": {
+        "index": 0,
+        "op": "where_broadcast",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 147.0,
+            "median": 147.0,
+            "std": 0.499,
+            "min": 147.0,
+            "max": 148.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.113,
+            "median": 0.112,
+            "std": 0.00431,
+            "min": 0.105,
+            "max": 0.125,
+            "num_trials": 100
+        },
+        "speedup": 0.000762,
+        "saved_at": "2026-03-09T17:00:01Z"
+    },
+    "hinge_loss": {
+        "index": 0,
+        "op": "hinge_loss",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.122,
+            "median": 0.121,
+            "std": 0.00672,
+            "min": 0.0718,
+            "max": 0.136,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.213,
+            "median": 0.213,
+            "std": 0.0144,
+            "min": 0.199,
+            "max": 0.34,
+            "num_trials": 100
+        },
+        "speedup": 1.76,
+        "saved_at": "2026-03-09T17:06:31Z"
+    },
+    "huber_loss": {
+        "index": 0,
+        "op": "huber_loss",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.264,
+            "median": 0.267,
+            "std": 0.0081,
+            "min": 0.235,
+            "max": 0.286,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.157,
+            "median": 0.155,
+            "std": 0.006,
+            "min": 0.147,
+            "max": 0.18,
+            "num_trials": 100
+        },
+        "speedup": 0.581,
+        "saved_at": "2026-03-09T17:12:46Z"
+    },
+    "cosine_similarity_loss": {
+        "index": 0,
+        "op": "cosine_similarity_loss",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.929,
+            "median": 0.927,
+            "std": 0.0103,
+            "min": 0.885,
+            "max": 0.969,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.422,
+            "median": 0.421,
+            "std": 0.0135,
+            "min": 0.407,
+            "max": 0.54,
+            "num_trials": 100
+        },
+        "speedup": 0.454,
+        "saved_at": "2026-03-09T17:12:58Z"
+    },
+    "kl_div_loss": {
+        "index": 0,
+        "op": "kl_div_loss",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.768,
+            "median": 0.767,
+            "std": 0.00857,
+            "min": 0.751,
+            "max": 0.793,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.202,
+            "median": 0.202,
+            "std": 0.00866,
+            "min": 0.174,
+            "max": 0.229,
+            "num_trials": 100
+        },
+        "speedup": 0.263,
+        "saved_at": "2026-03-09T17:18:42Z"
+    },
+    "triplet_margin_loss": {
+        "index": 0,
+        "op": "triplet_margin_loss",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.957,
+            "median": 0.955,
+            "std": 0.00878,
+            "min": 0.926,
+            "max": 0.988,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.295,
+            "median": 0.294,
+            "std": 0.00763,
+            "min": 0.28,
+            "max": 0.326,
+            "num_trials": 100
+        },
+        "speedup": 0.308,
+        "saved_at": "2026-03-09T17:25:11Z"
+    },
+    "cumprod": {
+        "index": 0,
+        "op": "cumprod",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 9.09,
+            "median": 9.08,
+            "std": 0.00762,
+            "min": 9.04,
+            "max": 9.11,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 7.16,
+            "median": 7.16,
+            "std": 0.0469,
+            "min": 7.06,
+            "max": 7.38,
+            "num_trials": 100
+        },
+        "speedup": 0.789,
+        "saved_at": "2026-03-09T17:50:58Z"
+    },
+    "cumsum_reverse": {
+        "index": 0,
+        "op": "cumsum_reverse",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 8.8,
+            "median": 8.79,
+            "std": 0.033,
+            "min": 8.76,
+            "max": 8.93,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 1.42,
+            "median": 1.42,
+            "std": 0.00959,
+            "min": 1.4,
+            "max": 1.46,
+            "num_trials": 100
+        },
+        "speedup": 0.162,
+        "saved_at": "2026-03-09T17:56:04Z"
+    },
+    "cumsum_scan": {
+        "index": 0,
+        "op": "cumsum_scan",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 9.08,
+            "median": 9.08,
+            "std": 0.00953,
+            "min": 9.04,
+            "max": 9.11,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.247,
+            "median": 0.25,
+            "std": 0.00558,
+            "min": 0.238,
+            "max": 0.259,
+            "num_trials": 100
+        },
+        "speedup": 0.0275,
+        "saved_at": "2026-03-09T17:59:39Z"
+    },
+    "cumsum": {
+        "index": 0,
+        "op": "cumsum",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 9.08,
+            "median": 9.08,
+            "std": 0.00953,
+            "min": 9.04,
+            "max": 9.11,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.247,
+            "median": 0.25,
+            "std": 0.00558,
+            "min": 0.238,
+            "max": 0.259,
+            "num_trials": 100
+        },
+        "speedup": 0.0275,
+        "saved_at": "2026-03-09T18:00:10Z"
+    },
+    "masked_cumsum": {
+        "index": 0,
+        "op": "masked_cumsum",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 15.0,
+            "median": 15.0,
+            "std": 0.0173,
+            "min": 14.9,
+            "max": 15.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.291,
+            "median": 0.289,
+            "std": 0.00619,
+            "min": 0.275,
+            "max": 0.32,
+            "num_trials": 100
+        },
+        "speedup": 0.0193,
+        "saved_at": "2026-03-09T18:02:07Z"
+    },
+    "cumsum_exclusive": {
+        "index": 0,
+        "op": "cumsum_exclusive",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 24.8,
+            "median": 24.8,
+            "std": 0.0992,
+            "min": 24.6,
+            "max": 25.1,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.359,
+            "median": 0.359,
+            "std": 0.00785,
+            "min": 0.343,
+            "max": 0.375,
+            "num_trials": 100
+        },
+        "speedup": 0.0145,
+        "saved_at": "2026-03-09T18:14:36Z"
+    },
+    "matrix_scalar_multiplication": {
+        "index": 0,
+        "op": "matrix_scalar_multiplication",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 2.06,
+            "median": 2.06,
+            "std": 0.00931,
+            "min": 2.04,
+            "max": 2.11,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.878,
+            "median": 0.877,
+            "std": 0.00489,
+            "min": 0.866,
+            "max": 0.89,
+            "num_trials": 100
+        },
+        "speedup": 0.426,
+        "saved_at": "2026-03-09T18:16:19Z"
+    },
+    "frobenius_norm": {
+        "index": 0,
+        "op": "frobenius_norm",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 32.5,
+            "median": 32.5,
+            "std": 0.197,
+            "min": 32.1,
+            "max": 32.9,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 1.28,
+            "median": 1.28,
+            "std": 0.00489,
+            "min": 1.26,
+            "max": 1.29,
+            "num_trials": 100
+        },
+        "speedup": 0.0394,
+        "saved_at": "2026-03-09T18:23:45Z"
+    },
+    "batch_norm": {
+        "index": 0,
+        "op": "batch_norm",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 1.42,
+            "median": 1.41,
+            "std": 0.143,
+            "min": 1.3,
+            "max": 2.84,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 1.48,
+            "median": 1.48,
+            "std": 0.00896,
+            "min": 1.46,
+            "max": 1.53,
+            "num_trials": 100
+        },
+        "speedup": 1.05,
+        "saved_at": "2026-03-09T18:25:06Z"
+    },
+    "l1_norm": {
+        "index": 0,
+        "op": "l1_norm",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.126,
+            "median": 0.126,
+            "std": 0.00641,
+            "min": 0.0787,
+            "max": 0.14,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.184,
+            "median": 0.181,
+            "std": 0.0393,
+            "min": 0.17,
+            "max": 0.568,
+            "num_trials": 100
+        },
+        "speedup": 1.44,
+        "saved_at": "2026-03-09T18:31:28Z"
+    },
+    "instance_norm": {
+        "index": 0,
+        "op": "instance_norm",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 4.96,
+            "median": 4.96,
+            "std": 0.0293,
+            "min": 4.9,
+            "max": 5.02,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 1.37,
+            "median": 1.37,
+            "std": 0.0053,
+            "min": 1.36,
+            "max": 1.39,
+            "num_trials": 100
+        },
+        "speedup": 0.276,
+        "saved_at": "2026-03-09T18:34:11Z"
+    },
+    "layer_norm": {
+        "index": 0,
+        "op": "layer_norm",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 6.34,
+            "median": 6.33,
+            "std": 0.0358,
+            "min": 6.28,
+            "max": 6.52,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 3.66,
+            "median": 3.66,
+            "std": 0.0162,
+            "min": 3.63,
+            "max": 3.7,
+            "num_trials": 100
+        },
+        "speedup": 0.578,
+        "saved_at": "2026-03-09T18:41:41Z"
+    },
+    "l2_norm": {
+        "index": 0,
+        "op": "l2_norm",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.173,
+            "median": 0.128,
+            "std": 0.434,
+            "min": 0.0689,
+            "max": 4.49,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.179,
+            "median": 0.177,
+            "std": 0.00602,
+            "min": 0.168,
+            "max": 0.193,
+            "num_trials": 100
+        },
+        "speedup": 1.38,
+        "saved_at": "2026-03-09T18:46:11Z"
+    },
+    "rms_norm_lower_dim": {
+        "index": 0,
+        "op": "rms_norm_lower_dim",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.125,
+            "median": 0.125,
+            "std": 0.0076,
+            "min": 0.0724,
+            "max": 0.147,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.262,
+            "median": 0.255,
+            "std": 0.0787,
+            "min": 0.243,
+            "max": 1.04,
+            "num_trials": 100
+        },
+        "speedup": 2.04,
+        "saved_at": "2026-03-09T18:56:50Z"
+    },
+    "rms_norm": {
+        "index": 0,
+        "op": "rms_norm",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 281.0,
+            "median": 281.0,
+            "std": 0.509,
+            "min": 280.0,
+            "max": 282.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 2.13,
+            "median": 2.13,
+            "std": 0.00584,
+            "min": 2.1,
+            "max": 2.14,
+            "num_trials": 100
+        },
+        "speedup": 0.00758,
+        "saved_at": "2026-03-09T19:05:56Z"
+    },
+    "max_reduction_over_a_dimension": {
+        "index": 0,
+        "op": "max_reduction_over_a_dimension",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.31,
+            "median": 0.31,
+            "std": 0.0078,
+            "min": 0.278,
+            "max": 0.341,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.243,
+            "median": 0.247,
+            "std": 0.00712,
+            "min": 0.23,
+            "max": 0.285,
+            "num_trials": 100
+        },
+        "speedup": 0.797,
+        "saved_at": "2026-03-09T19:16:26Z"
+    },
+    "min_reduction_over_a_dimension": {
+        "index": 0,
+        "op": "min_reduction_over_a_dimension",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.129,
+            "median": 0.126,
+            "std": 0.00833,
+            "min": 0.0974,
+            "max": 0.166,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.243,
+            "median": 0.24,
+            "std": 0.00543,
+            "min": 0.237,
+            "max": 0.251,
+            "num_trials": 100
+        },
+        "speedup": 1.9,
+        "saved_at": "2026-03-09T19:18:51Z"
+    },
+    "product_reduction_over_a_dimension": {
+        "index": 0,
+        "op": "product_reduction_over_a_dimension",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.308,
+            "median": 0.307,
+            "std": 0.00552,
+            "min": 0.27,
+            "max": 0.329,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.124,
+            "median": 0.122,
+            "std": 0.00573,
+            "min": 0.113,
+            "max": 0.141,
+            "num_trials": 100
+        },
+        "speedup": 0.397,
+        "saved_at": "2026-03-09T19:24:17Z"
+    },
+    "mean_reduction_over_a_dimension": {
+        "index": 0,
+        "op": "mean_reduction_over_a_dimension",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 28.2,
+            "median": 28.2,
+            "std": 0.0337,
+            "min": 28.2,
+            "max": 28.3,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.121,
+            "median": 0.119,
+            "std": 0.00513,
+            "min": 0.115,
+            "max": 0.14,
+            "num_trials": 100
+        },
+        "speedup": 0.00422,
+        "saved_at": "2026-03-09T19:27:26Z"
+    },
+    "sum_reduction_over_a_dimension": {
+        "index": 0,
+        "op": "sum_reduction_over_a_dimension",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 28.1,
+            "median": 28.1,
+            "std": 0.0276,
+            "min": 28.0,
+            "max": 28.3,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.13,
+            "median": 0.128,
+            "std": 0.00592,
+            "min": 0.121,
+            "max": 0.15,
+            "num_trials": 100
+        },
+        "speedup": 0.00456,
+        "saved_at": "2026-03-09T19:39:44Z"
+    },
+    "downsample_bilinear": {
+        "index": 0,
+        "op": "downsample_bilinear",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 183.0,
+            "median": 183.0,
+            "std": 2.01,
+            "min": 180.0,
+            "max": 186.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.788,
+            "median": 0.785,
+            "std": 0.017,
+            "min": 0.772,
+            "max": 0.948,
+            "num_trials": 100
+        },
+        "speedup": 0.00429,
+        "saved_at": "2026-03-09T19:54:03Z"
+    },
+    "bilinear_upsample": {
+        "index": 0,
+        "op": "bilinear_upsample",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 32.1,
+            "median": 32.1,
+            "std": 0.0952,
+            "min": 32.0,
+            "max": 32.9,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 1.77,
+            "median": 1.77,
+            "std": 0.00736,
+            "min": 1.73,
+            "max": 1.81,
+            "num_trials": 100
+        },
+        "speedup": 0.0551,
+        "saved_at": "2026-03-09T19:58:16Z"
+    },
+    "bicubic_upsample": {
+        "index": 0,
+        "op": "bicubic_upsample",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.379,
+            "median": 0.378,
+            "std": 0.00933,
+            "min": 0.323,
+            "max": 0.398,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.385,
+            "median": 0.381,
+            "std": 0.00895,
+            "min": 0.373,
+            "max": 0.414,
+            "num_trials": 100
+        },
+        "speedup": 1.01,
+        "saved_at": "2026-03-09T20:00:00Z"
+    },
+    "grid_sample_random_warp": {
+        "index": 0,
+        "op": "grid_sample_random_warp",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 94.5,
+            "median": 94.2,
+            "std": 1.4,
+            "min": 91.9,
+            "max": 97.9,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.48,
+            "median": 0.478,
+            "std": 0.00474,
+            "min": 0.466,
+            "max": 0.499,
+            "num_trials": 100
+        },
+        "speedup": 0.00507,
+        "saved_at": "2026-03-09T20:13:25Z"
+    },
+    "grid_sample_affine": {
+        "index": 0,
+        "op": "grid_sample_affine",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 1.85,
+            "median": 1.85,
+            "std": 0.0407,
+            "min": 1.79,
+            "max": 2.1,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 1.87,
+            "median": 1.87,
+            "std": 0.0326,
+            "min": 1.81,
+            "max": 2.03,
+            "num_trials": 100
+        },
+        "speedup": 1.01,
+        "saved_at": "2026-03-09T20:16:11Z"
+    },
+    "interpolate_dynamic": {
+        "index": 0,
+        "op": "interpolate_dynamic",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 1.8,
+            "median": 1.8,
+            "std": 0.0169,
+            "min": 1.76,
+            "max": 1.92,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 1.81,
+            "median": 1.81,
+            "std": 0.00573,
+            "min": 1.79,
+            "max": 1.83,
+            "num_trials": 100
+        },
+        "speedup": 1.01,
+        "saved_at": "2026-03-09T20:20:37Z"
+    },
+    "resize_with_antialias": {
+        "index": 0,
+        "op": "resize_with_antialias",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.211,
+            "median": 0.211,
+            "std": 0.00841,
+            "min": 0.153,
+            "max": 0.225,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.218,
+            "median": 0.22,
+            "std": 0.00657,
+            "min": 0.207,
+            "max": 0.233,
+            "num_trials": 100
+        },
+        "speedup": 1.04,
+        "saved_at": "2026-03-09T20:25:14Z"
+    },
+    "nearest_neighbor_upsample": {
+        "index": 0,
+        "op": "nearest_neighbor_upsample",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 478.0,
+            "median": 477.0,
+            "std": 2.92,
+            "min": 472.0,
+            "max": 482.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.33,
+            "median": 0.328,
+            "std": 0.00664,
+            "min": 0.316,
+            "max": 0.346,
+            "num_trials": 100
+        },
+        "speedup": 0.000688,
+        "saved_at": "2026-03-09T20:28:39Z"
+    },
+    "upsample_grid_sample": {
+        "index": 0,
+        "op": "upsample_grid_sample",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.894,
+            "median": 0.894,
+            "std": 0.0147,
+            "min": 0.867,
+            "max": 0.947,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.906,
+            "median": 0.905,
+            "std": 0.013,
+            "min": 0.878,
+            "max": 0.943,
+            "num_trials": 100
+        },
+        "speedup": 1.01,
+        "saved_at": "2026-03-09T20:35:26Z"
+    },
+    "trilinear_upsample": {
+        "index": 0,
+        "op": "trilinear_upsample",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 42.2,
+            "median": 42.2,
+            "std": 0.118,
+            "min": 42.1,
+            "max": 43.2,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.892,
+            "median": 0.892,
+            "std": 0.00624,
+            "min": 0.878,
+            "max": 0.912,
+            "num_trials": 100
+        },
+        "speedup": 0.0211,
+        "saved_at": "2026-03-09T20:37:09Z"
+    },
+    "adagrad": {
+        "index": 0,
+        "op": "adagrad",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 1.49,
+            "median": 1.49,
+            "std": 0.0105,
+            "min": 1.44,
+            "max": 1.52,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.31,
+            "median": 0.311,
+            "std": 0.00831,
+            "min": 0.286,
+            "max": 0.334,
+            "num_trials": 100
+        },
+        "speedup": 0.209,
+        "saved_at": "2026-03-09T20:45:21Z"
+    },
+    "rmsprop": {
+        "index": 0,
+        "op": "rmsprop",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.142,
+            "median": 0.142,
+            "std": 0.00551,
+            "min": 0.105,
+            "max": 0.157,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.344,
+            "median": 0.343,
+            "std": 0.0106,
+            "min": 0.322,
+            "max": 0.394,
+            "num_trials": 100
+        },
+        "speedup": 2.42,
+        "saved_at": "2026-03-09T20:57:07Z"
+    },
+    "adam": {
+        "index": 0,
+        "op": "adam",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.126,
+            "median": 0.123,
+            "std": 0.0134,
+            "min": 0.0754,
+            "max": 0.212,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.464,
+            "median": 0.462,
+            "std": 0.0174,
+            "min": 0.447,
+            "max": 0.593,
+            "num_trials": 100
+        },
+        "speedup": 3.76,
+        "saved_at": "2026-03-09T21:02:55Z"
+    },
+    "sgd": {
+        "index": 0,
+        "op": "sgd",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 1.31,
+            "median": 1.3,
+            "std": 0.0269,
+            "min": 1.25,
+            "max": 1.37,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.219,
+            "median": 0.221,
+            "std": 0.0102,
+            "min": 0.203,
+            "max": 0.283,
+            "num_trials": 100
+        },
+        "speedup": 0.17,
+        "saved_at": "2026-03-09T21:12:32Z"
+    },
+    "average_pooling3d": {
+        "index": 0,
+        "op": "average_pooling3d",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 14.3,
+            "median": 14.3,
+            "std": 0.105,
+            "min": 14.1,
+            "max": 15.1,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 14.3,
+            "median": 14.3,
+            "std": 0.071,
+            "min": 14.1,
+            "max": 14.6,
+            "num_trials": 100
+        },
+        "speedup": 1.0,
+        "saved_at": "2026-03-09T21:26:30Z"
+    },
+    "average_pooling1d": {
+        "index": 0,
+        "op": "average_pooling1d",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.263,
+            "median": 0.261,
+            "std": 0.00594,
+            "min": 0.225,
+            "max": 0.274,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.161,
+            "median": 0.159,
+            "std": 0.0072,
+            "min": 0.155,
+            "max": 0.211,
+            "num_trials": 100
+        },
+        "speedup": 0.609,
+        "saved_at": "2026-03-09T21:30:55Z"
+    },
+    "average_pooling2d": {
+        "index": 0,
+        "op": "average_pooling2d",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 1.61,
+            "median": 1.61,
+            "std": 0.0633,
+            "min": 1.48,
+            "max": 2.21,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 1.61,
+            "median": 1.61,
+            "std": 0.0112,
+            "min": 1.58,
+            "max": 1.65,
+            "num_trials": 100
+        },
+        "speedup": 1.0,
+        "saved_at": "2026-03-09T21:34:58Z"
+    },
+    "max_pooling1d": {
+        "index": 0,
+        "op": "max_pooling1d",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 3.16,
+            "median": 3.15,
+            "std": 0.038,
+            "min": 3.11,
+            "max": 3.36,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-09T21:36:13Z"
+    },
+    "max_pooling2d": {
+        "index": 0,
+        "op": "max_pooling2d",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 13.7,
+            "median": 13.7,
+            "std": 0.0322,
+            "min": 13.6,
+            "max": 13.8,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-09T21:37:40Z"
+    },
+    "max_pooling3d": {
+        "index": 0,
+        "op": "max_pooling3d",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 527.0,
+            "median": 527.0,
+            "std": 0.0922,
+            "min": 527.0,
+            "max": 527.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-09T21:44:27Z"
+    },
+    "matmul_for_lower_triangular_matrices": {
+        "index": 0,
+        "op": "matmul_for_lower_triangular_matrices",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 40.9,
+            "median": 40.9,
+            "std": 0.0764,
+            "min": 40.8,
+            "max": 41.2,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 2.26,
+            "median": 2.25,
+            "std": 0.0254,
+            "min": 2.23,
+            "max": 2.38,
+            "num_trials": 100
+        },
+        "speedup": 0.055,
+        "saved_at": "2026-03-09T21:50:45Z"
+    },
+    "gemm": {
+        "index": 0,
+        "op": "gemm",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.295,
+            "median": 0.292,
+            "std": 0.0141,
+            "min": 0.239,
+            "max": 0.351,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.123,
+            "median": 0.121,
+            "std": 0.00571,
+            "min": 0.112,
+            "max": 0.143,
+            "num_trials": 100
+        },
+        "speedup": 0.414,
+        "saved_at": "2026-03-09T21:52:40Z"
+    },
+    "matmul_for_symmetric_matrices": {
+        "index": 0,
+        "op": "matmul_for_symmetric_matrices",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 40.8,
+            "median": 40.8,
+            "std": 0.0406,
+            "min": 40.8,
+            "max": 41.1,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 2.12,
+            "median": 2.12,
+            "std": 0.0153,
+            "min": 2.1,
+            "max": 2.25,
+            "num_trials": 100
+        },
+        "speedup": 0.052,
+        "saved_at": "2026-03-09T21:57:29Z"
+    },
+    "matmul_for_upper_triangular_matrices": {
+        "index": 0,
+        "op": "matmul_for_upper_triangular_matrices",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 40.8,
+            "median": 40.8,
+            "std": 0.0474,
+            "min": 40.8,
+            "max": 41.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 2.27,
+            "median": 2.27,
+            "std": 0.00591,
+            "min": 2.26,
+            "max": 2.29,
+            "num_trials": 100
+        },
+        "speedup": 0.0556,
+        "saved_at": "2026-03-09T22:05:16Z"
+    },
+    "matmul_with_diagonal_matrices": {
+        "index": 0,
+        "op": "matmul_with_diagonal_matrices",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 1.27,
+            "median": 1.27,
+            "std": 0.0101,
+            "min": 1.21,
+            "max": 1.33,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 2.21,
+            "median": 2.21,
+            "std": 0.00648,
+            "min": 2.19,
+            "max": 2.24,
+            "num_trials": 100
+        },
+        "speedup": 1.74,
+        "saved_at": "2026-03-09T22:23:07Z"
+    },
+    "matmul_with_small_k_dimension": {
+        "index": 0,
+        "op": "matmul_with_small_k_dimension",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 8.11,
+            "median": 8.13,
+            "std": 0.12,
+            "min": 7.94,
+            "max": 8.35,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 1.58,
+            "median": 1.57,
+            "std": 0.00724,
+            "min": 1.56,
+            "max": 1.61,
+            "num_trials": 100
+        },
+        "speedup": 0.193,
+        "saved_at": "2026-03-09T22:30:24Z"
+    },
+    "four_dim_tensor_matrix_multiplication": {
+        "index": 0,
+        "op": "four_dim_tensor_matrix_multiplication",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.13,
+            "median": 0.128,
+            "std": 0.00739,
+            "min": 0.0845,
+            "max": 0.149,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.21,
+            "median": 0.208,
+            "std": 0.00527,
+            "min": 0.201,
+            "max": 0.227,
+            "num_trials": 100
+        },
+        "speedup": 1.62,
+        "saved_at": "2026-03-09T22:33:13Z"
+    },
+    "matmul_with_irregular_shapes": {
+        "index": 0,
+        "op": "matmul_with_irregular_shapes",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 100.0,
+            "median": 99.8,
+            "std": 0.815,
+            "min": 98.7,
+            "max": 102.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 6.5,
+            "median": 6.46,
+            "std": 0.176,
+            "min": 6.23,
+            "max": 7.1,
+            "num_trials": 100
+        },
+        "speedup": 0.0647,
+        "saved_at": "2026-03-09T22:36:42Z"
+    },
+    "matmul_with_transposed_b": {
+        "index": 0,
+        "op": "matmul_with_transposed_b",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 5.14,
+            "median": 5.14,
+            "std": 0.0157,
+            "min": 5.11,
+            "max": 5.28,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.327,
+            "median": 0.325,
+            "std": 0.00603,
+            "min": 0.321,
+            "max": 0.371,
+            "num_trials": 100
+        },
+        "speedup": 0.0632,
+        "saved_at": "2026-03-09T22:40:30Z"
+    },
+    "matmul_with_transposed_both": {
+        "index": 0,
+        "op": "matmul_with_transposed_both",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 134.0,
+            "median": 133.0,
+            "std": 5.12,
+            "min": 127.0,
+            "max": 144.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.34,
+            "median": 0.339,
+            "std": 0.00557,
+            "min": 0.323,
+            "max": 0.363,
+            "num_trials": 100
+        },
+        "speedup": 0.00255,
+        "saved_at": "2026-03-09T22:47:13Z"
+    },
+    "matmul_with_transposed_a": {
+        "index": 0,
+        "op": "matmul_with_transposed_a",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 5.22,
+            "median": 5.21,
+            "std": 0.0229,
+            "min": 5.15,
+            "max": 5.42,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.385,
+            "median": 0.386,
+            "std": 0.0145,
+            "min": 0.373,
+            "max": 0.511,
+            "num_trials": 100
+        },
+        "speedup": 0.0741,
+        "saved_at": "2026-03-09T22:53:15Z"
+    },
+    "standard_matrix_multiplication": {
+        "index": 0,
+        "op": "standard_matrix_multiplication",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 5.18,
+            "median": 5.17,
+            "std": 0.0257,
+            "min": 5.14,
+            "max": 5.3,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.326,
+            "median": 0.317,
+            "std": 0.0199,
+            "min": 0.313,
+            "max": 0.439,
+            "num_trials": 100
+        },
+        "speedup": 0.0613,
+        "saved_at": "2026-03-09T23:00:41Z"
+    },
+    "tall_skinny_matrix_multiplication": {
+        "index": 0,
+        "op": "tall_skinny_matrix_multiplication",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 6.93,
+            "median": 6.92,
+            "std": 0.123,
+            "min": 6.75,
+            "max": 7.19,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 1.57,
+            "median": 1.55,
+            "std": 0.0484,
+            "min": 1.52,
+            "max": 1.74,
+            "num_trials": 100
+        },
+        "speedup": 0.224,
+        "saved_at": "2026-03-09T23:06:56Z"
+    },
+    "three_dim_tensor_matrix_multiplication": {
+        "index": 0,
+        "op": "three_dim_tensor_matrix_multiplication",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 500.0,
+            "median": 497.0,
+            "std": 18.4,
+            "min": 477.0,
+            "max": 533.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.875,
+            "median": 0.875,
+            "std": 0.00651,
+            "min": 0.835,
+            "max": 0.903,
+            "num_trials": 100
+        },
+        "speedup": 0.00176,
+        "saved_at": "2026-03-09T23:13:56Z"
+    },
+    "embedding": {
+        "index": 0,
+        "op": "embedding",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 20.1,
+            "median": 20.0,
+            "std": 0.0311,
+            "min": 20.0,
+            "max": 20.2,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.656,
+            "median": 0.654,
+            "std": 0.0109,
+            "min": 0.632,
+            "max": 0.705,
+            "num_trials": 100
+        },
+        "speedup": 0.0327,
+        "saved_at": "2026-03-09T23:47:31Z"
+    },
+    "argmin_over_a_dimension": {
+        "index": 0,
+        "op": "argmin_over_a_dimension",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 102.0,
+            "median": 102.0,
+            "std": 1.52,
+            "min": 99.1,
+            "max": 104.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.431,
+            "median": 0.428,
+            "std": 0.00655,
+            "min": 0.414,
+            "max": 0.443,
+            "num_trials": 100
+        },
+        "speedup": 0.0042,
+        "saved_at": "2026-03-09T23:54:01Z"
+    },
+    "argmax_over_a_dimension": {
+        "index": 0,
+        "op": "argmax_over_a_dimension",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 6.55,
+            "median": 6.55,
+            "std": 0.0191,
+            "min": 6.5,
+            "max": 6.59,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.16,
+            "median": 0.158,
+            "std": 0.00472,
+            "min": 0.152,
+            "max": 0.174,
+            "num_trials": 100
+        },
+        "speedup": 0.0241,
+        "saved_at": "2026-03-09T23:54:21Z"
+    },
+    "index_copy": {
+        "index": 0,
+        "op": "index_copy",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 146.0,
+            "median": 146.0,
+            "std": 1.9,
+            "min": 142.0,
+            "max": 149.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.275,
+            "median": 0.276,
+            "std": 0.00799,
+            "min": 0.251,
+            "max": 0.296,
+            "num_trials": 100
+        },
+        "speedup": 0.00189,
+        "saved_at": "2026-03-09T23:59:54Z"
+    },
+    "index_add": {
+        "index": 0,
+        "op": "index_add",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 521.0,
+            "median": 519.0,
+            "std": 6.73,
+            "min": 510.0,
+            "max": 535.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.357,
+            "median": 0.357,
+            "std": 0.00763,
+            "min": 0.331,
+            "max": 0.379,
+            "num_trials": 100
+        },
+        "speedup": 0.000688,
+        "saved_at": "2026-03-10T00:01:46Z"
+    },
+    "index_select": {
+        "index": 0,
+        "op": "index_select",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 29.5,
+            "median": 29.5,
+            "std": 0.391,
+            "min": 28.7,
+            "max": 30.2,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.12,
+            "median": 0.116,
+            "std": 0.011,
+            "min": 0.0995,
+            "max": 0.151,
+            "num_trials": 100
+        },
+        "speedup": 0.00393,
+        "saved_at": "2026-03-10T00:05:38Z"
+    },
+    "masked_fill": {
+        "index": 0,
+        "op": "masked_fill",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 472.0,
+            "median": 472.0,
+            "std": 0.171,
+            "min": 472.0,
+            "max": 473.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.372,
+            "median": 0.37,
+            "std": 0.00974,
+            "min": 0.344,
+            "max": 0.392,
+            "num_trials": 100
+        },
+        "speedup": 0.000784,
+        "saved_at": "2026-03-10T00:16:59Z"
+    },
+    "scatter": {
+        "index": 0,
+        "op": "scatter",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 8.22,
+            "median": 8.21,
+            "std": 0.0164,
+            "min": 8.16,
+            "max": 8.26,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.198,
+            "median": 0.199,
+            "std": 0.0079,
+            "min": 0.151,
+            "max": 0.219,
+            "num_trials": 100
+        },
+        "speedup": 0.0242,
+        "saved_at": "2026-03-10T00:21:13Z"
+    },
+    "inplace_update": {
+        "index": 0,
+        "op": "inplace_update",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.175,
+            "median": 0.174,
+            "std": 0.00859,
+            "min": 0.116,
+            "max": 0.2,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.176,
+            "median": 0.17,
+            "std": 0.0328,
+            "min": 0.162,
+            "max": 0.497,
+            "num_trials": 100
+        },
+        "speedup": 0.977,
+        "saved_at": "2026-03-10T00:22:26Z"
+    },
+    "scatter_add": {
+        "index": 0,
+        "op": "scatter_add",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 3.52,
+            "median": 3.52,
+            "std": 0.0482,
+            "min": 3.4,
+            "max": 3.71,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.293,
+            "median": 0.291,
+            "std": 0.00712,
+            "min": 0.283,
+            "max": 0.313,
+            "num_trials": 100
+        },
+        "speedup": 0.0827,
+        "saved_at": "2026-03-10T00:23:50Z"
+    },
+    "take_along_dim": {
+        "index": 0,
+        "op": "take_along_dim",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 26.0,
+            "median": 26.1,
+            "std": 0.292,
+            "min": 25.5,
+            "max": 26.5,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.138,
+            "median": 0.136,
+            "std": 0.00543,
+            "min": 0.118,
+            "max": 0.162,
+            "num_trials": 100
+        },
+        "speedup": 0.00521,
+        "saved_at": "2026-03-10T00:34:04Z"
+    },
+    "conv_standard1d": {
+        "index": 0,
+        "op": "conv_standard1d",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 2.92,
+            "median": 2.91,
+            "std": 0.00889,
+            "min": 2.86,
+            "max": 2.95,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.207,
+            "median": 0.204,
+            "std": 0.00855,
+            "min": 0.192,
+            "max": 0.243,
+            "num_trials": 100
+        },
+        "speedup": 0.0701,
+        "saved_at": "2026-03-10T00:40:42Z"
+    },
+    "conv_depthwise2d_square_input_square_kernel": {
+        "index": 0,
+        "op": "conv_depthwise2d_square_input_square_kernel",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.237,
+            "median": 0.237,
+            "std": 0.00778,
+            "min": 0.173,
+            "max": 0.251,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.28,
+            "median": 0.278,
+            "std": 0.00515,
+            "min": 0.272,
+            "max": 0.295,
+            "num_trials": 100
+        },
+        "speedup": 1.17,
+        "saved_at": "2026-03-10T00:45:25Z"
+    },
+    "conv_standard1d_dilated_strided": {
+        "index": 0,
+        "op": "conv_standard1d_dilated_strided",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.616,
+            "median": 0.616,
+            "std": 0.00505,
+            "min": 0.573,
+            "max": 0.629,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.19,
+            "median": 0.188,
+            "std": 0.00699,
+            "min": 0.177,
+            "max": 0.21,
+            "num_trials": 100
+        },
+        "speedup": 0.305,
+        "saved_at": "2026-03-10T00:47:02Z"
+    },
+    "conv_depthwise2d_asymmetric_input_asymmetric_kernel": {
+        "index": 0,
+        "op": "conv_depthwise2d_asymmetric_input_asymmetric_kernel",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.278,
+            "median": 0.278,
+            "std": 0.00678,
+            "min": 0.217,
+            "max": 0.289,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.311,
+            "median": 0.31,
+            "std": 0.00466,
+            "min": 0.302,
+            "max": 0.324,
+            "num_trials": 100
+        },
+        "speedup": 1.12,
+        "saved_at": "2026-03-10T00:48:59Z"
+    },
+    "conv_depthwise_separable2d": {
+        "index": 0,
+        "op": "conv_depthwise_separable2d",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 1.66,
+            "median": 1.65,
+            "std": 0.052,
+            "min": 1.59,
+            "max": 2.13,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 1.69,
+            "median": 1.69,
+            "std": 0.0414,
+            "min": 1.68,
+            "max": 2.1,
+            "num_trials": 100
+        },
+        "speedup": 1.02,
+        "saved_at": "2026-03-10T00:54:56Z"
+    },
+    "conv_depthwise2d_asymmetric_input_square_kernel": {
+        "index": 0,
+        "op": "conv_depthwise2d_asymmetric_input_square_kernel",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.242,
+            "median": 0.243,
+            "std": 0.0141,
+            "min": 0.175,
+            "max": 0.314,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.294,
+            "median": 0.292,
+            "std": 0.00892,
+            "min": 0.274,
+            "max": 0.318,
+            "num_trials": 100
+        },
+        "speedup": 1.2,
+        "saved_at": "2026-03-10T00:56:49Z"
+    },
+    "conv_standard2d_asymmetric_input_asymmetric_kernel": {
+        "index": 0,
+        "op": "conv_standard2d_asymmetric_input_asymmetric_kernel",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.72,
+            "median": 0.721,
+            "std": 0.00962,
+            "min": 0.67,
+            "max": 0.772,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.766,
+            "median": 0.745,
+            "std": 0.19,
+            "min": 0.726,
+            "max": 2.65,
+            "num_trials": 100
+        },
+        "speedup": 1.03,
+        "saved_at": "2026-03-10T00:58:15Z"
+    },
+    "conv_pointwise2d": {
+        "index": 0,
+        "op": "conv_pointwise2d",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 232.0,
+            "median": 233.0,
+            "std": 0.599,
+            "min": 231.0,
+            "max": 233.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 1.47,
+            "median": 1.47,
+            "std": 0.0118,
+            "min": 1.44,
+            "max": 1.53,
+            "num_trials": 100
+        },
+        "speedup": 0.00631,
+        "saved_at": "2026-03-10T01:01:53Z"
+    },
+    "conv_depthwise2d_square_input_asymmetric_kernel": {
+        "index": 0,
+        "op": "conv_depthwise2d_square_input_asymmetric_kernel",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 5.17,
+            "median": 5.17,
+            "std": 0.0225,
+            "min": 5.12,
+            "max": 5.35,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.222,
+            "median": 0.219,
+            "std": 0.01,
+            "min": 0.209,
+            "max": 0.276,
+            "num_trials": 100
+        },
+        "speedup": 0.0424,
+        "saved_at": "2026-03-10T01:04:05Z"
+    },
+    "conv_standard2d_asymmetric_input_square_kernel": {
+        "index": 0,
+        "op": "conv_standard2d_asymmetric_input_square_kernel",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.713,
+            "median": 0.713,
+            "std": 0.0112,
+            "min": 0.646,
+            "max": 0.775,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.749,
+            "median": 0.748,
+            "std": 0.00498,
+            "min": 0.741,
+            "max": 0.764,
+            "num_trials": 100
+        },
+        "speedup": 1.05,
+        "saved_at": "2026-03-10T01:06:00Z"
+    },
+    "conv_standard2d_square_input_square_kernel": {
+        "index": 0,
+        "op": "conv_standard2d_square_input_square_kernel",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 1.42,
+            "median": 1.42,
+            "std": 0.0103,
+            "min": 1.35,
+            "max": 1.46,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 1.46,
+            "median": 1.45,
+            "std": 0.00561,
+            "min": 1.45,
+            "max": 1.49,
+            "num_trials": 100
+        },
+        "speedup": 1.02,
+        "saved_at": "2026-03-10T01:09:05Z"
+    },
+    "conv_standard3d_square_input_asymmetric_kernel": {
+        "index": 0,
+        "op": "conv_standard3d_square_input_asymmetric_kernel",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 12.6,
+            "median": 12.6,
+            "std": 0.0481,
+            "min": 12.6,
+            "max": 12.9,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 11.0,
+            "median": 11.0,
+            "std": 0.0562,
+            "min": 11.0,
+            "max": 11.4,
+            "num_trials": 100
+        },
+        "speedup": 0.873,
+        "saved_at": "2026-03-10T01:12:25Z"
+    },
+    "conv_standard2d_square_input_asymmetric_kernel": {
+        "index": 0,
+        "op": "conv_standard2d_square_input_asymmetric_kernel",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 1.42,
+            "median": 1.42,
+            "std": 0.00904,
+            "min": 1.36,
+            "max": 1.44,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 1.45,
+            "median": 1.44,
+            "std": 0.0272,
+            "min": 1.43,
+            "max": 1.68,
+            "num_trials": 100
+        },
+        "speedup": 1.01,
+        "saved_at": "2026-03-10T01:13:30Z"
+    },
+    "conv_standard3d_square_input_square_kernel": {
+        "index": 0,
+        "op": "conv_standard3d_square_input_square_kernel",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 7.11,
+            "median": 7.1,
+            "std": 0.0173,
+            "min": 7.03,
+            "max": 7.15,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 6.48,
+            "median": 6.48,
+            "std": 0.0217,
+            "min": 6.41,
+            "max": 6.56,
+            "num_trials": 100
+        },
+        "speedup": 0.913,
+        "saved_at": "2026-03-10T01:19:35Z"
+    },
+    "conv_standard3d_asymmetric_input_asymmetric_kernel": {
+        "index": 0,
+        "op": "conv_standard3d_asymmetric_input_asymmetric_kernel",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 50.1,
+            "median": 50.1,
+            "std": 0.0633,
+            "min": 50.0,
+            "max": 50.4,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 47.8,
+            "median": 47.8,
+            "std": 0.0685,
+            "min": 47.7,
+            "max": 48.1,
+            "num_trials": 100
+        },
+        "speedup": 0.954,
+        "saved_at": "2026-03-10T01:19:53Z"
+    },
+    "conv_standard2d_square_input_asymmetric_kernel_dilated_padded": {
+        "index": 0,
+        "op": "conv_standard2d_square_input_asymmetric_kernel_dilated_padded",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 1.43,
+            "median": 1.43,
+            "std": 0.00762,
+            "min": 1.38,
+            "max": 1.46,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 1.46,
+            "median": 1.46,
+            "std": 0.0104,
+            "min": 1.45,
+            "max": 1.54,
+            "num_trials": 100
+        },
+        "speedup": 1.02,
+        "saved_at": "2026-03-10T01:22:43Z"
+    },
+    "conv_standard3d_asymmetric_input_square_kernel": {
+        "index": 0,
+        "op": "conv_standard3d_asymmetric_input_square_kernel",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 14.8,
+            "median": 14.8,
+            "std": 0.0252,
+            "min": 14.7,
+            "max": 14.9,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 14.7,
+            "median": 14.7,
+            "std": 0.0218,
+            "min": 14.7,
+            "max": 14.8,
+            "num_trials": 100
+        },
+        "speedup": 0.993,
+        "saved_at": "2026-03-10T01:28:56Z"
+    },
+    "conv_transposed1d_asymmetric_input_square_kernel_padded_strided_dilated": {
+        "index": 0,
+        "op": "conv_transposed1d_asymmetric_input_square_kernel_padded_strided_dilated",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 26.4,
+            "median": 26.4,
+            "std": 0.0157,
+            "min": 26.4,
+            "max": 26.5,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.276,
+            "median": 0.242,
+            "std": 0.318,
+            "min": 0.231,
+            "max": 3.44,
+            "num_trials": 100
+        },
+        "speedup": 0.00917,
+        "saved_at": "2026-03-10T01:30:25Z"
+    },
+    "conv_transposed1d": {
+        "index": 0,
+        "op": "conv_transposed1d",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.164,
+            "median": 0.163,
+            "std": 0.00935,
+            "min": 0.102,
+            "max": 0.188,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.231,
+            "median": 0.23,
+            "std": 0.00616,
+            "min": 0.218,
+            "max": 0.249,
+            "num_trials": 100
+        },
+        "speedup": 1.41,
+        "saved_at": "2026-03-10T01:32:08Z"
+    },
+    "conv_transposed1d_dilated": {
+        "index": 0,
+        "op": "conv_transposed1d_dilated",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 5.22,
+            "median": 5.21,
+            "std": 0.0221,
+            "min": 5.15,
+            "max": 5.34,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.257,
+            "median": 0.247,
+            "std": 0.0449,
+            "min": 0.221,
+            "max": 0.596,
+            "num_trials": 100
+        },
+        "speedup": 0.0474,
+        "saved_at": "2026-03-10T01:36:16Z"
+    },
+    "conv_transposed2d_asymmetric_input_asymmetric_kernel_padded": {
+        "index": 0,
+        "op": "conv_transposed2d_asymmetric_input_asymmetric_kernel_padded",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 1.34,
+            "median": 1.34,
+            "std": 0.00751,
+            "min": 1.29,
+            "max": 1.36,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 1.38,
+            "median": 1.35,
+            "std": 0.213,
+            "min": 1.34,
+            "max": 3.5,
+            "num_trials": 100
+        },
+        "speedup": 1.01,
+        "saved_at": "2026-03-10T01:36:26Z"
+    },
+    "conv_transposed2d_asymmetric_input_square_kernel_dilated_padded_strided": {
+        "index": 0,
+        "op": "conv_transposed2d_asymmetric_input_square_kernel_dilated_padded_strided",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 7.5,
+            "median": 7.49,
+            "std": 0.0139,
+            "min": 7.41,
+            "max": 7.57,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 7.58,
+            "median": 7.58,
+            "std": 0.0272,
+            "min": 7.56,
+            "max": 7.76,
+            "num_trials": 100
+        },
+        "speedup": 1.01,
+        "saved_at": "2026-03-10T01:40:16Z"
+    },
+    "conv_transposed2d_asymmetric_input_asymmetric_kernel": {
+        "index": 0,
+        "op": "conv_transposed2d_asymmetric_input_asymmetric_kernel",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.169,
+            "median": 0.168,
+            "std": 0.0292,
+            "min": 0.0847,
+            "max": 0.389,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.243,
+            "median": 0.24,
+            "std": 0.00658,
+            "min": 0.233,
+            "max": 0.26,
+            "num_trials": 100
+        },
+        "speedup": 1.43,
+        "saved_at": "2026-03-10T01:44:24Z"
+    },
+    "conv_transposed2d_asymmetric_input_asymmetric_kernel_strided_grouped_padded_dilated": {
+        "index": 0,
+        "op": "conv_transposed2d_asymmetric_input_asymmetric_kernel_strided_grouped_padded_dilated",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 6.63,
+            "median": 6.62,
+            "std": 0.167,
+            "min": 6.55,
+            "max": 8.29,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 6.55,
+            "median": 6.54,
+            "std": 0.0445,
+            "min": 6.53,
+            "max": 6.85,
+            "num_trials": 100
+        },
+        "speedup": 0.988,
+        "saved_at": "2026-03-10T01:46:56Z"
+    },
+    "conv_transposed2d_square_input_asymmetric_kernel": {
+        "index": 0,
+        "op": "conv_transposed2d_square_input_asymmetric_kernel",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.65,
+            "median": 0.648,
+            "std": 0.00836,
+            "min": 0.593,
+            "max": 0.687,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.659,
+            "median": 0.657,
+            "std": 0.0124,
+            "min": 0.65,
+            "max": 0.775,
+            "num_trials": 100
+        },
+        "speedup": 1.01,
+        "saved_at": "2026-03-10T01:47:16Z"
+    },
+    "conv_transposed3d_asymmetric_input_asymmetric_kernel": {
+        "index": 0,
+        "op": "conv_transposed3d_asymmetric_input_asymmetric_kernel",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 8.32,
+            "median": 8.32,
+            "std": 0.0265,
+            "min": 8.27,
+            "max": 8.5,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 8.32,
+            "median": 8.32,
+            "std": 0.00897,
+            "min": 8.31,
+            "max": 8.35,
+            "num_trials": 100
+        },
+        "speedup": 1.0,
+        "saved_at": "2026-03-10T01:51:55Z"
+    },
+    "conv_transposed2d_asymmetric_input_square_kernel": {
+        "index": 0,
+        "op": "conv_transposed2d_asymmetric_input_square_kernel",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 1.14,
+            "median": 1.14,
+            "std": 0.00872,
+            "min": 1.08,
+            "max": 1.17,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 1.19,
+            "median": 1.19,
+            "std": 0.0231,
+            "min": 1.18,
+            "max": 1.37,
+            "num_trials": 100
+        },
+        "speedup": 1.04,
+        "saved_at": "2026-03-10T01:54:50Z"
+    },
+    "conv_transposed2d_square_input_square_kernel": {
+        "index": 0,
+        "op": "conv_transposed2d_square_input_square_kernel",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.591,
+            "median": 0.59,
+            "std": 0.0136,
+            "min": 0.527,
+            "max": 0.62,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.661,
+            "median": 0.651,
+            "std": 0.0815,
+            "min": 0.629,
+            "max": 1.47,
+            "num_trials": 100
+        },
+        "speedup": 1.1,
+        "saved_at": "2026-03-10T01:55:01Z"
+    },
+    "conv_transposed3d_asymmetric_input_asymmetric_kernel_strided_padded_grouped": {
+        "index": 0,
+        "op": "conv_transposed3d_asymmetric_input_asymmetric_kernel_strided_padded_grouped",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 50.9,
+            "median": 50.9,
+            "std": 0.0363,
+            "min": 50.8,
+            "max": 51.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 50.9,
+            "median": 50.9,
+            "std": 0.0488,
+            "min": 50.8,
+            "max": 51.1,
+            "num_trials": 100
+        },
+        "speedup": 1.0,
+        "saved_at": "2026-03-10T02:00:51Z"
+    },
+    "conv_transposed3d_square_input_square_kernel_padded_dilated_strided": {
+        "index": 0,
+        "op": "conv_transposed3d_square_input_square_kernel_padded_dilated_strided",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 5.5,
+            "median": 5.5,
+            "std": 0.0139,
+            "min": 5.44,
+            "max": 5.59,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 5.16,
+            "median": 5.16,
+            "std": 0.0242,
+            "min": 5.12,
+            "max": 5.35,
+            "num_trials": 100
+        },
+        "speedup": 0.938,
+        "saved_at": "2026-03-10T02:04:33Z"
+    },
+    "conv_transposed3d_asymmetric_input_square_kernel": {
+        "index": 0,
+        "op": "conv_transposed3d_asymmetric_input_square_kernel",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 1.53,
+            "median": 1.53,
+            "std": 0.0292,
+            "min": 1.47,
+            "max": 1.7,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 1.53,
+            "median": 1.53,
+            "std": 0.00732,
+            "min": 1.52,
+            "max": 1.55,
+            "num_trials": 100
+        },
+        "speedup": 1.0,
+        "saved_at": "2026-03-10T02:08:19Z"
+    },
+    "conv_transposed3d_square_input_asymmetric_kernel": {
+        "index": 0,
+        "op": "conv_transposed3d_square_input_asymmetric_kernel",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.147,
+            "median": 0.146,
+            "std": 0.0065,
+            "min": 0.109,
+            "max": 0.162,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.172,
+            "median": 0.171,
+            "std": 0.00546,
+            "min": 0.164,
+            "max": 0.19,
+            "num_trials": 100
+        },
+        "speedup": 1.17,
+        "saved_at": "2026-03-10T02:41:08Z"
+    },
+    "conv_transposed3d_square_input_square_kernel": {
+        "index": 0,
+        "op": "conv_transposed3d_square_input_square_kernel",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 1.17,
+            "median": 1.18,
+            "std": 0.0159,
+            "min": 1.1,
+            "max": 1.24,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 1.15,
+            "median": 1.14,
+            "std": 0.00721,
+            "min": 1.12,
+            "max": 1.17,
+            "num_trials": 100
+        },
+        "speedup": 0.966,
+        "saved_at": "2026-03-10T02:48:11Z"
+    },
+    "causal_attention": {
+        "index": 0,
+        "op": "causal_attention",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 22.1,
+            "median": 22.1,
+            "std": 0.069,
+            "min": 22.0,
+            "max": 22.4,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.275,
+            "median": 0.275,
+            "std": 0.00658,
+            "min": 0.264,
+            "max": 0.305,
+            "num_trials": 100
+        },
+        "speedup": 0.0124,
+        "saved_at": "2026-03-10T03:24:35Z"
+    },
+    "cross_modal_attention": {
+        "index": 0,
+        "op": "cross_modal_attention",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.925,
+            "median": 0.923,
+            "std": 0.016,
+            "min": 0.895,
+            "max": 0.988,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.92,
+            "median": 0.92,
+            "std": 0.0109,
+            "min": 0.899,
+            "max": 0.962,
+            "num_trials": 100
+        },
+        "speedup": 0.997,
+        "saved_at": "2026-03-10T03:28:36Z"
+    },
+    "kv_cached_attention_inference": {
+        "index": 0,
+        "op": "kv_cached_attention_inference",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 967.0,
+            "median": 968.0,
+            "std": 12.0,
+            "min": 944.0,
+            "max": 987.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.408,
+            "median": 0.404,
+            "std": 0.0122,
+            "min": 0.384,
+            "max": 0.45,
+            "num_trials": 100
+        },
+        "speedup": 0.000417,
+        "saved_at": "2026-03-10T03:29:30Z"
+    },
+    "cross_attention": {
+        "index": 0,
+        "op": "cross_attention",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.612,
+            "median": 0.558,
+            "std": 0.204,
+            "min": 0.508,
+            "max": 2.41,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.791,
+            "median": 0.789,
+            "std": 0.0157,
+            "min": 0.768,
+            "max": 0.876,
+            "num_trials": 100
+        },
+        "speedup": 1.41,
+        "saved_at": "2026-03-10T03:34:07Z"
+    },
+    "kv_chat_batch_attn": {
+        "index": 0,
+        "op": "kv_chat_batch_attn",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 2360.0,
+            "median": 2380.0,
+            "std": 86.3,
+            "min": 2220.0,
+            "max": 2530.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 5.34,
+            "median": 5.34,
+            "std": 0.0367,
+            "min": 5.28,
+            "max": 5.46,
+            "num_trials": 100
+        },
+        "speedup": 0.00224,
+        "saved_at": "2026-03-10T03:52:48Z"
+    },
+    "linear_attention": {
+        "index": 0,
+        "op": "linear_attention",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.48,
+            "median": 0.472,
+            "std": 0.0539,
+            "min": 0.444,
+            "max": 0.998,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.575,
+            "median": 0.576,
+            "std": 0.00631,
+            "min": 0.559,
+            "max": 0.59,
+            "num_trials": 100
+        },
+        "speedup": 1.22,
+        "saved_at": "2026-03-10T04:03:03Z"
+    },
+    "scaled_dot_product_attention": {
+        "index": 0,
+        "op": "scaled_dot_product_attention",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.277,
+            "median": 0.277,
+            "std": 0.00727,
+            "min": 0.23,
+            "max": 0.294,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.308,
+            "median": 0.306,
+            "std": 0.0085,
+            "min": 0.294,
+            "max": 0.358,
+            "num_trials": 100
+        },
+        "speedup": 1.1,
+        "saved_at": "2026-03-10T04:18:05Z"
+    },
+    "multi_query_attention": {
+        "index": 0,
+        "op": "multi_query_attention",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.477,
+            "median": 0.45,
+            "std": 0.255,
+            "min": 0.363,
+            "max": 3.01,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.629,
+            "median": 0.629,
+            "std": 0.00981,
+            "min": 0.61,
+            "max": 0.675,
+            "num_trials": 100
+        },
+        "speedup": 1.4,
+        "saved_at": "2026-03-10T04:24:47Z"
+    },
+    "windowed_causal_attention": {
+        "index": 0,
+        "op": "windowed_causal_attention",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "manual_single_run_seconds": 1.691,
+            "baseline_single_run_seconds": 0.844,
+            "speedup": 0.499
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "correctness_info": "",
+        "info": {
+            "verification_mode": "manual_compile_plus_runtime_check",
+            "max_diff": 0.0,
+            "output_shape": [
+                4,
+                2048,
+                1024
+            ]
+        },
+        "saved_at": "2026-03-10T04:56:02Z"
+    },
+    "conv2d_hard_swish_relu": {
+        "index": 0,
+        "op": "conv2d_hard_swish_relu",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 27.8,
+            "median": 27.8,
+            "std": 0.0131,
+            "min": 27.8,
+            "max": 27.9,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.225,
+            "median": 0.225,
+            "std": 0.00758,
+            "min": 0.189,
+            "max": 0.243,
+            "num_trials": 100
+        },
+        "speedup": 0.00809,
+        "saved_at": "2026-03-10T06:37:39Z"
+    },
+    "conv2d_subtract_hard_swish_max_pool_mish": {
+        "index": 0,
+        "op": "conv2d_subtract_hard_swish_max_pool_mish",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 65.1,
+            "median": 65.1,
+            "std": 0.0454,
+            "min": 65.0,
+            "max": 65.3,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.423,
+            "median": 0.421,
+            "std": 0.0106,
+            "min": 0.394,
+            "max": 0.451,
+            "num_trials": 100
+        },
+        "speedup": 0.00647,
+        "saved_at": "2026-03-10T06:42:39Z"
+    },
+    "conv2d_instance_norm_divide": {
+        "index": 0,
+        "op": "conv2d_instance_norm_divide",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 62.7,
+            "median": 62.7,
+            "std": 0.0308,
+            "min": 62.6,
+            "max": 62.8,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.358,
+            "median": 0.354,
+            "std": 0.0141,
+            "min": 0.339,
+            "max": 0.411,
+            "num_trials": 100
+        },
+        "speedup": 0.00565,
+        "saved_at": "2026-03-10T06:48:24Z"
+    },
+    "conv2d_min_add_multiply": {
+        "index": 0,
+        "op": "conv2d_min_add_multiply",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 65.8,
+            "median": 65.8,
+            "std": 0.0143,
+            "min": 65.8,
+            "max": 65.9,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.388,
+            "median": 0.386,
+            "std": 0.00877,
+            "min": 0.363,
+            "max": 0.411,
+            "num_trials": 100
+        },
+        "speedup": 0.00587,
+        "saved_at": "2026-03-10T06:55:04Z"
+    },
+    "conv2d_subtract_subtract_mish": {
+        "index": 0,
+        "op": "conv2d_subtract_subtract_mish",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 71.5,
+            "median": 71.5,
+            "std": 0.0383,
+            "min": 71.5,
+            "max": 71.7,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.276,
+            "median": 0.277,
+            "std": 0.00743,
+            "min": 0.255,
+            "max": 0.294,
+            "num_trials": 100
+        },
+        "speedup": 0.00387,
+        "saved_at": "2026-03-10T07:04:06Z"
+    },
+    "conv2d_subtract_tanh_subtract_avg_pool": {
+        "index": 0,
+        "op": "conv2d_subtract_tanh_subtract_avg_pool",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 71.4,
+            "median": 71.3,
+            "std": 0.14,
+            "min": 71.3,
+            "max": 72.7,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.41,
+            "median": 0.41,
+            "std": 0.00862,
+            "min": 0.383,
+            "max": 0.434,
+            "num_trials": 100
+        },
+        "speedup": 0.00575,
+        "saved_at": "2026-03-10T07:16:01Z"
+    },
+    "conv2d_tanh_scaling_bias_add_max": {
+        "index": 0,
+        "op": "conv2d_tanh_scaling_bias_add_max",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 68.2,
+            "median": 68.2,
+            "std": 0.034,
+            "min": 68.1,
+            "max": 68.3,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.47,
+            "median": 0.47,
+            "std": 0.0106,
+            "min": 0.446,
+            "max": 0.51,
+            "num_trials": 100
+        },
+        "speedup": 0.00689,
+        "saved_at": "2026-03-10T07:27:45Z"
+    },
+    "conv2d_mish_mish": {
+        "index": 0,
+        "op": "conv2d_mish_mish",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 29.4,
+            "median": 29.4,
+            "std": 0.0597,
+            "min": 29.3,
+            "max": 29.7,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.253,
+            "median": 0.256,
+            "std": 0.0184,
+            "min": 0.214,
+            "max": 0.288,
+            "num_trials": 100
+        },
+        "speedup": 0.00871,
+        "saved_at": "2026-03-10T07:33:37Z"
+    },
+    "conv2d_multiply_leaky_relu_gelu": {
+        "index": 0,
+        "op": "conv2d_multiply_leaky_relu_gelu",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 28.7,
+            "median": 28.7,
+            "std": 0.0799,
+            "min": 28.7,
+            "max": 29.3,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.31,
+            "median": 0.298,
+            "std": 0.123,
+            "min": 0.281,
+            "max": 1.53,
+            "num_trials": 100
+        },
+        "speedup": 0.0104,
+        "saved_at": "2026-03-10T07:47:40Z"
+    },
+    "conv2d_relu_bias_add": {
+        "index": 0,
+        "op": "conv2d_relu_bias_add",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 92.2,
+            "median": 92.2,
+            "std": 0.057,
+            "min": 92.1,
+            "max": 92.4,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.235,
+            "median": 0.234,
+            "std": 0.00821,
+            "min": 0.223,
+            "max": 0.26,
+            "num_trials": 100
+        },
+        "speedup": 0.00254,
+        "saved_at": "2026-03-10T07:55:33Z"
+    },
+    "conv2d_relu_hard_swish": {
+        "index": 0,
+        "op": "conv2d_relu_hard_swish",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 28.2,
+            "median": 28.2,
+            "std": 0.291,
+            "min": 28.2,
+            "max": 31.1,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.339,
+            "median": 0.339,
+            "std": 0.00697,
+            "min": 0.318,
+            "max": 0.359,
+            "num_trials": 100
+        },
+        "speedup": 0.012,
+        "saved_at": "2026-03-10T08:02:26Z"
+    },
+    "conv2d_add_scale_sigmoid_group_norm": {
+        "index": 0,
+        "op": "conv2d_add_scale_sigmoid_group_norm",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 70.8,
+            "median": 70.7,
+            "std": 0.0534,
+            "min": 70.6,
+            "max": 71.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.354,
+            "median": 0.352,
+            "std": 0.00897,
+            "min": 0.333,
+            "max": 0.385,
+            "num_trials": 100
+        },
+        "speedup": 0.00498,
+        "saved_at": "2026-03-10T08:03:04Z"
+    },
+    "conv3d_group_norm_mean": {
+        "index": 0,
+        "op": "conv3d_group_norm_mean",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 2.22,
+            "median": 2.22,
+            "std": 0.0102,
+            "min": 2.15,
+            "max": 2.24,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 2.21,
+            "median": 2.21,
+            "std": 0.0106,
+            "min": 2.16,
+            "max": 2.23,
+            "num_trials": 100
+        },
+        "speedup": 0.995,
+        "saved_at": "2026-03-10T08:05:07Z"
+    },
+    "conv2d_avg_pool_sigmoid_sum": {
+        "index": 0,
+        "op": "conv2d_avg_pool_sigmoid_sum",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 515.0,
+            "median": 515.0,
+            "std": 0.126,
+            "min": 515.0,
+            "max": 516.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.399,
+            "median": 0.398,
+            "std": 0.0102,
+            "min": 0.376,
+            "max": 0.444,
+            "num_trials": 100
+        },
+        "speedup": 0.000773,
+        "saved_at": "2026-03-10T08:18:02Z"
+    },
+    "conv3d_group_norm_min_clamp_dropout": {
+        "index": 0,
+        "op": "conv3d_group_norm_min_clamp_dropout",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.324,
+            "median": 0.323,
+            "std": 0.00397,
+            "min": 0.317,
+            "max": 0.334,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.597,
+            "median": 0.598,
+            "std": 0.0112,
+            "min": 0.558,
+            "max": 0.628,
+            "num_trials": 100
+        },
+        "speedup": 1.85,
+        "saved_at": "2026-03-10T08:22:34Z"
+    },
+    "conv3d_hardswish_relu_softmax_mean": {
+        "index": 0,
+        "op": "conv3d_hardswish_relu_softmax_mean",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 2060.0,
+            "median": 2060.0,
+            "std": 0.121,
+            "min": 2060.0,
+            "max": 2060.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 2.94,
+            "median": 2.94,
+            "std": 0.0106,
+            "min": 2.91,
+            "max": 2.97,
+            "num_trials": 100
+        },
+        "speedup": 0.00143,
+        "saved_at": "2026-03-10T08:38:24Z"
+    },
+    "conv3d_max_log_sum_exp_relu": {
+        "index": 0,
+        "op": "conv3d_max_log_sum_exp_relu",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 2.54,
+            "median": 2.54,
+            "std": 0.0186,
+            "min": 2.48,
+            "max": 2.62,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 2.57,
+            "median": 2.55,
+            "std": 0.114,
+            "min": 2.52,
+            "max": 3.69,
+            "num_trials": 100
+        },
+        "speedup": 1.0,
+        "saved_at": "2026-03-10T08:46:53Z"
+    },
+    "conv3d_leaky_relu_sum_clamp_gelu": {
+        "index": 0,
+        "op": "conv3d_leaky_relu_sum_clamp_gelu",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 2020.0,
+            "median": 2020.0,
+            "std": 0.212,
+            "min": 2020.0,
+            "max": 2020.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 3.06,
+            "median": 3.05,
+            "std": 0.0456,
+            "min": 2.98,
+            "max": 3.27,
+            "num_trials": 100
+        },
+        "speedup": 0.00151,
+        "saved_at": "2026-03-10T08:50:53Z"
+    },
+    "conv_transpose2d_gelu_group_norm": {
+        "index": 0,
+        "op": "conv_transpose2d_gelu_group_norm",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 2.23,
+            "median": 2.23,
+            "std": 0.0112,
+            "min": 2.16,
+            "max": 2.27,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 2.16,
+            "median": 2.15,
+            "std": 0.0367,
+            "min": 2.14,
+            "max": 2.47,
+            "num_trials": 100
+        },
+        "speedup": 0.964,
+        "saved_at": "2026-03-10T08:59:55Z"
+    },
+    "conv3d_min_softmax": {
+        "index": 0,
+        "op": "conv3d_min_softmax",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 2080.0,
+            "median": 2080.0,
+            "std": 0.113,
+            "min": 2080.0,
+            "max": 2080.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 2.28,
+            "median": 2.28,
+            "std": 0.00782,
+            "min": 2.27,
+            "max": 2.32,
+            "num_trials": 100
+        },
+        "speedup": 0.0011,
+        "saved_at": "2026-03-10T09:06:42Z"
+    },
+    "conv2d_gelu_global_avg_pool": {
+        "index": 0,
+        "op": "conv2d_gelu_global_avg_pool",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 64.9,
+            "median": 64.9,
+            "std": 0.0456,
+            "min": 64.8,
+            "max": 65.1,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.325,
+            "median": 0.322,
+            "std": 0.0277,
+            "min": 0.282,
+            "max": 0.561,
+            "num_trials": 100
+        },
+        "speedup": 0.00496,
+        "saved_at": "2026-03-10T09:21:31Z"
+    },
+    "conv_transpose2d_min_sum_gelu_add": {
+        "index": 0,
+        "op": "conv_transpose2d_min_sum_gelu_add",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 1.44,
+            "median": 1.43,
+            "std": 0.00814,
+            "min": 1.38,
+            "max": 1.49,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-10T09:48:50Z"
+    },
+    "conv3d_multiply_instance_norm_clamp_multiply_max": {
+        "index": 0,
+        "op": "conv3d_multiply_instance_norm_clamp_multiply_max",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 8470.0,
+            "median": 8470.0,
+            "std": 0.0,
+            "min": 8470.0,
+            "max": 8470.0,
+            "num_trials": 1
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 3.43,
+            "median": 3.43,
+            "std": 0.0,
+            "min": 3.43,
+            "max": 3.43,
+            "num_trials": 1
+        },
+        "speedup": 0.000405,
+        "saved_at": "2026-03-10T09:58:18Z"
+    },
+    "conv2d_group_norm_scale_max_pool_clamp": {
+        "index": 0,
+        "op": "conv2d_group_norm_scale_max_pool_clamp",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 75.7,
+            "median": 75.7,
+            "std": 0.0,
+            "min": 75.7,
+            "max": 75.7,
+            "num_trials": 1
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.802,
+            "median": 0.802,
+            "std": 0.0,
+            "min": 0.802,
+            "max": 0.802,
+            "num_trials": 1
+        },
+        "speedup": 0.0106,
+        "saved_at": "2026-03-10T09:58:59Z"
+    },
+    "conv3d_relu_leaky_relu_gelu_sigmoid_bias_add": {
+        "index": 0,
+        "op": "conv3d_relu_leaky_relu_gelu_sigmoid_bias_add",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 2420.0,
+            "median": 2420.0,
+            "std": 0.324,
+            "min": 2420.0,
+            "max": 2420.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 3.24,
+            "median": 3.24,
+            "std": 0.00783,
+            "min": 3.2,
+            "max": 3.26,
+            "num_trials": 100
+        },
+        "speedup": 0.00134,
+        "saved_at": "2026-03-10T10:14:48Z"
+    },
+    "conv3d_scaling_tanh_multiply_sigmoid": {
+        "index": 0,
+        "op": "conv3d_scaling_tanh_multiply_sigmoid",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 2090.0,
+            "median": 2090.0,
+            "std": 0.131,
+            "min": 2090.0,
+            "max": 2090.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 2.93,
+            "median": 2.92,
+            "std": 0.0293,
+            "min": 2.89,
+            "max": 3.09,
+            "num_trials": 100
+        },
+        "speedup": 0.0014,
+        "saved_at": "2026-03-10T10:28:05Z"
+    },
+    "conv3d_softmax_max_pool_max_pool": {
+        "index": 0,
+        "op": "conv3d_softmax_max_pool_max_pool",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 1540.0,
+            "median": 1540.0,
+            "std": 0.165,
+            "min": 1540.0,
+            "max": 1540.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 2.61,
+            "median": 2.61,
+            "std": 0.0172,
+            "min": 2.57,
+            "max": 2.65,
+            "num_trials": 100
+        },
+        "speedup": 0.00169,
+        "saved_at": "2026-03-10T10:41:27Z"
+    },
+    "conv_transpose3d_batch_norm_subtract": {
+        "index": 0,
+        "op": "conv_transpose3d_batch_norm_subtract",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 5.48,
+            "median": 5.48,
+            "std": 0.0148,
+            "min": 5.4,
+            "max": 5.56,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 5.46,
+            "median": 5.46,
+            "std": 0.0106,
+            "min": 5.43,
+            "max": 5.49,
+            "num_trials": 100
+        },
+        "speedup": 0.996,
+        "saved_at": "2026-03-10T11:02:29Z"
+    },
+    "conv_transpose3d_clamp_min_divide": {
+        "index": 0,
+        "op": "conv_transpose3d_clamp_min_divide",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 3.95,
+            "median": 3.94,
+            "std": 0.0477,
+            "min": 3.87,
+            "max": 4.07,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 3.97,
+            "median": 3.97,
+            "std": 0.0477,
+            "min": 3.88,
+            "max": 4.09,
+            "num_trials": 100
+        },
+        "speedup": 1.01,
+        "saved_at": "2026-03-10T11:13:31Z"
+    },
+    "conv_transpose2d_subtract_tanh": {
+        "index": 0,
+        "op": "conv_transpose2d_subtract_tanh",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 525.0,
+            "median": 525.0,
+            "std": 0.31,
+            "min": 525.0,
+            "max": 526.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.426,
+            "median": 0.371,
+            "std": 0.483,
+            "min": 0.348,
+            "max": 5.21,
+            "num_trials": 100
+        },
+        "speedup": 0.000707,
+        "saved_at": "2026-03-10T11:19:44Z"
+    },
+    "conv_transpose2d_add_min_gelu_multiply": {
+        "index": 0,
+        "op": "conv_transpose2d_add_min_gelu_multiply",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.285,
+            "median": 0.284,
+            "std": 0.00725,
+            "min": 0.232,
+            "max": 0.306,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.506,
+            "median": 0.504,
+            "std": 0.0119,
+            "min": 0.486,
+            "max": 0.544,
+            "num_trials": 100
+        },
+        "speedup": 1.77,
+        "saved_at": "2026-03-10T11:28:46Z"
+    },
+    "conv_transpose3d_leaky_relu_multiply_leaky_relu_max": {
+        "index": 0,
+        "op": "conv_transpose3d_leaky_relu_multiply_leaky_relu_max",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 6.74,
+            "median": 6.74,
+            "std": 0.021,
+            "min": 6.66,
+            "max": 6.82,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 6.76,
+            "median": 6.76,
+            "std": 0.026,
+            "min": 6.72,
+            "max": 6.94,
+            "num_trials": 100
+        },
+        "speedup": 1.0,
+        "saved_at": "2026-03-10T11:44:11Z"
+    },
+    "conv_transpose3d_add_hard_swish": {
+        "index": 0,
+        "op": "conv_transpose3d_add_hard_swish",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 38.2,
+            "median": 38.3,
+            "std": 0.321,
+            "min": 37.7,
+            "max": 39.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 27.1,
+            "median": 27.1,
+            "std": 0.0315,
+            "min": 27.0,
+            "max": 27.3,
+            "num_trials": 100
+        },
+        "speedup": 0.708,
+        "saved_at": "2026-03-10T11:51:13Z"
+    },
+    "conv_transpose3d_log_sum_exp_hard_swish_subtract_clamp_max": {
+        "index": 0,
+        "op": "conv_transpose3d_log_sum_exp_hard_swish_subtract_clamp_max",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 29.3,
+            "median": 29.3,
+            "std": 0.303,
+            "min": 28.9,
+            "max": 29.9,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 30.6,
+            "median": 30.6,
+            "std": 0.294,
+            "min": 30.1,
+            "max": 31.2,
+            "num_trials": 100
+        },
+        "speedup": 1.04,
+        "saved_at": "2026-03-10T11:55:25Z"
+    },
+    "conv_transpose3d_max_max_sum": {
+        "index": 0,
+        "op": "conv_transpose3d_max_max_sum",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 58.3,
+            "median": 58.4,
+            "std": 0.0801,
+            "min": 58.2,
+            "max": 58.4,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 2.33,
+            "median": 2.33,
+            "std": 0.0123,
+            "min": 2.31,
+            "max": 2.42,
+            "num_trials": 100
+        },
+        "speedup": 0.0399,
+        "saved_at": "2026-03-10T12:05:12Z"
+    },
+    "conv_transpose3d_avg_pool_clamp_softmax_multiply": {
+        "index": 0,
+        "op": "conv_transpose3d_avg_pool_clamp_softmax_multiply",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 3.66,
+            "median": 3.66,
+            "std": 0.0137,
+            "min": 3.6,
+            "max": 3.69,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 3.67,
+            "median": 3.67,
+            "std": 0.0123,
+            "min": 3.62,
+            "max": 3.71,
+            "num_trials": 100
+        },
+        "speedup": 1.0,
+        "saved_at": "2026-03-10T12:07:45Z"
+    },
+    "conv_transpose3d_max_pool_softmax_subtract_swish_max": {
+        "index": 0,
+        "op": "conv_transpose3d_max_pool_softmax_subtract_swish_max",
+        "category": "fused",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {},
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-10T12:21:58Z"
+    },
+    "conv_transpose3d_scaling_avg_pool_bias_add_scaling": {
+        "index": 0,
+        "op": "conv_transpose3d_scaling_avg_pool_bias_add_scaling",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 30.8,
+            "median": 30.8,
+            "std": 0.025,
+            "min": 30.7,
+            "max": 30.9,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 30.8,
+            "median": 30.8,
+            "std": 0.0321,
+            "min": 30.8,
+            "max": 31.0,
+            "num_trials": 100
+        },
+        "speedup": 1.0,
+        "saved_at": "2026-03-10T12:39:09Z"
+    },
+    "convtranspose3d_relu_groupnorm": {
+        "index": 0,
+        "op": "convtranspose3d_relu_groupnorm",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.734,
+            "median": 0.707,
+            "std": 0.272,
+            "min": 0.636,
+            "max": 3.44,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.6,
+            "median": 0.599,
+            "std": 0.0043,
+            "min": 0.592,
+            "max": 0.614,
+            "num_trials": 100
+        },
+        "speedup": 0.847,
+        "saved_at": "2026-03-10T12:41:29Z"
+    },
+    "conv_transpose3d_softmax_sigmoid": {
+        "index": 0,
+        "op": "conv_transpose3d_softmax_sigmoid",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 13.1,
+            "median": 13.1,
+            "std": 0.0722,
+            "min": 12.9,
+            "max": 13.2,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 12.7,
+            "median": 12.7,
+            "std": 0.0776,
+            "min": 12.5,
+            "max": 13.0,
+            "num_trials": 100
+        },
+        "speedup": 0.969,
+        "saved_at": "2026-03-10T12:53:13Z"
+    },
+    "gemm_add_relu": {
+        "index": 0,
+        "op": "gemm_add_relu",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.518,
+            "median": 0.517,
+            "std": 0.012,
+            "min": 0.434,
+            "max": 0.591,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.211,
+            "median": 0.211,
+            "std": 0.006,
+            "min": 0.201,
+            "max": 0.23,
+            "num_trials": 100
+        },
+        "speedup": 0.408,
+        "saved_at": "2026-03-10T12:55:51Z"
+    },
+    "conv_transpose3d_sum_layer_norm_avg_pool_gelu": {
+        "index": 0,
+        "op": "conv_transpose3d_sum_layer_norm_avg_pool_gelu",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 114.0,
+            "median": 114.0,
+            "std": 0.076,
+            "min": 114.0,
+            "max": 115.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 114.0,
+            "median": 114.0,
+            "std": 0.0697,
+            "min": 114.0,
+            "max": 115.0,
+            "num_trials": 100
+        },
+        "speedup": 1.0,
+        "saved_at": "2026-03-10T13:04:59Z"
+    },
+    "conv_transpose3d_multiply_max_global_avg_pool_clamp": {
+        "index": 0,
+        "op": "conv_transpose3d_multiply_max_global_avg_pool_clamp",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 19.8,
+            "median": 19.8,
+            "std": 0.0405,
+            "min": 19.7,
+            "max": 20.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 19.8,
+            "median": 19.8,
+            "std": 0.0271,
+            "min": 19.7,
+            "max": 20.0,
+            "num_trials": 100
+        },
+        "speedup": 1.0,
+        "saved_at": "2026-03-10T13:07:28Z"
+    },
+    "conv_transpose3d_sum_residual_add_multiply_residual_add": {
+        "index": 0,
+        "op": "conv_transpose3d_sum_residual_add_multiply_residual_add",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 16.3,
+            "median": 16.3,
+            "std": 0.0381,
+            "min": 16.2,
+            "max": 16.5,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 17.5,
+            "median": 17.5,
+            "std": 0.0315,
+            "min": 17.5,
+            "max": 17.7,
+            "num_trials": 100
+        },
+        "speedup": 1.07,
+        "saved_at": "2026-03-10T13:15:25Z"
+    },
+    "conv_transpose3d_scale_batch_norm_global_avg_pool": {
+        "index": 0,
+        "op": "conv_transpose3d_scale_batch_norm_global_avg_pool",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 1.74,
+            "median": 1.74,
+            "std": 0.0096,
+            "min": 1.69,
+            "max": 1.76,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 1.74,
+            "median": 1.74,
+            "std": 0.00737,
+            "min": 1.73,
+            "max": 1.77,
+            "num_trials": 100
+        },
+        "speedup": 1.0,
+        "saved_at": "2026-03-10T13:20:30Z"
+    },
+    "conv_transpose3d_swish_group_norm_hard_swish": {
+        "index": 0,
+        "op": "conv_transpose3d_swish_group_norm_hard_swish",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 39.8,
+            "median": 39.9,
+            "std": 0.34,
+            "min": 39.3,
+            "max": 40.6,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 28.2,
+            "median": 28.2,
+            "std": 0.0568,
+            "min": 28.1,
+            "max": 28.3,
+            "num_trials": 100
+        },
+        "speedup": 0.707,
+        "saved_at": "2026-03-10T13:39:59Z"
+    },
+    "convtranspose2d_batchnorm_tanh_maxpool_groupnorm": {
+        "index": 0,
+        "op": "convtranspose2d_batchnorm_tanh_maxpool_groupnorm",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 2.84,
+            "median": 2.84,
+            "std": 0.0123,
+            "min": 2.77,
+            "max": 2.89,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 2.72,
+            "median": 2.72,
+            "std": 0.0156,
+            "min": 2.7,
+            "max": 2.85,
+            "num_trials": 100
+        },
+        "speedup": 0.958,
+        "saved_at": "2026-03-10T13:50:32Z"
+    },
+    "gemm_log_sum_exp_leaky_relu_leaky_relu_gelu_gelu": {
+        "index": 0,
+        "op": "gemm_log_sum_exp_leaky_relu_leaky_relu_gelu_gelu",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.281,
+            "median": 0.28,
+            "std": 0.0154,
+            "min": 0.236,
+            "max": 0.406,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.285,
+            "median": 0.285,
+            "std": 0.00594,
+            "min": 0.27,
+            "max": 0.304,
+            "num_trials": 100
+        },
+        "speedup": 1.02,
+        "saved_at": "2026-03-10T13:58:01Z"
+    },
+    "gemm_max_subtract_gelu": {
+        "index": 0,
+        "op": "gemm_max_subtract_gelu",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.128,
+            "median": 0.127,
+            "std": 0.00661,
+            "min": 0.0932,
+            "max": 0.161,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.268,
+            "median": 0.268,
+            "std": 0.00572,
+            "min": 0.257,
+            "max": 0.285,
+            "num_trials": 100
+        },
+        "speedup": 2.11,
+        "saved_at": "2026-03-11T02:23:31Z"
+    },
+    "gemm_multiply_leakyrelu": {
+        "index": 0,
+        "op": "gemm_multiply_leakyrelu",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.618,
+            "median": 0.617,
+            "std": 0.00962,
+            "min": 0.539,
+            "max": 0.631,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.235,
+            "median": 0.235,
+            "std": 0.00675,
+            "min": 0.222,
+            "max": 0.25,
+            "num_trials": 100
+        },
+        "speedup": 0.381,
+        "saved_at": "2026-03-11T02:32:57Z"
+    },
+    "gemm_relu_divide": {
+        "index": 0,
+        "op": "gemm_relu_divide",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.575,
+            "median": 0.575,
+            "std": 0.00961,
+            "min": 0.492,
+            "max": 0.591,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.211,
+            "median": 0.211,
+            "std": 0.0065,
+            "min": 0.2,
+            "max": 0.23,
+            "num_trials": 100
+        },
+        "speedup": 0.367,
+        "saved_at": "2026-03-11T02:40:40Z"
+    },
+    "convtranspose2d_softmax_biasadd_scaling_sigmoid": {
+        "index": 0,
+        "op": "convtranspose2d_softmax_biasadd_scaling_sigmoid",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 2370.0,
+            "median": 2370.0,
+            "std": 0.364,
+            "min": 2370.0,
+            "max": 2370.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.603,
+            "median": 0.602,
+            "std": 0.0138,
+            "min": 0.58,
+            "max": 0.678,
+            "num_trials": 100
+        },
+        "speedup": 0.000254,
+        "saved_at": "2026-03-11T02:43:16Z"
+    },
+    "gemm_group_norm_hardtanh": {
+        "index": 0,
+        "op": "gemm_group_norm_hardtanh",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 785.0,
+            "median": 785.0,
+            "std": 4.58,
+            "min": 777.0,
+            "max": 791.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.288,
+            "median": 0.288,
+            "std": 0.0105,
+            "min": 0.259,
+            "max": 0.32,
+            "num_trials": 100
+        },
+        "speedup": 0.000367,
+        "saved_at": "2026-03-11T02:57:05Z"
+    },
+    "convtranspose3d_mean_add_softmax_tanh_scaling": {
+        "index": 0,
+        "op": "convtranspose3d_mean_add_softmax_tanh_scaling",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.13,
+            "median": 0.129,
+            "std": 0.00616,
+            "min": 0.0966,
+            "max": 0.148,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 2.16,
+            "median": 2.15,
+            "std": 0.0217,
+            "min": 2.14,
+            "max": 2.34,
+            "num_trials": 100
+        },
+        "speedup": 16.7,
+        "saved_at": "2026-03-11T02:59:35Z"
+    },
+    "gemm_divide_sum_scaling": {
+        "index": 0,
+        "op": "gemm_divide_sum_scaling",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.231,
+            "median": 0.232,
+            "std": 0.00727,
+            "min": 0.184,
+            "max": 0.256,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.242,
+            "median": 0.242,
+            "std": 0.0067,
+            "min": 0.229,
+            "max": 0.262,
+            "num_trials": 100
+        },
+        "speedup": 1.04,
+        "saved_at": "2026-03-11T03:07:07Z"
+    },
+    "gemm_scale_batch_norm": {
+        "index": 0,
+        "op": "gemm_scale_batch_norm",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.414,
+            "median": 0.415,
+            "std": 0.00891,
+            "min": 0.357,
+            "max": 0.438,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.423,
+            "median": 0.424,
+            "std": 0.00674,
+            "min": 0.409,
+            "max": 0.44,
+            "num_trials": 100
+        },
+        "speedup": 1.02,
+        "saved_at": "2026-03-11T03:11:02Z"
+    },
+    "gemm_sigmoid_scaling_residual_add": {
+        "index": 0,
+        "op": "gemm_sigmoid_scaling_residual_add",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.604,
+            "median": 0.597,
+            "std": 0.0645,
+            "min": 0.516,
+            "max": 1.24,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.245,
+            "median": 0.245,
+            "std": 0.00718,
+            "min": 0.231,
+            "max": 0.264,
+            "num_trials": 100
+        },
+        "speedup": 0.41,
+        "saved_at": "2026-03-11T03:15:05Z"
+    },
+    "gemm_group_norm_min_bias_add": {
+        "index": 0,
+        "op": "gemm_group_norm_min_bias_add",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 1630.0,
+            "median": 1640.0,
+            "std": 23.9,
+            "min": 1590.0,
+            "max": 1670.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.318,
+            "median": 0.319,
+            "std": 0.00731,
+            "min": 0.302,
+            "max": 0.345,
+            "num_trials": 100
+        },
+        "speedup": 0.000195,
+        "saved_at": "2026-03-11T03:24:36Z"
+    },
+    "gemm_scale_batchnorm": {
+        "index": 0,
+        "op": "gemm_scale_batchnorm",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.422,
+            "median": 0.419,
+            "std": 0.0206,
+            "min": 0.358,
+            "max": 0.602,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.429,
+            "median": 0.43,
+            "std": 0.00851,
+            "min": 0.412,
+            "max": 0.47,
+            "num_trials": 100
+        },
+        "speedup": 1.03,
+        "saved_at": "2026-03-11T03:28:16Z"
+    },
+    "gemm_sigmoid_sum_log_sum_exp": {
+        "index": 0,
+        "op": "gemm_sigmoid_sum_log_sum_exp",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.307,
+            "median": 0.306,
+            "std": 0.00602,
+            "min": 0.268,
+            "max": 0.321,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.223,
+            "median": 0.223,
+            "std": 0.00558,
+            "min": 0.211,
+            "max": 0.243,
+            "num_trials": 100
+        },
+        "speedup": 0.729,
+        "saved_at": "2026-03-11T03:29:39Z"
+    },
+    "gemm_scaling_hard_tanh_gelu": {
+        "index": 0,
+        "op": "gemm_scaling_hard_tanh_gelu",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 785.0,
+            "median": 785.0,
+            "std": 4.56,
+            "min": 777.0,
+            "max": 790.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.267,
+            "median": 0.267,
+            "std": 0.00798,
+            "min": 0.248,
+            "max": 0.294,
+            "num_trials": 100
+        },
+        "speedup": 0.00034,
+        "saved_at": "2026-03-11T03:37:12Z"
+    },
+    "gemm_group_norm_swish_multiply_swish": {
+        "index": 0,
+        "op": "gemm_group_norm_swish_multiply_swish",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 789.0,
+            "median": 792.0,
+            "std": 4.73,
+            "min": 779.0,
+            "max": 794.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.339,
+            "median": 0.337,
+            "std": 0.00873,
+            "min": 0.322,
+            "max": 0.376,
+            "num_trials": 100
+        },
+        "speedup": 0.000426,
+        "saved_at": "2026-03-11T03:45:26Z"
+    },
+    "gemm_swish_divide_clamp_tanh_clamp": {
+        "index": 0,
+        "op": "gemm_swish_divide_clamp_tanh_clamp",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 786.0,
+            "median": 790.0,
+            "std": 4.75,
+            "min": 777.0,
+            "max": 791.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.342,
+            "median": 0.304,
+            "std": 0.306,
+            "min": 0.282,
+            "max": 3.33,
+            "num_trials": 100
+        },
+        "speedup": 0.000385,
+        "saved_at": "2026-03-11T03:49:18Z"
+    },
+    "gemm_subtract_global_avg_pool_log_sum_exp_gelu_residual_add": {
+        "index": 0,
+        "op": "gemm_subtract_global_avg_pool_log_sum_exp_gelu_residual_add",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 202.0,
+            "median": 202.0,
+            "std": 0.488,
+            "min": 201.0,
+            "max": 203.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.318,
+            "median": 0.317,
+            "std": 0.00652,
+            "min": 0.307,
+            "max": 0.347,
+            "num_trials": 100
+        },
+        "speedup": 0.00157,
+        "saved_at": "2026-03-11T03:52:54Z"
+    },
+    "matmul_add_swish_tanh_gelu_hardtanh": {
+        "index": 0,
+        "op": "matmul_add_swish_tanh_gelu_hardtanh",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 785.0,
+            "median": 786.0,
+            "std": 5.93,
+            "min": 777.0,
+            "max": 791.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.297,
+            "median": 0.296,
+            "std": 0.0111,
+            "min": 0.247,
+            "max": 0.329,
+            "num_trials": 100
+        },
+        "speedup": 0.000377,
+        "saved_at": "2026-03-11T03:57:39Z"
+    },
+    "matmul_divide_gelu": {
+        "index": 0,
+        "op": "matmul_divide_gelu",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.594,
+            "median": 0.594,
+            "std": 0.00763,
+            "min": 0.535,
+            "max": 0.608,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.214,
+            "median": 0.213,
+            "std": 0.00645,
+            "min": 0.203,
+            "max": 0.23,
+            "num_trials": 100
+        },
+        "speedup": 0.359,
+        "saved_at": "2026-03-11T04:10:30Z"
+    },
+    "matmul_dropout_mean_softmax": {
+        "index": 0,
+        "op": "matmul_dropout_mean_softmax",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.116,
+            "median": 0.115,
+            "std": 0.00577,
+            "min": 0.0993,
+            "max": 0.145,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.372,
+            "median": 0.373,
+            "std": 0.00837,
+            "min": 0.344,
+            "max": 0.397,
+            "num_trials": 100
+        },
+        "speedup": 3.24,
+        "saved_at": "2026-03-11T04:15:56Z"
+    },
+    "matmul_min_subtract": {
+        "index": 0,
+        "op": "matmul_min_subtract",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.14,
+            "median": 0.136,
+            "std": 0.0266,
+            "min": 0.0967,
+            "max": 0.397,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.226,
+            "median": 0.228,
+            "std": 0.0126,
+            "min": 0.126,
+            "max": 0.25,
+            "num_trials": 100
+        },
+        "speedup": 1.68,
+        "saved_at": "2026-03-11T04:21:37Z"
+    },
+    "matmul_avg_pool_gelu_scale_max": {
+        "index": 0,
+        "op": "matmul_avg_pool_gelu_scale_max",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 50.7,
+            "median": 50.7,
+            "std": 0.135,
+            "min": 50.4,
+            "max": 50.9,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.323,
+            "median": 0.323,
+            "std": 0.0077,
+            "min": 0.302,
+            "max": 0.351,
+            "num_trials": 100
+        },
+        "speedup": 0.00637,
+        "saved_at": "2026-03-11T04:33:21Z"
+    },
+    "matmul_group_norm_leaky_relu_sum": {
+        "index": 0,
+        "op": "matmul_group_norm_leaky_relu_sum",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 197.0,
+            "median": 197.0,
+            "std": 1.19,
+            "min": 195.0,
+            "max": 200.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.328,
+            "median": 0.327,
+            "std": 0.0127,
+            "min": 0.314,
+            "max": 0.426,
+            "num_trials": 100
+        },
+        "speedup": 0.00166,
+        "saved_at": "2026-03-11T04:33:25Z"
+    },
+    "matmul_max_pool_sum_scale": {
+        "index": 0,
+        "op": "matmul_max_pool_sum_scale",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.199,
+            "median": 0.197,
+            "std": 0.00748,
+            "min": 0.162,
+            "max": 0.226,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.425,
+            "median": 0.425,
+            "std": 0.0076,
+            "min": 0.411,
+            "max": 0.441,
+            "num_trials": 100
+        },
+        "speedup": 2.16,
+        "saved_at": "2026-03-11T04:42:12Z"
+    },
+    "matmul_scaling_residual_add": {
+        "index": 0,
+        "op": "matmul_scaling_residual_add",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 2.58,
+            "median": 2.55,
+            "std": 0.0719,
+            "min": 2.51,
+            "max": 2.72,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.281,
+            "median": 0.282,
+            "std": 0.00649,
+            "min": 0.269,
+            "max": 0.305,
+            "num_trials": 100
+        },
+        "speedup": 0.111,
+        "saved_at": "2026-03-11T04:46:10Z"
+    },
+    "matmul_sum_max_avg_pool_log_sum_exp_log_sum_exp": {
+        "index": 0,
+        "op": "matmul_sum_max_avg_pool_log_sum_exp_log_sum_exp",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.135,
+            "median": 0.134,
+            "std": 0.00623,
+            "min": 0.101,
+            "max": 0.151,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.286,
+            "median": 0.285,
+            "std": 0.00709,
+            "min": 0.273,
+            "max": 0.309,
+            "num_trials": 100
+        },
+        "speedup": 2.13,
+        "saved_at": "2026-03-11T04:52:18Z"
+    },
+    "matmul_sigmoid_sum": {
+        "index": 0,
+        "op": "matmul_sigmoid_sum",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.303,
+            "median": 0.304,
+            "std": 0.0084,
+            "min": 0.238,
+            "max": 0.316,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.205,
+            "median": 0.205,
+            "std": 0.0107,
+            "min": 0.193,
+            "max": 0.29,
+            "num_trials": 100
+        },
+        "speedup": 0.674,
+        "saved_at": "2026-03-11T04:55:35Z"
+    },
+    "matmul_mish_mish": {
+        "index": 0,
+        "op": "matmul_mish_mish",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.33,
+            "median": 0.329,
+            "std": 0.0078,
+            "min": 0.271,
+            "max": 0.344,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.201,
+            "median": 0.2,
+            "std": 0.00653,
+            "min": 0.19,
+            "max": 0.221,
+            "num_trials": 100
+        },
+        "speedup": 0.608,
+        "saved_at": "2026-03-11T04:56:02Z"
+    },
+    "matmul_swish_scaling": {
+        "index": 0,
+        "op": "matmul_swish_scaling",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 785.0,
+            "median": 785.0,
+            "std": 4.57,
+            "min": 777.0,
+            "max": 790.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.237,
+            "median": 0.239,
+            "std": 0.00876,
+            "min": 0.221,
+            "max": 0.26,
+            "num_trials": 100
+        },
+        "speedup": 0.000304,
+        "saved_at": "2026-03-11T05:00:06Z"
+    },
+    "matmul_swish_sum_group_norm": {
+        "index": 0,
+        "op": "matmul_swish_sum_group_norm",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 788.0,
+            "median": 788.0,
+            "std": 4.45,
+            "min": 780.0,
+            "max": 792.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "baseline_performance": {
+            "mean": 0.344,
+            "median": 0.34,
+            "std": 0.0147,
+            "min": 0.325,
+            "max": 0.392,
+            "num_trials": 100
+        },
+        "speedup": 0.000431,
+        "saved_at": "2026-03-11T05:13:12Z"
+    },
+    "gru": {
+        "index": 0,
+        "op": "gru",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.146,
+            "median": 0.144,
+            "std": 0.00767,
+            "min": 0.107,
+            "max": 0.174,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-11T10:15:06Z"
+    },
+    "deep_narrow_mlp": {
+        "index": 0,
+        "op": "deep_narrow_mlp",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 0.965,
+            "median": 0.966,
+            "std": 0.00966,
+            "min": 0.912,
+            "max": 0.991,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-11T10:18:04Z"
+    },
+    "efficientnet_b1": {
+        "index": 0,
+        "op": "efficientnet_b1",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null,
+            "num_trials": 0,
+            "error": "elapsed_time:build/CMakeFiles/torch_npu.dir/compiler_depend.ts:126 NPU function error: aclrtEventElapsedTime(&time_ms, event_, other.event_), error code is 507000\n[ERROR] 2026-03-11-18:17:03 (PID:3640800, Device:0, RankID:-1) ERR00100 PTA call acl api failed\n[Error]: An internal error occurs in the runtime module on the host. \n        Rectify the fault based on the error information in the ascend log.\nEE9999: Inner Error!\nEE9999[PID: 3640800] 2026-03-11-18:17:03.232.070 (EE9999):  rtEventElapsedTime execution failed, reason=event recorder null[FUNC:FuncErrorReason][FILE:error_message_manage.cc][LINE:61]\n        TraceBack (most recent call last):\n       computes events elapsed time failed, runtime result = 507000[FUNC:ReportCallError][FILE:log_inner.cpp][LINE:148]\n"
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-11T10:18:50Z"
+    },
+    "densenet121": {
+        "op": "densenet121",
+        "compiled": true,
+        "correctness": true,
+        "performance": {},
+        "hardware": "npu:0",
+        "error_message": "",
+        "saved_at": "2026-03-11T10:27:49Z"
+    },
+    "densenet121_dense_block": {
+        "index": 0,
+        "op": "densenet121_dense_block",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null,
+            "num_trials": 0,
+            "error": "elapsed_time:build/CMakeFiles/torch_npu.dir/compiler_depend.ts:126 NPU function error: aclrtEventElapsedTime(&time_ms, event_, other.event_), error code is 507000\n[ERROR] 2026-03-11-18:42:52 (PID:3722247, Device:0, RankID:-1) ERR00100 PTA call acl api failed\n[Error]: An internal error occurs in the runtime module on the host. \n        Rectify the fault based on the error information in the ascend log.\nEE9999: Inner Error!\nEE9999[PID: 3722247] 2026-03-11-18:42:52.202.464 (EE9999):  rtEventElapsedTime execution failed, reason=event recorder null[FUNC:FuncErrorReason][FILE:error_message_manage.cc][LINE:61]\n        TraceBack (most recent call last):\n       computes events elapsed time failed, runtime result = 507000[FUNC:ReportCallError][FILE:log_inner.cpp][LINE:148]\n"
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-11T10:53:45Z"
+    },
+    "mlp": {
+        "index": 0,
+        "op": "mlp",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 12.7,
+            "median": 12.7,
+            "std": 0.0987,
+            "min": 12.5,
+            "max": 12.9,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-11T11:28:09Z"
+    },
+    "mobilenet_v1": {
+        "index": 0,
+        "op": "mobilenet_v1",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null,
+            "num_trials": 0,
+            "error": "elapsed_time:build/CMakeFiles/torch_npu.dir/compiler_depend.ts:126 NPU function error: aclrtEventElapsedTime(&time_ms, event_, other.event_), error code is 507000\n[ERROR] 2026-03-11-19:46:11 (PID:946953, Device:2, RankID:-1) ERR00100 PTA call acl api failed\n[Error]: An internal error occurs in the runtime module on the host. \n        Rectify the fault based on the error information in the ascend log.\nEH9999: Inner Error!\n        rtEventElapsedTime execute failed, reason=[event recorder null][FUNC:FuncErrorReason][FILE:error_message_manage.cc][LINE:53]\nEH9999[PID: 946953] 2026-03-11-19:46:11.135.577 (EH9999):  computes events elapsed time failed, runtime result = 507000[FUNC:ReportCallError][FILE:log_inner.cpp][LINE:162]\n        TraceBack (most recent call last):\n"
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-11T11:48:01Z"
+    },
+    "mobilenet_v2": {
+        "index": 0,
+        "op": "mobilenet_v2",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null,
+            "num_trials": 0,
+            "error": "elapsed_time:build/CMakeFiles/torch_npu.dir/compiler_depend.ts:126 NPU function error: aclrtEventElapsedTime(&time_ms, event_, other.event_), error code is 507000\n[ERROR] 2026-03-11-20:03:56 (PID:1743331, Device:1, RankID:-1) ERR00100 PTA call acl api failed\n[Error]: An internal error occurs in the runtime module on the host. \n        Rectify the fault based on the error information in the ascend log.\nEH9999: Inner Error!\n        rtEventElapsedTime execute failed, reason=[event recorder null][FUNC:FuncErrorReason][FILE:error_message_manage.cc][LINE:53]\nEH9999[PID: 1743331] 2026-03-11-20:03:56.556.057 (EH9999):  computes events elapsed time failed, runtime result = 507000[FUNC:ReportCallError][FILE:log_inner.cpp][LINE:162]\n        TraceBack (most recent call last):\n"
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-11T12:05:43Z"
+    },
+    "net_vlad_no_ghost_clusters": {
+        "index": 0,
+        "op": "net_vlad_no_ghost_clusters",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 16100.0,
+            "median": 16100.0,
+            "std": 0.0,
+            "min": 16100.0,
+            "max": 16100.0,
+            "num_trials": 1
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-11T12:33:40Z"
+    },
+    "ltsm_hn": {
+        "index": 0,
+        "op": "ltsm_hn",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null,
+            "num_trials": 0,
+            "error": "elapsed_time:build/CMakeFiles/torch_npu.dir/compiler_depend.ts:126 NPU function error: aclrtEventElapsedTime(&time_ms, event_, other.event_), error code is 507000\n[ERROR] 2026-03-11-20:33:47 (PID:1644095, Device:0, RankID:-1) ERR00100 PTA call acl api failed\n[Error]: An internal error occurs in the runtime module on the host. \n        Rectify the fault based on the error information in the ascend log.\nEE9999: Inner Error!\nEE9999[PID: 1644095] 2026-03-11-20:33:47.684.670 (EE9999):  rtEventElapsedTime execution failed, reason=event recorder null[FUNC:FuncErrorReason][FILE:error_message_manage.cc][LINE:61]\n        TraceBack (most recent call last):\n       computes events elapsed time failed, runtime result = 507000[FUNC:ReportCallError][FILE:log_inner.cpp][LINE:148]\n"
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-11T12:34:28Z"
+    },
+    "net_vlad_with_ghost_clusters": {
+        "index": 0,
+        "op": "net_vlad_with_ghost_clusters",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 9490.0,
+            "median": 9490.0,
+            "std": 0.0,
+            "min": 9490.0,
+            "max": 9490.0,
+            "num_trials": 1
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-11T12:54:45Z"
+    },
+    "mamba_return_y": {
+        "index": 0,
+        "op": "mamba_return_y",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 75.5,
+            "median": 75.1,
+            "std": 6.53,
+            "min": 61.6,
+            "max": 101.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-11T13:17:13Z"
+    },
+    "resnet101": {
+        "op": "resnet101",
+        "compiled": true,
+        "correctness": true,
+        "performance": {},
+        "hardware": "npu:0",
+        "compile_info": "Build succeeded; deploy succeeded; pybind succeeded.",
+        "correctness_info": "Worker log reported: Correctness test result: True",
+        "saved_at": "2026-03-11T13:54:13Z"
+    },
+    "shallow_wide_mlp": {
+        "index": 0,
+        "op": "shallow_wide_mlp",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 51.8,
+            "median": 51.8,
+            "std": 0.541,
+            "min": 50.8,
+            "max": 52.6,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-11T14:00:01Z"
+    },
+    "resnet18": {
+        "index": 0,
+        "op": "resnet18",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null,
+            "num_trials": 0,
+            "error": "elapsed_time:build/CMakeFiles/torch_npu.dir/compiler_depend.ts:126 NPU function error: aclrtEventElapsedTime(&time_ms, event_, other.event_), error code is 507000\n[ERROR] 2026-03-11-22:00:33 (PID:562671, Device:0, RankID:-1) ERR00100 PTA call acl api failed\n[Error]: An internal error occurs in the runtime module on the host. \n        Rectify the fault based on the error information in the ascend log.\nEH9999: Inner Error!\n        rtEventElapsedTime execute failed, reason=[event recorder null][FUNC:FuncErrorReason][FILE:error_message_manage.cc][LINE:53]\nEH9999[PID: 562671] 2026-03-11-22:00:33.913.511 (EH9999):  computes events elapsed time failed, runtime result = 507000[FUNC:ReportCallError][FILE:log_inner.cpp][LINE:162]\n        TraceBack (most recent call last):\n"
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-11T14:02:27Z"
+    },
+    "squeeze_net_fire_module": {
+        "index": 0,
+        "op": "squeeze_net_fire_module",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null,
+            "num_trials": 0,
+            "error": "elapsed_time:build/CMakeFiles/torch_npu.dir/compiler_depend.ts:126 NPU function error: aclrtEventElapsedTime(&time_ms, event_, other.event_), error code is 507000\n[ERROR] 2026-03-11-22:03:46 (PID:569270, Device:0, RankID:-1) ERR00100 PTA call acl api failed\n[Error]: An internal error occurs in the runtime module on the host. \n        Rectify the fault based on the error information in the ascend log.\nEH9999: Inner Error!\n        rtEventElapsedTime execute failed, reason=[event recorder null][FUNC:FuncErrorReason][FILE:error_message_manage.cc][LINE:53]\nEH9999[PID: 569270] 2026-03-11-22:03:46.878.061 (EH9999):  computes events elapsed time failed, runtime result = 507000[FUNC:ReportCallError][FILE:log_inner.cpp][LINE:162]\n        TraceBack (most recent call last):\n"
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-11T14:04:33Z"
+    },
+    "vanilla_rnn_hidden": {
+        "index": 0,
+        "op": "vanilla_rnn_hidden",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 22.7,
+            "median": 22.7,
+            "std": 0.228,
+            "min": 22.3,
+            "max": 23.1,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-11T14:13:51Z"
+    },
+    "swin_mlp": {
+        "index": 0,
+        "op": "swin_mlp",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null,
+            "num_trials": 0,
+            "error": "elapsed_time:build/CMakeFiles/torch_npu.dir/compiler_depend.ts:126 NPU function error: aclrtEventElapsedTime(&time_ms, event_, other.event_), error code is 507000\n[ERROR] 2026-03-11-22:22:59 (PID:607202, Device:0, RankID:-1) ERR00100 PTA call acl api failed\n[Error]: An internal error occurs in the runtime module on the host. \n        Rectify the fault based on the error information in the ascend log.\nEH9999: Inner Error!\n        rtEventElapsedTime execute failed, reason=[event recorder null][FUNC:FuncErrorReason][FILE:error_message_manage.cc][LINE:53]\nEH9999[PID: 607202] 2026-03-11-22:22:59.475.508 (EH9999):  computes events elapsed time failed, runtime result = 507000[FUNC:ReportCallError][FILE:log_inner.cpp][LINE:162]\n        TraceBack (most recent call last):\n"
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-11T14:24:50Z"
+    },
+    "shufflenet_unit": {
+        "index": 0,
+        "op": "shufflenet_unit",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null,
+            "num_trials": 0,
+            "error": "elapsed_time:build/CMakeFiles/torch_npu.dir/compiler_depend.ts:126 NPU function error: aclrtEventElapsedTime(&time_ms, event_, other.event_), error code is 507000\n[ERROR] 2026-03-11-22:31:12 (PID:621152, Device:0, RankID:-1) ERR00100 PTA call acl api failed\n[Error]: An internal error occurs in the runtime module on the host. \n        Rectify the fault based on the error information in the ascend log.\nEH9999: Inner Error!\n        rtEventElapsedTime execute failed, reason=[event recorder null][FUNC:FuncErrorReason][FILE:error_message_manage.cc][LINE:53]\nEH9999[PID: 621152] 2026-03-11-22:31:12.401.186 (EH9999):  computes events elapsed time failed, runtime result = 507000[FUNC:ReportCallError][FILE:log_inner.cpp][LINE:162]\n        TraceBack (most recent call last):\n"
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-11T14:32:05Z"
+    },
+    "vgg19": {
+        "index": 0,
+        "op": "vgg19",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null,
+            "num_trials": 0,
+            "error": "elapsed_time:build/CMakeFiles/torch_npu.dir/compiler_depend.ts:126 NPU function error: aclrtEventElapsedTime(&time_ms, event_, other.event_), error code is 507000\n[ERROR] 2026-03-11-22:53:21 (PID:675094, Device:0, RankID:-1) ERR00100 PTA call acl api failed\n[Error]: An internal error occurs in the runtime module on the host. \n        Rectify the fault based on the error information in the ascend log.\nEH9999: Inner Error!\n        rtEventElapsedTime execute failed, reason=[event recorder null][FUNC:FuncErrorReason][FILE:error_message_manage.cc][LINE:53]\nEH9999[PID: 675094] 2026-03-11-22:53:21.364.496 (EH9999):  computes events elapsed time failed, runtime result = 507000[FUNC:ReportCallError][FILE:log_inner.cpp][LINE:162]\n        TraceBack (most recent call last):\n"
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-11T14:54:15Z"
+    },
+    "vanilla_rnn": {
+        "index": 0,
+        "op": "vanilla_rnn",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 25.0,
+            "median": 25.0,
+            "std": 0.25,
+            "min": 24.5,
+            "max": 25.4,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-11T15:05:57Z"
+    },
+    "vision_attention": {
+        "index": 0,
+        "op": "vision_attention",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 7.29,
+            "median": 4.28,
+            "std": 5.09,
+            "min": 4.11,
+            "max": 20.5,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-11T15:09:17Z"
+    },
+    "vision_transformer": {
+        "index": 0,
+        "op": "vision_transformer",
+        "category": "custom",
+        "language": "ascendc",
+        "compiled": true,
+        "correctness": true,
+        "performance": {
+            "mean": 265.0,
+            "median": 273.0,
+            "std": 31.9,
+            "min": 185.0,
+            "max": 335.0,
+            "num_trials": 100
+        },
+        "hardware": "ai_core-Ascend910B4",
+        "compile_info": "",
+        "saved_at": "2026-03-11T15:17:54Z"
+    }
+}

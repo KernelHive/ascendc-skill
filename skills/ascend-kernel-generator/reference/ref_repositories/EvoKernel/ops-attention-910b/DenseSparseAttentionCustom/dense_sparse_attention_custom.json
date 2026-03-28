@@ -1,0 +1,14 @@
+
+[
+  {
+    "op": "DenseSparseAttentionCustom",
+    "input_desc": [
+      { "name": "q",        "param_type": "required", "format": ["ND"], "type": ["bfloat16"] },
+      { "name": "kv_cache", "param_type": "required", "format": ["ND"], "type": ["bfloat16"] },
+      { "name": "indices",  "param_type": "required", "format": ["ND"], "type": ["int32"] }
+    ],
+    "output_desc": [
+      { "name": "out", "param_type": "required", "format": ["ND"], "type": ["bfloat16"] }
+    ]
+  }
+]

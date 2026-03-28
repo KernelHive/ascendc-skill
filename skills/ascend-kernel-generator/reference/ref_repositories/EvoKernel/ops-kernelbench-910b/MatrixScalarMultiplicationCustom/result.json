@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MatrixScalarMultiplicationCustom",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 6.653,
+    "std": 0.046,
+    "min": 6.591,
+    "max": 6.701,
+    "num_trials": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MinGptNewGeluCustom",
+  "outer_iter": 24,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 0.939,
+    "std": 0.217,
+    "min": 0.632,
+    "max": 1.101,
+    "num_trials": null
+  }
+}

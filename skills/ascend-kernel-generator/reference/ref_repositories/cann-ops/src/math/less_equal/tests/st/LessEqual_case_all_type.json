@@ -1,0 +1,68 @@
+[
+    {
+        "case_name": "Test_LessEqual_001",
+        "op": "LessEqual",
+        "calc_expect_func_file": "test_less_equal.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float16",
+                    "float32",
+                    "int8",
+                    "int32"
+                ],
+                "shape":[1024],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        100.0
+                    ]
+                ],
+                "name": "x1"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float16",
+                    "float32",
+                    "int8",
+                    "int32"
+                ],
+                "shape": [1024],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        100.0
+                    ]
+                ],
+                "name": "x2"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "bool",
+                    "bool",
+                    "bool",
+                    "bool"
+                ],
+                "shape": [1024],
+                "name": "y"
+            }
+        ]
+    }
+]

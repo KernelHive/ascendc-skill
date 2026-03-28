@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "DenseSparseAttentionCustom",
+  "outer_iter": 28,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 0.692,
+    "std": 0.187,
+    "min": 0.427,
+    "max": 0.825,
+    "num_trials": null
+  }
+}

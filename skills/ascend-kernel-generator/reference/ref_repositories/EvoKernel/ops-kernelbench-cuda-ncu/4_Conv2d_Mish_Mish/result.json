@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "4_Conv2d_Mish_Mish",
+  "outer_iter": 24,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 190.126,
+    "mean": 190.028,
+    "min": 189.972,
+    "num_trials": 5,
+    "std": 0.06
+  }
+}

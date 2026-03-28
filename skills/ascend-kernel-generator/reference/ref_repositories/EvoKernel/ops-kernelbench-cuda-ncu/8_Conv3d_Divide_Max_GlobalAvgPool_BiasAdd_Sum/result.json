@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "8_Conv3d_Divide_Max_GlobalAvgPool_BiasAdd_Sum",
+  "outer_iter": 22,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 3.764,
+    "mean": 3.763,
+    "min": 3.761,
+    "num_trials": 5,
+    "std": 0.001
+  }
+}

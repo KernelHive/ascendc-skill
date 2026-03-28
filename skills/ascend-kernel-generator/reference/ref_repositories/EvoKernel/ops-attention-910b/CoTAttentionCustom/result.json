@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "CoTAttentionCustom",
+  "outer_iter": 5,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 2.074,
+    "std": 0.103,
+    "min": 1.932,
+    "max": 2.176,
+    "num_trials": null
+  }
+}

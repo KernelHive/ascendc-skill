@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "28_SimAM",
+  "outer_iter": 28,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 0.032,
+    "mean": 0.03,
+    "min": 0.029,
+    "num_trials": 5,
+    "std": 0.001
+  }
+}

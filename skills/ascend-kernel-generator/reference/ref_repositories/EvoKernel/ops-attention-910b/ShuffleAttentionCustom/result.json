@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ShuffleAttentionCustom",
+  "outer_iter": 16,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 34.691,
+    "std": 0.207,
+    "min": 34.426,
+    "max": 34.93,
+    "num_trials": null
+  }
+}

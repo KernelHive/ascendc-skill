@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "3_ConvTranspose3d_Sum_LayerNorm_AvgPool_GELU",
+  "outer_iter": 22,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 6.628,
+    "mean": 6.62,
+    "min": 6.616,
+    "num_trials": 5,
+    "std": 0.004
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "18_Matmul_with_transposed_both",
+  "outer_iter": 15,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 11.166,
+    "mean": 11.151,
+    "min": 11.132,
+    "num_trials": 5,
+    "std": 0.012
+  }
+}

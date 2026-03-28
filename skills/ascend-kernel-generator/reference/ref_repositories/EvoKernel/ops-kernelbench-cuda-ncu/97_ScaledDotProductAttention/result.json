@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "97_ScaledDotProductAttention",
+  "outer_iter": 2,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 395.791,
+    "mean": 394.945,
+    "min": 393.734,
+    "num_trials": 5,
+    "std": 0.716
+  }
+}

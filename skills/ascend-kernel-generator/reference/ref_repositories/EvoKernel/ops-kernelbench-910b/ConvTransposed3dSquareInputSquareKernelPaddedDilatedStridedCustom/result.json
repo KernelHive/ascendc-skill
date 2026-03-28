@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvTransposed3dSquareInputSquareKernelPaddedDilatedStridedCustom",
+  "outer_iter": 25,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 11784.271,
+    "std": 5.382,
+    "min": 11777.976,
+    "max": 11791.123,
+    "num_trials": null
+  }
+}

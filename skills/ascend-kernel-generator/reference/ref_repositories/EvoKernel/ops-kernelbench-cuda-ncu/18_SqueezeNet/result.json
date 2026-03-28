@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "18_SqueezeNet",
+  "outer_iter": 24,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 213.846,
+    "mean": 213.731,
+    "min": 213.631,
+    "num_trials": 5,
+    "std": 0.075
+  }
+}

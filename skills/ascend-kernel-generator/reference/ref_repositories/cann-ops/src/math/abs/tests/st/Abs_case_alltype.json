@@ -1,0 +1,196 @@
+[
+    {
+        "case_name": "Test_Abs_001",
+        "op": "Abs",
+        "calc_expect_func_file": "./test_abs.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float16",
+                    "int32",
+                    "int32"
+                ],
+                "shape": [1],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        -5,
+                        5
+                    ]
+                ],
+                "name": "x"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float16",
+                    "int32",
+                    "int32"
+                ],
+                "shape": [1],
+                "name": "y"
+            }
+        ]
+    },
+    {
+        "case_name": "Test_Abs_004",
+        "op": "Abs",
+        "calc_expect_func_file": "./test_abs.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [7],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        -5,
+                        5
+                    ]
+                ],
+                "name": "x"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [7],
+                "name": "y"
+            }
+        ]
+    },
+    {
+        "case_name": "Test_Abs_005",
+        "op": "Abs",
+        "calc_expect_func_file": "./test_abs.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [8,1],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        -5,
+                        5
+                    ]
+                ],
+                "name": "x"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [8,1],
+                "name": "y"
+            }
+        ]
+    },
+    {
+        "case_name": "Test_Abs_006",
+        "op": "Abs",
+        "calc_expect_func_file": "./test_abs.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int64"
+                ],
+                "shape": [8],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        -5,
+                        5
+                    ]
+                ],
+                "name": "x"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int64"
+                ],
+                "shape": [8],
+                "name": "y"
+            }
+        ]
+    },
+    {
+        "case_name": "Test_Abs_008",
+        "op": "Abs",
+        "calc_expect_func_file": "./test_abs.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [19],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        -5,
+                        5
+                    ]
+                ],
+                "name": "x"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [19],
+                "name": "y"
+            }
+        ]
+    }        
+]

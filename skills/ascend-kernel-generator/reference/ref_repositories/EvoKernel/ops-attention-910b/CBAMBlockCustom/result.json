@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "CBAMBlockCustom",
+  "outer_iter": 6,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 3.407,
+    "std": 0.042,
+    "min": 3.348,
+    "max": 3.446,
+    "num_trials": null
+  }
+}

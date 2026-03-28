@@ -1,0 +1,110 @@
+[
+    {
+        "case_name": "Test_FlashAttentionScore_001",
+        "op": "FlashAttentionScoreWithLargeHeadDim",
+        "calc_expect_func_file": "test_flash_attention_score.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float16"
+                ],
+                "shape": [1, 2048, 576],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        1,
+                        10
+                    ]
+                ],
+                "name": "query"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float16"
+                ],
+                "shape": [1, 2048, 576],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        1,
+                        10
+                    ]
+                ],
+                "name": "key"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float16"
+                ],
+                "shape": [1, 2048, 576],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        1,
+                        10
+                    ]
+                ],
+                "name": "value"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [1, 2048, 576],
+                "name": "softmax_max"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [1, 2048, 576],
+                "name": "softmax_sum"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float16"
+                ],
+                "shape": [1, 2048, 576],
+                "name": "attention_out"
+            }
+        ],
+        "attr": [
+            {
+                "name": "scale_value",
+                "type": "float",
+                "value": 0.0625
+            },
+            {
+                "name": "head_num",
+                "type": "int",
+                "value": 576
+            }
+        ]
+    }
+]

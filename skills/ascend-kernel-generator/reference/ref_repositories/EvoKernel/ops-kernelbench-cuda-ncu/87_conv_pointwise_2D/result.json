@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "87_conv_pointwise_2D",
+  "outer_iter": 17,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 48.075,
+    "mean": 48.07,
+    "min": 48.067,
+    "num_trials": 5,
+    "std": 0.003
+  }
+}

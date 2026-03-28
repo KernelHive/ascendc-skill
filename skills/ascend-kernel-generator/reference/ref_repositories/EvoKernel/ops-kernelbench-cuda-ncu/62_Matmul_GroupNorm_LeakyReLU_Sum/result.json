@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "62_Matmul_GroupNorm_LeakyReLU_Sum",
+  "outer_iter": 26,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 9.668,
+    "mean": 9.661,
+    "min": 9.653,
+    "num_trials": 5,
+    "std": 0.005
+  }
+}

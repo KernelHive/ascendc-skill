@@ -1,0 +1,48 @@
+[
+    {
+        "case_name": "Test_Neg_001",
+        "op": "Neg",
+        "calc_expect_func_file": "test_neg.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16",
+                    "bfloat16",
+                    "int32",
+                    "int8"
+                ],
+                "shape":[8, 2048],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "x"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16",
+                    "bfloat16",
+                    "int32",
+                    "int8"
+                ],
+                "shape": [8, 2048],
+                "name": "y"
+            }
+        ]
+    }
+]

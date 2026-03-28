@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MatmulForLowerTriangularMatricesCustom",
+  "outer_iter": 7,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 36.731,
+    "std": 0.162,
+    "min": 36.503,
+    "max": 36.858,
+    "num_trials": null
+  }
+}

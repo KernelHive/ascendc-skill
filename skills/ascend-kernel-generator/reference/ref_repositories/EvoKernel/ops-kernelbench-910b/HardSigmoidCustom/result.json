@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "HardSigmoidCustom",
+  "outer_iter": 12,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 9.733,
+    "std": 0.074,
+    "min": 9.629,
+    "max": 9.795,
+    "num_trials": null
+  }
+}

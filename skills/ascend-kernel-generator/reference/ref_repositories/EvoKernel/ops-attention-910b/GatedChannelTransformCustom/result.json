@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "GatedChannelTransformCustom",
+  "outer_iter": 17,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 2.961,
+    "std": 0.112,
+    "min": 2.807,
+    "max": 3.073,
+    "num_trials": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "BatchedMatrixMultiplicationCustom",
+  "outer_iter": 30,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 5.427,
+    "std": 0.177,
+    "min": 5.177,
+    "max": 5.555,
+    "num_trials": null
+  }
+}

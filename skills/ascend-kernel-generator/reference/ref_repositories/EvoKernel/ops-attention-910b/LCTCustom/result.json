@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "LCTCustom",
+  "outer_iter": 25,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 2.966,
+    "std": 0.074,
+    "min": 2.866,
+    "max": 3.041,
+    "num_trials": null
+  }
+}

@@ -1,0 +1,40 @@
+
+[
+  {
+    "op": "DAModuleCustom",
+    "input_desc": [
+      {
+        "name": "p_out",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["float"]
+      },
+      {
+        "name": "c_out",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["float"]
+      }
+    ],
+    "output_desc": [
+      {
+        "name": "y",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["float"]
+      }
+    ],
+    "attr": [
+      {
+        "name": "h",
+        "param_type": "required",
+        "type": "int"
+      },
+      {
+        "name": "w",
+        "param_type": "required",
+        "type": "int"
+      }
+    ]
+  }
+]

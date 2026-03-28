@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "45_UNetSoftmax",
+  "outer_iter": 23,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 10.57,
+    "mean": 10.512,
+    "min": 10.489,
+    "num_trials": 5,
+    "std": 0.03
+  }
+}

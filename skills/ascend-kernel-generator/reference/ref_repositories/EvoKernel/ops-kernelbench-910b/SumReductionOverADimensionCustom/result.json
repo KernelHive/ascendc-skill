@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "SumReductionOverADimensionCustom",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 2138.898,
+    "std": 30.673,
+    "min": 2095.532,
+    "max": 2161.478,
+    "num_trials": null
+  }
+}

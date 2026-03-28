@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "Conv2dSubtractTanhSubtractAvgPoolCustom",
+  "outer_iter": 19,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 118827.394,
+    "std": 34.588,
+    "min": 118788.427,
+    "max": 118872.482,
+    "num_trials": null
+  }
+}

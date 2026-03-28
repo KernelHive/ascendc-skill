@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "83_conv_depthwise_2D_square_input_asymmetric_kernel",
+  "outer_iter": 21,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 0.669,
+    "mean": 0.667,
+    "min": 0.664,
+    "num_trials": 5,
+    "std": 0.002
+  }
+}

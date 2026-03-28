@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "14_Matmul_for_upper_triangular_matrices",
+  "outer_iter": 27,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 2.476,
+    "mean": 2.448,
+    "min": 2.429,
+    "num_trials": 5,
+    "std": 0.017
+  }
+}

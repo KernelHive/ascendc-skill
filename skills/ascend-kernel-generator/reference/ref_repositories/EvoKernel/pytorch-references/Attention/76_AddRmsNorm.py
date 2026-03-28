@@ -1,0 +1,43 @@
+import torch
+import torch.nn as nn
+
+
+class Model(nn.Module):
+    """
+    Fused Add + RMS Normalization.
+
+    First adds a residual connection (x + residual), then applies RMS
+    normalization with a learnable weight. Common fused kernel in LLM
+    inference to reduce memory bandwidth.
+
+    Input x:        (num_tokens, hidden_size), bfloat16
+    Input residual: (num_tokens, hidden_size), bfloat16
+    Output:         (num_tokens, hidden_size), bfloat16
+    """
+
+    def __init__(self, hidden_size, eps=1e-6):
+        super().__init__()
+        self.eps = eps
+        self.weight = nn.Parameter(torch.ones(hidden_size, dtype=torch.bfloat16))
+
+    def forward(self, x, residual):
+        combined = (x + residual).float()
+        variance = combined.pow(2).mean(-1, keepdim=True)
+        normed = combined * torch.rsqrt(variance + self.eps)
+        return (self.weight * normed).to(x.dtype)
+
+
+# Configuration — realistic LLM dimensions
+num_tokens = 2048
+hidden_size = 4096
+eps = 1e-6
+
+
+def get_inputs():
+    x = torch.randn(num_tokens, hidden_size, dtype=torch.bfloat16)
+    residual = torch.randn(num_tokens, hidden_size, dtype=torch.bfloat16)
+    return [x, residual]
+
+
+def get_init_inputs():
+    return [hidden_size, eps]

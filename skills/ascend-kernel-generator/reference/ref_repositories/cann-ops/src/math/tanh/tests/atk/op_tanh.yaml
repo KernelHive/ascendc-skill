@@ -1,0 +1,46 @@
+#!/usr/bin/python3
+# -*- coding:utf-8 -*-
+# Copyright (c) Huawei Technologies Co., Ltd. 2025. All rights reserved.
+# This file is a part of the CANN Open Software.
+# Licensed under CANN Open Software License Agreement Version 1.0 (the "License").
+# Please refer to the License for details. You may not use this file except in compliance with the License.
+# THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED,
+# INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE.
+# See LICENSE in the root of the software repository for the full text of the License.
+# ======================================================================================================================
+# op_tanh.yaml
+api: pytorch
+api_type: function
+version: v2.1
+name: torch.tanh
+aclnn_name: Tanh
+dtype_numbers: 200
+extra_numbers: all
+generate: reduce
+backward: false
+standard:
+    acc: default
+    perf: not_key
+inputs:
+  - name: x
+    type: tensor
+    required: true
+    dtypes:
+      values: [ fp32, fp16, bf16 ]
+    ranges:
+      valid:
+        values: [ [0, 5] ]
+      invalid:
+        values: [ [0, 5] ]
+    shapes:
+      dim_numbers:
+        values: [1, 2, 3, 4, 5, 6, 7, 8]
+      max_length: 4294967295
+    boundary:
+      has_empty: true
+      has_infnan: true
+      has_scalar: true
+      has_upper_border: true
+      has_lower_border: true
+ 
+outputs:

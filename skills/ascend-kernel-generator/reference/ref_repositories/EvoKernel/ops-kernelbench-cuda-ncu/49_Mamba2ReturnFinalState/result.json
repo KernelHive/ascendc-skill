@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "49_Mamba2ReturnFinalState",
+  "outer_iter": 25,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 9.383,
+    "mean": 9.347,
+    "min": 9.225,
+    "num_trials": 5,
+    "std": 0.061
+  }
+}

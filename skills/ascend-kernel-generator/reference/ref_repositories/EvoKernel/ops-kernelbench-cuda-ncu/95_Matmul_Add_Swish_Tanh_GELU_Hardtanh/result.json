@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "95_Matmul_Add_Swish_Tanh_GELU_Hardtanh",
+  "outer_iter": 22,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 9.549,
+    "mean": 9.399,
+    "min": 8.822,
+    "num_trials": 5,
+    "std": 0.289
+  }
+}

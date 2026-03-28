@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvTranspose3dScalingAvgPoolBiasAddScalingCustom",
+  "outer_iter": 11,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 1400.923,
+    "std": 0.234,
+    "min": 1400.611,
+    "max": 1401.176,
+    "num_trials": null
+  }
+}

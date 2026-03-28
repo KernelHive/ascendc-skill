@@ -1,0 +1,66 @@
+[
+    {
+        "case_name": "Test_Eye_001",
+        "op": "Eye",
+	"calc_expect_func_file": "test_eye.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float16",
+                    "float",
+                    "int32"
+                ],
+                "shape": [3, 4, 18, 10],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "y"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float16",
+                    "float",
+                    "int32"
+                ],
+                "shape": [3, 4, 18, 10],
+                "name": "y"
+            }
+        ],
+        "attr": [
+            {
+                "name": "num_rows",
+                "type": "int",
+                "value": 18
+            },
+            {
+                "name": "num_columns",
+                "type": "int",
+                "value": 10
+            },
+            {
+                "name": "batch_shape",
+                "type": "list_int",
+                "value": [3, 4]
+            },
+            {
+                "name": "dtype",
+                "type": "int",
+                "value": 0
+            }
+        ]
+    }
+]

@@ -1,0 +1,130 @@
+[
+    {
+        "case_name": "Test_AddLayerNormQuant_001",
+        "op": "AddLayerNormQuant",
+        "calc_expect_func_file":"test_st.py:add_layer_norm_quant", 
+        "input_desc": [
+            {
+                "format": ["ND"],
+                "type": ["float"],
+                "shape": [2, 3, 4],
+                "data_distribute": ["uniform"],
+                "value_range": [[0.1, 1.0]],
+                "name": "x1"
+            },
+            {
+                "format": ["ND"],
+                "type": ["float"],
+                "shape": [2,3,4],
+                "data_distribute": ["uniform"],
+                "value_range": [[0.1, 1.0]],
+                "name": "x2"
+            },
+            {
+                "format": ["ND"],
+                "type": ["float"],
+                "shape": [4],
+                "data_distribute": ["uniform"],
+                "value_range": [[0.1, 1.0]],
+                "name": "gamma"
+            },
+            {
+                "format": ["ND"],
+                "type": ["float"],
+                "shape": [4],
+                "data_distribute": ["uniform"],
+                "value_range": [[0.1, 1.0]],
+                "name": "beta"
+            },
+            {
+                "format": ["ND"],
+                "type": ["float"],
+                "shape": [4],
+                "data_distribute": ["uniform"],
+                "value_range": [[0.1, 1.0]],
+                "name": "bias"
+            },
+            {
+                "format": ["ND"],
+                "type": ["float"],
+                "shape": [4],
+                "data_distribute": ["uniform"],
+                "value_range": [[0.1, 1.0]],
+                "name": "scales1"
+            },
+            {
+                "format": ["ND"],
+                "type": ["float"],
+                "shape": [4],
+                "data_distribute": ["uniform"],
+                "value_range": [[0.1, 1.0]],
+                "name": "scales2"
+            },
+            {
+                "format": ["UNDEFINED"],
+                "type": ["UNDEFINED"],
+                "shape": [4],
+                "data_distribute": ["uniform"],
+                "value_range": [[0.1, 1.0]],
+                "name": "zero_points1"
+            },
+            {
+                "format": ["UNDEFINED"],
+                "type": ["UNDEFINED"],
+                "shape": [4],
+                "data_distribute": ["uniform"],
+                "value_range": [[0.1, 1.0]],
+                "name": "zero_points2"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": ["ND"],
+                "type": ["int8"],
+                "shape": [2, 3, 4],
+                "name": "y1"
+            },
+            {
+                "format": ["ND"],
+                "type": ["int8"],
+                "shape": [2, 3, 4],
+                "name": "y2"
+            },
+            {
+                "format": ["ND"],
+                "type": ["float"],
+                "shape": [2, 3, 4],
+                "name": "x"
+            },
+            {
+                "format": ["ND"],
+                "type": ["float"],
+                "shape": [ 2, 1, 1],
+                "name": "out_scales1"
+            },
+            {
+                "format": ["ND"],
+                "type": ["float"],
+                "shape": [ 2, 1, 1],
+                "name": "out_scales2"
+            }
+        ],
+        "attr": [
+            {
+                "name": "quant_mode",
+                "type": "string",
+                "value": "dynamic"
+            },
+            {
+                "name": "epsilon",
+                "type": "float",
+                "value": 1e-05
+            },
+            {
+                "name": "additional_output",
+                "type": "bool",
+                "value": false
+            }
+        ]
+    }
+]

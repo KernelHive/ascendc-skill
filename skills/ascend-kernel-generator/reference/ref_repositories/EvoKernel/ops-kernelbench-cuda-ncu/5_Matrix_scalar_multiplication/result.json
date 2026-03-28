@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "5_Matrix_scalar_multiplication",
+  "outer_iter": 8,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 4.97,
+    "mean": 4.962,
+    "min": 4.956,
+    "num_trials": 5,
+    "std": 0.005
+  }
+}

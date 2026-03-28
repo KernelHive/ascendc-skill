@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "Conv2dScalingMinCustom",
+  "outer_iter": 30,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 43025.986,
+    "std": 369.645,
+    "min": 42617.472,
+    "max": 43512.721,
+    "num_trials": null
+  }
+}

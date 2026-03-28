@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MaxPooling3dCustom",
+  "outer_iter": 11,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 333.106,
+    "std": 0.157,
+    "min": 332.884,
+    "max": 333.224,
+    "num_trials": null
+  }
+}

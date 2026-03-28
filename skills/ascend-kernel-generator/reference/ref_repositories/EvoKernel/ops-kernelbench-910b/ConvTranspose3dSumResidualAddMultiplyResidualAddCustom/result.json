@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvTranspose3dSumResidualAddMultiplyResidualAddCustom",
+  "outer_iter": 26,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 5782.961,
+    "std": 0.764,
+    "min": 5782.394,
+    "max": 5784.042,
+    "num_trials": null
+  }
+}

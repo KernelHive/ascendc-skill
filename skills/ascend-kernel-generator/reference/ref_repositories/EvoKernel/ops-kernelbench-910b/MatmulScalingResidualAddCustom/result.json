@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MatmulScalingResidualAddCustom",
+  "outer_iter": 14,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 71661.185,
+    "std": 820.247,
+    "min": 70729.306,
+    "max": 72725.379,
+    "num_trials": null
+  }
+}

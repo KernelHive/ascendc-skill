@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvTransposed3dSquareInputSquareKernelCustom",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 20620.933,
+    "std": 132.7,
+    "min": 20471.161,
+    "max": 20793.749,
+    "num_trials": null
+  }
+}

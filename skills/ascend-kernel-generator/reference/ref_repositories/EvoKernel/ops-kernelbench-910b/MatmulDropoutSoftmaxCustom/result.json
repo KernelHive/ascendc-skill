@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MatmulDropoutSoftmaxCustom",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 0.009,
+    "std": 0.002,
+    "min": 0.006,
+    "max": 0.011,
+    "num_trials": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "31_Conv2d_Min_Add_Multiply",
+  "outer_iter": 13,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 5.968,
+    "mean": 5.962,
+    "min": 5.955,
+    "num_trials": 5,
+    "std": 0.005
+  }
+}

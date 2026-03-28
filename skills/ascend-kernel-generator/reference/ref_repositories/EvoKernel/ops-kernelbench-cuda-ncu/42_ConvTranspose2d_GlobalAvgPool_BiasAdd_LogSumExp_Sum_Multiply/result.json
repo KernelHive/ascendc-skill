@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "42_ConvTranspose2d_GlobalAvgPool_BiasAdd_LogSumExp_Sum_Multiply",
+  "outer_iter": 21,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 14.669,
+    "mean": 13.975,
+    "min": 13.502,
+    "num_trials": 5,
+    "std": 0.566
+  }
+}

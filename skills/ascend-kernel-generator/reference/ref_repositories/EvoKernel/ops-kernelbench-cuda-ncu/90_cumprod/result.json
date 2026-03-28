@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "90_cumprod",
+  "outer_iter": 14,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 5.154,
+    "mean": 5.143,
+    "min": 5.132,
+    "num_trials": 5,
+    "std": 0.007
+  }
+}

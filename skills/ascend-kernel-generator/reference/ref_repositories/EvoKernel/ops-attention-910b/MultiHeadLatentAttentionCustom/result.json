@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MultiHeadLatentAttentionCustom",
+  "outer_iter": 15,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 36.251,
+    "std": 0.238,
+    "min": 35.915,
+    "max": 36.438,
+    "num_trials": null
+  }
+}

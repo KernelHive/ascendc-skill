@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "Conv3dReluLeakyReluGeluSigmoidBiasAddCustom",
+  "outer_iter": 21,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 37028.261,
+    "std": 5.312,
+    "min": 37021.692,
+    "max": 37034.703,
+    "num_trials": null
+  }
+}

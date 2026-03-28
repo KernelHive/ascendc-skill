@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "93_masked_cumsum",
+  "outer_iter": 24,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 5.811,
+    "mean": 5.804,
+    "min": 5.794,
+    "num_trials": 5,
+    "std": 0.006
+  }
+}

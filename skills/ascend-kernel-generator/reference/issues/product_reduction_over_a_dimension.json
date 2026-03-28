@@ -1,0 +1,8 @@
+[
+  {
+    "op": "product_reduction_over_a_dimension",
+    "error": "op_host/product_reduction_over_a_dimension_custom_kjozknmryfzxaqfe20260310032025.cpp:33:9: error: ‘AscendC’ has not been declared\nop_host/product_reduction_over_a_dimension_custom_kjozknmryfzxaqfe20260310032025.cpp:30:5: error: ‘AscendC’ has not been declared",
+    "code_diff": "--- error_idx_0\n+++ correct_idx_1\n@@ -51,6 +51,7 @@\n host_operator_src=\"\"\"\n #include \"product_reduction_over_a_dimension_custom_tiling.h\"\n #include \"register/op_def_registry.h\"\n+#include \"tiling/tiling_api.h\"\n \n namespace optiling {\n constexpr uint32_t BLOCK_DIM = 1;\n",
+    "summary": "Host tiling code that calls AscendC tiling helpers such as GetReduceProdMaxMinTmpSize must include tiling/tiling_api.h; otherwise op_host compilation fails with AscendC not declared. Fix by adding the missing host-side tiling API header instead of changing kernel logic."
+  }
+]

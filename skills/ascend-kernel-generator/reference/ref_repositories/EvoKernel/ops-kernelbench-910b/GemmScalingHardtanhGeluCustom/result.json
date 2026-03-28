@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "GemmScalingHardtanhGeluCustom",
+  "outer_iter": 14,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 52030.747,
+    "std": 251.795,
+    "min": 51824.046,
+    "max": 52385.209,
+    "num_trials": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "GlobalFilterCustom",
+  "outer_iter": 25,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 8.845,
+    "std": 0.197,
+    "min": 8.566,
+    "max": 8.988,
+    "num_trials": null
+  }
+}

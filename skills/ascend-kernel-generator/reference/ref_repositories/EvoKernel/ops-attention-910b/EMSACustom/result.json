@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "EMSACustom",
+  "outer_iter": 16,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 0.602,
+    "std": 0.068,
+    "min": 0.505,
+    "max": 0.652,
+    "num_trials": null
+  }
+}

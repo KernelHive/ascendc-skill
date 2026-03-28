@@ -1,0 +1,46 @@
+#### 使用高阶 API 时配套的 Tiling 实现
+
+## 1. Tiling 结构定义
+
+```cpp
+namespace optiling {
+BEGIN_TILING_DATA_DEF(MyAddTilingData) // 声明 tiling 结构名字
+TILING_DATA_FIELD_DEF_STRUCT(TCubeTiling, cubeTilingData); // 引用高阶 API 的 tiling 结构体
+TILING_DATA_FIELD_DEF(uint32_t, field); // 结构成员的引用结构体
+END_TILING_DATA_DEF;
+REGISTER_TILING_DATA_CLASS(MyAdd, MyAddTilingData) // tiling 结构注册给算子
+}
+```
+
+## 2. Tiling 函数初始化
+
+```cpp
+static ge::graphStatus TilingFunc(gert::TilingContext* context) {
+    int32_t M = 1024;
+    int32_t N = 640;
+    int32_t K = 256;
+    int32_t baseM = 128;
+    int32_t baseN = 128;
+    
+    auto ascendcPlatform = platform_ascendc::PlatformAscendC(context->GetPlatformInfo());
+    MultiCoreMatmulTiling cubeTiling(ascendcPlatform);
+    
+    cubeTiling.SetDim(2);
+    cubeTiling.SetAType(TPosition::GM, CubeFormat::ND, matmul_tiling::DataType::DT_FLOAT16);
+    cubeTiling.SetBType(TPosition::GM, CubeFormat::ND, matmul_tiling::DataType::DT_FLOAT16);
+    cubeTiling.SetCType(TPosition::LCM, CubeFormat::ND, matmul_tiling::DataType::DT_FLOAT);
+    cubeTiling.SetBiasType(TPosition::GM, CubeFormat::ND, matmul_tiling::DataType::DT_FLOAT);
+    cubeTiling.SetShape(M, N, K);
+    cubeTiling.SetOrgShape(M, N, K);
+    
+    cubeTiling.SetFixSplit(baseM, baseN, -1);
+    cubeTiling.SetBias(true);
+    cubeTiling.SetBufferSpace(-1, -1, -1);
+    
+    MyAddTilingData tiling;
+    if (cubeTiling.GetTiling(tiling.cubeTilingData) == -1) {
+        return ge::GRAPH_FAILED;
+    }
+    // some code
+}
+```

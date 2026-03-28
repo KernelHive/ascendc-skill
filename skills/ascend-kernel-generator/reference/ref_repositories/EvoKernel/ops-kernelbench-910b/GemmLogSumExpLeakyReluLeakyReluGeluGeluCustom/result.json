@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "GemmLogSumExpLeakyReluLeakyReluGeluGeluCustom",
+  "outer_iter": 29,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 51962.558,
+    "std": 249.741,
+    "min": 51733.294,
+    "max": 52309.857,
+    "num_trials": null
+  }
+}

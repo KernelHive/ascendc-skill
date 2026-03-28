@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "100_HingeLoss",
+  "outer_iter": 27,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 18.228,
+    "mean": 18.217,
+    "min": 18.207,
+    "num_trials": 5,
+    "std": 0.008
+  }
+}

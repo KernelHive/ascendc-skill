@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "80_Gemm_Max_Subtract_GELU",
+  "outer_iter": 24,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 9.49,
+    "mean": 9.488,
+    "min": 9.485,
+    "num_trials": 5,
+    "std": 0.002
+  }
+}

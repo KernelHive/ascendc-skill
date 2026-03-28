@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "PAMCustom",
+  "outer_iter": 26,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 173.078,
+    "std": 0.217,
+    "min": 172.782,
+    "max": 173.298,
+    "num_trials": null
+  }
+}

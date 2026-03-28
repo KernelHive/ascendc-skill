@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MlpCustom",
+  "outer_iter": 22,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 71653.515,
+    "std": 539.577,
+    "min": 71130.752,
+    "max": 72396.304,
+    "num_trials": null
+  }
+}

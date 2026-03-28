@@ -1,0 +1,1506 @@
+{
+  "root": "KernelBench",
+  "layout": "by_level",
+  "ops": {
+    "1_Square_matrix_multiplication_": {
+      "level": "level1",
+      "category": "matmul",
+      "normalized_name": "square_matrix_multiplication",
+      "pascal_name": "SquareMatrixMultiplication"
+    },
+    "2_Standard_matrix_multiplication_": {
+      "level": "level1",
+      "category": "matmul",
+      "normalized_name": "standard_matrix_multiplication",
+      "pascal_name": "StandardMatrixMultiplication"
+    },
+    "3_Batched_matrix_multiplication": {
+      "level": "level1",
+      "category": "matmul",
+      "normalized_name": "batched_matrix_multiplication",
+      "pascal_name": "BatchedMatrixMultiplication"
+    },
+    "4_Matrix_vector_multiplication_": {
+      "level": "level1",
+      "category": "matmul",
+      "normalized_name": "matrix_vector_multiplication",
+      "pascal_name": "MatrixVectorMultiplication"
+    },
+    "5_Matrix_scalar_multiplication": {
+      "level": "level1",
+      "category": "matmul",
+      "normalized_name": "matrix_scalar_multiplication",
+      "pascal_name": "MatrixScalarMultiplication"
+    },
+    "6_Matmul_with_large_K_dimension_": {
+      "level": "level1",
+      "category": "matmul",
+      "normalized_name": "matmul_with_large_k_dimension",
+      "pascal_name": "MatmulWithLargeKDimension"
+    },
+    "7_Matmul_with_small_K_dimension_": {
+      "level": "level1",
+      "category": "matmul",
+      "normalized_name": "matmul_with_small_k_dimension",
+      "pascal_name": "MatmulWithSmallKDimension"
+    },
+    "8_Matmul_with_irregular_shapes_": {
+      "level": "level1",
+      "category": "matmul",
+      "normalized_name": "matmul_with_irregular_shapes",
+      "pascal_name": "MatmulWithIrregularShapes"
+    },
+    "9_Tall_skinny_matrix_multiplication_": {
+      "level": "level1",
+      "category": "matmul",
+      "normalized_name": "tall_skinny_matrix_multiplication",
+      "pascal_name": "TallSkinnyMatrixMultiplication"
+    },
+    "10_3D_tensor_matrix_multiplication": {
+      "level": "level1",
+      "category": "matmul",
+      "normalized_name": "3d_tensor_matrix_multiplication",
+      "pascal_name": "3dTensorMatrixMultiplication"
+    },
+    "11_4D_tensor_matrix_multiplication": {
+      "level": "level1",
+      "category": "matmul",
+      "normalized_name": "4d_tensor_matrix_multiplication",
+      "pascal_name": "4dTensorMatrixMultiplication"
+    },
+    "12_Matmul_with_diagonal_matrices_": {
+      "level": "level1",
+      "category": "matmul",
+      "normalized_name": "matmul_with_diagonal_matrices",
+      "pascal_name": "MatmulWithDiagonalMatrices"
+    },
+    "13_Matmul_for_symmetric_matrices": {
+      "level": "level1",
+      "category": "matmul",
+      "normalized_name": "matmul_for_symmetric_matrices",
+      "pascal_name": "MatmulForSymmetricMatrices"
+    },
+    "14_Matmul_for_upper_triangular_matrices": {
+      "level": "level1",
+      "category": "matmul",
+      "normalized_name": "matmul_for_upper_triangular_matrices",
+      "pascal_name": "MatmulForUpperTriangularMatrices"
+    },
+    "15_Matmul_for_lower_triangular_matrices": {
+      "level": "level1",
+      "category": "matmul",
+      "normalized_name": "matmul_for_lower_triangular_matrices",
+      "pascal_name": "MatmulForLowerTriangularMatrices"
+    },
+    "16_Matmul_with_transposed_A": {
+      "level": "level1",
+      "category": "matmul",
+      "normalized_name": "matmul_with_transposed_a",
+      "pascal_name": "MatmulWithTransposedA"
+    },
+    "17_Matmul_with_transposed_B": {
+      "level": "level1",
+      "category": "matmul",
+      "normalized_name": "matmul_with_transposed_b",
+      "pascal_name": "MatmulWithTransposedB"
+    },
+    "18_Matmul_with_transposed_both": {
+      "level": "level1",
+      "category": "matmul",
+      "normalized_name": "matmul_with_transposed_both",
+      "pascal_name": "MatmulWithTransposedBoth"
+    },
+    "19_ReLU": {
+      "level": "level1",
+      "category": "activation",
+      "normalized_name": "relu",
+      "pascal_name": "Relu"
+    },
+    "20_LeakyReLU": {
+      "level": "level1",
+      "category": "activation",
+      "normalized_name": "leaky_relu",
+      "pascal_name": "LeakyRelu"
+    },
+    "21_Sigmoid": {
+      "level": "level1",
+      "category": "activation",
+      "normalized_name": "sigmoid",
+      "pascal_name": "Sigmoid"
+    },
+    "22_Tanh": {
+      "level": "level1",
+      "category": "activation",
+      "normalized_name": "tanh",
+      "pascal_name": "Tanh"
+    },
+    "23_Softmax": {
+      "level": "level1",
+      "category": "activation",
+      "normalized_name": "softmax",
+      "pascal_name": "Softmax"
+    },
+    "24_LogSoftmax": {
+      "level": "level1",
+      "category": "activation",
+      "normalized_name": "log_softmax",
+      "pascal_name": "LogSoftmax"
+    },
+    "25_Swish": {
+      "level": "level1",
+      "category": "activation",
+      "normalized_name": "swish",
+      "pascal_name": "Swish"
+    },
+    "26_GELU_": {
+      "level": "level1",
+      "category": "activation",
+      "normalized_name": "gelu",
+      "pascal_name": "Gelu"
+    },
+    "27_SELU_": {
+      "level": "level1",
+      "category": "activation",
+      "normalized_name": "selu",
+      "pascal_name": "Selu"
+    },
+    "28_HardSigmoid": {
+      "level": "level1",
+      "category": "activation",
+      "normalized_name": "hard_sigmoid",
+      "pascal_name": "HardSigmoid"
+    },
+    "29_Softplus": {
+      "level": "level1",
+      "category": "activation",
+      "normalized_name": "softplus",
+      "pascal_name": "Softplus"
+    },
+    "30_Softsign": {
+      "level": "level1",
+      "category": "activation",
+      "normalized_name": "softsign",
+      "pascal_name": "Softsign"
+    },
+    "31_ELU": {
+      "level": "level1",
+      "category": "activation",
+      "normalized_name": "elu",
+      "pascal_name": "Elu"
+    },
+    "32_HardTanh": {
+      "level": "level1",
+      "category": "activation",
+      "normalized_name": "hard_tanh",
+      "pascal_name": "HardTanh"
+    },
+    "33_BatchNorm": {
+      "level": "level1",
+      "category": "normalization",
+      "normalized_name": "batch_norm",
+      "pascal_name": "BatchNorm"
+    },
+    "34_InstanceNorm": {
+      "level": "level1",
+      "category": "normalization",
+      "normalized_name": "instance_norm",
+      "pascal_name": "InstanceNorm"
+    },
+    "35_GroupNorm_": {
+      "level": "level1",
+      "category": "normalization",
+      "normalized_name": "group_norm",
+      "pascal_name": "GroupNorm"
+    },
+    "36_RMSNorm_": {
+      "level": "level1",
+      "category": "normalization",
+      "normalized_name": "rms_norm",
+      "pascal_name": "RmsNorm"
+    },
+    "37_FrobeniusNorm_": {
+      "level": "level1",
+      "category": "normalization",
+      "normalized_name": "frobenius_norm",
+      "pascal_name": "FrobeniusNorm"
+    },
+    "38_L1Norm_": {
+      "level": "level1",
+      "category": "normalization",
+      "normalized_name": "l1_norm",
+      "pascal_name": "L1Norm"
+    },
+    "39_L2Norm_": {
+      "level": "level1",
+      "category": "normalization",
+      "normalized_name": "l2_norm",
+      "pascal_name": "L2Norm"
+    },
+    "40_LayerNorm": {
+      "level": "level1",
+      "category": "normalization",
+      "normalized_name": "layer_norm",
+      "pascal_name": "LayerNorm"
+    },
+    "41_Max_Pooling_1D": {
+      "level": "level1",
+      "category": "pooling",
+      "normalized_name": "max_pooling1d",
+      "pascal_name": "MaxPooling1d"
+    },
+    "42_Max_Pooling_2D": {
+      "level": "level1",
+      "category": "pooling",
+      "normalized_name": "max_pooling2d",
+      "pascal_name": "MaxPooling2d"
+    },
+    "43_Max_Pooling_3D": {
+      "level": "level1",
+      "category": "pooling",
+      "normalized_name": "max_pooling3d",
+      "pascal_name": "MaxPooling3d"
+    },
+    "44_Average_Pooling_1D": {
+      "level": "level1",
+      "category": "pooling",
+      "normalized_name": "average_pooling1d",
+      "pascal_name": "AveragePooling1d"
+    },
+    "45_Average_Pooling_2D": {
+      "level": "level1",
+      "category": "pooling",
+      "normalized_name": "average_pooling2d",
+      "pascal_name": "AveragePooling2d"
+    },
+    "46_Average_Pooling_3D": {
+      "level": "level1",
+      "category": "pooling",
+      "normalized_name": "average_pooling3d",
+      "pascal_name": "AveragePooling3d"
+    },
+    "47_Sum_reduction_over_a_dimension": {
+      "level": "level1",
+      "category": "pooling",
+      "normalized_name": "sum_reduction_over_a_dimension",
+      "pascal_name": "SumReductionOverADimension"
+    },
+    "48_Mean_reduction_over_a_dimension": {
+      "level": "level1",
+      "category": "pooling",
+      "normalized_name": "mean_reduction_over_a_dimension",
+      "pascal_name": "MeanReductionOverADimension"
+    },
+    "49_Max_reduction_over_a_dimension": {
+      "level": "level1",
+      "category": "pooling",
+      "normalized_name": "max_reduction_over_a_dimension",
+      "pascal_name": "MaxReductionOverADimension"
+    },
+    "50_conv_standard_2D__square_input__square_kernel": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_standard2d_square_input_square_kernel",
+      "pascal_name": "ConvStandard2dSquareInputSquareKernel"
+    },
+    "51_Argmax_over_a_dimension": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "argmax_over_a_dimension",
+      "pascal_name": "ArgmaxOverADimension"
+    },
+    "52_Argmin_over_a_dimension": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "argmin_over_a_dimension",
+      "pascal_name": "ArgminOverADimension"
+    },
+    "53_Min_reduction_over_a_dimension": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "min_reduction_over_a_dimension",
+      "pascal_name": "MinReductionOverADimension"
+    },
+    "54_conv_standard_3D__square_input__square_kernel": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_standard3d_square_input_square_kernel",
+      "pascal_name": "ConvStandard3dSquareInputSquareKernel"
+    },
+    "55_conv_standard_2D__asymmetric_input__square_kernel": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_standard2d_asymmetric_input_square_kernel",
+      "pascal_name": "ConvStandard2dAsymmetricInputSquareKernel"
+    },
+    "56_conv_standard_2D__asymmetric_input__asymmetric_kernel": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_standard2d_asymmetric_input_asymmetric_kernel",
+      "pascal_name": "ConvStandard2dAsymmetricInputAsymmetricKernel"
+    },
+    "57_conv_transposed_2D__square_input__square_kernel": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_transposed2d_square_input_square_kernel",
+      "pascal_name": "ConvTransposed2dSquareInputSquareKernel"
+    },
+    "58_conv_transposed_3D__asymmetric_input__asymmetric_kernel": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_transposed3d_asymmetric_input_asymmetric_kernel",
+      "pascal_name": "ConvTransposed3dAsymmetricInputAsymmetricKernel"
+    },
+    "59_conv_standard_3D__asymmetric_input__square_kernel": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_standard3d_asymmetric_input_square_kernel",
+      "pascal_name": "ConvStandard3dAsymmetricInputSquareKernel"
+    },
+    "60_conv_standard_3D__square_input__asymmetric_kernel": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_standard3d_square_input_asymmetric_kernel",
+      "pascal_name": "ConvStandard3dSquareInputAsymmetricKernel"
+    },
+    "61_conv_transposed_3D__square_input__square_kernel": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_transposed3d_square_input_square_kernel",
+      "pascal_name": "ConvTransposed3dSquareInputSquareKernel"
+    },
+    "62_conv_standard_2D__square_input__asymmetric_kernel": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_standard2d_square_input_asymmetric_kernel",
+      "pascal_name": "ConvStandard2dSquareInputAsymmetricKernel"
+    },
+    "63_conv_standard_2D__square_input__square_kernel": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_standard2d_square_input_square_kernel",
+      "pascal_name": "ConvStandard2dSquareInputSquareKernel"
+    },
+    "64_conv_transposed_1D": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_transposed1d",
+      "pascal_name": "ConvTransposed1d"
+    },
+    "65_conv_transposed_2D__square_input__asymmetric_kernel": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_transposed2d_square_input_asymmetric_kernel",
+      "pascal_name": "ConvTransposed2dSquareInputAsymmetricKernel"
+    },
+    "66_conv_standard_3D__asymmetric_input__asymmetric_kernel": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_standard3d_asymmetric_input_asymmetric_kernel",
+      "pascal_name": "ConvStandard3dAsymmetricInputAsymmetricKernel"
+    },
+    "67_conv_standard_1D": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_standard1d",
+      "pascal_name": "ConvStandard1d"
+    },
+    "68_conv_transposed_3D__square_input__asymmetric_kernel": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_transposed3d_square_input_asymmetric_kernel",
+      "pascal_name": "ConvTransposed3dSquareInputAsymmetricKernel"
+    },
+    "69_conv_transposed_2D__asymmetric_input__asymmetric_kernel": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_transposed2d_asymmetric_input_asymmetric_kernel",
+      "pascal_name": "ConvTransposed2dAsymmetricInputAsymmetricKernel"
+    },
+    "70_conv_transposed_3D__asymmetric_input__square_kernel": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_transposed3d_asymmetric_input_square_kernel",
+      "pascal_name": "ConvTransposed3dAsymmetricInputSquareKernel"
+    },
+    "71_conv_transposed_2D__asymmetric_input__square_kernel": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_transposed2d_asymmetric_input_square_kernel",
+      "pascal_name": "ConvTransposed2dAsymmetricInputSquareKernel"
+    },
+    "72_conv_transposed_3D_asymmetric_input_asymmetric_kernel___strided_padded_grouped_": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_transposed3d_asymmetric_input_asymmetric_kernel_strided_padded_grouped",
+      "pascal_name": "ConvTransposed3dAsymmetricInputAsymmetricKernelStridedPaddedGrouped"
+    },
+    "73_conv_transposed_3D_asymmetric_input_square_kernel__strided_padded__grouped": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_transposed3d_asymmetric_input_square_kernel_strided_padded_grouped",
+      "pascal_name": "ConvTransposed3dAsymmetricInputSquareKernelStridedPaddedGrouped"
+    },
+    "74_conv_transposed_1D_dilated": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_transposed1d_dilated",
+      "pascal_name": "ConvTransposed1dDilated"
+    },
+    "75_conv_transposed_2D_asymmetric_input_asymmetric_kernel_strided__grouped____padded____dilated__": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_transposed2d_asymmetric_input_asymmetric_kernel_strided_grouped_padded_dilated",
+      "pascal_name": "ConvTransposed2dAsymmetricInputAsymmetricKernelStridedGroupedPaddedDilated"
+    },
+    "76_conv_standard_1D_dilated_strided__": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_standard1d_dilated_strided",
+      "pascal_name": "ConvStandard1dDilatedStrided"
+    },
+    "77_conv_transposed_3D_square_input_square_kernel___padded____dilated____strided__": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_transposed3d_square_input_square_kernel_padded_dilated_strided",
+      "pascal_name": "ConvTransposed3dSquareInputSquareKernelPaddedDilatedStrided"
+    },
+    "78_conv_transposed_2D_asymmetric_input_asymmetric_kernel___padded__": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_transposed2d_asymmetric_input_asymmetric_kernel_padded",
+      "pascal_name": "ConvTransposed2dAsymmetricInputAsymmetricKernelPadded"
+    },
+    "79_conv_transposed_1D_asymmetric_input_square_kernel___padded____strided____dilated__": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_transposed1d_asymmetric_input_square_kernel_padded_strided_dilated",
+      "pascal_name": "ConvTransposed1dAsymmetricInputSquareKernelPaddedStridedDilated"
+    },
+    "80_conv_standard_2D_square_input_asymmetric_kernel___dilated____padded__": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_standard2d_square_input_asymmetric_kernel_dilated_padded",
+      "pascal_name": "ConvStandard2dSquareInputAsymmetricKernelDilatedPadded"
+    },
+    "81_conv_transposed_2D_asymmetric_input_square_kernel___dilated____padded____strided__": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_transposed2d_asymmetric_input_square_kernel_dilated_padded_strided",
+      "pascal_name": "ConvTransposed2dAsymmetricInputSquareKernelDilatedPaddedStrided"
+    },
+    "82_conv_depthwise_2D_square_input_square_kernel": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_depthwise2d_square_input_square_kernel",
+      "pascal_name": "ConvDepthwise2dSquareInputSquareKernel"
+    },
+    "83_conv_depthwise_2D_square_input_asymmetric_kernel": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_depthwise2d_square_input_asymmetric_kernel",
+      "pascal_name": "ConvDepthwise2dSquareInputAsymmetricKernel"
+    },
+    "84_conv_depthwise_2D_asymmetric_input_square_kernel": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_depthwise2d_asymmetric_input_square_kernel",
+      "pascal_name": "ConvDepthwise2dAsymmetricInputSquareKernel"
+    },
+    "85_conv_depthwise_2D_asymmetric_input_asymmetric_kernel": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_depthwise2d_asymmetric_input_asymmetric_kernel",
+      "pascal_name": "ConvDepthwise2dAsymmetricInputAsymmetricKernel"
+    },
+    "86_conv_depthwise_separable_2D": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_depthwise_separable2d",
+      "pascal_name": "ConvDepthwiseSeparable2d"
+    },
+    "87_conv_pointwise_2D": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "conv_pointwise2d",
+      "pascal_name": "ConvPointwise2d"
+    },
+    "88_MinGPTNewGelu": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "min_gpt_new_gelu",
+      "pascal_name": "MinGptNewGelu"
+    },
+    "89_cumsum": {
+      "level": "level1",
+      "category": "convolution",
+      "normalized_name": "cumsum",
+      "pascal_name": "Cumsum"
+    },
+    "90_cumprod": {
+      "level": "level1",
+      "category": "loss",
+      "normalized_name": "cumprod",
+      "pascal_name": "Cumprod"
+    },
+    "91_cumsum_reverse": {
+      "level": "level1",
+      "category": "loss",
+      "normalized_name": "cumsum_reverse",
+      "pascal_name": "CumsumReverse"
+    },
+    "92_cumsum_exclusive": {
+      "level": "level1",
+      "category": "loss",
+      "normalized_name": "cumsum_exclusive",
+      "pascal_name": "CumsumExclusive"
+    },
+    "93_masked_cumsum": {
+      "level": "level1",
+      "category": "loss",
+      "normalized_name": "masked_cumsum",
+      "pascal_name": "MaskedCumsum"
+    },
+    "94_MSELoss": {
+      "level": "level1",
+      "category": "loss",
+      "normalized_name": "mse_loss",
+      "pascal_name": "MseLoss"
+    },
+    "95_CrossEntropyLoss": {
+      "level": "level1",
+      "category": "loss",
+      "normalized_name": "cross_entropy_loss",
+      "pascal_name": "CrossEntropyLoss"
+    },
+    "96_HuberLoss": {
+      "level": "level1",
+      "category": "loss",
+      "normalized_name": "huber_loss",
+      "pascal_name": "HuberLoss"
+    },
+    "97_ScaledDotProductAttention": {
+      "level": "level1",
+      "category": "loss",
+      "normalized_name": "scaled_dot_product_attention",
+      "pascal_name": "ScaledDotProductAttention"
+    },
+    "98_KLDivLoss": {
+      "level": "level1",
+      "category": "loss",
+      "normalized_name": "kl_div_loss",
+      "pascal_name": "KlDivLoss"
+    },
+    "99_TripletMarginLoss": {
+      "level": "level1",
+      "category": "loss",
+      "normalized_name": "triplet_margin_loss",
+      "pascal_name": "TripletMarginLoss"
+    },
+    "100_HingeLoss": {
+      "level": "level1",
+      "category": "loss",
+      "normalized_name": "hinge_loss",
+      "pascal_name": "HingeLoss"
+    },
+    "1_Conv2D_ReLU_BiasAdd": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv2d_relu_bias_add",
+      "pascal_name": "Conv2dReluBiasAdd"
+    },
+    "2_ConvTranspose2d_BiasAdd_Clamp_Scaling_Clamp_Divide": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose2d_bias_add_clamp_scaling_clamp_divide",
+      "pascal_name": "ConvTranspose2dBiasAddClampScalingClampDivide"
+    },
+    "3_ConvTranspose3d_Sum_LayerNorm_AvgPool_GELU": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose3d_sum_layer_norm_avg_pool_gelu",
+      "pascal_name": "ConvTranspose3dSumLayerNormAvgPoolGelu"
+    },
+    "4_Conv2d_Mish_Mish": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv2d_mish_mish",
+      "pascal_name": "Conv2dMishMish"
+    },
+    "5_ConvTranspose2d_Subtract_Tanh": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose2d_subtract_tanh",
+      "pascal_name": "ConvTranspose2dSubtractTanh"
+    },
+    "6_Conv3d_Softmax_MaxPool_MaxPool": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv3d_softmax_max_pool_max_pool",
+      "pascal_name": "Conv3dSoftmaxMaxPoolMaxPool"
+    },
+    "7_Conv3d_ReLU_LeakyReLU_GELU_Sigmoid_BiasAdd": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv3d_relu_leaky_relu_gelu_sigmoid_bias_add",
+      "pascal_name": "Conv3dReluLeakyReluGeluSigmoidBiasAdd"
+    },
+    "8_Conv3d_Divide_Max_GlobalAvgPool_BiasAdd_Sum": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv3d_divide_max_global_avg_pool_bias_add_sum",
+      "pascal_name": "Conv3dDivideMaxGlobalAvgPoolBiasAddSum"
+    },
+    "9_Matmul_Subtract_Multiply_ReLU": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "matmul_subtract_multiply_relu",
+      "pascal_name": "MatmulSubtractMultiplyRelu"
+    },
+    "10_ConvTranspose2d_MaxPool_Hardtanh_Mean_Tanh": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose2d_max_pool_hardtanh_mean_tanh",
+      "pascal_name": "ConvTranspose2dMaxPoolHardtanhMeanTanh"
+    },
+    "11_ConvTranspose2d_BatchNorm_Tanh_MaxPool_GroupNorm": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose2d_batch_norm_tanh_max_pool_group_norm",
+      "pascal_name": "ConvTranspose2dBatchNormTanhMaxPoolGroupNorm"
+    },
+    "12_Gemm_Multiply_LeakyReLU": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "gemm_multiply_leaky_relu",
+      "pascal_name": "GemmMultiplyLeakyRelu"
+    },
+    "13_ConvTranspose3d_Mean_Add_Softmax_Tanh_Scaling": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose3d_mean_add_softmax_tanh_scaling",
+      "pascal_name": "ConvTranspose3dMeanAddSoftmaxTanhScaling"
+    },
+    "14_Gemm_Divide_Sum_Scaling": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "gemm_divide_sum_scaling",
+      "pascal_name": "GemmDivideSumScaling"
+    },
+    "15_ConvTranspose3d_BatchNorm_Subtract": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose3d_batch_norm_subtract",
+      "pascal_name": "ConvTranspose3dBatchNormSubtract"
+    },
+    "16_ConvTranspose2d_Mish_Add_Hardtanh_Scaling": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose2d_mish_add_hardtanh_scaling",
+      "pascal_name": "ConvTranspose2dMishAddHardtanhScaling"
+    },
+    "17_Conv2d_InstanceNorm_Divide": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv2d_instance_norm_divide",
+      "pascal_name": "Conv2dInstanceNormDivide"
+    },
+    "18_Matmul_Sum_Max_AvgPool_LogSumExp_LogSumExp": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "matmul_sum_max_avg_pool_log_sum_exp_log_sum_exp",
+      "pascal_name": "MatmulSumMaxAvgPoolLogSumExpLogSumExp"
+    },
+    "19_ConvTranspose2d_GELU_GroupNorm": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose2d_gelu_group_norm",
+      "pascal_name": "ConvTranspose2dGeluGroupNorm"
+    },
+    "20_ConvTranspose3d_Sum_ResidualAdd_Multiply_ResidualAdd": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose3d_sum_residual_add_multiply_residual_add",
+      "pascal_name": "ConvTranspose3dSumResidualAddMultiplyResidualAdd"
+    },
+    "21_Conv2d_Add_Scale_Sigmoid_GroupNorm": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv2d_add_scale_sigmoid_group_norm",
+      "pascal_name": "Conv2dAddScaleSigmoidGroupNorm"
+    },
+    "22_Matmul_Scale_ResidualAdd_Clamp_LogSumExp_Mish": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "matmul_scale_residual_add_clamp_log_sum_exp_mish",
+      "pascal_name": "MatmulScaleResidualAddClampLogSumExpMish"
+    },
+    "23_Conv3d_GroupNorm_Mean": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv3d_group_norm_mean",
+      "pascal_name": "Conv3dGroupNormMean"
+    },
+    "24_Conv3d_Min_Softmax": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv3d_min_softmax",
+      "pascal_name": "Conv3dMinSoftmax"
+    },
+    "25_Conv2d_Min_Tanh_Tanh": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv2d_min_tanh_tanh",
+      "pascal_name": "Conv2dMinTanhTanh"
+    },
+    "26_ConvTranspose3d_Add_HardSwish": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose3d_add_hard_swish",
+      "pascal_name": "ConvTranspose3dAddHardSwish"
+    },
+    "27_Conv3d_HardSwish_GroupNorm_Mean": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv3d_hard_swish_group_norm_mean",
+      "pascal_name": "Conv3dHardSwishGroupNormMean"
+    },
+    "28_BMM_InstanceNorm_Sum_ResidualAdd_Multiply": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "bmm_instance_norm_sum_residual_add_multiply",
+      "pascal_name": "BmmInstanceNormSumResidualAddMultiply"
+    },
+    "29_Matmul_Mish_Mish": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "matmul_mish_mish",
+      "pascal_name": "MatmulMishMish"
+    },
+    "30_Gemm_GroupNorm_Hardtanh": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "gemm_group_norm_hardtanh",
+      "pascal_name": "GemmGroupNormHardtanh"
+    },
+    "31_Conv2d_Min_Add_Multiply": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv2d_min_add_multiply",
+      "pascal_name": "Conv2dMinAddMultiply"
+    },
+    "32_Conv2d_Scaling_Min": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv2d_scaling_min",
+      "pascal_name": "Conv2dScalingMin"
+    },
+    "33_Gemm_Scale_BatchNorm": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "gemm_scale_batch_norm",
+      "pascal_name": "GemmScaleBatchNorm"
+    },
+    "34_ConvTranspose3d_LayerNorm_GELU_Scaling": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose3d_layer_norm_gelu_scaling",
+      "pascal_name": "ConvTranspose3dLayerNormGeluScaling"
+    },
+    "35_Conv2d_Subtract_HardSwish_MaxPool_Mish": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv2d_subtract_hard_swish_max_pool_mish",
+      "pascal_name": "Conv2dSubtractHardSwishMaxPoolMish"
+    },
+    "36_ConvTranspose2d_Min_Sum_GELU_Add": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose2d_min_sum_gelu_add",
+      "pascal_name": "ConvTranspose2dMinSumGeluAdd"
+    },
+    "37_Matmul_Swish_Sum_GroupNorm": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "matmul_swish_sum_group_norm",
+      "pascal_name": "MatmulSwishSumGroupNorm"
+    },
+    "38_ConvTranspose3d_AvgPool_Clamp_Softmax_Multiply": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose3d_avg_pool_clamp_softmax_multiply",
+      "pascal_name": "ConvTranspose3dAvgPoolClampSoftmaxMultiply"
+    },
+    "39_Gemm_Scale_BatchNorm": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "gemm_scale_batch_norm",
+      "pascal_name": "GemmScaleBatchNorm"
+    },
+    "40_Matmul_Scaling_ResidualAdd": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "matmul_scaling_residual_add",
+      "pascal_name": "MatmulScalingResidualAdd"
+    },
+    "41_Gemm_BatchNorm_GELU_ReLU": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "gemm_batch_norm_gelu_relu",
+      "pascal_name": "GemmBatchNormGeluRelu"
+    },
+    "42_ConvTranspose2d_GlobalAvgPool_BiasAdd_LogSumExp_Sum_Multiply": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose2d_global_avg_pool_bias_add_log_sum_exp_sum_multiply",
+      "pascal_name": "ConvTranspose2dGlobalAvgPoolBiasAddLogSumExpSumMultiply"
+    },
+    "43_Conv3d_Max_LogSumExp_ReLU": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv3d_max_log_sum_exp_relu",
+      "pascal_name": "Conv3dMaxLogSumExpRelu"
+    },
+    "44_ConvTranspose2d_Multiply_GlobalAvgPool_GlobalAvgPool_Mean": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose2d_multiply_global_avg_pool_global_avg_pool_mean",
+      "pascal_name": "ConvTranspose2dMultiplyGlobalAvgPoolGlobalAvgPoolMean"
+    },
+    "45_Gemm_Sigmoid_LogSumExp": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "gemm_sigmoid_log_sum_exp",
+      "pascal_name": "GemmSigmoidLogSumExp"
+    },
+    "46_Conv2d_Subtract_Tanh_Subtract_AvgPool": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv2d_subtract_tanh_subtract_avg_pool",
+      "pascal_name": "Conv2dSubtractTanhSubtractAvgPool"
+    },
+    "47_Conv3d_Mish_Tanh": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv3d_mish_tanh",
+      "pascal_name": "Conv3dMishTanh"
+    },
+    "48_Conv3d_Scaling_Tanh_Multiply_Sigmoid": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv3d_scaling_tanh_multiply_sigmoid",
+      "pascal_name": "Conv3dScalingTanhMultiplySigmoid"
+    },
+    "49_ConvTranspose3d_Softmax_Sigmoid": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose3d_softmax_sigmoid",
+      "pascal_name": "ConvTranspose3dSoftmaxSigmoid"
+    },
+    "50_ConvTranspose3d_Scaling_AvgPool_BiasAdd_Scaling": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose3d_scaling_avg_pool_bias_add_scaling",
+      "pascal_name": "ConvTranspose3dScalingAvgPoolBiasAddScaling"
+    },
+    "51_Gemm_Subtract_GlobalAvgPool_LogSumExp_GELU_ResidualAdd": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "gemm_subtract_global_avg_pool_log_sum_exp_gelu_residual_add",
+      "pascal_name": "GemmSubtractGlobalAvgPoolLogSumExpGeluResidualAdd"
+    },
+    "52_Conv2d_Activation_BatchNorm": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv2d_activation_batch_norm",
+      "pascal_name": "Conv2dActivationBatchNorm"
+    },
+    "53_Gemm_Scaling_Hardtanh_GELU": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "gemm_scaling_hardtanh_gelu",
+      "pascal_name": "GemmScalingHardtanhGelu"
+    },
+    "54_Conv2d_Multiply_LeakyReLU_GELU": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv2d_multiply_leaky_relu_gelu",
+      "pascal_name": "Conv2dMultiplyLeakyReluGelu"
+    },
+    "55_Matmul_MaxPool_Sum_Scale": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "matmul_max_pool_sum_scale",
+      "pascal_name": "MatmulMaxPoolSumScale"
+    },
+    "56_Matmul_Sigmoid_Sum": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "matmul_sigmoid_sum",
+      "pascal_name": "MatmulSigmoidSum"
+    },
+    "57_Conv2d_ReLU_HardSwish": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv2d_relu_hard_swish",
+      "pascal_name": "Conv2dReluHardSwish"
+    },
+    "58_ConvTranspose3d_LogSumExp_HardSwish_Subtract_Clamp": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose3d_log_sum_exp_hard_swish_subtract_clamp",
+      "pascal_name": "ConvTranspose3dLogSumExpHardSwishSubtractClamp"
+    },
+    "59_Matmul_Swish_Scaling": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "matmul_swish_scaling",
+      "pascal_name": "MatmulSwishScaling"
+    },
+    "60_ConvTranspose3d_Swish_GroupNorm_HardSwish": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose3d_swish_group_norm_hard_swish",
+      "pascal_name": "ConvTranspose3dSwishGroupNormHardSwish"
+    },
+    "61_ConvTranspose3d_ReLU_GroupNorm": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose3d_relu_group_norm",
+      "pascal_name": "ConvTranspose3dReluGroupNorm"
+    },
+    "62_Matmul_GroupNorm_LeakyReLU_Sum": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "matmul_group_norm_leaky_relu_sum",
+      "pascal_name": "MatmulGroupNormLeakyReluSum"
+    },
+    "63_Gemm_ReLU_Divide": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "gemm_relu_divide",
+      "pascal_name": "GemmReluDivide"
+    },
+    "64_Gemm_LogSumExp_LeakyReLU_LeakyReLU_GELU_GELU": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "gemm_log_sum_exp_leaky_relu_leaky_relu_gelu_gelu",
+      "pascal_name": "GemmLogSumExpLeakyReluLeakyReluGeluGelu"
+    },
+    "65_Conv2d_AvgPool_Sigmoid_Sum": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv2d_avg_pool_sigmoid_sum",
+      "pascal_name": "Conv2dAvgPoolSigmoidSum"
+    },
+    "66_Matmul_Dropout_Softmax": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "matmul_dropout_softmax",
+      "pascal_name": "MatmulDropoutSoftmax"
+    },
+    "67_Conv2d_GELU_GlobalAvgPool": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv2d_gelu_global_avg_pool",
+      "pascal_name": "Conv2dGeluGlobalAvgPool"
+    },
+    "68_Matmul_Min_Subtract": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "matmul_min_subtract",
+      "pascal_name": "MatmulMinSubtract"
+    },
+    "69_Conv2d_HardSwish_ReLU": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv2d_hard_swish_relu",
+      "pascal_name": "Conv2dHardSwishRelu"
+    },
+    "70_Gemm_Sigmoid_Scaling_ResidualAdd": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "gemm_sigmoid_scaling_residual_add",
+      "pascal_name": "GemmSigmoidScalingResidualAdd"
+    },
+    "71_Conv2d_Divide_LeakyReLU": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv2d_divide_leaky_relu",
+      "pascal_name": "Conv2dDivideLeakyRelu"
+    },
+    "72_ConvTranspose3d_BatchNorm_AvgPool_AvgPool": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose3d_batch_norm_avg_pool_avg_pool",
+      "pascal_name": "ConvTranspose3dBatchNormAvgPoolAvgPool"
+    },
+    "73_Conv2d_BatchNorm_Scaling": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv2d_batch_norm_scaling",
+      "pascal_name": "Conv2dBatchNormScaling"
+    },
+    "74_ConvTranspose3d_LeakyReLU_Multiply_LeakyReLU_Max": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose3d_leaky_relu_multiply_leaky_relu_max",
+      "pascal_name": "ConvTranspose3dLeakyReluMultiplyLeakyReluMax"
+    },
+    "75_Gemm_GroupNorm_Min_BiasAdd": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "gemm_group_norm_min_bias_add",
+      "pascal_name": "GemmGroupNormMinBiasAdd"
+    },
+    "76_Gemm_Add_ReLU": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "gemm_add_relu",
+      "pascal_name": "GemmAddRelu"
+    },
+    "77_ConvTranspose3d_Scale_BatchNorm_GlobalAvgPool": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose3d_scale_batch_norm_global_avg_pool",
+      "pascal_name": "ConvTranspose3dScaleBatchNormGlobalAvgPool"
+    },
+    "78_ConvTranspose3d_Max_Max_Sum": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose3d_max_max_sum",
+      "pascal_name": "ConvTranspose3dMaxMaxSum"
+    },
+    "79_Conv3d_Multiply_InstanceNorm_Clamp_Multiply_Max": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv3d_multiply_instance_norm_clamp_multiply_max",
+      "pascal_name": "Conv3dMultiplyInstanceNormClampMultiplyMax"
+    },
+    "80_Gemm_Max_Subtract_GELU": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "gemm_max_subtract_gelu",
+      "pascal_name": "GemmMaxSubtractGelu"
+    },
+    "81_Gemm_Swish_Divide_Clamp_Tanh_Clamp": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "gemm_swish_divide_clamp_tanh_clamp",
+      "pascal_name": "GemmSwishDivideClampTanhClamp"
+    },
+    "82_Conv2d_Tanh_Scaling_BiasAdd_Max": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv2d_tanh_scaling_bias_add_max",
+      "pascal_name": "Conv2dTanhScalingBiasAddMax"
+    },
+    "83_Conv3d_GroupNorm_Min_Clamp_Dropout": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv3d_group_norm_min_clamp_dropout",
+      "pascal_name": "Conv3dGroupNormMinClampDropout"
+    },
+    "84_Gemm_BatchNorm_Scaling_Softmax": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "gemm_batch_norm_scaling_softmax",
+      "pascal_name": "GemmBatchNormScalingSoftmax"
+    },
+    "85_Conv2d_GroupNorm_Scale_MaxPool_Clamp": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv2d_group_norm_scale_max_pool_clamp",
+      "pascal_name": "Conv2dGroupNormScaleMaxPoolClamp"
+    },
+    "86_Matmul_Divide_GELU": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "matmul_divide_gelu",
+      "pascal_name": "MatmulDivideGelu"
+    },
+    "87_Conv2d_Subtract_Subtract_Mish": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv2d_subtract_subtract_mish",
+      "pascal_name": "Conv2dSubtractSubtractMish"
+    },
+    "88_Gemm_GroupNorm_Swish_Multiply_Swish": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "gemm_group_norm_swish_multiply_swish",
+      "pascal_name": "GemmGroupNormSwishMultiplySwish"
+    },
+    "89_ConvTranspose3d_MaxPool_Softmax_Subtract_Swish_Max": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose3d_max_pool_softmax_subtract_swish_max",
+      "pascal_name": "ConvTranspose3dMaxPoolSoftmaxSubtractSwishMax"
+    },
+    "90_Conv3d_LeakyReLU_Sum_Clamp_GELU": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv3d_leaky_relu_sum_clamp_gelu",
+      "pascal_name": "Conv3dLeakyReluSumClampGelu"
+    },
+    "91_ConvTranspose2d_Softmax_BiasAdd_Scaling_Sigmoid": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose2d_softmax_bias_add_scaling_sigmoid",
+      "pascal_name": "ConvTranspose2dSoftmaxBiasAddScalingSigmoid"
+    },
+    "92_Conv2d_GroupNorm_Tanh_HardSwish_ResidualAdd_LogSumExp": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv2d_group_norm_tanh_hard_swish_residual_add_log_sum_exp",
+      "pascal_name": "Conv2dGroupNormTanhHardSwishResidualAddLogSumExp"
+    },
+    "93_ConvTranspose2d_Add_Min_GELU_Multiply": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose2d_add_min_gelu_multiply",
+      "pascal_name": "ConvTranspose2dAddMinGeluMultiply"
+    },
+    "94_Gemm_BiasAdd_Hardtanh_Mish_GroupNorm": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "gemm_bias_add_hardtanh_mish_group_norm",
+      "pascal_name": "GemmBiasAddHardtanhMishGroupNorm"
+    },
+    "95_Matmul_Add_Swish_Tanh_GELU_Hardtanh": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "matmul_add_swish_tanh_gelu_hardtanh",
+      "pascal_name": "MatmulAddSwishTanhGeluHardtanh"
+    },
+    "96_ConvTranspose3d_Multiply_Max_GlobalAvgPool_Clamp": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose3d_multiply_max_global_avg_pool_clamp",
+      "pascal_name": "ConvTranspose3dMultiplyMaxGlobalAvgPoolClamp"
+    },
+    "97_Matmul_BatchNorm_BiasAdd_Divide_Swish": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "matmul_batch_norm_bias_add_divide_swish",
+      "pascal_name": "MatmulBatchNormBiasAddDivideSwish"
+    },
+    "98_Matmul_AvgPool_GELU_Scale_Max": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "matmul_avg_pool_gelu_scale_max",
+      "pascal_name": "MatmulAvgPoolGeluScaleMax"
+    },
+    "99_Matmul_GELU_Softmax": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "matmul_gelu_softmax",
+      "pascal_name": "MatmulGeluSoftmax"
+    },
+    "100_ConvTranspose3d_Clamp_Min_Divide": {
+      "level": "level2",
+      "category": "fuse",
+      "normalized_name": "conv_transpose3d_clamp_min_divide",
+      "pascal_name": "ConvTranspose3dClampMinDivide"
+    },
+    "1_MLP": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "mlp",
+      "pascal_name": "Mlp"
+    },
+    "2_ShallowWideMLP": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "shallow_wide_mlp",
+      "pascal_name": "ShallowWideMlp"
+    },
+    "3_DeepNarrowMLP": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "deep_narrow_mlp",
+      "pascal_name": "DeepNarrowMlp"
+    },
+    "4_LeNet5": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "le_net5",
+      "pascal_name": "LeNet5"
+    },
+    "5_AlexNet": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "alex_net",
+      "pascal_name": "AlexNet"
+    },
+    "6_GoogleNetInceptionModule": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "google_net_inception_module",
+      "pascal_name": "GoogleNetInceptionModule"
+    },
+    "7_GoogleNetInceptionV1": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "google_net_inception_v1",
+      "pascal_name": "GoogleNetInceptionV1"
+    },
+    "8_ResNetBasicBlock": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "res_net_basic_block",
+      "pascal_name": "ResNetBasicBlock"
+    },
+    "9_ResNet18": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "res_net18",
+      "pascal_name": "ResNet18"
+    },
+    "10_ResNet101": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "res_net101",
+      "pascal_name": "ResNet101"
+    },
+    "11_VGG16": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "vgg16",
+      "pascal_name": "Vgg16"
+    },
+    "12_VGG19": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "vgg19",
+      "pascal_name": "Vgg19"
+    },
+    "13_DenseNet121TransitionLayer": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "dense_net121_transition_layer",
+      "pascal_name": "DenseNet121TransitionLayer"
+    },
+    "14_DenseNet121DenseBlock": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "dense_net121dense_block",
+      "pascal_name": "DenseNet121denseBlock"
+    },
+    "15_DenseNet121": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "dense_net121",
+      "pascal_name": "DenseNet121"
+    },
+    "16_DenseNet201": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "dense_net201",
+      "pascal_name": "DenseNet201"
+    },
+    "17_SqueezeNetFireModule": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "squeeze_net_fire_module",
+      "pascal_name": "SqueezeNetFireModule"
+    },
+    "18_SqueezeNet": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "squeeze_net",
+      "pascal_name": "SqueezeNet"
+    },
+    "19_MobileNetV1": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "mobile_net_v1",
+      "pascal_name": "MobileNetV1"
+    },
+    "20_MobileNetV2": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "mobile_net_v2",
+      "pascal_name": "MobileNetV2"
+    },
+    "21_EfficientNetMBConv": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "efficient_net_mb_conv",
+      "pascal_name": "EfficientNetMbConv"
+    },
+    "22_EfficientNetB0": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "efficient_net_b0",
+      "pascal_name": "EfficientNetB0"
+    },
+    "23_EfficientNetB1": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "efficient_net_b1",
+      "pascal_name": "EfficientNetB1"
+    },
+    "24_EfficientNetB2": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "efficient_net_b2",
+      "pascal_name": "EfficientNetB2"
+    },
+    "25_ShuffleNetUnit": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "shuffle_net_unit",
+      "pascal_name": "ShuffleNetUnit"
+    },
+    "26_ShuffleNet": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "shuffle_net",
+      "pascal_name": "ShuffleNet"
+    },
+    "27_RegNet": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "reg_net",
+      "pascal_name": "RegNet"
+    },
+    "28_VisionTransformer": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "vision_transformer",
+      "pascal_name": "VisionTransformer"
+    },
+    "29_SwinMLP": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "swin_mlp",
+      "pascal_name": "SwinMlp"
+    },
+    "30_SwinTransformerV2": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "swin_transformer_v2",
+      "pascal_name": "SwinTransformerV2"
+    },
+    "31_VisionAttention": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "vision_attention",
+      "pascal_name": "VisionAttention"
+    },
+    "32_ConvolutionalVisionTransformer": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "convolutional_vision_transformer",
+      "pascal_name": "ConvolutionalVisionTransformer"
+    },
+    "33_VanillaRNN": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "vanilla_rnn",
+      "pascal_name": "VanillaRnn"
+    },
+    "34_VanillaRNNHidden": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "vanilla_rnn_hidden",
+      "pascal_name": "VanillaRnnHidden"
+    },
+    "35_LSTM": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "lstm",
+      "pascal_name": "Lstm"
+    },
+    "36_LSTMHn": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "lstm_hn",
+      "pascal_name": "LstmHn"
+    },
+    "37_LSTMCn": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "lstm_cn",
+      "pascal_name": "LstmCn"
+    },
+    "38_LSTMBidirectional": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "lstm_bidirectional",
+      "pascal_name": "LstmBidirectional"
+    },
+    "39_GRU": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "gru",
+      "pascal_name": "Gru"
+    },
+    "40_GRUHidden": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "gru_hidden",
+      "pascal_name": "GruHidden"
+    },
+    "41_GRUBidirectional": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "gru_bidirectional",
+      "pascal_name": "GruBidirectional"
+    },
+    "42_GRUBidirectionalHidden": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "gru_bidirectional_hidden",
+      "pascal_name": "GruBidirectionalHidden"
+    },
+    "43_MinGPTCausalAttention": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "min_gpt_causal_attention",
+      "pascal_name": "MinGptCausalAttention"
+    },
+    "44_MiniGPTBlock": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "mini_gpt_block",
+      "pascal_name": "MiniGptBlock"
+    },
+    "45_UNetSoftmax": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "u_net_softmax",
+      "pascal_name": "UNetSoftmax"
+    },
+    "46_NetVladWithGhostClusters": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "net_vlad_with_ghost_clusters",
+      "pascal_name": "NetVladWithGhostClusters"
+    },
+    "47_NetVladNoGhostClusters": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "net_vlad_no_ghost_clusters",
+      "pascal_name": "NetVladNoGhostClusters"
+    },
+    "48_Mamba2ReturnY": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "mamba2_return_y",
+      "pascal_name": "Mamba2ReturnY"
+    },
+    "49_Mamba2ReturnFinalState": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "mamba2_return_final_state",
+      "pascal_name": "Mamba2ReturnFinalState"
+    },
+    "50_ReLUSelfAttention": {
+      "level": "level3",
+      "category": "arch",
+      "normalized_name": "relu_self_attention",
+      "pascal_name": "ReluSelfAttention"
+    }
+  }
+}

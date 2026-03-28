@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "Conv2dReluHardSwishCustom",
+  "outer_iter": 30,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 6095.713,
+    "std": 0.212,
+    "min": 6095.47,
+    "max": 6095.986,
+    "num_trials": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "36_RMSNorm_",
+  "outer_iter": 9,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 9.429,
+    "mean": 9.42,
+    "min": 9.404,
+    "num_trials": 5,
+    "std": 0.008
+  }
+}

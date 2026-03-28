@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "5_FlashAttention",
+  "outer_iter": 5,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 9.949,
+    "mean": 9.939,
+    "min": 9.933,
+    "num_trials": 5,
+    "std": 0.006
+  }
+}

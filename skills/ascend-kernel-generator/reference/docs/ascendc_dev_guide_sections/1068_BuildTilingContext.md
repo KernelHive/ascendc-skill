@@ -1,0 +1,37 @@
+###### BuildTilingContext
+
+## 功能说明
+
+构造 KernelRunContextHolder 的对象，该对象可通过 GetContext 接口获取 TilingContext 类型的对象。
+
+## 函数原型
+
+```cpp
+std::shared_ptr<KernelRunContextHolder> BuildTilingContext()
+```
+
+## 参数说明
+
+无
+
+## 返回值说明
+
+指向 KernelRunContextHolder 的共享指针。
+
+## 约束说明
+
+无
+
+## 调用示例
+
+```cpp
+auto tilingContextHolder = context_ascendc::ContextBuilder()
+    .SetOpNameType(..., ...)
+    .NodeIoNum(...)
+    .IrInstanceNum(...)
+    .AddInputTd(...)
+    .AddOutputTd(...)
+    .AddAttr(...)
+    .BuildTilingContext(...);
+gert::TilingContext *tilingContext = tilingContextHolder->GetContext<gert::TilingContext>();
+```

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "31_VisionAttention",
+  "outer_iter": 25,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 60.475,
+    "mean": 60.459,
+    "min": 60.429,
+    "num_trials": 5,
+    "std": 0.016
+  }
+}

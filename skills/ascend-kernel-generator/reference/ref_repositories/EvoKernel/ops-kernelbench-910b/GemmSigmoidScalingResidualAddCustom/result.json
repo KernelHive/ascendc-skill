@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "GemmSigmoidScalingResidualAddCustom",
+  "outer_iter": 13,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 26106.166,
+    "std": 118.242,
+    "min": 25939.509,
+    "max": 26201.359,
+    "num_trials": null
+  }
+}

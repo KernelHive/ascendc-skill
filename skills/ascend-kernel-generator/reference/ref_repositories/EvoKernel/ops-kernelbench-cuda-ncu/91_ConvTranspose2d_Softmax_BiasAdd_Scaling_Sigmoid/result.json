@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "91_ConvTranspose2d_Softmax_BiasAdd_Scaling_Sigmoid",
+  "outer_iter": 7,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 14.758,
+    "mean": 14.742,
+    "min": 14.726,
+    "num_trials": 5,
+    "std": 0.013
+  }
+}

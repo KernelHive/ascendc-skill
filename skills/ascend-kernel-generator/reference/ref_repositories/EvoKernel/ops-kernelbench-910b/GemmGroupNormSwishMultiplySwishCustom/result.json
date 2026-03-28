@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "GemmGroupNormSwishMultiplySwishCustom",
+  "outer_iter": 24,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 22145.855,
+    "std": 68.917,
+    "min": 22048.399,
+    "max": 22195.564,
+    "num_trials": null
+  }
+}

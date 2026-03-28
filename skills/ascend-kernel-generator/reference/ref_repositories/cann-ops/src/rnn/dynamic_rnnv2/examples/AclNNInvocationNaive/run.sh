@@ -1,0 +1,5 @@
+    echo ""
+    echo "#####################################"
+    echo "INFO: you have passed the Precision!"
+    echo "#####################################"
+    echo ""

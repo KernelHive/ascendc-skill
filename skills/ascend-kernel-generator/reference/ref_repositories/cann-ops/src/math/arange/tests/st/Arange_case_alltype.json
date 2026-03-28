@@ -1,0 +1,238 @@
+[
+    {
+        "case_name": "Test_Arange_001",
+        "calc_expect_func_file": "./test_arange.py:calc_expect_func",
+        "op": "Arange",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int32",
+                    "int64"
+                ],
+                "shape": [],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        1,
+                        1
+                    ]
+                ],
+                "name": "start"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int32",
+                    "int64"
+                ],
+                "shape": [],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        -1113,
+                        -1113
+                    ]
+                ],
+                "name": "end"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int32",
+                    "int64"
+                ],
+                "shape": [],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        -2,
+                        -2
+                    ]
+                ],
+                "name": "step"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int32",
+                    "int64"
+                ],
+                "shape": [557],
+                "name": "out"
+            }
+        ]
+    },
+    {
+        "case_name": "Test_Arange_002",
+        "calc_expect_func_file": "./test_arange.py:calc_expect_func",
+        "op": "Arange",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16"
+                ],
+                "shape": [],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        1.0,
+                        1.0
+                    ]
+                ],
+                "name": "start"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16"
+                ],
+                "shape": [],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        -1113,
+                        -1113
+                    ]
+                ],
+                "name": "end"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16"
+                ],
+                "shape": [],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        -2.1,
+                        -2.1
+                    ]
+                ],
+                "name": "step"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "float16"
+                ],
+                "shape": [531],
+                "name": "out"
+            }
+        ]
+    },
+    {
+        "case_name": "Test_Arange_003",
+        "calc_expect_func_file": "./test_arange.py:calc_expect_func",
+        "op": "Arange",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "bfloat16"
+                ],
+                "shape": [],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        1.0,
+                        1.0
+                    ]
+                ],
+                "name": "start"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "bfloat16"
+                ],
+                "shape": [],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        -1113,
+                        -1113
+                    ]
+                ],
+                "name": "end"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "bfloat16"
+                ],
+                "shape": [],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        -2.1,
+                        -2.1
+                    ]
+                ],
+                "name": "step"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "bfloat16"
+                ],
+                "shape": [532],
+                "name": "out"
+            }
+        ]
+    }
+]

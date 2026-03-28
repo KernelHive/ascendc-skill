@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "76_conv_standard_1D_dilated_strided__",
+  "outer_iter": 11,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 218.933,
+    "mean": 218.889,
+    "min": 218.858,
+    "num_trials": 5,
+    "std": 0.028
+  }
+}

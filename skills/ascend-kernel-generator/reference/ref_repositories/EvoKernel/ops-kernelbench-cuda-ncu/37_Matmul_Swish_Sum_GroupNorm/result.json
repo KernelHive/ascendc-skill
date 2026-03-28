@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "37_Matmul_Swish_Sum_GroupNorm",
+  "outer_iter": 18,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 15.247,
+    "mean": 15.247,
+    "min": 15.246,
+    "num_trials": 5,
+    "std": 0.001
+  }
+}

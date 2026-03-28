@@ -1,0 +1,28 @@
+
+[
+  {
+    "op": "SinkhornKnoppCustom",
+    "language": "cpp",
+    "input_desc": [
+      {
+        "name": "logits",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["float"]
+      }
+    ],
+    "output_desc": [
+      {
+        "name": "out",
+        "param_type": "required",
+        "format": ["ND"],
+        "type": ["float"]
+      }
+    ],
+    "attr": [
+      { "name": "tmax", "param_type": "optional", "type": "int", "default_value": "20" },
+      { "name": "eps", "param_type": "optional", "type": "float", "default_value": "1e-8" },
+      { "name": "clamp_min", "param_type": "optional", "type": "float", "default_value": "0.0" }
+    ]
+  }
+]

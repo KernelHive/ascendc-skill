@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "GruCustom",
+  "outer_iter": 22,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 6487.716,
+    "std": 1.971,
+    "min": 6484.992,
+    "max": 6489.59,
+    "num_trials": null
+  }
+}

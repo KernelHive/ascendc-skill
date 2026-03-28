@@ -1,0 +1,69 @@
+###### ExtendCfgInfo
+
+## 功能说明
+
+用于扩展算子相关参数配置，提供更灵活的参数配置能力。
+
+## 函数原型
+
+```cpp
+OpAICoreConfig &OpAICoreConfig::ExtendCfgInfo(const char *key, const char *value)
+```
+
+## 参数说明
+
+| 参数 | 输入/输出 | 说明 |
+|------|-----------|------|
+| key | 输入 | 配置项，如“aclnnSupport.value” |
+| value | 输入 | 配置项key对应的取值，如“aclnnSupport.value”，可以填充“support_aclnn”或者“aclnn_only” |
+
+## 支持的参数
+
+ExtendCfgInfo支持的参数如下表：
+
+| 参数 | 功能介绍 |
+|------|-----------|
+| aclnnSupport.value | 详见下方说明 |
+
+### aclnnSupport.value 参数说明
+
+- **support_aclnn**：此模式下，静态Shape场景中该算子通过模型下沉执行，动态Shape场景则在Host侧调用fallback函数下发算子。如果调用了EnableFallBack则默认采用该模式。
+
+```cpp
+// 动态Shape场景示例
+OpAICoreConfig aicore_config;
+aicore_config.DynamicShapeSupportFlag(true) // 动态Shape场景需要设置DynamicShapeSupportFlag为true
+    .ExtendCfgInfo("aclnnSupport.value", "support_aclnn");
+this->AICore().AddConfig("ascendxxx", aicore_config);
+
+// 静态Shape场景示例
+OpAICoreConfig aicore_config;
+aicore_config.DynamicCompileStaticFlag(true) // 静态Shape场景需要设置DynamicCompileStaticFlag为true
+    .ExtendCfgInfo("aclnnSupport.value", "support_aclnn");
+this->AICore().AddConfig("ascendxxx", aicore_config);
+```
+
+- **aclnn_only**：此模式下，动静态Shape场景中该算子均以fallback形式下发。不建议用户使用该模式，后续版本待废弃。
+
+```cpp
+// 动态Shape场景示例
+OpAICoreConfig aicore_config;
+aicore_config.DynamicShapeSupportFlag(true) // 动态Shape场景需要设置DynamicShapeSupportFlag为true
+    .ExtendCfgInfo("aclnnSupport.value", "aclnn_only");
+this->AICore().AddConfig("ascendxxx", aicore_config);
+
+// 静态Shape场景示例
+OpAICoreConfig aicore_config; // 无需配置DynamicCompileStaticFlag/DynamicShapeSupportFlag，算子均以fallback形式下发，即动态Shape模型的下发方式
+aicore_config.ExtendCfgInfo("aclnnSupport.value", "aclnn_only");
+this->AICore().AddConfig("ascendxxx", aicore_config);
+```
+
+关于fallback下发算子的详细介绍请参考《图模式开发指南》中的"自定义算子入图开发 > 基于fallback形式下发算子"章节。
+
+## 返回值说明
+
+OpAICoreConfig算子定义，请参考15.1.6.1.7 OpAICoreConfig。
+
+## 约束说明
+
+无

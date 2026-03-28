@@ -1,0 +1,55 @@
+[
+    {
+        "case_name": "Test_LogicalOr_001",      
+        "op": "LogicalOr", 
+        "calc_expect_func_file": "test_LogicalOr.py:calc_expect_func",                       
+        "input_desc": [                    
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "bool"
+                ],
+                "shape":[9,17],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "name": "x1"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "bool"
+                ],
+                "shape":[9,17],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "name": "x2"
+            }
+        ],
+        "output_desc": [                    
+            {
+                "name":"y",
+                "format": ["ND"],
+                "type": "bool",
+                "shape": [9,17]
+            }
+        ]
+    }
+]

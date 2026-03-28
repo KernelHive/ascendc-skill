@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvStandard1dDilatedStridedCustom",
+  "outer_iter": 21,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 51114.68,
+    "std": 21.304,
+    "min": 51089.702,
+    "max": 51141.758,
+    "num_trials": null
+  }
+}

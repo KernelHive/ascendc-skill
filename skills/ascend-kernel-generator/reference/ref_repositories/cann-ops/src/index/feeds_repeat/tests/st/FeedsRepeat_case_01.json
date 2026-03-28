@@ -1,0 +1,81 @@
+[
+    {
+        "case_name": "Test_FeedsRepeat_001",
+        "op": "FeedsRepeat",
+        "calc_expect_func_file": "test_feeds_repeat.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "bfloat16",
+                    "float16",
+                    "float",
+                    "bfloat16",
+                    "float16"
+                ],
+                "shape":[7, 3, 4, 5],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        -100,
+                        100
+                    ]
+                ],
+                "name": "feeds"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int64",
+                    "int64",
+                    "int64",
+                    "int32",
+                    "int32",
+                    "int32"
+                ],
+                "shape": [7],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0,
+                        50
+                    ]
+                ],
+                "name": "y"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float",
+                    "bfloat16",
+                    "float16",
+                    "float",
+                    "bfloat16",
+                    "float16"
+                ],
+                "shape": [400, 3, 4, 5],
+                "name": "z"
+            }
+        ],
+        "attr":[
+            {
+                "name": "output_feeds_size",
+                "type": "int",
+                "value": 400
+            }
+        ]
+    }
+]

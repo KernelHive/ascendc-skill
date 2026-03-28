@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "InstanceNormCustom",
+  "outer_iter": 28,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 18.29,
+    "std": 0.146,
+    "min": 18.096,
+    "max": 18.448,
+    "num_trials": null
+  }
+}

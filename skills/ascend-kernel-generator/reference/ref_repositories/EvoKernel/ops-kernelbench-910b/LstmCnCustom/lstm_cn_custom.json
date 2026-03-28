@@ -1,0 +1,19 @@
+
+[
+  {
+    "op": "LstmCnCustom",
+    "input_desc": [
+      { "name": "x",    "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "h0",   "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "c0",   "param_type": "required", "format": ["ND"], "type": ["float"] },
+
+      { "name": "w_ih", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "w_hh", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "b_ih", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "b_hh", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "c_n", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ]
+  }
+]

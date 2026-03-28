@@ -1,0 +1,18 @@
+
+[
+  {
+    "op": "ViTAttentionCustom",
+    "input_desc": [
+      { "name": "q",           "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "k",           "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "v",           "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "scale",       "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "proj_weight", "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "proj_bias",   "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "y", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "attr": []
+  }
+]

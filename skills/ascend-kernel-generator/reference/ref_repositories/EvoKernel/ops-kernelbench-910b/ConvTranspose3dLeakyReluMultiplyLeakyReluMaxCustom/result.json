@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "ConvTranspose3dLeakyReluMultiplyLeakyReluMaxCustom",
+  "outer_iter": 18,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 8351.868,
+    "std": 92.294,
+    "min": 8264.563,
+    "max": 8479.547,
+    "num_trials": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "StandardMatrixMultiplicationCustom",
+  "outer_iter": 27,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 36.704,
+    "std": 0.175,
+    "min": 36.457,
+    "max": 36.828,
+    "num_trials": null
+  }
+}

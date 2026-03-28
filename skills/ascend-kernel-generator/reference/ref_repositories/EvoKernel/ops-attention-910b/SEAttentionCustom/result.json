@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "SEAttentionCustom",
+  "outer_iter": 3,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 5.381,
+    "std": 0.117,
+    "min": 5.218,
+    "max": 5.485,
+    "num_trials": null
+  }
+}

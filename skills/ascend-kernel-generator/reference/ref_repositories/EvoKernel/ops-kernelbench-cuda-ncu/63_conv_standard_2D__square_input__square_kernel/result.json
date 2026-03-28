@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "63_conv_standard_2D__square_input__square_kernel",
+  "outer_iter": 15,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 338.396,
+    "mean": 338.308,
+    "min": 338.034,
+    "num_trials": 5,
+    "std": 0.138
+  }
+}

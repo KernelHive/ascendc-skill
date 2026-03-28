@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "94_Gemm_BiasAdd_Hardtanh_Mish_GroupNorm",
+  "outer_iter": 18,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 9.59,
+    "mean": 9.586,
+    "min": 9.584,
+    "num_trials": 5,
+    "std": 0.002
+  }
+}

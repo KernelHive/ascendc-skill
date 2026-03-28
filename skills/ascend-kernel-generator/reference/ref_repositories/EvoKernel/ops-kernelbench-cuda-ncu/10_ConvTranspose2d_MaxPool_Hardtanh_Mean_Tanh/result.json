@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "10_ConvTranspose2d_MaxPool_Hardtanh_Mean_Tanh",
+  "outer_iter": 10,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 18.019,
+    "mean": 17.375,
+    "min": 16.478,
+    "num_trials": 5,
+    "std": 0.721
+  }
+}

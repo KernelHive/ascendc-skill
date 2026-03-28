@@ -1,0 +1,67 @@
+/**
+ * Copyright (c) Huawei Technologies Co., Ltd. 2025. All rights reserved.
+ * This file is a part of the CANN Open Software.
+ * Licensed under CANN Open Software License Agreement Version 1.0 (the "License").
+ * Please refer to the License for details. You may not use this file except in compliance with the License.
+ * THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED,
+ * INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE.
+ * See LICENSE in the root of the software repository for the full text of the License.
+ */
+
+/*!
+ * \file op_common_util.h
+ * \brief common util for op, in this file only original type or class in C++ allowed
+ */
+
+#ifndef OPS_BUILT_IN_OP_PROTO_UTIL_OP_COMMON_UTIL_H_
+#define OPS_BUILT_IN_OP_PROTO_UTIL_OP_COMMON_UTIL_H_
+
+#include <set>
+#include <string>
+#include <vector>
+#include <iostream>
+#include <sstream>
+
+template <typename T1, typename T2>
+std::ostream& operator<<(std::ostream& os, const std::pair<T1, T2>& values) {
+  os << "[" << values.first << ", " << values.second << "]";
+  return os;
+}
+
+template <typename T>
+std::ostream& operator<<(std::ostream& os, const std::vector<T>& values) {
+  os << "[";
+  for (const auto& item : values) {
+    os << item << ", ";
+  }
+  os << "]";
+  return os;
+}
+
+namespace ops {
+template<typename T>
+std::string to_string(const std::vector<T> &items) {
+  std::ostringstream oss;
+  oss << "[";
+  for (const auto &item: items) {
+    oss << item << ", ";
+  }
+  oss << "]";
+  return oss.str();
+}
+
+template<typename T>
+std::string to_string(const std::set<T> &items) {
+  std::ostringstream oss;
+  oss << "[";
+  for (const auto &item: items) {
+    oss << item << ", ";
+  }
+  oss << "]";
+  return oss.str();
+}
+
+} // namespace ops
+
+
+#endif //OPS_BUILT_IN_OP_PROTO_UTIL_OP_COMMON_UTIL_H_

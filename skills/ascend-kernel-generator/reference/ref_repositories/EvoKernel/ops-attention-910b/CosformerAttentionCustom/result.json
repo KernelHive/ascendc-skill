@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "CosformerAttentionCustom",
+  "outer_iter": 30,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 1.104,
+    "std": 0.189,
+    "min": 0.837,
+    "max": 1.238,
+    "num_trials": null
+  }
+}

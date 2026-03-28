@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MatmulMinSubtractCustom",
+  "outer_iter": 10,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 10949.059,
+    "std": 39.532,
+    "min": 10893.165,
+    "max": 10978.079,
+    "num_trials": null
+  }
+}

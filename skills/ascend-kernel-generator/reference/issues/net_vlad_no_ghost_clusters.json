@@ -1,0 +1,8 @@
+[
+  {
+    "op": "net_vlad_no_ghost_clusters",
+    "error": "Compile failed because SqrtScalar was const while accessing TBuf::Get, and invTotalSamples used an explicit static_cast<float>(uint32_t) expression rejected by AICore.",
+    "code_diff": "--- error_idx_0\n+++ correct_idx_1\n@@ -290,7 +290,7 @@\n         return result;\n     }\n \n-    __aicore__ inline float SqrtScalar(float value) const\n+    __aicore__ inline float SqrtScalar(float value)\n     {\n         LocalTensor<float> scalarLocal = scalarBuf.Get<float>();\n         scalarLocal.SetValue(0, value);\n@@ -315,8 +315,7 @@\n \n     __aicore__ inline void ComputeBatchNormStats(LocalTensor<float> &meanLocal, LocalTensor<float> &invStdLocal)\n     {\n-        const uint32_t totalSamples = batchSize * sampleCount;\n-        const float invTotalSamples = 1.0f / static_cast<float>(totalSamples);\n+        const float invTotalSamples = (1.0f / batchSize) / sampleCount;\n \n         for (uint32_t clusterIdx = 0; clusterIdx < clusterSize; ++clusterIdx) {\n             meanLocal.SetValue(clusterIdx, 0.0f);\n",
+    "summary": "Fix AscendC compile errors by making helper functions that access TBuf non-const and replacing explicit static_cast<float>(uint32_t) in AICore code with pure floating-point arithmetic for invTotalSamples."
+  }
+]

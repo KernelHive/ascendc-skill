@@ -1,0 +1,118 @@
+[
+    {
+        "case_name": "Test_Radius_001",
+        "op": "Radius",
+        "calc_expect_func_file": "test_radius.py:calc_expect_func",
+        "fuzz_impl": "fuzz.py:fuzz_branch_001",
+        "fuzz_case_num": 1,
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": "fuzz",
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "x",
+                "value": "fuzz"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": "fuzz",
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "y",
+                "value": "fuzz"
+            },
+            {
+                "format": [
+                    "UNDEFINED"
+                ],
+                "type": [
+                    "UNDEFINED"
+                ],
+                "shape": [],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "ptr_x"
+            },
+            {
+                "format": [
+                    "UNDEFINED"
+                ],
+                "type": [
+                    "UNDEFINED"
+                ],
+                "shape": [],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "ptr_y"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": "fuzz",
+                "name": "out"
+            }
+        ],
+        "attr": [
+            {
+                "name": "r",
+                "type": "float",
+                "value": "fuzz"
+            },
+            {
+                "name": "max_num_neighbors",
+                "type": "int",
+                "value": "fuzz"
+            },
+            {
+                "name": "ignore_same_index",
+                "type": "bool",
+                "value": "fuzz"
+            }
+        ]
+    }
+]

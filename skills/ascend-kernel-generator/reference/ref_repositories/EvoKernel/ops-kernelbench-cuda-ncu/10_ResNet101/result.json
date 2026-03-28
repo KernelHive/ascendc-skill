@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "10_ResNet101",
+  "outer_iter": 5,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 9.466,
+    "mean": 9.455,
+    "min": 9.445,
+    "num_trials": 5,
+    "std": 0.006
+  }
+}

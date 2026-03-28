@@ -1,0 +1,57 @@
+[
+    {
+        "case_name": "Test_MoeSoftMaxTopk_001",
+        "op": "MoeSoftMaxTopk",
+        "calc_expect_func_file": "test_moe_soft_max_topk.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [1024, 16],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "x"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "float"
+                ],
+                "shape": [1024, 4],
+                "name": "y"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int32"
+                ],
+                "shape": [1024, 4],
+                "name": "indices"
+            }
+        ],
+        "attr": [
+            {
+                "name": "k",
+                "type": "int",
+                "value": 4
+            }
+        ]
+    }
+]

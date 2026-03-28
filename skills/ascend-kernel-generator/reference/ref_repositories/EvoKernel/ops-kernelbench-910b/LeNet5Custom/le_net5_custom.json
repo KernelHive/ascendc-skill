@@ -1,0 +1,27 @@
+
+[
+  {
+    "op": "LeNet5Custom",
+    "input_desc": [
+      { "name": "x",           "param_type": "required", "format": ["ND"], "type": ["float"] },
+
+      { "name": "conv1_w",     "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "conv1_b",     "param_type": "required", "format": ["ND"], "type": ["float"] },
+
+      { "name": "conv2_w",     "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "conv2_b",     "param_type": "required", "format": ["ND"], "type": ["float"] },
+
+      { "name": "fc1_w",       "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "fc1_b",       "param_type": "required", "format": ["ND"], "type": ["float"] },
+
+      { "name": "fc2_w",       "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "fc2_b",       "param_type": "required", "format": ["ND"], "type": ["float"] },
+
+      { "name": "fc3_w",       "param_type": "required", "format": ["ND"], "type": ["float"] },
+      { "name": "fc3_b",       "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ],
+    "output_desc": [
+      { "name": "y", "param_type": "required", "format": ["ND"], "type": ["float"] }
+    ]
+  }
+]

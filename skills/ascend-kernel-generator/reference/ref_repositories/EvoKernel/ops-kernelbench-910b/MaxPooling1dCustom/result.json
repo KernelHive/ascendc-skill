@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "MaxPooling1dCustom",
+  "outer_iter": 23,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "mean": 353.591,
+    "std": 0.111,
+    "min": 353.438,
+    "max": 353.7,
+    "num_trials": null
+  }
+}

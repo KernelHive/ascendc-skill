@@ -1,0 +1,18 @@
+
+[
+  {
+    "op": "GruBidirectionalHiddenCustom",
+    "input_desc": [
+      { "name": "x",    "param_type": "required", "format": ["ND"], "type": ["float16"] },
+      { "name": "h0",   "param_type": "required", "format": ["ND"], "type": ["float16"] },
+      { "name": "w_ih", "param_type": "required", "format": ["ND"], "type": ["float16"] },
+      { "name": "w_hh", "param_type": "required", "format": ["ND"], "type": ["float16"] },
+      { "name": "b_ih", "param_type": "required", "format": ["ND"], "type": ["float16"] },
+      { "name": "b_hh", "param_type": "required", "format": ["ND"], "type": ["float16"] },
+      { "name": "ybuf", "param_type": "required", "format": ["ND"], "type": ["float16"] }
+    ],
+    "output_desc": [
+      { "name": "h_n", "param_type": "required", "format": ["ND"], "type": ["float16"] }
+    ]
+  }
+]

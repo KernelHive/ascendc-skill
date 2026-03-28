@@ -1,0 +1,14 @@
+{
+  "kernel_project_name": "88_MinGPTNewGelu",
+  "outer_iter": 8,
+  "inner_iter": 1,
+  "compiled": true,
+  "correctness": true,
+  "performance": {
+    "max": 0.33,
+    "mean": 0.328,
+    "min": 0.328,
+    "num_trials": 5,
+    "std": 0.001
+  }
+}

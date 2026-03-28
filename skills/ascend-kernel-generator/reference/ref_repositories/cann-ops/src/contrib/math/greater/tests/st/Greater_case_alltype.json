@@ -1,0 +1,77 @@
+[
+    {
+        "case_name": "Test_Greater_001",
+        "op": "Greater",
+        "calc_expect_func_file": "./test_greater.py:calc_expect_func",
+        "input_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int64",
+                    "uint8",
+                    "float16",
+                    "int32",
+                    "int8",
+                    "bfloat16",
+                    "float"
+                ],
+                "shape": [32],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "x1"
+            },
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "int64",
+                    "uint8",
+                    "float16",
+                    "int32",
+                    "int8",
+                    "bfloat16",
+                    "float"
+                ],
+                "shape": [32],
+                "data_distribute": [
+                    "uniform"
+                ],
+                "value_range": [
+                    [
+                        0.1,
+                        1.0
+                    ]
+                ],
+                "name": "x2"
+            }
+        ],
+        "output_desc": [
+            {
+                "format": [
+                    "ND"
+                ],
+                "type": [
+                    "bool",
+                    "bool",
+                    "bool",
+                    "bool",
+                    "bool",
+                    "bool",
+                    "bool"
+                ],
+                "shape": [32],
+                "name": "y"
+            }
+        ]
+    }
+]
